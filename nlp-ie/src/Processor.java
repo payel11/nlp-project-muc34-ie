@@ -26,7 +26,7 @@ public class Processor {
 	ArrayList <Word> terroristDictionary = new ArrayList<Word>();
 	String textsOnly ="";
 	
-	ArrayList<List<HasWord>> matches = new ArrayList<List<HasWord>>();
+	ArrayList<List<HasWord>> sentences = new ArrayList<List<HasWord>>();
 	
 	
 	private TokenizerFactory<CoreLabel> tokenizerFactory = 
@@ -45,6 +45,16 @@ public class Processor {
 		}
 		
 		this.textsOnly = text.toString();
+		
+		sentences.clear();
+		DocumentPreprocessor dp = 
+				new DocumentPreprocessor(new StringReader(getTextsOnly()));
+		dp.setTokenizerFactory(tokenizerFactory);
+		
+		for (List<HasWord> list : dp) {
+			sentences.add(list);
+		}
+			
 	}
 
 
@@ -253,52 +263,43 @@ public class Processor {
 		}
 	}
 	
-	public void processMatches(Parser lp, String verb) 
-	{
-		DocumentPreprocessor dp = 
-				new DocumentPreprocessor(new StringReader(getTextsOnly()));
-		dp.setTokenizerFactory(tokenizerFactory);
-			
-		ArrayList<List<HasWord>> sentences = new ArrayList<List<HasWord>>();
-		for (List<HasWord> list : dp) {
-			sentences.add(list);
-		}
-		
-		for(Word word: getTerroristDictionary()) {
-			
-			if(! word.getPOS().equalsIgnoreCase("V"))
-				continue;
-			
-			String verb = word.getSpForm();
-			
-			for (List<HasWord> list : sentences) {
-				for (HasWord hasWord : list) {
-					if(hasWord.word().equalsIgnoreCase(verb)) {
-						matches.add(list);
-						
-						break;
-					}
-				}
-			}
-			
-			
-		}
-		
-	}
+//	public void processMatches(Parser lp, String verb) 
+//	{
+//		DocumentPreprocessor dp = 
+//				new DocumentPreprocessor(new StringReader(getTextsOnly()));
+//		dp.setTokenizerFactory(tokenizerFactory);
+//			
+//		ArrayList<List<HasWord>> sentences = new ArrayList<List<HasWord>>();
+//		for (List<HasWord> list : dp) {
+//			sentences.add(list);
+//		}
+//		
+//		for(Word word: getTerroristDictionary()) {
+//			
+//			if(! word.getPOS().equalsIgnoreCase("V"))
+//				continue;
+//			
+//			//String verb = word.getSpForm();
+//			
+//			for (List<HasWord> list : sentences) {
+//				for (HasWord hasWord : list) {
+//					if(hasWord.word().equalsIgnoreCase(verb)) {
+//						matches.add(list);
+//						
+//						break;
+//					}
+//				}
+//			}
+//			
+//			
+//		}
+//		
+//	}
 	
-	public String processPerpIndiv(Parser lp, Template t)
+	public String processEvents(Parser lp, Template t)
 	{
-		ArrayList<String> answers =  new ArrayList<String>();
-		
-		DocumentPreprocessor dp = 
-			new DocumentPreprocessor(new StringReader(getTextsOnly()));
-		dp.setTokenizerFactory(tokenizerFactory);
-		
-		//Iterator<List<HasWord>> list = dp.iterator();
-		ArrayList<List<HasWord>> sentences = new ArrayList<List<HasWord>>();
-		for (List<HasWord> list : dp) {
-			sentences.add(list);
-		}
+		ArrayList<String> answers_PERP =  new ArrayList<String>();
+		ArrayList<String> answers_VICTIM = new ArrayList<String>();
 		
 		
 		for(Word word: getTerroristDictionary()) {
@@ -330,8 +331,6 @@ public class Processor {
 					/* create parse tree */
 					Tree parseTree = lp.parseSentence(list);
 					
-					//TODO: rm print stmt
-					System.out.println(parseTree);
 					
 					/* create gramitical structure */
 					TreebankLanguagePack tlp = new PennTreebankLanguagePack();
@@ -341,40 +340,50 @@ public class Processor {
 				    
 				    //TODO: rm print stmt
 				    System.out.println(tdl);
-				    
+				    System.out.println();
 				    
 				    String PERP = lp.processPerpetrator(tdl, verb); 
-				    
-				    //TODO: rm print stmt
-				    System.out.println("PERP ===>> " +  PERP);
-				    
+			
 				    if(PERP != null) 
 				    {
-				    	answers.add(PERP.toUpperCase());
-				    	t.setPerpetratorPerson(PERP);
+				    	answers_PERP.add(PERP.toUpperCase());
+				    	//t.setPerpetratorPerson(PERP);
 				    	
 				    }
 				    
 				    String VICTIM = lp.processVictim(tdl, verb); 
 				    
-				    //TODO: rm print stmt
-				    System.out.println("VICTIM ===>> " +  VICTIM);
-				    
 				    if(VICTIM != null) 
 				    {
-				    	answers.add(VICTIM.toUpperCase());
-				    	t.setVictim(VICTIM);
+				    	answers_VICTIM .add(VICTIM.toUpperCase());
+				    	//t.setVictim(VICTIM);
 				    	
 				    }
 				}
 				
-			}	
+			}
+			
+		}
+		String PERP = "", VICTIM= "";
+		for (String perp : answers_PERP) {
+			
+			PERP += perp + " /";
+			
 		}
 		
-		if(answers.size() > 0)
-			return answers.get(0);
-		else
-			return "-";
+		for (String victim : answers_VICTIM) {
+			
+			VICTIM += victim + " /";
+		}
+		
+		t.setPerpetratorPerson(PERP);
+		t.setVictim(VICTIM);
+		
+		//TODO: rm print stmt
+	    System.out.println("PERP ===>> " +  PERP);
+	    System.out.println("VICTIM ==>> " + VICTIM);
+		
+		return "-";
 	}
 
 }
