@@ -1,0 +1,6 @@
+nsubjpass(kidnapped-37, peasants-31) => nsubjpass(kidnapped, VICTIM)
+agent(kidnapped-37, terrorists-39) => agent(kidnapped, PERP_INDIV)
+prep_of(terrorists-39, -rrb--49) => prep_of(PERP_INDIV, PERP_ORG)
+
+ 
+

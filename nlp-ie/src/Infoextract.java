@@ -59,9 +59,9 @@ public class Infoextract {
 	{
 		return p.processWeapon(type);
 	}
-	private String processPerpetrator(Parser parser, Template t)
+	private String processEvents(Parser parser, Template t)
 	{
-		return p.processPerpIndiv(parser, t);
+		return p.processEvents(parser, t);
 	}
 	
 	
@@ -96,7 +96,7 @@ public class Infoextract {
 			System.out.println("\n" + t1.getId() + ":");
 			
 			//t1.setPerpetratorPerson(processPerpetrator(p));
-			processPerpetrator(p, t1);
+			processEvents(p, t1);
 			//processVictim(p, t1);
 			//processTarget();
 			getT().add(t1);

@@ -6,33 +6,27 @@ VERB: ATTACKED
 VERB: DESTROYED
 VERB: KIDNAPPED
 san salvador , 3 jan 90 -- -lrb- report -rrb- -lrb- armed forces press committee , coprefa -rrb- -lrb- text -rrb- the arce battalion command has reported that about 50 peasants of various ages have been kidnapped by terrorists of the farabundo marti national liberation front -lrb- fmln -rrb- in san miguel department . 
-(ROOT (S (NP (NP (NN san) (NN salvador)) (, ,) (NP (CD 3) (ADJP (ADJP (QP (CD jan) (CD 90))) (PRN (: --) (ADVP (RB -lrb-)) (NP (NP (NN report) (JJ -rrb-) (JJ -lrb-) (JJ armed) (NNS forces) (NN press) (NN committee)) (, ,) (NP (NNP coprefa) (NNP -rrb-))))) (JJ -lrb-) (NN text))) (VP (VBD -rrb-) (SBAR (S (NP (DT the) (JJ arce) (NN battalion) (NN command)) (VP (VBZ has) (VP (VBN reported) (SBAR (IN that) (S (NP (NP (QP (RB about) (CD 50)) (NNS peasants)) (PP (IN of) (NP (JJ various) (NNS ages)))) (VP (VBP have) (VP (VBN been) (VP (VBN kidnapped) (PP (IN by) (NP (NP (NNS terrorists)) (PP (IN of) (NP (DT the) (NN farabundo) (NN marti) (JJ national) (NN liberation) (NN front) (NNP -lrb-) (NNP fmln) (NNP -rrb-))))) (PP (IN in) (NP (JJ san) (JJ miguel) (NN department))))))))))))) (. .)))
 [nn(salvador-2, san-1), nsubj(-rrb--21, salvador-2), num(text-20, 3-4), number(90-6, jan-5), amod(text-20, 90-6), dep(committee-15, -lrb--8), nn(committee-15, report-9), amod(committee-15, -rrb--10), amod(committee-15, -lrb--11), amod(committee-15, armed-12), nn(committee-15, forces-13), nn(committee-15, press-14), dep(90-6, committee-15), nn(-rrb--18, coprefa-17), appos(committee-15, -rrb--18), amod(text-20, -lrb--19), appos(salvador-2, text-20), root(ROOT-0, -rrb--21), det(command-25, the-22), amod(command-25, arce-23), nn(command-25, battalion-24), nsubj(reported-27, command-25), aux(reported-27, has-26), ccomp(-rrb--21, reported-27), complm(kidnapped-37, that-28), quantmod(50-30, about-29), num(peasants-31, 50-30), nsubjpass(kidnapped-37, peasants-31), amod(ages-34, various-33), prep_of(peasants-31, ages-34), aux(kidnapped-37, have-35), auxpass(kidnapped-37, been-36), ccomp(reported-27, kidnapped-37), agent(kidnapped-37, terrorists-39), det(-rrb--49, the-41), nn(-rrb--49, farabundo-42), nn(-rrb--49, marti-43), amod(-rrb--49, national-44), nn(-rrb--49, liberation-45), nn(-rrb--49, front-46), nn(-rrb--49, -lrb--47), nn(-rrb--49, fmln-48), prep_of(terrorists-39, -rrb--49), amod(department-53, san-51), amod(department-53, miguel-52), prep_in(kidnapped-37, department-53)]
-PERP ===>> terrorists
-VICTIM ===>> peasants
+
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 meanwhile , three subversives were killed and seven others were wounded during clashes yesterday in usulutan and morazan departments . 
-(ROOT (S (ADVP (RB meanwhile)) (, ,) (S (NP (CD three) (NNS subversives)) (VP (VBD were) (VP (VBN killed)))) (CC and) (S (NP (CD seven) (NNS others)) (VP (VBD were) (VP (VBN wounded) (PP (IN during) (NP (NNS clashes))) (NP (NN yesterday)) (PP (IN in) (NP (NN usulutan) (CC and) (NN morazan) (NNS departments)))))) (. .)))
 [advmod(killed-6, meanwhile-1), num(subversives-4, three-3), nsubjpass(killed-6, subversives-4), auxpass(killed-6, were-5), root(ROOT-0, killed-6), num(others-9, seven-8), nsubjpass(wounded-11, others-9), auxpass(wounded-11, were-10), conj_and(killed-6, wounded-11), prep_during(wounded-11, clashes-13), tmod(wounded-11, yesterday-14), nn(departments-19, usulutan-16), conj_and(usulutan-16, morazan-18), nn(departments-19, morazan-18), prep_in(wounded-11, departments-19)]
-PERP ===>> null
-VICTIM ===>> subversives
+
 the atonal battalion reported that one extremist was killed and five others were wounded during a clash yesterday afternoon near la esperanza farm , santa elena jurisdiction , usulutan department . 
-(ROOT (S (NP (DT the) (ADJP (JJ atonal)) (NN battalion)) (VP (VBD reported) (SBAR (IN that) (S (S (NP (CD one) (NN extremist)) (VP (VBD was) (VP (VBN killed)))) (CC and) (S (NP (CD five) (NNS others)) (VP (VBD were) (VP (VBN wounded) (PP (IN during) (NP (NP (DT a) (NN clash) (NN yesterday) (NN afternoon)) (PP (IN near) (NP (NP (DT la) (NN esperanza) (NN farm)) (, ,) (NP (NP (NN santa) (NN elena) (NN jurisdiction)) (, ,) (NP (NN usulutan) (NN department))))))))))))) (. .)))
 [det(battalion-3, the-1), amod(battalion-3, atonal-2), nsubj(reported-4, battalion-3), root(ROOT-0, reported-4), complm(killed-9, that-5), num(extremist-7, one-6), nsubjpass(killed-9, extremist-7), auxpass(killed-9, was-8), ccomp(reported-4, killed-9), num(others-12, five-11), nsubjpass(wounded-14, others-12), auxpass(wounded-14, were-13), ccomp(reported-4, wounded-14), conj_and(killed-9, wounded-14), det(afternoon-19, a-16), nn(afternoon-19, clash-17), nn(afternoon-19, yesterday-18), prep_during(wounded-14, afternoon-19), det(farm-23, la-21), nn(farm-23, esperanza-22), prep_near(afternoon-19, farm-23), nn(jurisdiction-27, santa-25), nn(jurisdiction-27, elena-26), appos(farm-23, jurisdiction-27), nn(department-30, usulutan-29), appos(jurisdiction-27, department-30)]
-PERP ===>> null
-VICTIM ===>> extremist
+
 in the country 's eastern region , military detachment no. 4 reported that a terrorist was killed and two others were wounded during a clash in la ranera stream , san carlos , morazan department . 
-(ROOT (S (PP (IN in) (NP (NP (DT the) (NN country) (POS 's)) (JJ eastern) (NN region))) (, ,) (NP (NP (JJ military) (NN detachment)) (ADJP (JJ no.) (NP (CD 4)))) (VP (VBD reported) (SBAR (IN that) (S (S (NP (DT a) (NN terrorist)) (VP (VBD was) (VP (VBN killed)))) (CC and) (S (NP (CD two) (NNS others)) (VP (VBD were) (VP (VBN wounded) (PP (IN during) (NP (NP (DT a) (NN clash)) (PP (IN in) (NP (NP (DT la) (NN ranera) (NN stream)) (, ,) (NP (NP (NN san) (NNS carlos)) (, ,) (NP (NN morazan) (NN department))))))))))))) (. .)))
 [det(country-3, the-2), poss(region-6, country-3), amod(region-6, eastern-5), prep_in(reported-12, region-6), amod(detachment-9, military-8), nsubj(reported-12, detachment-9), amod(detachment-9, no.-10), dep(no.-10, 4-11), root(ROOT-0, reported-12), complm(killed-17, that-13), det(terrorist-15, a-14), nsubjpass(killed-17, terrorist-15), auxpass(killed-17, was-16), ccomp(reported-12, killed-17), num(others-20, two-19), nsubjpass(wounded-22, others-20), auxpass(wounded-22, were-21), ccomp(reported-12, wounded-22), conj_and(killed-17, wounded-22), det(clash-25, a-24), prep_during(wounded-22, clash-25), det(stream-29, la-27), nn(stream-29, ranera-28), prep_in(clash-25, stream-29), nn(carlos-32, san-31), appos(stream-29, carlos-32), nn(department-35, morazan-34), appos(carlos-32, department-35)]
-PERP ===>> null
-VICTIM ===>> terrorist
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> TERRORISTS /
+VICTIM ==>> PEASANTS /SUBVERSIVES /EXTREMIST /TERRORIST /
 
 DEV-MUC3-0002 :
 VERB: ATTACKED
@@ -46,6 +40,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0003 :
 VERB: ATTACKED
@@ -59,6 +55,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0004 :
 VERB: ATTACKED
@@ -66,10 +64,8 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 one would have to ask bustillo if the air force , of which he represented its most encouraging pillar , was soft when it murdered 70,000 salvadorans , monsignor arnulfo romero and the jesuit priests included , and even when it murdered patriot officers of that same army . 
-(ROOT (S (NP (PRP one)) (VP (MD would) (VP (VB have) (S (VP (TO to) (VP (VB ask) (NP (NN bustillo)) (SBAR (IN if) (S (NP (NP (DT the) (NN air) (NN force)) (, ,) (SBAR (WHPP (IN of) (WHNP (WDT which))) (S (NP (PRP he)) (VP (VBD represented) (NP (PRP$ its) (ADJP (RBS most) (JJ encouraging)) (NN pillar))))) (, ,)) (VP (VBD was) (ADJP (JJ soft)) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBN murdered) (SBAR (SBAR (S (NP (NP (CD 70,000) (NNS salvadorans)) (, ,) (NP (NN monsignor) (NN arnulfo) (NN romero)) (CC and) (NP (DT the) (JJ jesuit) (NNS priests))) (VP (VBD included)))) (, ,) (CC and) (SBAR (WHADVP (RB even) (WRB when)) (S (NP (PRP it)) (VP (VBN murdered) (NP (NP (NN patriot) (NNS officers)) (PP (IN of) (NP (DT that) (JJ same) (NN army))))))))))))))))))) (. .)))
 [nsubj(have-3, one-1), xsubj(ask-5, one-1), aux(have-3, would-2), root(ROOT-0, have-3), aux(ask-5, to-4), xcomp(have-3, ask-5), dobj(ask-5, bustillo-6), mark(soft-22, if-7), det(force-10, the-8), nn(force-10, air-9), nsubj(soft-22, force-10), rel(represented-15, which-13), nsubj(represented-15, he-14), rcmod(force-10, represented-15), poss(pillar-19, its-16), advmod(encouraging-18, most-17), amod(pillar-19, encouraging-18), dobj(represented-15, pillar-19), cop(soft-22, was-21), advcl(ask-5, soft-22), advmod(murdered-25, when-23), nsubj(murdered-25, it-24), advcl(soft-22, murdered-25), num(salvadorans-27, 70,000-26), nsubj(included-36, salvadorans-27), nn(romero-31, monsignor-29), nn(romero-31, arnulfo-30), conj_and(salvadorans-27, romero-31), nsubj(included-36, romero-31), det(priests-35, the-33), amod(priests-35, jesuit-34), conj_and(salvadorans-27, priests-35), nsubj(included-36, priests-35), dep(murdered-25, included-36), advmod(when-40, even-39), advmod(murdered-42, when-40), nsubj(murdered-42, it-41), dep(murdered-25, murdered-42), conj_and(included-36, murdered-42), nn(officers-44, patriot-43), dobj(murdered-42, officers-44), det(army-48, that-46), amod(army-48, same-47), prep_of(officers-44, army-48)]
-PERP ===>> it
-VICTIM ===>> officers
+
 VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
@@ -77,6 +73,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> IT /
+VICTIM ==>> OFFICERS /
 
 DEV-MUC3-0005 :
 VERB: ATTACKED
@@ -86,15 +84,15 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 a war bulletin indicates that on 6 january at 1625 , fmln -lrb- farabundo marti national liberation front -rrb- troops clashed with the cavalry company in finca santa elena , santa tecla , near san salvador , killing three and wounding four enemy troops , including the patrol leader who was among those killed . 
-(ROOT (S (NP (DT a) (NN war) (NN bulletin)) (VP (VBZ indicates) (SBAR (IN that) (S (PP (IN on) (NP (NP (CD 6) (NN january)) (PP (IN at) (NP (CD 1625) (, ,) (JJ fmln) (NN -lrb-) (NN farabundo) (NNS marti))))) (NP (NP (JJ national) (NN liberation) (NN front) (NN -rrb-) (NNS troops)) (VP (VBN clashed) (PP (IN with) (NP (NP (DT the) (JJ cavalry) (NN company)) (PP (IN in) (NP (NP (NN finca) (NN santa) (NN elena)) (, ,) (NP (NN santa) (NN tecla)) (, ,))) (PP (IN near) (NP (NN san) (NN salvador))) (, ,) (VP (VP (VBG killing) (NP (CD three))) (CC and) (VP (VBG wounding) (NP (CD four) (NN enemy) (NNS troops)))) (, ,) (PP (VBG including) (NP (NP (DT the) (NN patrol) (NN leader)) (SBAR (WHNP (WP who)) (S (VP (VBD was) (PP (IN among) (NP (DT those)))))))))))) (VP (VBD killed))))) (. .)))
 [det(bulletin-3, a-1), nn(bulletin-3, war-2), nsubj(indicates-4, bulletin-3), root(ROOT-0, indicates-4), complm(killed-54, that-5), num(january-8, 6-7), prep_on(killed-54, january-8), num(marti-15, 1625-10), amod(marti-15, fmln-12), nn(marti-15, -lrb--13), nn(marti-15, farabundo-14), prep_at(january-8, marti-15), amod(troops-20, national-16), nn(troops-20, liberation-17), nn(troops-20, front-18), nn(troops-20, -rrb--19), nsubj(killed-54, troops-20), partmod(troops-20, clashed-21), det(company-25, the-23), amod(company-25, cavalry-24), prep_with(clashed-21, company-25), nn(elena-29, finca-27), nn(elena-29, santa-28), prep_in(company-25, elena-29), nn(tecla-32, santa-31), appos(elena-29, tecla-32), nn(salvador-36, san-35), prep_near(company-25, salvador-36), dep(company-25, killing-38), dobj(killing-38, three-39), dep(company-25, wounding-41), conj_and(killing-38, wounding-41), num(troops-44, four-42), nn(troops-44, enemy-43), dobj(wounding-41, troops-44), det(leader-49, the-47), nn(leader-49, patrol-48), prep_including(company-25, leader-49), nsubj(was-51, leader-49), rcmod(leader-49, was-51), prep_among(was-51, those-53), ccomp(indicates-4, killed-54)]
-PERP ===>> troops
-VICTIM ===>> null
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> TROOPS /
+VICTIM ==>> 
 
 DEV-MUC3-0006 :
 VERB: ATTACKED
@@ -108,6 +106,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0007 :
 VERB: ATTACKED
@@ -121,49 +121,41 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0008 :
 VERB: ATTACKED
 VERB: DESTROYED
 VERB: KIDNAPPED
 ricardo alfonso castellar , mayor of achi , in the northern department of bolivar , who was kidnapped on 5 january , apparently by army of national liberation -lrb- eln -rrb- guerrillas , was found dead today , according to authorities . 
-(ROOT (S (NP (NP (NN ricardo) (NN alfonso) (NN castellar)) (, ,) (NP (NP (NN mayor)) (PP (IN of) (NP (NP (NNS achi)) (, ,) (PP (IN in) (NP (NP (DT the) (JJ northern) (NN department)) (PP (IN of) (NP (NP (NN bolivar)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN kidnapped) (PP (IN on) (NP (NP (CD 5) (NN january)) (, ,) (ADVP (RB apparently)))) (PP (IN by) (NP (NAC (NN army) (PP (IN of) (NP (JJ national) (NN liberation)))) (NNP -lrb-) (NN eln) (NN -rrb-) (NNS guerrillas)))))))))))))) (, ,)) (VP (VBD was) (VP (VBN found) (NP (JJ dead) (NN today)) (, ,) (PP (VBG according) (PP (TO to) (NP (NNS authorities)))))) (. .)))
 [nn(castellar-3, ricardo-1), nn(castellar-3, alfonso-2), nsubjpass(found-35, castellar-3), appos(castellar-3, mayor-5), prep_of(mayor-5, achi-7), det(department-12, the-10), amod(department-12, northern-11), prep_in(achi-7, department-12), prep_of(department-12, bolivar-14), nsubjpass(kidnapped-18, bolivar-14), auxpass(kidnapped-18, was-17), rcmod(bolivar-14, kidnapped-18), num(january-21, 5-20), prep_on(kidnapped-18, january-21), advmod(january-21, apparently-23), dep(guerrillas-32, army-25), amod(liberation-28, national-27), prep_of(army-25, liberation-28), nn(guerrillas-32, -lrb--29), nn(guerrillas-32, eln-30), nn(guerrillas-32, -rrb--31), agent(kidnapped-18, guerrillas-32), auxpass(found-35, was-34), root(ROOT-0, found-35), amod(today-37, dead-36), tmod(found-35, today-37), prepc_according_to(found-35, to-40), pobj(found-35, authorities-41)]
-PERP ===>> guerrillas
-VICTIM ===>> bolivar
+
 castellar was kidnapped on 5 january on the outskirts of achi , about 850 km north of bogota , by a group of armed men , who forced him to accompany them to an undisclosed location . 
-(ROOT (S (NP (NN castellar)) (VP (VBD was) (VP (VBN kidnapped) (PP (IN on) (NP (CD 5) (NN january))) (PP (IN on) (NP (NP (DT the) (NNS outskirts)) (PP (IN of) (NP (NP (NNS achi)) (, ,) (ADVP (NP (QP (RB about) (CD 850)) (NN km)) (RB north) (PP (IN of) (NP (NN bogota)))))))) (, ,) (PP (IN by) (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (JJ armed) (NNS men)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD forced) (S (NP (PRP him)) (VP (TO to) (VP (VB accompany) (NP (PRP them)) (PP (TO to) (NP (DT an) (JJ undisclosed) (NN location))))))))))))))) (. .)))
 [nsubjpass(kidnapped-3, castellar-1), auxpass(kidnapped-3, was-2), root(ROOT-0, kidnapped-3), num(january-6, 5-5), prep_on(kidnapped-3, january-6), det(outskirts-9, the-8), prep_on(kidnapped-3, outskirts-9), prep_of(outskirts-9, achi-11), quantmod(850-14, about-13), num(km-15, 850-14), npadvmod(north-16, km-15), advmod(achi-11, north-16), prep_of(north-16, bogota-18), det(group-22, a-21), agent(kidnapped-3, group-22), amod(men-25, armed-24), prep_of(group-22, men-25), nsubj(forced-28, men-25), rcmod(men-25, forced-28), nsubj(accompany-31, him-29), aux(accompany-31, to-30), xcomp(forced-28, accompany-31), dobj(accompany-31, them-32), det(location-36, an-34), amod(location-36, undisclosed-35), prep_to(accompany-31, location-36)]
-PERP ===>> group
-VICTIM ===>> castellar
+
 castellar was kidnapped by eln guerrillas while he was traveling in a boat down the cauca river to the tenche area , a region within his jurisdiction . 
-(ROOT (S (NP (NN castellar)) (VP (VBD was) (VP (VBN kidnapped) (PP (IN by) (NP (NN eln) (NNS guerrillas))) (SBAR (IN while) (S (NP (PRP he)) (VP (VBD was) (VP (VBG traveling) (PP (IN in) (NP (NP (DT a) (NN boat)) (PP (IN down) (NP (DT the) (NN cauca) (NN river))))) (PP (TO to) (NP (NP (DT the) (JJ tenche) (NN area)) (, ,) (NP (NP (DT a) (NN region)) (PP (IN within) (NP (PRP$ his) (NN jurisdiction)))))))))))) (. .)))
 [nsubjpass(kidnapped-3, castellar-1), auxpass(kidnapped-3, was-2), root(ROOT-0, kidnapped-3), nn(guerrillas-6, eln-5), agent(kidnapped-3, guerrillas-6), mark(traveling-10, while-7), nsubj(traveling-10, he-8), aux(traveling-10, was-9), advcl(kidnapped-3, traveling-10), det(boat-13, a-12), prep_in(traveling-10, boat-13), det(river-17, the-15), nn(river-17, cauca-16), prep_down(boat-13, river-17), det(area-21, the-19), amod(area-21, tenche-20), prep_to(traveling-10, area-21), det(region-24, a-23), appos(area-21, region-24), poss(jurisdiction-27, his-26), prep_within(region-24, jurisdiction-27)]
-PERP ===>> guerrillas
-VICTIM ===>> castellar
+
 VERB: MURDERED
 castellar is the second mayor that has been murdered in colombia in the last 3 days . 
-(ROOT (S (NP (NN castellar)) (VP (VBZ is) (NP (NP (DT the) (JJ second) (NN mayor)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (VP (VBN been) (VP (VBN murdered) (PP (IN in) (NP (NP (NN colombia)) (PP (IN in) (NP (DT the) (JJ last) (CD 3) (NNS days)))))))))))) (. .)))
 [nsubj(mayor-5, castellar-1), cop(mayor-5, is-2), det(mayor-5, the-3), amod(mayor-5, second-4), root(ROOT-0, mayor-5), nsubjpass(murdered-9, mayor-5), aux(murdered-9, has-7), auxpass(murdered-9, been-8), rcmod(mayor-5, murdered-9), prep_in(murdered-9, colombia-11), det(days-16, the-13), amod(days-16, last-14), num(days-16, 3-15), prep_in(colombia-11, days-16)]
-PERP ===>> null
-VICTIM ===>> mayor
+
 VERB: ABDUCTED
 VERB: KILLED
 on 5 january , carlos julio torrado , mayor of abrego in the northeastern department of santander , was killed apparently by another guerilla column , also belonging to the eln . 
-(ROOT (S (PP (IN on) (NP (CD 5) (NN january))) (, ,) (NP (NP (JJ carlos) (NN julio) (NN torrado)) (, ,) (NP (NP (NN mayor)) (PP (IN of) (NP (NP (NN abrego)) (PP (IN in) (NP (NP (DT the) (JJ northeastern) (NN department)) (PP (IN of) (NP (NN santander)))))))) (, ,)) (VP (VBD was) (VP (VBN killed) (PP (ADVP (RB apparently)) (IN by) (NP (DT another) (NN guerilla) (NN column))) (, ,) (S (ADVP (RB also)) (VP (VBG belonging) (PP (TO to) (NP (DT the) (NN eln))))))) (. .)))
 [num(january-3, 5-2), prep_on(killed-20, january-3), amod(torrado-7, carlos-5), nn(torrado-7, julio-6), nsubjpass(killed-20, torrado-7), appos(torrado-7, mayor-9), prep_of(mayor-9, abrego-11), det(department-15, the-13), amod(department-15, northeastern-14), prep_in(abrego-11, department-15), prep_of(department-15, santander-17), auxpass(killed-20, was-19), root(ROOT-0, killed-20), advmod(killed-20, apparently-21), det(column-25, another-23), nn(column-25, guerilla-24), agent(killed-20, column-25), advmod(belonging-28, also-27), xcomp(killed-20, belonging-28), det(eln-31, the-30), prep_to(belonging-28, eln-31)]
-PERP ===>> column
-VICTIM ===>> torrado
+
 torrado 's son , william ; gustavo jacome quintero , the departmental government secretary ; and bodyguard jairo ortega , were also killed . 
-(ROOT (S (NP (NP (NP (NNP torrado) (POS 's)) (NN son)) (, ,) (NP (NP (NP (NN william)) (: ;) (NP (NP (NN gustavo) (NN jacome) (NN quintero)) (, ,) (NP (DT the) (JJ departmental) (NN government) (NN secretary))) (: ;)) (CC and) (NP (JJ bodyguard) (NN jairo) (NN ortega))) (, ,)) (VP (VBD were) (VP (ADVP (RB also)) (VBN killed))) (. .)))
 [poss(son-3, torrado-1), nsubjpass(killed-23, son-3), appos(son-3, william-5), nn(quintero-9, gustavo-7), nn(quintero-9, jacome-8), dep(william-5, quintero-9), det(secretary-14, the-11), amod(secretary-14, departmental-12), nn(secretary-14, government-13), appos(quintero-9, secretary-14), amod(ortega-19, bodyguard-17), nn(ortega-19, jairo-18), appos(son-3, ortega-19), conj_and(william-5, ortega-19), auxpass(killed-23, were-21), advmod(killed-23, also-22), root(ROOT-0, killed-23)]
-PERP ===>> null
-VICTIM ===>> son
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> GUERRILLAS /GROUP /GUERRILLAS /COLUMN /
+VICTIM ==>> BOLIVAR /CASTELLAR /CASTELLAR /MAYOR /TORRADO /SON /
 
 DEV-MUC3-0009 :
 VERB: ATTACKED
@@ -173,15 +165,15 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 spokesmen for the 5th brigade reported 5 soldiers killed , several wounded , and at least 12 rebel casualties . 
-(ROOT (S (NP (NP (NNS spokesmen)) (PP (IN for) (NP (DT the) (JJ 5th) (NN brigade)))) (VP (VBD reported) (NP (NP (NP (CD 5) (NNS soldiers)) (VP (VBN killed))) (, ,) (NP (JJ several) (NNS wounded)) (, ,) (CC and) (NP (QP (IN at) (JJS least) (CD 12)) (JJ rebel) (NNS casualties)))) (. .)))
 [nsubj(reported-6, spokesmen-1), det(brigade-5, the-3), amod(brigade-5, 5th-4), prep_for(spokesmen-1, brigade-5), root(ROOT-0, reported-6), num(soldiers-8, 5-7), dobj(reported-6, soldiers-8), partmod(soldiers-8, killed-9), amod(wounded-12, several-11), dobj(reported-6, wounded-12), conj_and(soldiers-8, wounded-12), quantmod(12-17, at-15), mwe(at-15, least-16), pobj(at-15, least-16), num(casualties-19, 12-17), amod(casualties-19, rebel-18), dobj(reported-6, casualties-19), conj_and(soldiers-8, casualties-19)]
-PERP ===>> null
-VICTIM ===>> null
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0010 :
 VERB: ATTACKED
@@ -189,10 +181,8 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 at least one of them had been allegedly linked with the death of a panamanian minister , a mr spadafora , who was murdered . 
-(ROOT (S (NP (NP (QP (IN at) (JJS least) (CD one))) (PP (IN of) (NP (PRP them)))) (VP (VBD had) (VP (VBN been) (VP (ADVP (RB allegedly)) (VBN linked) (PP (IN with) (NP (NP (DT the) (NN death)) (PP (IN of) (NP (NP (DT a) (JJ panamanian) (NN minister)) (, ,) (NP (DT a) (NN mr) (NN spadafora)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN murdered)))))))))))) (. .)))
 [quantmod(one-3, at-1), mwe(at-1, least-2), pobj(at-1, least-2), nsubjpass(linked-9, one-3), prep_of(one-3, them-5), aux(linked-9, had-6), auxpass(linked-9, been-7), advmod(linked-9, allegedly-8), root(ROOT-0, linked-9), det(death-12, the-11), prep_with(linked-9, death-12), det(minister-16, a-14), amod(minister-16, panamanian-15), prep_of(death-12, minister-16), det(spadafora-20, a-18), nn(spadafora-20, mr-19), appos(minister-16, spadafora-20), nsubjpass(murdered-24, spadafora-20), auxpass(murdered-24, was-23), rcmod(minister-16, murdered-24), rcmod(spadafora-20, murdered-24)]
-PERP ===>> null
-VICTIM ===>> spadafora
+
 VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
@@ -200,6 +190,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> SPADAFORA /
 
 DEV-MUC3-0011 :
 VERB: ATTACKED
@@ -212,17 +204,15 @@ VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 he was shot eight times in the chest . 
-(ROOT (S (NP (PRP he)) (VP (VBD was) (VP (VBN shot) (NP (CD eight) (NNS times)) (PP (IN in) (NP (DT the) (NN chest))))) (. .)))
 [nsubjpass(shot-3, he-1), auxpass(shot-3, was-2), root(ROOT-0, shot-3), num(times-5, eight-4), dobj(shot-3, times-5), det(chest-8, the-7), prep_in(shot-3, chest-8)]
-PERP ===>> null
-VICTIM ===>> he
+
 VERB: RIDDLED
 lopez albujar , former army commander general and defense minister until may 1989 , was riddled with bullets by three young individuals as he was getting out of his car in an open parking lot in a commercial center in the residential neighborhood of san isidro . 
-(ROOT (S (NP (NP (NN lopez) (NN albujar)) (, ,) (NP (NP (JJ former) (NN army) (NN commander) (NN general) (CC and) (NN defense) (NN minister)) (SBAR (IN until) (SINV (VP (MD may)) (NP (CD 1989))))) (, ,)) (VP (VBD was) (VP (JJ riddled) (PP (IN with) (NP (NNS bullets))) (PP (IN by) (NP (CD three) (JJ young) (NNS individuals))) (SBAR (IN as) (S (NP (PRP he)) (VP (VBD was) (VP (VBG getting) (PRT (RP out)) (PP (IN of) (NP (PRP$ his) (NN car))) (PP (IN in) (NP (NP (DT an) (JJ open) (NN parking) (NN lot)) (PP (IN in) (NP (DT a) (JJ commercial) (NN center))))) (PP (IN in) (NP (NP (DT the) (JJ residential) (NN neighborhood)) (PP (IN of) (NP (NN san) (NN isidro))))))))))) (. .)))
 [nn(albujar-2, lopez-1), nsubj(riddled-16, albujar-2), amod(general-7, former-4), nn(general-7, army-5), nn(general-7, commander-6), appos(albujar-2, general-7), nn(minister-10, defense-9), appos(albujar-2, minister-10), conj_and(general-7, minister-10), dep(may-12, until-11), dep(general-7, may-12), nsubj(may-12, 1989-13), aux(riddled-16, was-15), root(ROOT-0, riddled-16), prep_with(riddled-16, bullets-18), num(individuals-22, three-20), amod(individuals-22, young-21), prep_by(riddled-16, individuals-22), mark(getting-26, as-23), nsubj(getting-26, he-24), aux(getting-26, was-25), advcl(riddled-16, getting-26), poss(car-30, his-29), prep_out_of(getting-26, car-30), det(lot-35, an-32), amod(lot-35, open-33), nn(lot-35, parking-34), prep_in(getting-26, lot-35), det(center-39, a-37), amod(center-39, commercial-38), prep_in(lot-35, center-39), det(neighborhood-43, the-41), amod(neighborhood-43, residential-42), prep_in(getting-26, neighborhood-43), nn(isidro-46, san-45), prep_of(neighborhood-43, isidro-46)]
-PERP ===>> albujar
-VICTIM ===>> null
+
 VERB: CONDUCTED
+PERP ===>> ALBUJAR /
+VICTIM ==>> HE /
 
 DEV-MUC3-0012 :
 VERB: ATTACKED
@@ -237,10 +227,10 @@ VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
 at 0945 this morning , a group of subversives conducted an armed terrorist attack against former defense minister divison general enrique lopez albujar , retired . 
-(ROOT (S (PP (IN at) (NP (CD 0945))) (NP (DT this) (NN morning)) (, ,) (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NNS subversives)))) (VP (VBD conducted) (NP (DT an) (JJ armed) (JJ terrorist) (NN attack)) (PP (IN against) (NP (NP (JJ former) (NN defense) (NN minister) (NN divison) (JJ general) (JJ enrique) (NN lopez) (NNS albujar)) (, ,) (VP (VBN retired))))) (. .)))
 [prep_at(conducted-10, 0945-2), det(morning-4, this-3), tmod(conducted-10, morning-4), det(group-7, a-6), nsubj(conducted-10, group-7), prep_of(group-7, subversives-9), root(ROOT-0, conducted-10), det(attack-14, an-11), amod(attack-14, armed-12), amod(attack-14, terrorist-13), dobj(conducted-10, attack-14), amod(albujar-23, former-16), nn(albujar-23, defense-17), nn(albujar-23, minister-18), nn(albujar-23, divison-19), amod(albujar-23, general-20), amod(albujar-23, enrique-21), nn(albujar-23, lopez-22), prep_against(conducted-10, albujar-23), partmod(albujar-23, retired-25)]
-PERP ===>> group
-VICTIM ===>> attack
+
+PERP ===>> GROUP /
+VICTIM ==>> ATTACK /
 
 DEV-MUC3-0013 :
 VERB: ATTACKED
@@ -248,10 +238,8 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 the catholic church has expressed satisfaction with the investigations in the case of the murdered jesuits and is encouraging the government to continue to search for the perpetrators of this crime . 
-(ROOT (S (NP (DT the) (JJ catholic) (NN church)) (VP (VP (VBZ has) (VP (VBN expressed) (NP (NN satisfaction)) (PP (IN with) (NP (NP (DT the) (NNS investigations)) (PP (IN in) (NP (NP (DT the) (NN case)) (PP (IN of) (NP (DT the) (VBN murdered) (NNS jesuits))))))))) (CC and) (VP (VBZ is) (VP (VBG encouraging) (NP (DT the) (NN government) (S (VP (TO to) (VP (VB continue) (S (VP (TO to) (VP (VB search) (PP (IN for) (NP (NP (DT the) (NNS perpetrators)) (PP (IN of) (NP (DT this) (NN crime))))))))))))))) (. .)))
 [det(church-3, the-1), amod(church-3, catholic-2), nsubj(expressed-5, church-3), nsubj(encouraging-19, church-3), aux(expressed-5, has-4), root(ROOT-0, expressed-5), dobj(expressed-5, satisfaction-6), det(investigations-9, the-8), prep_with(expressed-5, investigations-9), det(case-12, the-11), prep_in(investigations-9, case-12), det(jesuits-16, the-14), amod(jesuits-16, murdered-15), prep_of(case-12, jesuits-16), aux(encouraging-19, is-18), conj_and(expressed-5, encouraging-19), det(government-21, the-20), dobj(encouraging-19, government-21), aux(continue-23, to-22), infmod(government-21, continue-23), aux(search-25, to-24), xcomp(continue-23, search-25), det(perpetrators-28, the-27), prep_for(search-25, perpetrators-28), det(crime-31, this-30), prep_of(perpetrators-28, crime-31)]
-PERP ===>> null
-VICTIM ===>> null
+
 VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
@@ -259,6 +247,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0014 :
 VERB: ATTACKED
@@ -266,15 +256,11 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 he added that two different groups acted , one that murdered the clergymen and another that murdered two maids , according to preliminary results issued by the crime commission in charge of solving the case . 
-(ROOT (S (NP (PRP he)) (VP (VBD added) (SBAR (IN that) (S (NP (CD two) (JJ different) (NNS groups)) (VP (VP (VBD acted)) (, ,) (NP (NP (CD one)) (SBAR (WHNP (WDT that)) (S (VP (VBN murdered) (NP (NP (DT the) (NN clergymen)) (CC and) (NP (NP (DT another)) (SBAR (WHNP (WDT that)) (S (VP (VBN murdered) (NP (CD two) (NNS maids)) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (JJ preliminary) (NNS results)) (VP (VBN issued) (PP (IN by) (NP (DT the) (NN crime) (NN commission))) (PP (IN in) (NP (NP (NN charge)) (PP (IN of) (S (VP (VBG solving) (NP (DT the) (NN case)))))))))))))))))))))))) (. .)))
 [nsubj(added-2, he-1), root(ROOT-0, added-2), complm(acted-7, that-3), num(groups-6, two-4), amod(groups-6, different-5), nsubj(acted-7, groups-6), ccomp(added-2, acted-7), dobj(acted-7, one-9), nsubj(murdered-11, one-9), rcmod(one-9, murdered-11), det(clergymen-13, the-12), dobj(murdered-11, clergymen-13), dobj(murdered-11, another-15), conj_and(clergymen-13, another-15), nsubj(murdered-17, another-15), rcmod(another-15, murdered-17), num(maids-19, two-18), dobj(murdered-17, maids-19), prepc_according_to(murdered-17, to-22), amod(results-24, preliminary-23), pobj(murdered-17, results-24), partmod(results-24, issued-25), det(commission-29, the-27), nn(commission-29, crime-28), agent(issued-25, commission-29), prep_in(issued-25, charge-31), prepc_of(charge-31, solving-33), det(case-35, the-34), dobj(solving-33, case-35)]
-PERP ===>> one
-VICTIM ===>> clergymen
+
 `` there was no torture or mistreatment , but words were exchanged '' between the murderers and victims , the spokesman said , adding that five of the murdered jesuits had received `` finishing shots , '' according to autopsies carried out by salvadoran forensic doctors . 
-(ROOT (S (`` ``) (S (S (NP (EX there)) (VP (VBD was) (ADJP (DT no) (JJ torture) (CC or) (JJ mistreatment)))) (, ,) (CC but) (S (NP (NNS words)) (VP (VBD were) (VP (VBN exchanged) ('' '') (PP (IN between) (NP (DT the) (NNS murderers) (CC and) (NNS victims))))))) (, ,) (NP (DT the) (NN spokesman)) (VP (VBD said) (, ,) (S (VP (VBG adding) (SBAR (IN that) (S (NP (NP (CD five)) (PP (IN of) (NP (DT the) (VBN murdered) (NNS jesuits)))) (VP (VBD had) (VP (VBN received) (NP (`` ``) (NP (JJ finishing) (NNS shots)) (, ,) ('' '')) (PP (VBG according) (PP (TO to) (NP (NP (NNS autopsies)) (VP (VBN carried) (PRT (RP out)) (PP (IN by) (NP (JJ salvadoran) (JJ forensic) (NNS doctors)))))))))))))) (. .)))
 [expl(was-3, there-2), ccomp(said-22, was-3), dep(torture-5, no-4), acomp(was-3, torture-5), acomp(was-3, mistreatment-7), conj_or(torture-5, mistreatment-7), nsubjpass(exchanged-12, words-10), auxpass(exchanged-12, were-11), conj_but(was-3, exchanged-12), ccomp(said-22, exchanged-12), det(murderers-16, the-15), prep_between(exchanged-12, murderers-16), prep_between(exchanged-12, victims-18), conj_and(murderers-16, victims-18), det(spokesman-21, the-20), nsubj(said-22, spokesman-21), root(ROOT-0, said-22), xcomp(said-22, adding-24), complm(received-32, that-25), nsubj(received-32, five-26), det(jesuits-30, the-28), amod(jesuits-30, murdered-29), prep_of(five-26, jesuits-30), aux(received-32, had-31), ccomp(adding-24, received-32), amod(shots-35, finishing-34), dobj(received-32, shots-35), prepc_according_to(received-32, to-39), pobj(received-32, autopsies-40), partmod(autopsies-40, carried-41), prt(carried-41, out-42), amod(doctors-46, salvadoran-44), amod(doctors-46, forensic-45), agent(carried-41, doctors-46)]
-PERP ===>> null
-VICTIM ===>> null
+
 VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
@@ -282,48 +268,42 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> ONE /
+VICTIM ==>> CLERGYMEN /
 
 DEV-MUC3-0015 :
 VERB: ATTACKED
 VERB: DESTROYED
 attention , your attention : the military vehicle was destroyed during the ambush and five national guard soldiers were killed , including a sergeant who was in charge of the national guard troops . 
-(ROOT (S (NP (NP (NN attention)) (, ,) (NP (NP (PRP$ your) (NN attention)) (: :) (S (NP (DT the) (JJ military) (NN vehicle)) (VP (VBD was) (VP (VBN destroyed) (PP (IN during) (NP (NP (DT the) (NN ambush)) (CC and) (NP (CD five) (JJ national) (NN guard) (NNS soldiers))))))))) (VP (VBD were) (VP (VBN killed) (, ,) (PP (VBG including) (NP (NP (DT a) (NN sergeant)) (SBAR (WHNP (WP who)) (S (VP (VBD was) (PP (IN in) (NP (NP (NN charge)) (PP (IN of) (NP (DT the) (JJ national) (NN guard) (NNS troops)))))))))))) (. .)))
 [nsubjpass(killed-20, attention-1), poss(attention-4, your-3), appos(attention-1, attention-4), det(vehicle-8, the-6), amod(vehicle-8, military-7), nsubjpass(destroyed-10, vehicle-8), auxpass(destroyed-10, was-9), dep(attention-4, destroyed-10), det(ambush-13, the-12), prep_during(destroyed-10, ambush-13), num(soldiers-18, five-15), amod(soldiers-18, national-16), nn(soldiers-18, guard-17), prep_during(destroyed-10, soldiers-18), conj_and(ambush-13, soldiers-18), auxpass(killed-20, were-19), root(ROOT-0, killed-20), det(sergeant-24, a-23), prep_including(killed-20, sergeant-24), nsubj(was-26, sergeant-24), rcmod(sergeant-24, was-26), prep_in(was-26, charge-28), det(troops-33, the-30), amod(troops-33, national-31), nn(troops-33, guard-32), prep_of(charge-28, troops-33)]
-PERP ===>> null
-VICTIM ===>> vehicle
+
 two g3-a3 rifles and a prc-77 military communications radio were destroyed at the site of the ambush . 
-(ROOT (S (NP (NP (CD two) (JJ g3-a3) (NNS rifles)) (CC and) (NP (DT a) (JJ prc-77) (JJ military) (NNS communications) (NN radio))) (VP (VBD were) (VP (VBN destroyed) (PP (IN at) (NP (NP (DT the) (NN site)) (PP (IN of) (NP (DT the) (NN ambush))))))) (. .)))
 [num(rifles-3, two-1), amod(rifles-3, g3-a3-2), nsubjpass(destroyed-11, rifles-3), det(radio-9, a-5), amod(radio-9, prc-77-6), amod(radio-9, military-7), nn(radio-9, communications-8), conj_and(rifles-3, radio-9), nsubjpass(destroyed-11, radio-9), auxpass(destroyed-11, were-10), root(ROOT-0, destroyed-11), det(site-14, the-13), prep_at(destroyed-11, site-14), det(ambush-17, the-16), prep_of(site-14, ambush-17)]
-PERP ===>> null
-VICTIM ===>> rifles
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 attention , your attention : the military vehicle was destroyed during the ambush and five national guard soldiers were killed , including a sergeant who was in charge of the national guard troops . 
-(ROOT (S (NP (NP (NN attention)) (, ,) (NP (NP (PRP$ your) (NN attention)) (: :) (S (NP (DT the) (JJ military) (NN vehicle)) (VP (VBD was) (VP (VBN destroyed) (PP (IN during) (NP (NP (DT the) (NN ambush)) (CC and) (NP (CD five) (JJ national) (NN guard) (NNS soldiers))))))))) (VP (VBD were) (VP (VBN killed) (, ,) (PP (VBG including) (NP (NP (DT a) (NN sergeant)) (SBAR (WHNP (WP who)) (S (VP (VBD was) (PP (IN in) (NP (NP (NN charge)) (PP (IN of) (NP (DT the) (JJ national) (NN guard) (NNS troops)))))))))))) (. .)))
 [nsubjpass(killed-20, attention-1), poss(attention-4, your-3), appos(attention-1, attention-4), det(vehicle-8, the-6), amod(vehicle-8, military-7), nsubjpass(destroyed-10, vehicle-8), auxpass(destroyed-10, was-9), dep(attention-4, destroyed-10), det(ambush-13, the-12), prep_during(destroyed-10, ambush-13), num(soldiers-18, five-15), amod(soldiers-18, national-16), nn(soldiers-18, guard-17), prep_during(destroyed-10, soldiers-18), conj_and(ambush-13, soldiers-18), auxpass(killed-20, were-19), root(ROOT-0, killed-20), det(sergeant-24, a-23), prep_including(killed-20, sergeant-24), nsubj(was-26, sergeant-24), rcmod(sergeant-24, was-26), prep_in(was-26, charge-28), det(troops-33, the-30), amod(troops-33, national-31), nn(troops-33, guard-32), prep_of(charge-28, troops-33)]
-PERP ===>> null
-VICTIM ===>> attention
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> VEHICLE /RIFLES /ATTENTION /
 
 DEV-MUC3-0016 :
 VERB: ATTACKED
 VERB: DESTROYED
 a ucr -lrb- radical civic union -rrb- buenos aires province committee spokesman today reported that a ucr district headquarters in buenos aires province was `` completely destroyed by a bomb explosion . '' 
-(ROOT (S (NP (DT a) (NP (ADJP (JJ ucr) (JJ -lrb-)) (JJ radical) (JJ civic) (NN union)) (JJ -rrb-) (NNS buenos) (NNS aires) (NN province) (NN committee) (NN spokesman) (NN today)) (VP (VBD reported) (SBAR (IN that) (S (NP (NP (DT a) (NN ucr) (NN district) (NN headquarters)) (PP (IN in) (NP (NNS buenos)))) (VP (VBZ aires) (SBAR (S (NP (NN province)) (VP (VBD was) (VP (`` ``) (ADVP (RB completely)) (VBN destroyed) (PP (IN by) (NP (DT a) (NN bomb) (NN explosion))))))))))) (. .) ('' '')))
 [det(today-13, a-1), amod(-lrb--3, ucr-2), amod(union-6, -lrb--3), amod(union-6, radical-4), amod(union-6, civic-5), nn(today-13, union-6), amod(today-13, -rrb--7), nn(today-13, buenos-8), nn(today-13, aires-9), nn(today-13, province-10), nn(today-13, committee-11), nn(today-13, spokesman-12), nsubj(reported-14, today-13), root(ROOT-0, reported-14), complm(aires-22, that-15), det(headquarters-19, a-16), nn(headquarters-19, ucr-17), nn(headquarters-19, district-18), nsubj(aires-22, headquarters-19), prep_in(headquarters-19, buenos-21), ccomp(reported-14, aires-22), nsubjpass(destroyed-27, province-23), auxpass(destroyed-27, was-24), advmod(destroyed-27, completely-26), ccomp(aires-22, destroyed-27), det(explosion-31, a-29), nn(explosion-31, bomb-30), agent(destroyed-27, explosion-31)]
-PERP ===>> explosion
-VICTIM ===>> province
+
 the destroyed ucr headquarters is in the moreno district of buenos aires . 
-(ROOT (S (NP (DT the) (JJ destroyed) (NN ucr) (NN headquarters)) (VP (VBZ is) (PP (IN in) (NP (NP (DT the) (JJ moreno) (NN district)) (PP (IN of) (NP (JJ buenos) (NNS aires)))))) (. .)))
 [det(headquarters-4, the-1), amod(headquarters-4, destroyed-2), nn(headquarters-4, ucr-3), nsubj(is-5, headquarters-4), root(ROOT-0, is-5), det(district-9, the-7), amod(district-9, moreno-8), prep_in(is-5, district-9), amod(aires-12, buenos-11), prep_of(district-9, aires-12)]
-PERP ===>> null
-VICTIM ===>> null
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
@@ -333,6 +313,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> EXPLOSION /
+VICTIM ==>> PROVINCE /
 
 DEV-MUC3-0017 :
 VERB: ATTACKED
@@ -344,18 +326,16 @@ VERB: KILLED
 VERB: EXPLODED
 VERB: ROBBED
 it should be recalled that a group of armed individuals wearing ski masks robbed a businessman on a rural road near molina on 7 january . 
-(ROOT (S (NP (PRP it)) (VP (MD should) (VP (VB be) (VP (VBN recalled) (SBAR (IN that) (S (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (JJ armed) (NNS individuals)) (VP (VBG wearing) (NP (JJ ski) (NNS masks)))))) (VP (VBN robbed) (NP (DT a) (NN businessman)) (PP (IN on) (NP (NP (DT a) (JJ rural) (NN road)) (PP (IN near) (NP (NN molina))))) (PP (IN on) (NP (CD 7))) (ADVP (RB january)))))))) (. .)))
 [nsubjpass(recalled-4, it-1), aux(recalled-4, should-2), auxpass(recalled-4, be-3), root(ROOT-0, recalled-4), complm(robbed-14, that-5), det(group-7, a-6), nsubj(robbed-14, group-7), amod(individuals-10, armed-9), prep_of(group-7, individuals-10), partmod(individuals-10, wearing-11), amod(masks-13, ski-12), dobj(wearing-11, masks-13), ccomp(recalled-4, robbed-14), det(businessman-16, a-15), dobj(robbed-14, businessman-16), det(road-20, a-18), amod(road-20, rural-19), prep_on(robbed-14, road-20), prep_near(road-20, molina-22), prep_on(robbed-14, 7-24), advmod(robbed-14, january-25)]
-PERP ===>> group
-VICTIM ===>> businessman
+
 VERB: SHOT
 the businessman , enrique ormazabal ormazabal , tried to resist ; the men shot him and left him seriously wounded . 
-(ROOT (S (S (NP (NP (DT the) (NN businessman)) (, ,) (NP (JJ enrique) (JJ ormazabal) (NN ormazabal)) (, ,)) (VP (VBD tried) (S (VP (TO to) (VP (VB resist)))))) (: ;) (S (NP (DT the) (NNS men)) (VP (VP (VBD shot) (NP (PRP him))) (CC and) (VP (VBD left) (S (NP (PRP him)) (VP (ADVP (RB seriously)) (VBN wounded)))))) (. .)))
 [det(businessman-2, the-1), nsubj(tried-8, businessman-2), xsubj(resist-10, businessman-2), amod(ormazabal-6, enrique-4), amod(ormazabal-6, ormazabal-5), appos(businessman-2, ormazabal-6), root(ROOT-0, tried-8), aux(resist-10, to-9), xcomp(tried-8, resist-10), det(men-13, the-12), nsubj(shot-14, men-13), nsubj(left-17, men-13), parataxis(tried-8, shot-14), dobj(shot-14, him-15), parataxis(tried-8, left-17), conj_and(shot-14, left-17), nsubj(wounded-20, him-18), advmod(wounded-20, seriously-19), ccomp(left-17, wounded-20)]
-PERP ===>> men
-VICTIM ===>> him
+
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> GROUP /MEN /
+VICTIM ==>> BUSINESSMAN /HIM /
 
 DEV-MUC3-0018 :
 VERB: ATTACKED
@@ -365,28 +345,24 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 official sources have reported that several guerrilla attacks and heavy fighting took place the evening of 9 january and this morning throughout the country , and as a result , three soldiers were killed and three others injured . 
-(ROOT (S (S (NP (JJ official) (NNS sources)) (VP (VBP have) (VP (VBN reported) (SBAR (IN that) (S (NP (NP (JJ several) (NN guerrilla) (NNS attacks)) (CC and) (NP (JJ heavy) (NN fighting))) (VP (VBD took) (NP (NN place)) (NP (DT the) (NN evening)) (PP (IN of) (NP (NP (CD 9) (NN january)) (CC and) (NP (DT this) (NN morning)))) (PP (IN throughout) (NP (DT the) (NN country))))))))) (, ,) (CC and) (S (S (PP (IN as) (NP (DT a) (NN result))) (, ,) (NP (CD three) (NNS soldiers)) (VP (VBD were) (VP (VBN killed)))) (CC and) (S (NP (CD three) (NNS others)) (VP (VBD injured)))) (. .)))
 [amod(sources-2, official-1), nsubj(reported-4, sources-2), aux(reported-4, have-3), root(ROOT-0, reported-4), complm(took-12, that-5), amod(attacks-8, several-6), nn(attacks-8, guerrilla-7), nsubj(took-12, attacks-8), amod(fighting-11, heavy-10), conj_and(attacks-8, fighting-11), nsubj(took-12, fighting-11), ccomp(reported-4, took-12), dobj(took-12, place-13), det(evening-15, the-14), tmod(took-12, evening-15), num(january-18, 9-17), prep_of(took-12, january-18), det(morning-21, this-20), prep_of(took-12, morning-21), conj_and(january-18, morning-21), det(country-24, the-23), prep_throughout(took-12, country-24), det(result-29, a-28), prep_as(killed-34, result-29), num(soldiers-32, three-31), nsubjpass(killed-34, soldiers-32), auxpass(killed-34, were-33), conj_and(reported-4, killed-34), num(others-37, three-36), nsubj(injured-38, others-37), conj_and(reported-4, injured-38), conj_and(killed-34, injured-38)]
-PERP ===>> null
-VICTIM ===>> soldiers
+
 meanwhile , the armed forces press committee -lrb- coprefa -rrb- reported today that three army soldiers were killed recently in clashes against members of the farabundo marti national liberation front -lrb- fmln -rrb- in different parts of the central and eastern regions of the country . 
-(ROOT (S (ADVP (RB meanwhile)) (, ,) (NP (DT the) (JJ armed) (NNS forces) (NN press) (NN committee) (NN -lrb-) (NN coprefa) (NN -rrb-)) (VP (VBD reported) (NP (NN today)) (SBAR (IN that) (S (NP (CD three) (NN army) (NNS soldiers)) (VP (VBD were) (VP (VBN killed) (ADVP (RB recently)) (PP (IN in) (NP (NP (NNS clashes)) (PP (IN against) (NP (NP (NNS members)) (PP (IN of) (NP (DT the) (NN farabundo) (NN marti) (JJ national) (NN liberation) (NN front) (NNP -lrb-) (NNP fmln) (NNP -rrb-))))))) (PP (IN in) (NP (NP (JJ different) (NNS parts)) (PP (IN of) (NP (NP (DT the) (JJ central) (CC and) (JJ eastern) (NNS regions)) (PP (IN of) (NP (DT the) (NN country)))))))))))) (. .)))
 [advmod(reported-11, meanwhile-1), det(-rrb--10, the-3), amod(-rrb--10, armed-4), nn(-rrb--10, forces-5), nn(-rrb--10, press-6), nn(-rrb--10, committee-7), nn(-rrb--10, -lrb--8), nn(-rrb--10, coprefa-9), nsubj(reported-11, -rrb--10), root(ROOT-0, reported-11), tmod(reported-11, today-12), complm(killed-18, that-13), num(soldiers-16, three-14), nn(soldiers-16, army-15), nsubjpass(killed-18, soldiers-16), auxpass(killed-18, were-17), ccomp(reported-11, killed-18), advmod(killed-18, recently-19), prep_in(killed-18, clashes-21), prep_against(clashes-21, members-23), det(-rrb--33, the-25), nn(-rrb--33, farabundo-26), nn(-rrb--33, marti-27), amod(-rrb--33, national-28), nn(-rrb--33, liberation-29), nn(-rrb--33, front-30), nn(-rrb--33, -lrb--31), nn(-rrb--33, fmln-32), prep_of(members-23, -rrb--33), amod(parts-36, different-35), prep_in(killed-18, parts-36), det(regions-42, the-38), amod(regions-42, central-39), conj_and(central-39, eastern-41), amod(regions-42, eastern-41), prep_of(parts-36, regions-42), det(country-45, the-44), prep_of(regions-42, country-45)]
-PERP ===>> null
-VICTIM ===>> soldiers
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> SOLDIERS /SOLDIERS /
 
 DEV-MUC3-0019 :
 VERB: ATTACKED
 official sources have reported that kent jr was unexpectedly attacked by three other pavon prison inmates wielding knives . 
-(ROOT (S (NP (JJ official) (NNS sources)) (VP (VBP have) (VP (VBN reported) (SBAR (IN that) (S (NP (NN kent) (NN jr)) (VP (VBD was) (ADVP (RB unexpectedly)) (VP (VBN attacked) (PP (IN by) (NP (NP (CD three) (JJ other) (NN pavon) (NN prison) (NNS inmates)) (VP (VBG wielding) (NP (NNS knives))))))))))) (. .)))
 [amod(sources-2, official-1), nsubj(reported-4, sources-2), aux(reported-4, have-3), root(ROOT-0, reported-4), complm(attacked-10, that-5), nn(jr-7, kent-6), nsubjpass(attacked-10, jr-7), auxpass(attacked-10, was-8), advmod(attacked-10, unexpectedly-9), ccomp(reported-4, attacked-10), num(inmates-16, three-12), amod(inmates-16, other-13), nn(inmates-16, pavon-14), nn(inmates-16, prison-15), agent(attacked-10, inmates-16), partmod(inmates-16, wielding-17), dobj(wielding-17, knives-18)]
-PERP ===>> inmates
-VICTIM ===>> jr
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
@@ -397,6 +373,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> INMATES /
+VICTIM ==>> JR /
 
 DEV-MUC3-0020 :
 VERB: ATTACKED
@@ -410,6 +388,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0021 :
 VERB: ATTACKED
@@ -423,6 +403,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0022 :
 VERB: ATTACKED
@@ -436,6 +418,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0023 :
 VERB: ATTACKED
@@ -443,10 +427,8 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 -lrb- diaz salvador -rrb- these operations seek to clear up both a crime that has shocked the nation and also the killing of two patrolmen who were murdered in cold blood the day before the general was murdered . 
-(ROOT (S (NP (JJ -lrb-) (NN diaz) (NN salvador)) (VP (VBD -rrb-) (SBAR (S (NP (DT these) (NNS operations)) (VP (VBP seek) (S (VP (TO to) (VP (VB clear) (PRT (RP up)) (NP (NP (PDT both) (DT a) (NN crime)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (VP (VBN shocked) (NP (NP (DT the) (NN nation)) (CC and) (ADVP (RB also)) (NP (NP (DT the) (NN killing)) (PP (IN of) (NP (NP (CD two) (NN patrolmen)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN murdered) (PP (IN in) (NP (NP (JJ cold) (NN blood)) (NP (DT the) (NN day)))) (SBAR (IN before) (S (NP (DT the) (NN general)) (VP (VBD was) (VP (VBN murdered))))))))))))))))))))))))) (. .)))
 [amod(salvador-3, -lrb--1), nn(salvador-3, diaz-2), nsubj(-rrb--4, salvador-3), root(ROOT-0, -rrb--4), det(operations-6, these-5), nsubj(seek-7, operations-6), xsubj(clear-9, operations-6), ccomp(-rrb--4, seek-7), aux(clear-9, to-8), xcomp(seek-7, clear-9), prt(clear-9, up-10), predet(crime-13, both-11), det(crime-13, a-12), dobj(clear-9, crime-13), nsubj(shocked-16, crime-13), aux(shocked-16, has-15), rcmod(crime-13, shocked-16), det(nation-18, the-17), dobj(shocked-16, nation-18), dobj(shocked-16, also-20), advmod(nation-18, also-20), conj_and(nation-18, also-20), det(killing-22, the-21), dobj(shocked-16, killing-22), conj_and(nation-18, killing-22), num(patrolmen-25, two-24), prep_of(killing-22, patrolmen-25), nsubjpass(murdered-28, patrolmen-25), auxpass(murdered-28, were-27), rcmod(patrolmen-25, murdered-28), amod(blood-31, cold-30), prep_in(murdered-28, blood-31), det(day-33, the-32), dep(blood-31, day-33), mark(murdered-38, before-34), det(general-36, the-35), nsubjpass(murdered-38, general-36), auxpass(murdered-38, was-37), advcl(murdered-28, murdered-38)]
-PERP ===>> null
-VICTIM ===>> patrolmen
+
 VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
@@ -455,10 +437,10 @@ VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
 first , the dragnet operation , in which people with the characteristics established by witnesses are arrested , and second , there is a more specific operation being conducted by the specialized units . 
-(ROOT (S (ADVP (RB first)) (, ,) (S (NP (NP (DT the) (JJ dragnet) (NN operation)) (, ,) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (NP (NNS people)) (PP (IN with) (NP (DT the) (NNS characteristics)))) (VP (VBN established) (PP (IN by) (NP (NNS witnesses))))))) (VP (VBP are) (VP (VBN arrested)))) (, ,) (CC and) (S (NP (NN second)) (, ,) (NP (EX there)) (VP (VBZ is) (NP (NP (DT a) (ADJP (RBR more) (JJ specific)) (NN operation)) (VP (VBG being) (VP (VBN conducted) (PP (IN by) (NP (DT the) (VBN specialized) (NNS units)))))))) (. .)))
 [advmod(arrested-17, first-1), det(operation-5, the-3), amod(operation-5, dragnet-4), nsubjpass(arrested-17, operation-5), rel(established-13, which-8), nsubj(established-13, people-9), det(characteristics-12, the-11), prep_with(people-9, characteristics-12), rcmod(operation-5, established-13), prep_by(established-13, witnesses-15), auxpass(arrested-17, are-16), root(ROOT-0, arrested-17), nsubj(is-23, second-20), expl(is-23, there-22), conj_and(arrested-17, is-23), det(operation-27, a-24), advmod(specific-26, more-25), amod(operation-27, specific-26), nsubj(is-23, operation-27), auxpass(conducted-29, being-28), partmod(operation-27, conducted-29), det(units-33, the-31), amod(units-33, specialized-32), agent(conducted-29, units-33)]
-PERP ===>> units
-VICTIM ===>> null
+
+PERP ===>> UNITS /
+VICTIM ==>> PATROLMEN /
 
 DEV-MUC3-0024 :
 VERB: ATTACKED
@@ -472,6 +454,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0025 :
 VERB: ATTACKED
@@ -480,26 +464,24 @@ VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
 according to reports , oqueli and his companion gilda flores , a member of the social democratic party of guatemala , were abducted by heavily armed men between 0630 and 0700 as they were heading to la aurora airport to board their flight . 
-(ROOT (S (PP (VBG according) (PP (TO to) (NP (NNS reports)))) (, ,) (NP (NP (NP (NNS oqueli)) (CC and) (NP (PRP$ his) (NN companion) (NN gilda) (NNS flores))) (, ,) (NP (NP (DT a) (NN member)) (PP (IN of) (NP (NP (DT the) (JJ social) (JJ democratic) (NN party)) (PP (IN of) (NP (NN guatemala)))))) (, ,)) (VP (VBD were) (VP (VBN abducted) (PP (IN by) (NP (NP (ADJP (RB heavily) (JJ armed)) (NNS men)) (PP (IN between) (NP (CD 0630) (CC and) (CD 0700))))) (SBAR (IN as) (S (NP (PRP they)) (VP (VBD were) (VP (VBG heading) (PP (TO to) (NP (DT la) (NN aurora) (NN airport))) (S (VP (TO to) (VP (VB board) (NP (PRP$ their) (NN flight))))))))))) (. .)))
 [prepc_according_to(abducted-23, to-2), pobj(abducted-23, reports-3), nsubjpass(abducted-23, oqueli-5), poss(flores-10, his-7), nn(flores-10, companion-8), nn(flores-10, gilda-9), conj_and(oqueli-5, flores-10), nsubjpass(abducted-23, flores-10), det(member-13, a-12), appos(oqueli-5, member-13), det(party-18, the-15), amod(party-18, social-16), amod(party-18, democratic-17), prep_of(member-13, party-18), prep_of(party-18, guatemala-20), auxpass(abducted-23, were-22), root(ROOT-0, abducted-23), advmod(armed-26, heavily-25), amod(men-27, armed-26), agent(abducted-23, men-27), prep_between(men-27, 0630-29), prep_between(men-27, 0700-31), conj_and(0630-29, 0700-31), mark(heading-35, as-32), nsubj(heading-35, they-33), xsubj(board-41, they-33), aux(heading-35, were-34), advcl(abducted-23, heading-35), det(airport-39, la-37), nn(airport-39, aurora-38), prep_to(heading-35, airport-39), aux(board-41, to-40), xcomp(heading-35, board-41), poss(flight-43, their-42), dobj(board-41, flight-43)]
-PERP ===>> men
-VICTIM ===>> oqueli
+
 VERB: KILLED
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> MEN /
+VICTIM ==>> OQUELI /
 
 DEV-MUC3-0026 :
 VERB: ATTACKED
 VERB: DESTROYED
 VERB: KIDNAPPED
 an mnr spolesman reported that oqueli colindres was `` kidnapped '' as he was heading to the airport in guatemala city to take a flight to nicaragua , where he would join a socialist international delegation that is currently in that country to observe the electoral campaign . 
-(ROOT (S (NP (DT an) (NN mnr) (NN spolesman)) (VP (VBD reported) (SBAR (IN that) (S (NP (JJ oqueli) (NNS colindres)) (VP (VBD was) (`` ``) (ADJP (JJ kidnapped)) ('' '') (SBAR (IN as) (S (NP (PRP he)) (VP (VBD was) (VP (VBG heading) (PP (TO to) (NP (NP (DT the) (NN airport)) (PP (IN in) (NP (NN guatemala) (NN city))))) (S (VP (TO to) (VP (VB take) (NP (DT a) (NN flight)) (PP (TO to) (NP (NP (NN nicaragua)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP he)) (VP (MD would) (VP (VB join) (NP (NP (DT a) (JJ socialist) (JJ international) (NN delegation)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (ADVP (RB currently)) (PP (IN in) (NP (DT that) (NN country) (S (VP (TO to) (VP (VB observe) (NP (DT the) (JJ electoral) (NN campaign)))))))))))))))))))))))))))) (. .)))
 [det(spolesman-3, an-1), nn(spolesman-3, mnr-2), nsubj(reported-4, spolesman-3), root(ROOT-0, reported-4), complm(kidnapped-10, that-5), amod(colindres-7, oqueli-6), nsubj(kidnapped-10, colindres-7), cop(kidnapped-10, was-8), ccomp(reported-4, kidnapped-10), mark(heading-15, as-12), nsubj(heading-15, he-13), xsubj(take-23, he-13), aux(heading-15, was-14), advcl(kidnapped-10, heading-15), det(airport-18, the-17), prep_to(heading-15, airport-18), nn(city-21, guatemala-20), prep_in(airport-18, city-21), aux(take-23, to-22), xcomp(heading-15, take-23), det(flight-25, a-24), dobj(take-23, flight-25), prep_to(take-23, nicaragua-27), advmod(join-32, where-29), nsubj(join-32, he-30), aux(join-32, would-31), rcmod(nicaragua-27, join-32), det(delegation-36, a-33), amod(delegation-36, socialist-34), amod(delegation-36, international-35), dobj(join-32, delegation-36), nsubj(is-38, delegation-36), rcmod(delegation-36, is-38), advmod(is-38, currently-39), det(country-42, that-41), prep_in(is-38, country-42), aux(observe-44, to-43), infmod(country-42, observe-44), det(campaign-47, the-45), amod(campaign-47, electoral-46), dobj(observe-44, campaign-47)]
-PERP ===>> colindres
-VICTIM ===>> null
+
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
@@ -508,6 +490,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> COLINDRES /
+VICTIM ==>> 
 
 DEV-MUC3-0027 :
 VERB: ATTACKED
@@ -521,6 +505,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0028 :
 VERB: ATTACKED
@@ -530,15 +516,15 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 on 7 january , cristiani officially acknowledged that military personnel killed the jesuits , their cook , and the cook 's 15-year-old daughter . 
-(ROOT (S (PP (IN on) (NP (CD 7) (NN january))) (, ,) (NP (NNS cristiani)) (ADVP (RB officially)) (VP (VBD acknowledged) (SBAR (IN that) (S (NP (JJ military) (NNS personnel)) (VP (VBD killed) (NP (NP (DT the) (NNS jesuits)) (, ,) (NP (PRP$ their) (NN cook)) (, ,) (CC and) (NP (NP (DT the) (NN cook) (POS 's)) (JJ 15-year-old) (NN daughter))))))) (. .)))
 [num(january-3, 7-2), prep_on(acknowledged-7, january-3), nsubj(acknowledged-7, cristiani-5), advmod(acknowledged-7, officially-6), root(ROOT-0, acknowledged-7), complm(killed-11, that-8), amod(personnel-10, military-9), nsubj(killed-11, personnel-10), ccomp(acknowledged-7, killed-11), det(jesuits-13, the-12), dobj(killed-11, jesuits-13), poss(cook-16, their-15), dobj(killed-11, cook-16), conj_and(jesuits-13, cook-16), det(cook-20, the-19), poss(daughter-23, cook-20), amod(daughter-23, 15-year-old-22), dobj(killed-11, daughter-23), conj_and(jesuits-13, daughter-23)]
-PERP ===>> personnel
-VICTIM ===>> jesuits
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> PERSONNEL /
+VICTIM ==>> JESUITS /
 
 DEV-MUC3-0029 :
 VERB: ATTACKED
@@ -546,20 +532,14 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 alfredo cristiani himself -- who , together with armed forces officers , said hours after the jesuits and their maids had been murdered that there were suspicions that the fmln could be involved in the massacre -- has just accepted , especially for the benefit of the u.s. congress , that armed forces personnel were the ones who murdered the top brains , the best intellectuals of el salvador . 
-(ROOT (SINV (ADVP (RB alfredo)) (VP (VBG cristiani) (NP (PRP himself))) (PRN (: --) (SBAR (WHNP (WP who)) (PRN (, ,) (ADVP (RB together) (PP (IN with) (NP (VBN armed) (NNS forces) (NNS officers)))) (, ,)) (S (VP (VBD said) (NP (NNS hours)) (SBAR (IN after) (S (NP (NP (DT the) (NNS jesuits)) (CC and) (NP (PRP$ their) (NNS maids))) (VP (VBD had) (VP (VBN been) (VP (VBN murdered) (SBAR (IN that) (S (NP (EX there)) (VP (VBD were) (NP (NNS suspicions)) (SBAR (IN that) (S (NP (DT the) (NN fmln)) (VP (MD could) (VP (VB be) (VP (VBN involved) (PP (IN in) (NP (DT the) (NN massacre))))))))))))))))))) (: --)) (VP (VBZ has) (ADVP (RB just)) (VP (VBN accepted) (, ,) (PP (RB especially) (IN for) (NP (NP (DT the) (NN benefit)) (PP (IN of) (NP (DT the) (NN u.s.) (NN congress))))) (, ,) (SBAR (IN that) (S (NP (JJ armed) (NNS forces) (NNS personnel)) (VP (VBD were) (NP (NP (DT the) (NNS ones)) (SBAR (WHNP (WP who)) (S (VP (VBN murdered)))))))))) (NP (NP (DT the) (JJ top) (NNS brains)) (, ,) (NP (NP (DT the) (JJS best) (NNS intellectuals)) (PP (IN of) (NP (NN el) (NN salvador))))) (. .)))
 [advmod(cristiani-2, alfredo-1), root(ROOT-0, cristiani-2), dobj(cristiani-2, himself-3), nsubj(said-13, who-5), amod(officers-11, armed-9), nn(officers-11, forces-10), prep_together_with(said-13, officers-11), parataxis(cristiani-2, said-13), parataxis(accepted-40, said-13), dobj(said-13, hours-14), mark(murdered-23, after-15), det(jesuits-17, the-16), nsubjpass(murdered-23, jesuits-17), poss(maids-20, their-19), conj_and(jesuits-17, maids-20), nsubjpass(murdered-23, maids-20), aux(murdered-23, had-21), auxpass(murdered-23, been-22), advcl(said-13, murdered-23), complm(were-26, that-24), expl(were-26, there-25), ccomp(murdered-23, were-26), nsubj(were-26, suspicions-27), complm(involved-33, that-28), det(fmln-30, the-29), nsubjpass(involved-33, fmln-30), aux(involved-33, could-31), auxpass(involved-33, be-32), ccomp(were-26, involved-33), det(massacre-36, the-35), prep_in(involved-33, massacre-36), aux(accepted-40, has-38), advmod(accepted-40, just-39), dep(cristiani-2, accepted-40), advmod(accepted-40, especially-42), det(benefit-45, the-44), prep_for(accepted-40, benefit-45), det(congress-49, the-47), nn(congress-49, u.s.-48), prep_of(benefit-45, congress-49), complm(ones-57, that-51), amod(personnel-54, armed-52), nn(personnel-54, forces-53), nsubj(ones-57, personnel-54), cop(ones-57, were-55), det(ones-57, the-56), ccomp(accepted-40, ones-57), nsubj(murdered-59, ones-57), rcmod(ones-57, murdered-59), det(brains-62, the-60), amod(brains-62, top-61), nsubj(cristiani-2, brains-62), det(intellectuals-66, the-64), amod(intellectuals-66, best-65), appos(brains-62, intellectuals-66), nn(salvador-69, el-68), prep_of(intellectuals-66, salvador-69)]
-PERP ===>> ones
-VICTIM ===>> jesuits
+
 if it is true that the army -- which murdered monsigno oscar romero , 1,000 peasants in el mozote , 70 indians in las hojas , hundreds of salvadorans in zunpu , and unionists at the fenastras -lrb- salvadoran workers national union federation -rrb- offices , along with the rest of the armed forces ' well-known crimes -- is going to be purged at last , if this is really true , then we would have to say that a true negotiation will start . 
-(ROOT (S (SBAR (IN if) (S (NP (PRP it)) (VP (VBZ is) (ADJP (JJ true)) (SBAR (IN that) (S (NP (NP (DT the) (NN army)) (PRN (: --) (SBAR (WHNP (WDT which)) (S (VP (VBN murdered) (NP (NP (NP (NN monsigno) (NN oscar) (NN romero)) (, ,) (NP (NP (CD 1,000) (NNS peasants)) (PP (IN in) (NP (NN el) (NN mozote))))) (, ,) (NP (NP (CD 70) (NNS indians)) (PP (IN in) (NP (NN las) (NNS hojas)))) (, ,) (NP (NP (NNS hundreds)) (PP (IN of) (NP (NP (NNS salvadorans)) (PP (IN in) (NP (NNP zunpu)))))) (, ,) (CC and) (NP (NP (NP (NNS unionists)) (PP (IN at) (NP (DT the) (NNS fenastras)))) (NP (NP (JJ -lrb-) (NN salvadoran) (NNS workers)) (NP (JJ national) (NN union) (NN federation) (NN -rrb-) (NNS offices)) (, ,) (ADVP (IN along) (PP (IN with) (NP (NP (DT the) (NN rest)) (PP (IN of) (NP (NP (DT the) (JJ armed) (NNS forces) (POS ')) (JJ well-known) (NNS crimes)))))))))))) (: --))) (VP (VBZ is) (VP (VBG going) (S (VP (TO to) (VP (VB be) (VP (VBN purged) (PP (IN at) (NP (JJ last)))))))))))))) (, ,) (SBAR (IN if) (S (NP (DT this)) (VP (VBZ is) (ADJP (RB really) (JJ true))))) (, ,) (ADVP (RB then)) (NP (PRP we)) (VP (MD would) (VP (VB have) (S (VP (TO to) (VP (VB say) (SBAR (IN that) (S (NP (DT a) (JJ true) (NN negotiation)) (VP (MD will) (VP (VB start)))))))))) (. .)))
 [mark(true-4, if-1), nsubj(true-4, it-2), cop(true-4, is-3), advcl(have-76, true-4), complm(going-60, that-5), det(army-7, the-6), nsubj(going-60, army-7), xsubj(purged-63, army-7), nsubj(murdered-10, which-9), dep(army-7, murdered-10), nn(romero-13, monsigno-11), nn(romero-13, oscar-12), dobj(murdered-10, romero-13), num(peasants-16, 1,000-15), appos(romero-13, peasants-16), nn(mozote-19, el-18), prep_in(peasants-16, mozote-19), num(indians-22, 70-21), dobj(murdered-10, indians-22), conj_and(romero-13, indians-22), nn(hojas-25, las-24), prep_in(indians-22, hojas-25), dobj(murdered-10, hundreds-27), conj_and(romero-13, hundreds-27), prep_of(hundreds-27, salvadorans-29), prep_in(salvadorans-29, zunpu-31), dobj(murdered-10, unionists-34), conj_and(romero-13, unionists-34), det(fenastras-37, the-36), prep_at(unionists-34, fenastras-37), amod(workers-40, -lrb--38), nn(workers-40, salvadoran-39), dep(unionists-34, workers-40), amod(offices-45, national-41), nn(offices-45, union-42), nn(offices-45, federation-43), nn(offices-45, -rrb--44), dep(workers-40, offices-45), det(rest-50, the-49), prep_along_with(workers-40, rest-50), det(forces-54, the-52), amod(forces-54, armed-53), poss(crimes-57, forces-54), amod(crimes-57, well-known-56), prep_of(rest-50, crimes-57), aux(going-60, is-59), ccomp(true-4, going-60), aux(purged-63, to-61), auxpass(purged-63, be-62), xcomp(going-60, purged-63), prep_at(purged-63, last-65), mark(true-71, if-67), nsubj(true-71, this-68), cop(true-71, is-69), advmod(true-71, really-70), advcl(have-76, true-71), advmod(have-76, then-73), nsubj(have-76, we-74), xsubj(say-78, we-74), aux(have-76, would-75), root(ROOT-0, have-76), aux(say-78, to-77), xcomp(have-76, say-78), complm(start-84, that-79), det(negotiation-82, a-80), amod(negotiation-82, true-81), nsubj(start-84, negotiation-82), aux(start-84, will-83), ccomp(say-78, start-84)]
-PERP ===>> which
-VICTIM ===>> romero
+
 the most important u.s. newspapers and newscasts have noted the irrefutable fact that 10 years of u.s. advice and an investment of more than $ 3 billion -- very close to $ 4 billion -- to create a huge buildup in their armaments have not served to change the mentality of an army that murdered monsignor romero and thousands of civilians , including nuns and u.s. advisers . 
-(ROOT (S (NP (DT the) (JJS most) (JJ important) (NN u.s.) (NNS newspapers) (CC and) (NNS newscasts)) (VP (VBP have) (VP (VBN noted) (NP (DT the) (JJ irrefutable) (NN fact)) (SBAR (IN that) (S (NP (NP (CD 10) (NNS years)) (PP (IN of) (NP (NP (NN u.s.) (NN advice)) (CC and) (NP (NP (DT an) (NN investment)) (PP (IN of) (NP (NP (QP (JJR more) (IN than) ($ $) (CD 3) (CD billion))) (PRN (: --) (ADJP (RB very) (JJ close) (PP (TO to) (NP (QP ($ $) (CD 4) (CD billion))))) (: --)))) (S (VP (TO to) (VP (VB create) (NP (DT a) (JJ huge) (NN buildup)) (PP (IN in) (NP (PRP$ their) (NNS armaments)))))))))) (VP (VBP have) (RB not) (VP (VBN served) (S (VP (TO to) (VP (VB change) (NP (NP (DT the) (NN mentality)) (PP (IN of) (NP (NP (DT an) (NN army)) (SBAR (WHNP (WDT that)) (S (VP (VBN murdered) (NP (NP (NN monsignor) (NN romero) (CC and) (NNS thousands)) (PP (IN of) (NP (NNS civilians)))) (, ,) (PP (VBG including) (NP (NP (NNS nuns)) (CC and) (NP (NN u.s.) (NNS advisers))))))))))))))))))) (. .)))
 [det(newspapers-5, the-1), amod(newspapers-5, most-2), amod(newspapers-5, important-3), nn(newspapers-5, u.s.-4), nsubj(noted-9, newspapers-5), conj_and(newspapers-5, newscasts-7), nsubj(noted-9, newscasts-7), aux(noted-9, have-8), root(ROOT-0, noted-9), det(fact-12, the-10), amod(fact-12, irrefutable-11), dobj(noted-9, fact-12), complm(served-46, that-13), num(years-15, 10-14), nsubj(served-46, years-15), xsubj(change-48, years-15), nn(advice-18, u.s.-17), prep_of(years-15, advice-18), det(investment-21, an-20), prep_of(years-15, investment-21), conj_and(advice-18, investment-21), quantmod($-25, more-23), quantmod($-25, than-24), prep_of(investment-21, $-25), number($-25, 3-26), number($-25, billion-27), advmod($-25, very-29), prep_close_to($-25, $-32), number($-32, 4-33), number($-32, billion-34), aux(create-37, to-36), infmod(investment-21, create-37), det(buildup-40, a-38), amod(buildup-40, huge-39), dobj(create-37, buildup-40), poss(armaments-43, their-42), prep_in(create-37, armaments-43), aux(served-46, have-44), neg(served-46, not-45), ccomp(noted-9, served-46), aux(change-48, to-47), xcomp(served-46, change-48), det(mentality-50, the-49), dobj(change-48, mentality-50), det(army-53, an-52), prep_of(mentality-50, army-53), nsubj(murdered-55, army-53), rcmod(army-53, murdered-55), nn(romero-57, monsignor-56), dobj(murdered-55, romero-57), dobj(murdered-55, thousands-59), conj_and(romero-57, thousands-59), prep_of(romero-57, civilians-61), prep_including(murdered-55, nuns-64), nn(advisers-67, u.s.-66), prep_including(murdered-55, advisers-67), conj_and(nuns-64, advisers-67)]
-PERP ===>> army
-VICTIM ===>> romero
+
 VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
@@ -567,6 +547,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> ONES /WHICH /ARMY /
+VICTIM ==>> JESUITS /ROMERO /ROMERO /
 
 DEV-MUC3-0030 :
 VERB: ATTACKED
@@ -576,25 +558,23 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 the soldiers found cardenas guerra with several workers of the farm , which , according to the investigations , was owned by gonzalo rodriguez gacha , who was killed during a police operation on 15 december . 
-(ROOT (S (NP (DT the) (NNS soldiers)) (VP (VBD found) (NP (JJ cardenas) (NN guerra)) (PP (IN with) (NP (NP (JJ several) (NNS workers)) (PP (IN of) (NP (NP (DT the) (NN farm)) (, ,) (SBAR (WHNP (WDT which)) (S (, ,) (PP (VBG according) (PP (TO to) (NP (DT the) (NNS investigations)))) (, ,) (VP (VBD was) (VP (VBN owned) (PP (IN by) (NP (NP (NN gonzalo) (NN rodriguez) (NN gacha)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN killed) (PP (IN during) (NP (NP (DT a) (NN police) (NN operation)) (PP (IN on) (NP (CD 15) (NN december)))))))))))))))))))) (. .)))
 [det(soldiers-2, the-1), nsubj(found-3, soldiers-2), root(ROOT-0, found-3), amod(guerra-5, cardenas-4), dobj(found-3, guerra-5), amod(workers-8, several-7), prep_with(found-3, workers-8), det(farm-11, the-10), prep_of(workers-8, farm-11), nsubjpass(owned-21, farm-11), prepc_according_to(owned-21, to-16), det(investigations-18, the-17), pobj(owned-21, investigations-18), auxpass(owned-21, was-20), rcmod(farm-11, owned-21), nn(gacha-25, gonzalo-23), nn(gacha-25, rodriguez-24), agent(owned-21, gacha-25), nsubjpass(killed-29, gacha-25), auxpass(killed-29, was-28), rcmod(gacha-25, killed-29), det(operation-33, a-31), nn(operation-33, police-32), prep_during(killed-29, operation-33), num(december-36, 15-35), prep_on(operation-33, december-36)]
-PERP ===>> null
-VICTIM ===>> gacha
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> GACHA /
 
 DEV-MUC3-0031 :
 VERB: ATTACKED
 VERB: DESTROYED
 VERB: KIDNAPPED
 mario solorzano martinez , leader of guatemala 's democratic socialist party , reported today that the salvadoran political leader hector oqueli , who was kidnapped in guatemala , was found dead . 
-(ROOT (S (NP (NP (NN mario) (NN solorzano) (NN martinez)) (, ,) (NP (NP (NN leader)) (PP (IN of) (NP (NP (NNP guatemala) (POS 's)) (JJ democratic) (JJ socialist) (NN party)))) (, ,)) (VP (VBD reported) (NP (NN today)) (SBAR (IN that) (S (NP (NP (DT the) (JJ salvadoran) (JJ political) (NN leader) (NN hector) (NN oqueli)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN kidnapped) (PP (IN in) (NP (NN guatemala))))))) (, ,)) (VP (VBD was) (VP (VBN found) (S (ADJP (JJ dead)))))))) (. .)))
 [nn(martinez-3, mario-1), nn(martinez-3, solorzano-2), nsubj(reported-13, martinez-3), appos(martinez-3, leader-5), poss(party-11, guatemala-7), amod(party-11, democratic-9), amod(party-11, socialist-10), prep_of(leader-5, party-11), root(ROOT-0, reported-13), tmod(reported-13, today-14), complm(found-30, that-15), det(oqueli-21, the-16), amod(oqueli-21, salvadoran-17), amod(oqueli-21, political-18), nn(oqueli-21, leader-19), nn(oqueli-21, hector-20), nsubjpass(kidnapped-25, oqueli-21), nsubjpass(found-30, oqueli-21), auxpass(kidnapped-25, was-24), rcmod(oqueli-21, kidnapped-25), prep_in(kidnapped-25, guatemala-27), auxpass(found-30, was-29), ccomp(reported-13, found-30), acomp(found-30, dead-31)]
-PERP ===>> null
-VICTIM ===>> oqueli
+
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
@@ -603,6 +583,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> OQUELI /
 
 DEV-MUC3-0032 :
 VERB: ATTACKED
@@ -616,16 +598,16 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0033 :
 VERB: ATTACKED
 VERB: DESTROYED
 VERB: KIDNAPPED
 oqueli , 45 , and gilda flores , a member of the democratic socialist party -lrb- psd -rrb- of guatemala , were kidnapped while they were on their way to la aurora airport in guatemala city . 
-(ROOT (S (NP (NP (NP (NNS oqueli)) (, ,) (NP (CD 45)) (, ,) (CC and) (NP (NN gilda) (NNS flores))) (, ,) (NP (NP (DT a) (NN member)) (PP (IN of) (NP (DT the) (JJ democratic) (JJ socialist) (NN party) (NNP -lrb-) (NNP psd) (NNP -rrb-))) (PP (IN of) (NP (NN guatemala)))) (, ,)) (VP (VBD were) (VP (VBN kidnapped) (SBAR (IN while) (S (NP (PRP they)) (VP (VBD were) (PP (IN on) (NP (PRP$ their) (NN way))) (PP (TO to) (NP (NP (DT la) (NN aurora) (NN airport)) (PP (IN in) (NP (NN guatemala) (NN city)))))))))) (. .)))
 [nsubjpass(kidnapped-23, oqueli-1), conj_and(oqueli-1, 45-3), nsubjpass(kidnapped-23, 45-3), nn(flores-7, gilda-6), conj_and(oqueli-1, flores-7), nsubjpass(kidnapped-23, flores-7), det(member-10, a-9), appos(oqueli-1, member-10), det(-rrb--18, the-12), amod(-rrb--18, democratic-13), amod(-rrb--18, socialist-14), nn(-rrb--18, party-15), nn(-rrb--18, -lrb--16), nn(-rrb--18, psd-17), prep_of(member-10, -rrb--18), prep_of(member-10, guatemala-20), auxpass(kidnapped-23, were-22), root(ROOT-0, kidnapped-23), mark(were-26, while-24), nsubj(were-26, they-25), advcl(kidnapped-23, were-26), poss(way-29, their-28), prep_on(were-26, way-29), det(airport-33, la-31), nn(airport-33, aurora-32), prep_to(were-26, airport-33), nn(city-36, guatemala-35), prep_in(airport-33, city-36)]
-PERP ===>> null
-VICTIM ===>> oqueli
+
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
@@ -634,29 +616,29 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> OQUELI /
 
 DEV-MUC3-0034 :
 VERB: ATTACKED
 let us remember that between the night of 15 november and early morning of 16 november , several offices of labor unions and houses of opposition members were attacked . 
-(ROOT (S (S (VP (VB let) (S (NP (PRP us)) (VP (VB remember) (NP (NP (DT that)) (PP (IN between) (NP (NP (NP (DT the) (NN night)) (PP (IN of) (NP (CD 15) (NN november)))) (CC and) (NP (NP (JJ early) (NN morning)) (PP (IN of) (NP (CD 16) (NN november))))))))))) (, ,) (NP (NP (JJ several) (NNS offices)) (PP (IN of) (NP (NP (NN labor) (NNS unions) (CC and) (NNS houses)) (PP (IN of) (NP (NN opposition) (NNS members)))))) (VP (VBD were) (VP (VBN attacked))) (. .)))
 [ccomp(attacked-29, let-1), nsubj(remember-3, us-2), ccomp(let-1, remember-3), dobj(remember-3, that-4), det(night-7, the-6), prep_between(that-4, night-7), num(november-10, 15-9), prep_of(night-7, november-10), amod(morning-13, early-12), prep_between(that-4, morning-13), conj_and(night-7, morning-13), num(november-16, 16-15), prep_of(morning-13, november-16), amod(offices-19, several-18), nsubjpass(attacked-29, offices-19), nn(unions-22, labor-21), prep_of(offices-19, unions-22), prep_of(offices-19, houses-24), conj_and(unions-22, houses-24), nn(members-27, opposition-26), prep_of(unions-22, members-27), auxpass(attacked-29, were-28), root(ROOT-0, attacked-29)]
-PERP ===>> null
-VICTIM ===>> offices
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 let us remember that after the masssacre of the jesuits , the officers shouted over loudspeakers that they had killed ellacuria and that they were going to continue killing communists . 
-(ROOT (S (VP (VB let) (S (NP (PRP us)) (VP (VB remember) (SBAR (IN that) (S (PP (IN after) (NP (NP (DT the) (NN masssacre)) (PP (IN of) (NP (DT the) (NNS jesuits))))) (, ,) (NP (DT the) (NNS officers)) (VP (VBD shouted) (PP (IN over) (NP (NNS loudspeakers))) (SBAR (SBAR (IN that) (S (NP (PRP they)) (VP (VBD had) (VP (VBN killed) (NP (NN ellacuria)))))) (CC and) (SBAR (IN that) (S (NP (PRP they)) (VP (VBD were) (VP (VBG going) (S (VP (TO to) (VP (VB continue) (NP (VBG killing) (NNS communists)))))))))))))))) (. .)))
 [root(ROOT-0, let-1), nsubj(remember-3, us-2), ccomp(let-1, remember-3), complm(shouted-14, that-4), det(masssacre-7, the-6), prep_after(shouted-14, masssacre-7), det(jesuits-10, the-9), prep_of(masssacre-7, jesuits-10), det(officers-13, the-12), nsubj(shouted-14, officers-13), ccomp(remember-3, shouted-14), prep_over(shouted-14, loudspeakers-16), complm(killed-20, that-17), nsubj(killed-20, they-18), aux(killed-20, had-19), ccomp(shouted-14, killed-20), dobj(killed-20, ellacuria-21), complm(going-26, that-23), nsubj(going-26, they-24), xsubj(continue-28, they-24), aux(going-26, were-25), ccomp(shouted-14, going-26), conj_and(killed-20, going-26), aux(continue-28, to-27), xcomp(going-26, continue-28), amod(communists-30, killing-29), dobj(continue-28, communists-30)]
-PERP ===>> they
-VICTIM ===>> ellacuria
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> THEY /
+VICTIM ==>> OFFICES /ELLACURIA /
 
 DEV-MUC3-0035 :
 VERB: ATTACKED
@@ -670,21 +652,19 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0036 :
 VERB: ATTACKED
 VERB: DESTROYED
 VERB: KIDNAPPED
 both bodies were found today in an area near guatemala and el salvador border after the victims were kidnapped in guatemala city yesterday . 
-(ROOT (S (NP (DT both) (NNS bodies)) (VP (VBD were) (VP (VBN found) (NP (NN today)) (PP (IN in) (NP (NP (DT an) (NN area)) (PP (IN near) (NP (NN guatemala) (CC and) (NN el) (NN salvador) (NN border))))) (SBAR (IN after) (S (NP (DT the) (NNS victims)) (VP (VBD were) (VP (VBN kidnapped) (PP (IN in) (NP (NN guatemala) (NN city))) (NP (NN yesterday)))))))) (. .)))
 [det(bodies-2, both-1), nsubjpass(found-4, bodies-2), auxpass(found-4, were-3), root(ROOT-0, found-4), tmod(found-4, today-5), det(area-8, an-7), prep_in(found-4, area-8), nn(border-14, guatemala-10), conj_and(guatemala-10, el-12), nn(border-14, el-12), nn(border-14, salvador-13), prep_near(area-8, border-14), mark(kidnapped-19, after-15), det(victims-17, the-16), nsubjpass(kidnapped-19, victims-17), auxpass(kidnapped-19, were-18), advcl(found-4, kidnapped-19), nn(city-22, guatemala-21), prep_in(kidnapped-19, city-22), tmod(kidnapped-19, yesterday-23)]
-PERP ===>> null
-VICTIM ===>> victims
+
 on friday morning , while on his way to la aurora airport to catch a plane to nicaragua , he was kidnapped by `` heavily armed men , '' according to the mnr . 
-(ROOT (S (PP (IN on) (NP (JJ friday) (NN morning))) (, ,) (ADVP (IN while) (PP (IN on) (NP (NP (PRP$ his) (NN way)) (PP (TO to) (NP (DT la) (NN aurora) (NN airport))) (S (VP (TO to) (VP (VB catch) (NP (DT a) (NN plane)) (PP (TO to) (NP (NN nicaragua))))))))) (, ,) (NP (PRP he)) (VP (VBD was) (VP (VBN kidnapped) (PP (IN by) (`` ``) (NP (ADJP (RB heavily) (JJ armed)) (NNS men))) (, ,) ('' '') (PP (VBG according) (PP (TO to) (NP (DT the) (NN mnr)))))) (. .)))
 [amod(morning-3, friday-2), prep_on(kidnapped-22, morning-3), advmod(kidnapped-22, while-5), poss(way-8, his-7), prep_on(while-5, way-8), det(airport-12, la-10), nn(airport-12, aurora-11), prep_to(way-8, airport-12), aux(catch-14, to-13), infmod(way-8, catch-14), det(plane-16, a-15), dobj(catch-14, plane-16), prep_to(catch-14, nicaragua-18), nsubjpass(kidnapped-22, he-20), auxpass(kidnapped-22, was-21), root(ROOT-0, kidnapped-22), advmod(armed-26, heavily-25), amod(men-27, armed-26), agent(kidnapped-22, men-27), prepc_according_to(kidnapped-22, to-31), det(mnr-33, the-32), pobj(kidnapped-22, mnr-33)]
-PERP ===>> men
-VICTIM ===>> he
+
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
@@ -693,6 +673,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> MEN /
+VICTIM ==>> VICTIMS /HE /
 
 DEV-MUC3-0037 :
 VERB: ATTACKED
@@ -702,20 +684,18 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 government minister carlos morales said today that a `` foreign commando '' killed hector oqueli , leader of the salvadoran leftist party national revolutionary movement -lrb- mnr -rrb- , and guatemalan social democratic leader gilda flores in guatemala . 
-(ROOT (S (NP (NN government) (NN minister) (NNS carlos) (NNS morales)) (VP (VBD said) (NP (NN today)) (SBAR (IN that) (S (NP (DT a) (`` ``) (JJ foreign) (NN commando) ('' '')) (VP (VBD killed) (NP (NP (NN hector) (NNS oqueli)) (, ,) (NP (NP (NN leader)) (PP (IN of) (NP (DT the) (JJ salvadoran) (JJ leftist) (NN party) (JJ national) (NN revolutionary) (NN movement) (NNP -lrb-) (NNP mnr) (NNP -rrb-)))) (, ,) (CC and) (NP (JJ guatemalan) (JJ social) (JJ democratic) (NN leader) (NN gilda) (NNS flores))) (PP (IN in) (NP (NN guatemala))))))) (. .)))
 [nn(morales-4, government-1), nn(morales-4, minister-2), nn(morales-4, carlos-3), nsubj(said-5, morales-4), root(ROOT-0, said-5), tmod(said-5, today-6), complm(killed-13, that-7), det(commando-11, a-8), amod(commando-11, foreign-10), nsubj(killed-13, commando-11), ccomp(said-5, killed-13), nn(oqueli-15, hector-14), dobj(killed-13, oqueli-15), dobj(killed-13, leader-17), conj_and(oqueli-15, leader-17), det(-rrb--28, the-19), amod(-rrb--28, salvadoran-20), amod(-rrb--28, leftist-21), nn(-rrb--28, party-22), amod(-rrb--28, national-23), nn(-rrb--28, revolutionary-24), nn(-rrb--28, movement-25), nn(-rrb--28, -lrb--26), nn(-rrb--28, mnr-27), prep_of(leader-17, -rrb--28), amod(flores-36, guatemalan-31), amod(flores-36, social-32), amod(flores-36, democratic-33), nn(flores-36, leader-34), nn(flores-36, gilda-35), dobj(killed-13, flores-36), conj_and(oqueli-15, flores-36), prep_in(killed-13, guatemala-38)]
-PERP ===>> commando
-VICTIM ===>> oqueli
+
 morales said that the group has killed several people and has carried out various bomb attacks in guatemala . 
-(ROOT (S (NP (NNS morales)) (VP (VP (VBD said) (SBAR (IN that) (S (NP (DT the) (NN group)) (VP (VBZ has) (VP (VBN killed) (NP (JJ several) (NNS people))))))) (CC and) (VP (VBZ has) (VP (VBN carried) (PRT (RP out)) (NP (JJ various) (NN bomb) (NNS attacks)) (PP (IN in) (NP (NN guatemala)))))) (. .)))
 [nsubj(said-2, morales-1), nsubj(carried-12, morales-1), root(ROOT-0, said-2), complm(killed-7, that-3), det(group-5, the-4), nsubj(killed-7, group-5), aux(killed-7, has-6), ccomp(said-2, killed-7), amod(people-9, several-8), dobj(killed-7, people-9), aux(carried-12, has-11), conj_and(said-2, carried-12), prt(carried-12, out-13), amod(attacks-16, various-14), nn(attacks-16, bomb-15), dobj(carried-12, attacks-16), prep_in(carried-12, guatemala-18)]
-PERP ===>> group
-VICTIM ===>> people
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> COMMANDO /GROUP /
+VICTIM ==>> OQUELI /PEOPLE /
 
 DEV-MUC3-0038 :
 VERB: ATTACKED
@@ -729,6 +709,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0039 :
 VERB: ATTACKED
@@ -742,31 +724,25 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0040 :
 VERB: ATTACKED
 VERB: DESTROYED
 VERB: KIDNAPPED
 in an action that is unprecedented in colombia 's history of violence , unidentified persons kidnapped 31 people in the strife-torn banana-growing region of uraba , the antiouqia governor 's office reported today . 
-(ROOT (S (PP (IN in) (NP (NP (DT an) (NN action)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (ADJP (JJ unprecedented) (PP (IN in) (NP (NP (NP (NNP colombia) (POS 's)) (NN history)) (PP (IN of) (NP (NP (NN violence)) (, ,) (NP (NP (JJ unidentified) (NNS persons)) (VP (VBN kidnapped) (NP (NP (CD 31) (NNS people)) (PP (IN in) (NP (NP (DT the) (JJ strife-torn) (JJ banana-growing) (NN region)) (PP (IN of) (NP (NN uraba)))))))))))))))))) (, ,) (NP (NP (DT the) (NN antiouqia) (NN governor) (POS 's)) (NN office)) (VP (VBD reported) (NP (NN today))) (. .)))
 [det(action-3, an-2), nsubj(unprecedented-6, action-3), prep_in(reported-32, action-3), cop(unprecedented-6, is-5), rcmod(action-3, unprecedented-6), poss(history-10, colombia-8), prep_in(unprecedented-6, history-10), prep_of(history-10, violence-12), amod(persons-15, unidentified-14), appos(violence-12, persons-15), partmod(persons-15, kidnapped-16), num(people-18, 31-17), dobj(kidnapped-16, people-18), det(region-23, the-20), amod(region-23, strife-torn-21), amod(region-23, banana-growing-22), prep_in(people-18, region-23), prep_of(region-23, uraba-25), det(governor-29, the-27), nn(governor-29, antiouqia-28), poss(office-31, governor-29), nsubj(reported-32, office-31), root(ROOT-0, reported-32), tmod(reported-32, today-33)]
-PERP ===>> null
-VICTIM ===>> people
+
 the incident took place in puerto bello , a village in turbo municipality , 460 km northwest of bogota , where a group of heavily armed men forced the kidnapped villagers to climb into trucks and then took off for an unknown destination . 
-(ROOT (S (NP (DT the) (NN incident)) (VP (VBD took) (NP (NN place)) (PP (IN in) (NP (NP (NP (NN puerto) (NN bello)) (, ,) (NP (NP (DT a) (NN village)) (PP (IN in) (NP (NN turbo) (NN municipality)))) (, ,) (ADVP (NP (CD 460) (NN km)) (RB northwest))) (PP (IN of) (NP (NN bogota))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NP (DT a) (NN group)) (PP (IN of) (NP (ADJP (RB heavily) (JJ armed)) (NNS men)))) (VP (VP (VBD forced) (NP (DT the) (JJ kidnapped) (NNS villagers)) (S (VP (TO to) (VP (VB climb) (PP (IN into) (NP (NNS trucks))))))) (CC and) (VP (ADVP (RB then)) (VBD took) (PRT (RP off)) (PP (IN for) (NP (DT an) (JJ unknown) (NN destination)))))))) (. .)))
 [det(incident-2, the-1), nsubj(took-3, incident-2), root(ROOT-0, took-3), dobj(took-3, place-4), nn(bello-7, puerto-6), prep_in(took-3, bello-7), det(village-10, a-9), appos(bello-7, village-10), nn(municipality-13, turbo-12), prep_in(village-10, municipality-13), num(km-16, 460-15), npadvmod(northwest-17, km-16), advmod(bello-7, northwest-17), prep_of(bello-7, bogota-19), advmod(forced-28, where-21), det(group-23, a-22), nsubj(forced-28, group-23), nsubj(took-38, group-23), advmod(armed-26, heavily-25), amod(men-27, armed-26), prep_of(group-23, men-27), advcl(took-3, forced-28), det(villagers-31, the-29), amod(villagers-31, kidnapped-30), dobj(forced-28, villagers-31), aux(climb-33, to-32), xcomp(forced-28, climb-33), prep_into(climb-33, trucks-35), advmod(took-38, then-37), advcl(took-3, took-38), conj_and(forced-28, took-38), prt(took-38, off-39), det(destination-43, an-41), amod(destination-43, unknown-42), prep_for(took-38, destination-43)]
-PERP ===>> null
-VICTIM ===>> null
+
 regional authorities who escaped being kidnapped took a census of the population and determined that a total of 31 people were kidnapped . 
-(ROOT (S (NP (NP (JJ regional) (NNS authorities)) (SBAR (WHNP (WP who)) (S (VP (VBD escaped) (S (VP (VBG being) (VP (VBN kidnapped)))))))) (VP (VP (VBD took) (NP (NP (DT a) (NN census)) (PP (IN of) (NP (DT the) (NN population))))) (CC and) (VP (VBD determined) (SBAR (IN that) (S (NP (NP (DT a) (NN total)) (PP (IN of) (NP (CD 31) (NNS people)))) (VP (VBD were) (VP (VBN kidnapped))))))) (. .)))
 [amod(authorities-2, regional-1), nsubj(escaped-4, authorities-2), nsubj(took-7, authorities-2), nsubj(determined-14, authorities-2), rcmod(authorities-2, escaped-4), auxpass(kidnapped-6, being-5), xcomp(escaped-4, kidnapped-6), root(ROOT-0, took-7), det(census-9, a-8), dobj(took-7, census-9), det(population-12, the-11), prep_of(census-9, population-12), conj_and(took-7, determined-14), complm(kidnapped-22, that-15), det(total-17, a-16), nsubjpass(kidnapped-22, total-17), num(people-20, 31-19), prep_of(total-17, people-20), auxpass(kidnapped-22, were-21), ccomp(determined-14, kidnapped-22)]
-PERP ===>> null
-VICTIM ===>> total
+
 before the news of the mass kidnapping became known , the total persons kidnapped in colombia over the last 6 weeks was 85 , according to statistics of the colombian secret police . 
-(ROOT (S (SBAR (IN before) (S (NP (NP (DT the) (NN news)) (PP (IN of) (NP (DT the) (JJ mass) (NN kidnapping)))) (VP (VBD became) (ADJP (VBN known))))) (, ,) (NP (NP (DT the) (JJ total) (NNS persons)) (VP (VBN kidnapped) (PP (IN in) (NP (NP (NN colombia)) (PP (IN over) (NP (DT the) (JJ last) (CD 6) (NNS weeks))))))) (VP (VBD was) (NP (CD 85)) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (NNS statistics)) (PP (IN of) (NP (DT the) (JJ colombian) (JJ secret) (NN police))))))) (. .)))
 [mark(known-9, before-1), det(news-3, the-2), nsubjpass(known-9, news-3), det(kidnapping-7, the-5), amod(kidnapping-7, mass-6), prep_of(news-3, kidnapping-7), auxpass(known-9, became-8), advcl(85-23, known-9), det(persons-13, the-11), amod(persons-13, total-12), nsubj(85-23, persons-13), partmod(persons-13, kidnapped-14), prep_in(kidnapped-14, colombia-16), det(weeks-21, the-18), amod(weeks-21, last-19), num(weeks-21, 6-20), prep_over(colombia-16, weeks-21), cop(85-23, was-22), root(ROOT-0, 85-23), prepc_according_to(85-23, to-26), pobj(85-23, statistics-27), det(police-32, the-29), amod(police-32, colombian-30), amod(police-32, secret-31), prep_of(statistics-27, police-32)]
-PERP ===>> null
-VICTIM ===>> null
+
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
@@ -775,6 +751,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> PEOPLE /TOTAL /
 
 DEV-MUC3-0041 :
 VERB: ATTACKED
@@ -785,14 +763,14 @@ VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
 a car bomb exploded in front of the u.s. embassy residence in the peruvian capital 3 years later , and after that , explosives were hurled at the door of a house in the san borja neighborhood , where u.s. marines resided . 
-(ROOT (S (S (NP (DT a) (NN car) (NN bomb)) (VP (VBD exploded) (PP (IN in) (NP (NP (NN front)) (PP (IN of) (NP (DT the) (NN u.s.) (NN embassy) (NN residence))))) (PP (IN in) (NP (DT the) (NN peruvian) (NN capital)) (ADVP (NP (CD 3) (NNS years)) (RBR later))))) (, ,) (CC and) (S (PP (IN after) (NP (DT that))) (, ,) (NP (NNS explosives)) (VP (VBD were) (VP (VBN hurled) (PP (IN at) (NP (NP (DT the) (NN door)) (PP (IN of) (NP (DT a) (NN house))))) (PP (IN in) (NP (NP (DT the) (NN san) (NN borja) (NN neighborhood)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NN u.s.) (NNS marines)) (VP (VBN resided))))))))) (. .)))
 [det(bomb-3, a-1), nn(bomb-3, car-2), nsubj(exploded-4, bomb-3), root(ROOT-0, exploded-4), det(residence-11, the-8), nn(residence-11, u.s.-9), nn(residence-11, embassy-10), prep_in_front_of(exploded-4, residence-11), det(capital-15, the-13), nn(capital-15, peruvian-14), prep_in(exploded-4, capital-15), num(years-17, 3-16), npadvmod(later-18, years-17), advmod(exploded-4, later-18), prep_after(hurled-26, that-22), nsubjpass(hurled-26, explosives-24), auxpass(hurled-26, were-25), conj_and(exploded-4, hurled-26), det(door-29, the-28), prep_at(hurled-26, door-29), det(house-32, a-31), prep_of(door-29, house-32), det(neighborhood-37, the-34), nn(neighborhood-37, san-35), nn(neighborhood-37, borja-36), prep_in(hurled-26, neighborhood-37), advmod(resided-42, where-39), nn(marines-41, u.s.-40), nsubj(resided-42, marines-41), rcmod(neighborhood-37, resided-42)]
-PERP ===>> bomb
-VICTIM ===>> null
+
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> BOMB /
+VICTIM ==>> 
 
 DEV-MUC3-0042 :
 VERB: ATTACKED
@@ -806,6 +784,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0043 :
 VERB: ATTACKED
@@ -819,6 +799,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0044 :
 VERB: ATTACKED
@@ -832,6 +814,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0045  :
 VERB: ATTACKED
@@ -845,6 +829,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0046 :
 VERB: ATTACKED
@@ -858,6 +844,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0047 :
 VERB: ATTACKED
@@ -865,27 +853,23 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 the shining path guerrillas , who burned murdered peasants ' houses , charged them with collaborating with the army . 
-(ROOT (S (NP (NP (DT the) (VBG shining) (NN path) (NNS guerrillas)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD burned) (NP (NP (VBN murdered) (NNS peasants) (POS ')) (NNS houses))))) (, ,)) (VP (VBD charged) (NP (PRP them)) (PP (IN with) (S (VP (VBG collaborating) (PP (IN with) (NP (DT the) (NN army))))))) (. .)))
 [det(guerrillas-4, the-1), amod(guerrillas-4, shining-2), nn(guerrillas-4, path-3), nsubj(burned-7, guerrillas-4), nsubj(charged-13, guerrillas-4), rcmod(guerrillas-4, burned-7), amod(peasants-9, murdered-8), poss(houses-11, peasants-9), dobj(burned-7, houses-11), root(ROOT-0, charged-13), dobj(charged-13, them-14), prepc_with(charged-13, collaborating-16), det(army-19, the-18), prep_with(collaborating-16, army-19)]
-PERP ===>> null
-VICTIM ===>> null
+
 VERB: ABDUCTED
 VERB: KILLED
 according to military sources and people who arrived today in ayacucho from the la mar area , 44 peasants have been killed in two townships of la mar province , ayacucho department . 
-(ROOT (S (PP (VBG according) (PP (TO to) (NP (NP (JJ military) (NNS sources) (CC and) (NNS people)) (SBAR (WHNP (WP who)) (S (VP (VBD arrived) (NP (NN today)) (PP (IN in) (NP (NP (NN ayacucho)) (PP (IN from) (NP (DT the) (NNP la) (FW mar) (NN area))))))))))) (, ,) (NP (CD 44) (NNS peasants)) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN in) (NP (NP (CD two) (NNS townships)) (PP (IN of) (NP (NP (FW la) (FW mar) (NN province)) (, ,) (NP (NN ayacucho) (NN department))))))))) (. .)))
 [prepc_according_to(killed-22, to-2), amod(sources-4, military-3), nsubj(arrived-8, sources-4), pobj(killed-22, sources-4), conj_and(sources-4, people-6), nsubj(arrived-8, people-6), pobj(killed-22, people-6), rcmod(sources-4, arrived-8), tmod(arrived-8, today-9), prep_in(arrived-8, ayacucho-11), det(area-16, the-13), nn(area-16, la-14), nn(area-16, mar-15), prep_from(ayacucho-11, area-16), num(peasants-19, 44-18), nsubjpass(killed-22, peasants-19), aux(killed-22, have-20), auxpass(killed-22, been-21), root(ROOT-0, killed-22), num(townships-25, two-24), prep_in(killed-22, townships-25), nn(province-29, la-27), nn(province-29, mar-28), prep_of(townships-25, province-29), nn(department-32, ayacucho-31), appos(province-29, department-32)]
-PERP ===>> null
-VICTIM ===>> peasants
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 yesterday a column of shining path terrorists arrived in the village of chinchipe , in the jungle province of la mar , and shot 16 peasants who were members of the peasant patrols that oppose the terrorists . 
-(ROOT (S (NP (NN yesterday)) (NP (NP (DT a) (NN column)) (PP (IN of) (NP (VBG shining) (NN path) (NNS terrorists)))) (VP (VP (VBN arrived) (PP (IN in) (NP (NP (DT the) (NN village)) (PP (IN of) (NP (NN chinchipe))))) (, ,) (PP (IN in) (NP (NP (DT the) (NN jungle) (NN province)) (PP (IN of) (NP (FW la) (FW mar))))) (, ,)) (CC and) (VP (VBN shot) (NP (NP (CD 16) (NNS peasants)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (NP (NP (NNS members)) (PP (IN of) (NP (DT the) (NN peasant) (NNS patrols))) (SBAR (WHNP (WDT that)) (S (VP (VBP oppose) (NP (DT the) (NNS terrorists)))))))))))) (. .)))
 [tmod(arrived-8, yesterday-1), det(column-3, a-2), nsubj(arrived-8, column-3), nsubj(shot-24, column-3), amod(terrorists-7, shining-5), nn(terrorists-7, path-6), prep_of(column-3, terrorists-7), root(ROOT-0, arrived-8), det(village-11, the-10), prep_in(arrived-8, village-11), prep_of(village-11, chinchipe-13), det(province-18, the-16), nn(province-18, jungle-17), prep_in(arrived-8, province-18), nn(mar-21, la-20), prep_of(province-18, mar-21), conj_and(arrived-8, shot-24), num(peasants-26, 16-25), dobj(shot-24, peasants-26), nsubj(members-29, peasants-26), cop(members-29, were-28), rcmod(peasants-26, members-29), nsubj(oppose-35, members-29), det(patrols-33, the-31), nn(patrols-33, peasant-32), prep_of(members-29, patrols-33), rcmod(members-29, oppose-35), det(terrorists-37, the-36), dobj(oppose-35, terrorists-37)]
-PERP ===>> column
-VICTIM ===>> peasants
+
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> COLUMN /
+VICTIM ==>> PEASANTS /PEASANTS /
 
 DEV-MUC3-0048 :
 VERB: ATTACKED
@@ -895,24 +879,22 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 he replaces major horacio fernandez cutiello who was killed during the attack on the 3d regiment on 23 january . 
-(ROOT (S (NP (PRP he)) (VP (VBZ replaces) (NP (NP (JJ major) (NN horacio) (NN fernandez) (NN cutiello)) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN killed) (PP (IN during) (NP (NP (DT the) (NN attack)) (PP (IN on) (NP (NP (DT the) (JJ 3d) (NN regiment)) (PP (IN on) (NP (CD 23) (NN january))))))))))))) (. .)))
 [nsubj(replaces-2, he-1), root(ROOT-0, replaces-2), amod(cutiello-6, major-3), nn(cutiello-6, horacio-4), nn(cutiello-6, fernandez-5), dobj(replaces-2, cutiello-6), nsubjpass(killed-9, cutiello-6), auxpass(killed-9, was-8), rcmod(cutiello-6, killed-9), det(attack-12, the-11), prep_during(killed-9, attack-12), det(regiment-16, the-14), amod(regiment-16, 3d-15), prep_on(attack-12, regiment-16), num(january-19, 23-18), prep_on(regiment-16, january-19)]
-PERP ===>> null
-VICTIM ===>> cutiello
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> CUTIELLO /
 
 DEV-MUC3-0049 :
 VERB: ATTACKED
 VERB: DESTROYED
 drug trafficking with regard to the battle against the drug traffic , he cited the work performed by the special forces to battle drug trafficking which , according to his account , destroyed hundred of cocaine factories and processing pits , in addition to confiscating drugs and arresting persons linked with their production or illicit trafficking . 
-(ROOT (S (S (NP (NP (NN drug) (NN trafficking)) (PP (IN with) (NP (NP (NN regard)) (PP (TO to) (NP (NP (DT the) (NN battle)) (PP (IN against) (NP (DT the) (NN drug) (NN traffic))))))))) (, ,) (NP (PRP he)) (VP (VBD cited) (SBAR (S (NP (DT the) (NN work)) (VP (VBD performed) (PP (IN by) (NP (DT the) (JJ special) (NNS forces))) (PP (TO to) (NP (NP (NN battle) (NN drug) (NN trafficking)) (SBAR (WHNP (WDT which)) (S (, ,) (PP (VBG according) (PP (TO to) (NP (PRP$ his) (NN account)))) (, ,) (VP (VBD destroyed) (NP (NP (CD hundred)) (PP (IN of) (NP (NN cocaine) (NNS factories) (CC and) (NN processing) (NNS pits)))) (, ,) (PP (IN in) (NP (NP (NN addition)) (PP (TO to) (S (VP (VP (VBG confiscating) (NP (NNS drugs))) (CC and) (VP (VBG arresting) (NP (NP (NNS persons)) (VP (VBN linked) (PP (IN with) (NP (NP (PRP$ their) (NN production)) (CC or) (NP (JJ illicit) (NN trafficking))))))))))))))))))))) (. .)))
 [nn(trafficking-2, drug-1), ccomp(cited-14, trafficking-2), det(battle-7, the-6), prep_with_regard_to(trafficking-2, battle-7), det(traffic-11, the-9), nn(traffic-11, drug-10), prep_against(battle-7, traffic-11), nsubj(cited-14, he-13), root(ROOT-0, cited-14), det(work-16, the-15), nsubj(performed-17, work-16), ccomp(cited-14, performed-17), det(forces-21, the-19), amod(forces-21, special-20), prep_by(performed-17, forces-21), nn(trafficking-25, battle-23), nn(trafficking-25, drug-24), prep_to(performed-17, trafficking-25), nsubj(destroyed-33, trafficking-25), prepc_according_to(destroyed-33, to-29), poss(account-31, his-30), pobj(destroyed-33, account-31), rcmod(trafficking-25, destroyed-33), dobj(destroyed-33, hundred-34), nn(factories-37, cocaine-36), prep_of(hundred-34, factories-37), nn(pits-40, processing-39), prep_of(hundred-34, pits-40), conj_and(factories-37, pits-40), prepc_in_addition_to(destroyed-33, confiscating-45), dobj(confiscating-45, drugs-46), prepc_in_addition_to(destroyed-33, arresting-48), conj_and(confiscating-45, arresting-48), dobj(arresting-48, persons-49), partmod(persons-49, linked-50), poss(production-53, their-52), prep_with(linked-50, production-53), amod(trafficking-56, illicit-55), prep_with(linked-50, trafficking-56), conj_or(production-53, trafficking-56)]
-PERP ===>> trafficking
-VICTIM ===>> hundred
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
@@ -922,6 +904,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> TRAFFICKING /
+VICTIM ==>> HUNDRED /
 
 DEV-MUC3-0050 :
 VERB: ATTACKED
@@ -935,29 +919,29 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0051 :
 VERB: ATTACKED
 VERB: DESTROYED
 it also destroyed a public telephone booth and water pipes . 
-(ROOT (S (NP (PRP it)) (ADVP (RB also)) (VP (VBD destroyed) (NP (NP (DT a) (JJ public) (NN telephone) (NN booth)) (CC and) (NP (NN water) (NNS pipes)))) (. .)))
 [nsubj(destroyed-3, it-1), advmod(destroyed-3, also-2), root(ROOT-0, destroyed-3), det(booth-7, a-4), amod(booth-7, public-5), nn(booth-7, telephone-6), dobj(destroyed-3, booth-7), nn(pipes-10, water-9), dobj(destroyed-3, pipes-10), conj_and(booth-7, pipes-10)]
-PERP ===>> it
-VICTIM ===>> booth
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
 a bomb exploded in a pilmaiquen alley destroying windows and water pipes . 
-(ROOT (S (NP (DT a) (NN bomb)) (VP (VBD exploded) (PP (IN in) (NP (DT a) (NN pilmaiquen) (NN alley))) (S (VP (VBG destroying) (NP (NNS windows) (CC and) (NN water) (NNS pipes))))) (. .)))
 [det(bomb-2, a-1), nsubj(exploded-3, bomb-2), root(ROOT-0, exploded-3), det(alley-7, a-5), nn(alley-7, pilmaiquen-6), prep_in(exploded-3, alley-7), xcomp(exploded-3, destroying-8), dobj(destroying-8, windows-9), nn(pipes-12, water-11), dobj(destroying-8, pipes-12), conj_and(windows-9, pipes-12)]
-PERP ===>> bomb
-VICTIM ===>> null
+
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> IT /BOMB /
+VICTIM ==>> BOOTH /
 
 DEV-MUC3-0052 :
 VERB: ATTACKED
@@ -965,32 +949,26 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 since the up was founded in 1985 , approximately 900 of its members have been murdered . 
-(ROOT (S (SBAR (IN since) (S (NP (DT the) (RB up)) (VP (VBD was) (VP (VBN founded) (PP (IN in) (NP (CD 1985))))))) (, ,) (NP (NP (QP (RB approximately) (CD 900))) (PP (IN of) (NP (PRP$ its) (NNS members)))) (VP (VBP have) (VP (VBN been) (VP (VBN murdered)))) (. .)))
 [mark(founded-5, since-1), det(up-3, the-2), nsubjpass(founded-5, up-3), auxpass(founded-5, was-4), advcl(murdered-16, founded-5), prep_in(founded-5, 1985-7), quantmod(900-10, approximately-9), nsubjpass(murdered-16, 900-10), poss(members-13, its-12), prep_of(900-10, members-13), aux(murdered-16, have-14), auxpass(murdered-16, been-15), root(ROOT-0, murdered-16)]
-PERP ===>> null
-VICTIM ===>> 900
+
 VERB: ABDUCTED
 VERB: KILLED
 it has been officially confirmed that two leaders of the leftist patriotic union -lrb- up -rrb- were killed by unknown persons near rio blanco municipality , tolima department . 
-(ROOT (S (NP (PRP it)) (VP (VBZ has) (VP (VBN been) (VP (ADVP (RB officially)) (VBN confirmed) (SBAR (IN that) (S (NP (NP (CD two) (NNS leaders)) (PP (IN of) (NP (NP (DT the) (JJ leftist) (JJ patriotic) (NN union)) (VP (VBG -lrb-) (PRT (RP up)) (ADVP (RB -rrb-)))))) (VP (VBD were) (VP (VBN killed) (PP (IN by) (NP (NP (JJ unknown) (NNS persons)) (PP (IN near) (NP (NP (NN rio) (NN blanco) (NN municipality)) (, ,) (NP (NN tolima) (NN department))))))))))))) (. .)))
 [nsubjpass(confirmed-5, it-1), aux(confirmed-5, has-2), auxpass(confirmed-5, been-3), advmod(confirmed-5, officially-4), root(ROOT-0, confirmed-5), complm(killed-18, that-6), num(leaders-8, two-7), nsubjpass(killed-18, leaders-8), det(union-13, the-10), amod(union-13, leftist-11), amod(union-13, patriotic-12), prep_of(leaders-8, union-13), partmod(union-13, -lrb--14), prt(-lrb--14, up-15), advmod(-lrb--14, -rrb--16), auxpass(killed-18, were-17), ccomp(confirmed-5, killed-18), amod(persons-21, unknown-20), agent(killed-18, persons-21), nn(municipality-25, rio-23), nn(municipality-25, blanco-24), prep_near(persons-21, municipality-25), nn(department-28, tolima-27), appos(municipality-25, department-28)]
-PERP ===>> persons
-VICTIM ===>> leaders
+
 so far this year , 12 members of the up , the largest leftist political force in colombia , have been killed by rightist paramilitary groups . 
-(ROOT (S (ADVP (RB so) (RB far)) (NP (DT this) (NN year)) (, ,) (NP (NP (NP (CD 12) (NNS members)) (PP (IN of) (NP (DT the) (RB up)))) (, ,) (NP (NP (DT the) (JJS largest) (JJ leftist) (JJ political) (NN force)) (PP (IN in) (NP (NN colombia)))) (, ,)) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN by) (NP (JJ rightist) (JJ paramilitary) (NNS groups)))))) (. .)))
 [advmod(far-2, so-1), advmod(killed-22, far-2), det(year-4, this-3), tmod(killed-22, year-4), num(members-7, 12-6), nsubjpass(killed-22, members-7), prep(members-7, of-8), det(up-10, the-9), pobj(of-8, up-10), det(force-16, the-12), amod(force-16, largest-13), amod(force-16, leftist-14), amod(force-16, political-15), appos(members-7, force-16), prep_in(force-16, colombia-18), aux(killed-22, have-20), auxpass(killed-22, been-21), root(ROOT-0, killed-22), amod(groups-26, rightist-24), amod(groups-26, paramilitary-25), agent(killed-22, groups-26)]
-PERP ===>> groups
-VICTIM ===>> members
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 it was learned that cristobal perez and ruben dario ramirez were shot to death by a group of heavily armed men . 
-(ROOT (S (NP (PRP it)) (VP (VBD was) (VP (VBN learned) (SBAR (IN that) (S (NP (JJ cristobal) (NN perez) (CC and) (NN ruben) (NN dario) (NNS ramirez)) (VP (VBD were) (VP (VBN shot) (PP (TO to) (NP (NN death))) (PP (IN by) (NP (NP (DT a) (NN group)) (PP (IN of) (NP (ADJP (RB heavily) (JJ armed)) (NNS men))))))))))) (. .)))
 [nsubjpass(learned-3, it-1), auxpass(learned-3, was-2), root(ROOT-0, learned-3), complm(shot-12, that-4), amod(perez-6, cristobal-5), nsubjpass(shot-12, perez-6), nn(ramirez-10, ruben-8), nn(ramirez-10, dario-9), conj_and(perez-6, ramirez-10), nsubjpass(shot-12, ramirez-10), auxpass(shot-12, were-11), ccomp(learned-3, shot-12), prep_to(shot-12, death-14), det(group-17, a-16), agent(shot-12, group-17), advmod(armed-20, heavily-19), amod(men-21, armed-20), prep_of(group-17, men-21)]
-PERP ===>> group
-VICTIM ===>> perez
+
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> PERSONS /GROUPS /GROUP /
+VICTIM ==>> 900 /LEADERS /MEMBERS /PEREZ /
 
 DEV-MUC3-0053 :
 VERB: ATTACKED
@@ -1004,6 +982,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0054 :
 VERB: ATTACKED
@@ -1011,10 +991,8 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 colleagues of the 12 who were murdered carefully sifted through the soil , looking for more evidence . 
-(ROOT (S (NP (NP (NNS colleagues)) (PP (IN of) (NP (DT the) (CD 12))) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN murdered)))))) (ADVP (RB carefully)) (VP (VBN sifted) (PP (IN through) (NP (NP (DT the) (NN soil)) (, ,) (VP (VBG looking) (PP (IN for) (NP (JJR more) (NN evidence))))))) (. .)))
 [nsubjpass(murdered-7, colleagues-1), nsubj(sifted-9, colleagues-1), det(12-4, the-3), prep_of(colleagues-1, 12-4), auxpass(murdered-7, were-6), rcmod(colleagues-1, murdered-7), advmod(sifted-9, carefully-8), root(ROOT-0, sifted-9), det(soil-12, the-11), prep_through(sifted-9, soil-12), partmod(soil-12, looking-14), amod(evidence-17, more-16), prep_for(looking-14, evidence-17)]
-PERP ===>> null
-VICTIM ===>> colleagues
+
 VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
@@ -1022,6 +1000,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> COLLEAGUES /
 
 DEV-MUC3-0055 :
 VERB: ATTACKED
@@ -1035,6 +1015,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0056 :
 VERB: ATTACKED
@@ -1048,6 +1030,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0057 :
 VERB: ATTACKED
@@ -1061,6 +1045,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0058 :
 VERB: ATTACKED
@@ -1070,77 +1056,61 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 thus , it can be deduced that they were killed after being mercilessly tortured . '' 
-(ROOT (S (ADVP (RB thus)) (, ,) (NP (PRP it)) (VP (MD can) (VP (VB be) (VP (VBN deduced) (SBAR (IN that) (S (NP (PRP they)) (VP (VBD were) (VP (VBN killed) (PP (IN after) (S (VP (VBG being) (ADJP (ADVP (RB mercilessly)) (JJ tortured)))))))))))) (. .) ('' '')))
 [advmod(deduced-6, thus-1), nsubjpass(deduced-6, it-3), aux(deduced-6, can-4), auxpass(deduced-6, be-5), root(ROOT-0, deduced-6), complm(killed-10, that-7), nsubjpass(killed-10, they-8), auxpass(killed-10, were-9), ccomp(deduced-6, killed-10), cop(tortured-14, being-12), advmod(tortured-14, mercilessly-13), prepc_after(killed-10, tortured-14)]
-PERP ===>> null
-VICTIM ===>> they
+
 later , the soldiers rounded up peasants from the cayara area `` and , after forcing the men and women to lie prone in separate rows , killed the men one by one . '' 
-(ROOT (S (ADVP (RB later)) (, ,) (NP (DT the) (NNS soldiers)) (VP (VBD rounded) (PRT (RP up)) (NP (NP (NNS peasants)) (PP (IN from) (NP (DT the) (NN cayara) (NN area)))) (SBAR (`` ``) (S (NP (NNP and)) (, ,) (PP (IN after) (S (VP (VBG forcing) (S (NP (DT the) (NNS men) (CC and) (NNS women)) (VP (TO to) (VP (VB lie) (ADJP (JJ prone)) (PP (IN in) (NP (JJ separate) (NNS rows))))))))) (, ,) (VP (VBD killed) (NP (DT the) (NNS men) (NN one)) (PP (IN by) (NP (CD one))))))) (. .) ('' '')))
 [advmod(rounded-5, later-1), det(soldiers-4, the-3), nsubj(rounded-5, soldiers-4), root(ROOT-0, rounded-5), prt(rounded-5, up-6), dobj(rounded-5, peasants-7), det(area-11, the-9), nn(area-11, cayara-10), prep_from(peasants-7, area-11), nsubj(killed-28, and-13), prepc_after(killed-28, forcing-16), det(men-18, the-17), nsubj(lie-22, men-18), conj_and(men-18, women-20), nsubj(lie-22, women-20), aux(lie-22, to-21), xcomp(forcing-16, lie-22), acomp(lie-22, prone-23), amod(rows-26, separate-25), prep_in(lie-22, rows-26), dep(rounded-5, killed-28), det(one-31, the-29), nn(one-31, men-30), dobj(killed-28, one-31), prep_by(killed-28, one-33)]
-PERP ===>> and
-VICTIM ===>> one
+
 the three women supplied a list of 57 people who were killed in the massacre and 18 who are missing , including a 20-year-old nurse . 
-(ROOT (S (NP (DT the) (CD three) (NNS women)) (VP (VBD supplied) (NP (NP (DT a) (NN list)) (PP (IN of) (NP (NP (CD 57) (NNS people)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN killed) (PP (IN in) (NP (NP (DT the) (NN massacre)) (CC and) (NP (NP (CD 18)) (SBAR (WHNP (WP who)) (S (VP (VBP are) (ADJP (VBG missing)))))))))))) (, ,) (PP (VBG including) (NP (DT a) (JJ 20-year-old) (NN nurse))))))) (. .)))
 [det(women-3, the-1), num(women-3, three-2), nsubj(supplied-4, women-3), root(ROOT-0, supplied-4), det(list-6, a-5), dobj(supplied-4, list-6), num(people-9, 57-8), prep_of(list-6, people-9), nsubjpass(killed-12, people-9), auxpass(killed-12, were-11), rcmod(people-9, killed-12), det(massacre-15, the-14), prep_in(killed-12, massacre-15), prep_in(killed-12, 18-17), conj_and(massacre-15, 18-17), nsubj(missing-20, 18-17), cop(missing-20, are-19), rcmod(18-17, missing-20), det(nurse-25, a-23), amod(nurse-25, 20-year-old-24), prep_including(people-9, nurse-25)]
-PERP ===>> null
-VICTIM ===>> people
+
 cayara is 80 km from accomarca , where an army patrol reportedly killed 69 peasants , including men , women , and children , and burned their homes in 1985 . 
-(ROOT (S (NP (NN cayara)) (VP (VBZ is) (NP (NP (CD 80) (NN km)) (PP (IN from) (NP (NP (NN accomarca)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (DT an) (NN army) (NN patrol)) (VP (VP (ADVP (RB reportedly)) (VBD killed) (NP (NP (CD 69) (NNS peasants)) (, ,) (PP (VBG including) (NP (NNS men) (, ,) (NNS women) (, ,) (CC and) (NNS children))))) (, ,) (CC and) (VP (VBD burned) (NP (PRP$ their) (NNS homes)) (PP (IN in) (NP (CD 1985))))))))))) (. .)))
 [nsubj(km-4, cayara-1), cop(km-4, is-2), num(km-4, 80-3), root(ROOT-0, km-4), prep_from(km-4, accomarca-6), advmod(killed-13, where-8), det(patrol-11, an-9), nn(patrol-11, army-10), nsubj(killed-13, patrol-11), nsubj(burned-26, patrol-11), advmod(killed-13, reportedly-12), rcmod(accomarca-6, killed-13), num(peasants-15, 69-14), dobj(killed-13, peasants-15), nn(children-23, men-18), prep_including(peasants-15, women-20), conj_and(children-23, women-20), prep_including(peasants-15, children-23), rcmod(accomarca-6, burned-26), conj_and(killed-13, burned-26), poss(homes-28, their-27), dobj(burned-26, homes-28), prep_in(burned-26, 1985-30)]
-PERP ===>> patrol
-VICTIM ===>> peasants
+
 six shining path terrorists were also killed . 
-(ROOT (S (NP (CD six) (VBG shining) (NN path) (NNS terrorists)) (VP (VBD were) (VP (ADVP (RB also)) (VBN killed))) (. .)))
 [num(terrorists-4, six-1), amod(terrorists-4, shining-2), nn(terrorists-4, path-3), nsubjpass(killed-7, terrorists-4), auxpass(killed-7, were-5), advmod(killed-7, also-6), root(ROOT-0, killed-7)]
-PERP ===>> null
-VICTIM ===>> terrorists
+
 el nacional has published a list of 47 people killed and 50 people missing . 
-(ROOT (S (NP (NN el) (NN nacional)) (VP (VBZ has) (VP (VBN published) (NP (NP (DT a) (NN list)) (PP (IN of) (NP (CD 47) (NNS people))) (UCP (VP (VBN killed)) (CC and) (ADJP (NP (CD 50) (NNS people)) (JJ missing)))))) (. .)))
 [nn(nacional-2, el-1), nsubj(published-4, nacional-2), aux(published-4, has-3), root(ROOT-0, published-4), det(list-6, a-5), dobj(published-4, list-6), num(people-9, 47-8), prep_of(list-6, people-9), dep(list-6, killed-10), num(people-13, 50-12), npadvmod(missing-14, people-13), dep(list-6, missing-14), conj_and(killed-10, missing-14)]
-PERP ===>> null
-VICTIM ===>> null
+
 the newspaper claims that at least 100 soldiers `` separated the men and women and killed the men inside the church . '' 
-(ROOT (S (NP (DT the) (NN newspaper)) (VP (VBZ claims) (SBAR (IN that) (S (NP (QP (IN at) (JJS least) (CD 100)) (NNS soldiers)) (`` ``) (VP (VP (VBZ separated) (NP (DT the) (NNS men) (CC and) (NNS women))) (CC and) (VP (VBD killed) (NP (DT the) (NNS men)) (PP (IN inside) (NP (DT the) (NN church)))))))) (. .) ('' '')))
 [det(newspaper-2, the-1), nsubj(claims-3, newspaper-2), root(ROOT-0, claims-3), complm(separated-10, that-4), quantmod(100-7, at-5), mwe(at-5, least-6), pobj(at-5, least-6), num(soldiers-8, 100-7), nsubj(separated-10, soldiers-8), nsubj(killed-16, soldiers-8), ccomp(claims-3, separated-10), det(men-12, the-11), dobj(separated-10, men-12), dobj(separated-10, women-14), conj_and(men-12, women-14), ccomp(claims-3, killed-16), conj_and(separated-10, killed-16), det(men-18, the-17), dobj(killed-16, men-18), det(church-21, the-20), prep_inside(killed-16, church-21)]
-PERP ===>> soldiers
-VICTIM ===>> men
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> AND /PATROL /SOLDIERS /
+VICTIM ==>> THEY /ONE /PEOPLE /PEASANTS /TERRORISTS /MEN /
 
 DEV-MUC3-0059 :
 VERB: ATTACKED
 according to the official report the presumed members of the shining path group attacked the community meeting , throwing grenades and firing their guns at the people in the gathering . 
-(ROOT (S (PP (VBG according) (PP (TO to) (NP (DT the) (JJ official) (NN report)))) (NP (NP (DT the) (VBN presumed) (NNS members)) (PP (IN of) (NP (DT the) (VBG shining) (NN path) (NN group)))) (VP (VBD attacked) (NP (DT the) (NN community) (NN meeting)) (, ,) (S (VP (VP (VBG throwing) (NP (NNS grenades))) (CC and) (VP (VBG firing) (NP (PRP$ their) (NNS guns)) (PP (IN at) (NP (NP (DT the) (NNS people)) (PP (IN in) (NP (DT the) (NN gathering))))))))) (. .)))
 [prepc_according_to(attacked-14, to-2), det(report-5, the-3), amod(report-5, official-4), pobj(attacked-14, report-5), det(members-8, the-6), amod(members-8, presumed-7), nsubj(attacked-14, members-8), det(group-13, the-10), amod(group-13, shining-11), nn(group-13, path-12), prep_of(members-8, group-13), root(ROOT-0, attacked-14), det(meeting-17, the-15), nn(meeting-17, community-16), dobj(attacked-14, meeting-17), dep(attacked-14, throwing-19), dobj(throwing-19, grenades-20), dep(attacked-14, firing-22), conj_and(throwing-19, firing-22), poss(guns-24, their-23), dobj(firing-22, guns-24), det(people-27, the-26), prep_at(firing-22, people-27), det(gathering-30, the-29), prep_in(people-27, gathering-30)]
-PERP ===>> members
-VICTIM ===>> meeting
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 lima , 22 jan 89 -lrb- efe -rrb- -- -lrb- excerpt -rrb- three people have been killed , and five people , including a mayor , were seriously wounded as a result of a shining path attack today against a community in junin department , central peruvian mountain region . 
-(ROOT (S (S (NP (NP (NN lima)) (, ,) (NP (NP (NP (CD 22) (NN jan)) (NP (CD 89) (JJ -lrb-) (NN efe) (NNS -rrb-))) (: --) (NP (NP (JJ -lrb-) (NN excerpt) (NNS -rrb-)) (NP (CD three) (NNS people))))) (VP (VBP have) (VP (VBN been) (VP (VBN killed))))) (, ,) (CC and) (S (NP (NP (CD five) (NNS people)) (, ,) (PP (VBG including) (NP (DT a) (NN mayor))) (, ,)) (VP (VBD were) (ADVP (RB seriously)) (VP (VBN wounded) (PP (IN as) (NP (NP (DT a) (NN result)) (PP (IN of) (NP (NP (DT a) (VBG shining) (NN path) (NN attack)) (NP (NN today)) (PP (IN against) (NP (NP (DT a) (NN community)) (PP (IN in) (NP (NP (NN junin) (NN department)) (, ,) (NP (JJ central) (NN peruvian) (NN mountain) (NN region))))))))))))) (. .)))
 [nsubjpass(killed-17, lima-1), num(jan-4, 22-3), appos(lima-1, jan-4), num(-rrb--8, 89-5), amod(-rrb--8, -lrb--6), nn(-rrb--8, efe-7), dep(jan-4, -rrb--8), amod(-rrb--12, -lrb--10), nn(-rrb--12, excerpt-11), dep(jan-4, -rrb--12), num(people-14, three-13), dep(-rrb--12, people-14), aux(killed-17, have-15), auxpass(killed-17, been-16), root(ROOT-0, killed-17), num(people-21, five-20), nsubjpass(wounded-29, people-21), det(mayor-25, a-24), prep_including(people-21, mayor-25), auxpass(wounded-29, were-27), advmod(wounded-29, seriously-28), conj_and(killed-17, wounded-29), det(result-32, a-31), prep_as(wounded-29, result-32), det(attack-37, a-34), amod(attack-37, shining-35), nn(attack-37, path-36), prep_of(result-32, attack-37), dep(attack-37, today-38), det(community-41, a-40), prep_against(attack-37, community-41), nn(department-44, junin-43), prep_in(community-41, department-44), amod(region-49, central-46), nn(region-49, peruvian-47), nn(region-49, mountain-48), appos(department-44, region-49)]
-PERP ===>> null
-VICTIM ===>> lima
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> MEMBERS /
+VICTIM ==>> MEETING /LIMA /
 
 DEV-MUC3-0060 :
 VERB: ATTACKED
 VERB: DESTROYED
 before leaving the city , the terrorists blocked and destroyed several segments of the road linking andahua with arequipa and other adjacent towns in order to prevent local residents from following them . 
-(ROOT (S (PP (IN before) (S (VP (VBG leaving) (NP (DT the) (NN city))))) (, ,) (NP (DT the) (NNS terrorists)) (VP (VBD blocked) (CC and) (VBD destroyed) (NP (NP (JJ several) (NNS segments)) (PP (IN of) (NP (NP (DT the) (NN road)) (VP (VBG linking) (NP (NP (NN andahua)) (PP (IN with) (NP (NN arequipa) (CC and) (JJ other) (JJ adjacent) (NNS towns)))) (PP (IN in) (NP (NN order))) (S (VP (TO to) (VP (VB prevent) (NP (JJ local) (NNS residents)) (PP (IN from) (S (VP (VBG following) (NP (PRP them))))))))))))) (. .)))
 [prepc_before(blocked-8, leaving-2), det(city-4, the-3), dobj(leaving-2, city-4), det(terrorists-7, the-6), nsubj(blocked-8, terrorists-7), nsubj(destroyed-10, terrorists-7), root(ROOT-0, blocked-8), conj_and(blocked-8, destroyed-10), amod(segments-12, several-11), dobj(blocked-8, segments-12), det(road-15, the-14), prep_of(segments-12, road-15), xsubj(prevent-27, road-15), partmod(road-15, linking-16), dobj(linking-16, andahua-17), nn(towns-23, arequipa-19), conj_and(arequipa-19, other-21), nn(towns-23, other-21), amod(towns-23, adjacent-22), prep_with(andahua-17, towns-23), prep_in(linking-16, order-25), aux(prevent-27, to-26), xcomp(linking-16, prevent-27), amod(residents-29, local-28), dobj(prevent-27, residents-29), prepc_from(prevent-27, following-31), dobj(following-31, them-32)]
-PERP ===>> terrorists
-VICTIM ===>> null
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
@@ -1150,6 +1120,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> TERRORISTS /
+VICTIM ==>> 
 
 DEV-MUC3-0061 :
 VERB: ATTACKED
@@ -1163,6 +1135,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0062 :
 VERB: ATTACKED
@@ -1177,38 +1151,34 @@ VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
 dr samayoa said to clarify the case , the commission has conducted 238 meetings , over 100 inquiries , and 21 depositions . 
-(ROOT (S (S (NP (NN dr) (NN samayoa)) (VP (VBD said) (S (VP (TO to) (VP (VB clarify) (NP (DT the) (NN case))))))) (, ,) (NP (DT the) (NN commission)) (VP (VBZ has) (VP (VBN conducted) (NP (NP (CD 238) (NNS meetings)) (, ,) (NP (QP (IN over) (CD 100)) (NNS inquiries)) (, ,) (CC and) (NP (CD 21) (NNS depositions))))) (. .)))
 [nn(samayoa-2, dr-1), nsubj(said-3, samayoa-2), xsubj(clarify-5, samayoa-2), ccomp(conducted-12, said-3), aux(clarify-5, to-4), xcomp(said-3, clarify-5), det(case-7, the-6), dobj(clarify-5, case-7), det(commission-10, the-9), nsubj(conducted-12, commission-10), aux(conducted-12, has-11), root(ROOT-0, conducted-12), num(meetings-14, 238-13), dobj(conducted-12, meetings-14), quantmod(100-17, over-16), num(inquiries-18, 100-17), dobj(conducted-12, inquiries-18), conj_and(meetings-14, inquiries-18), num(depositions-22, 21-21), dobj(conducted-12, depositions-22), conj_and(meetings-14, depositions-22)]
-PERP ===>> commission
-VICTIM ===>> meetings
+
+PERP ===>> COMMISSION /
+VICTIM ==>> MEETINGS /
 
 DEV-MUC3-0063 :
 VERB: ATTACKED
 the following sunday the residence of the nicaraguan ambassador in this capital was attacked . 
-(ROOT (S (NP (DT the) (NN following)) (ADVP (RB sunday)) (NP (NP (DT the) (NN residence)) (PP (IN of) (NP (NP (DT the) (JJ nicaraguan) (NN ambassador)) (PP (IN in) (NP (DT this) (NN capital)))))) (VP (VBD was) (VP (VBN attacked))) (. .)))
 [det(following-2, the-1), nsubjpass(attacked-14, following-2), advmod(attacked-14, sunday-3), det(residence-5, the-4), nsubjpass(attacked-14, residence-5), det(ambassador-9, the-7), amod(ambassador-9, nicaraguan-8), prep_of(residence-5, ambassador-9), det(capital-12, this-11), prep_in(ambassador-9, capital-12), auxpass(attacked-14, was-13), root(ROOT-0, attacked-14)]
-PERP ===>> null
-VICTIM ===>> following
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 alvarez martinez was killed near his residence in tegucigalpa 's florencia del este neighborhood . 
-(ROOT (S (NP (NN alvarez) (NN martinez)) (VP (VBD was) (VP (VBN killed) (PP (IN near) (NP (NP (PRP$ his) (NN residence)) (PP (IN in) (NP (NP (NNP tegucigalpa) (POS 's)) (JJ florencia) (NNP del) (NN este) (NN neighborhood))))))) (. .)))
 [nn(martinez-2, alvarez-1), nsubjpass(killed-4, martinez-2), auxpass(killed-4, was-3), root(ROOT-0, killed-4), poss(residence-7, his-6), prep_near(killed-4, residence-7), poss(neighborhood-14, tegucigalpa-9), amod(neighborhood-14, florencia-11), nn(neighborhood-14, del-12), nn(neighborhood-14, este-13), prep_in(residence-7, neighborhood-14)]
-PERP ===>> null
-VICTIM ===>> martinez
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 nicaraguan contra commander manuel adan rugama , alias aureliano , was shot to death in northern tegucigalpa on 7 january , and attorney carlos lorenzana , who defended juan ramon matta in honduras , was shot to death near his residence in the modelo neighborhood by unidentified assailants . 
-(ROOT (S (S (NP (NP (JJ nicaraguan) (NN contra) (NN commander) (NN manuel) (NN adan) (NN rugama)) (, ,) (NP (JJ alias) (NN aureliano)) (, ,)) (VP (VBD was) (VP (VBN shot) (PP (TO to) (NP (NP (NN death)) (PP (IN in) (NP (JJ northern) (NN tegucigalpa))))) (PP (IN on) (NP (CD 7) (NN january)))))) (, ,) (CC and) (S (NP (NP (NN attorney) (NN carlos) (NN lorenzana)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD defended) (NP (JJ juan) (NN ramon) (NN matta)) (PP (IN in) (NP (NNS honduras)))))) (, ,)) (VP (VBD was) (VP (VBN shot) (PP (TO to) (NP (NP (NN death)) (PP (IN near) (NP (NP (PRP$ his) (NN residence)) (PP (IN in) (NP (DT the) (NN modelo) (NN neighborhood))))))) (PP (IN by) (NP (JJ unidentified) (NNS assailants)))))) (. .)))
 [amod(rugama-6, nicaraguan-1), nn(rugama-6, contra-2), nn(rugama-6, commander-3), nn(rugama-6, manuel-4), nn(rugama-6, adan-5), nsubjpass(shot-12, rugama-6), amod(aureliano-9, alias-8), appos(rugama-6, aureliano-9), auxpass(shot-12, was-11), root(ROOT-0, shot-12), prep_to(shot-12, death-14), amod(tegucigalpa-17, northern-16), prep_in(death-14, tegucigalpa-17), num(january-20, 7-19), prep_on(shot-12, january-20), nn(lorenzana-25, attorney-23), nn(lorenzana-25, carlos-24), nsubj(defended-28, lorenzana-25), nsubjpass(shot-36, lorenzana-25), rcmod(lorenzana-25, defended-28), amod(matta-31, juan-29), nn(matta-31, ramon-30), dobj(defended-28, matta-31), prep_in(defended-28, honduras-33), auxpass(shot-36, was-35), conj_and(shot-12, shot-36), prep_to(shot-36, death-38), poss(residence-41, his-40), prep_near(death-38, residence-41), det(neighborhood-45, the-43), nn(neighborhood-45, modelo-44), prep_in(residence-41, neighborhood-45), amod(assailants-48, unidentified-47), agent(shot-36, assailants-48)]
-PERP ===>> assailants
-VICTIM ===>> rugama
+
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> ASSAILANTS /
+VICTIM ==>> FOLLOWING /MARTINEZ /RUGAMA /
 
 DEV-MUC3-0064 :
 VERB: ATTACKED
@@ -1222,6 +1192,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0065 :
 VERB: ATTACKED
@@ -1235,6 +1207,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0066 :
 VERB: ATTACKED
@@ -1244,24 +1218,22 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 seven soldiers were killed and several were wounded by a bomb when a group of national liberation army -lrb- eln -rrb- rebels ambushed a military convoy in saravena , arauca department . 
-(ROOT (S (S (NP (CD seven) (NNS soldiers)) (VP (VBD were) (VP (VBN killed)))) (CC and) (S (NP (JJ several)) (VP (VBD were) (VP (VBN wounded) (PP (IN by) (NP (NP (DT a) (NN bomb)) (SBAR (WHADVP (WRB when)) (S (NP (NP (DT a) (NN group)) (PP (IN of) (NP (JJ national) (NN liberation) (NN army) (NN -lrb-) (NN eln) (JJ -rrb-) (NNS rebels)))) (VP (VBD ambushed) (NP (DT a) (JJ military) (NN convoy)) (PP (IN in) (NP (NP (NN saravena)) (, ,) (NP (NN arauca) (NN department)))))))))))) (. .)))
 [num(soldiers-2, seven-1), nsubjpass(killed-4, soldiers-2), auxpass(killed-4, were-3), root(ROOT-0, killed-4), nsubjpass(wounded-8, several-6), auxpass(wounded-8, were-7), conj_and(killed-4, wounded-8), det(bomb-11, a-10), agent(wounded-8, bomb-11), tmod(ambushed-23, bomb-11), advmod(ambushed-23, when-12), det(group-14, a-13), nsubj(ambushed-23, group-14), amod(rebels-22, national-16), nn(rebels-22, liberation-17), nn(rebels-22, army-18), nn(rebels-22, -lrb--19), nn(rebels-22, eln-20), amod(rebels-22, -rrb--21), prep_of(group-14, rebels-22), dep(bomb-11, ambushed-23), det(convoy-26, a-24), amod(convoy-26, military-25), dobj(ambushed-23, convoy-26), prep_in(ambushed-23, saravena-28), nn(department-31, arauca-30), appos(saravena-28, department-31)]
-PERP ===>> null
-VICTIM ===>> soldiers
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> SOLDIERS /
 
 DEV-MUC3-0067 :
 VERB: ATTACKED
 VERB: DESTROYED
 during the operation , the narcotics police arrested 8 drug traffickers and destroyed 1,200 kg of pure cocaine , 52 clandestine airstrips , 8 laboratories , thousands of gallons of chemicals , and other equipment used in processing cocaine . 
-(ROOT (S (PP (IN during) (NP (DT the) (NN operation))) (, ,) (NP (DT the) (NNS narcotics) (NN police)) (VP (VP (VBN arrested) (NP (CD 8) (NN drug) (NNS traffickers))) (CC and) (VP (VBN destroyed) (NP (NP (CD 1,200) (NN kg)) (PP (IN of) (NP (NP (JJ pure) (NN cocaine)) (, ,) (NP (CD 52) (JJ clandestine) (NNS airstrips)) (, ,) (NP (CD 8) (NNS laboratories)) (, ,) (NP (NP (NNS thousands)) (PP (IN of) (NP (NP (NNS gallons)) (PP (IN of) (NP (NNS chemicals)))))) (, ,) (CC and) (NP (NP (JJ other) (NN equipment)) (VP (VBN used) (PP (IN in) (NP (NN processing) (NN cocaine)))))))))) (. .)))
 [det(operation-3, the-2), prep_during(arrested-8, operation-3), det(police-7, the-5), nn(police-7, narcotics-6), nsubj(arrested-8, police-7), nsubj(destroyed-13, police-7), root(ROOT-0, arrested-8), num(traffickers-11, 8-9), nn(traffickers-11, drug-10), dobj(arrested-8, traffickers-11), conj_and(arrested-8, destroyed-13), num(kg-15, 1,200-14), dobj(destroyed-13, kg-15), amod(cocaine-18, pure-17), prep_of(kg-15, cocaine-18), num(airstrips-22, 52-20), amod(airstrips-22, clandestine-21), prep_of(kg-15, airstrips-22), conj_and(cocaine-18, airstrips-22), num(laboratories-25, 8-24), prep_of(kg-15, laboratories-25), conj_and(cocaine-18, laboratories-25), prep_of(kg-15, thousands-27), conj_and(cocaine-18, thousands-27), prep_of(thousands-27, gallons-29), prep_of(gallons-29, chemicals-31), amod(equipment-35, other-34), prep_of(kg-15, equipment-35), conj_and(cocaine-18, equipment-35), partmod(equipment-35, used-36), nn(cocaine-39, processing-38), prep_in(used-36, cocaine-39)]
-PERP ===>> police
-VICTIM ===>> kg
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
@@ -1271,39 +1243,35 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> POLICE /
+VICTIM ==>> KG /
 
 DEV-MUC3-0068 :
 VERB: ATTACKED
 VERB: DESTROYED
 meanwhile , the police announced they will continue `` operation spring '' , which has so far resulted in the arrest of 8 persons and the discovery of 14 cocaine laboratories , which were destroyed . 
-(ROOT (S (ADVP (RB meanwhile)) (, ,) (NP (DT the) (NN police)) (VP (VBD announced) (SBAR (S (NP (PRP they)) (VP (MD will) (VP (VB continue) (NP (NP (`` ``) (NN operation) (NN spring) ('' '')) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ has) (ADVP (RB so) (RB far)) (VP (VBN resulted) (PP (IN in) (NP (NP (NP (DT the) (NN arrest)) (PP (IN of) (NP (CD 8) (NNS persons)))) (CC and) (NP (NP (DT the) (NN discovery)) (PP (IN of) (NP (NP (CD 14) (NN cocaine) (NNS laboratories)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD were) (VP (VBN destroyed)))))))))))))))))))) (. .)))
 [advmod(announced-5, meanwhile-1), det(police-4, the-3), nsubj(announced-5, police-4), root(ROOT-0, announced-5), nsubj(continue-8, they-6), aux(continue-8, will-7), ccomp(announced-5, continue-8), nn(spring-11, operation-10), dobj(continue-8, spring-11), nsubj(resulted-18, spring-11), aux(resulted-18, has-15), advmod(far-17, so-16), advmod(resulted-18, far-17), rcmod(spring-11, resulted-18), det(arrest-21, the-20), prep_in(resulted-18, arrest-21), num(persons-24, 8-23), prep_of(arrest-21, persons-24), det(discovery-27, the-26), prep_in(resulted-18, discovery-27), conj_and(arrest-21, discovery-27), num(laboratories-31, 14-29), nn(laboratories-31, cocaine-30), prep_of(discovery-27, laboratories-31), nsubjpass(destroyed-35, laboratories-31), auxpass(destroyed-35, were-34), rcmod(laboratories-31, destroyed-35)]
-PERP ===>> null
-VICTIM ===>> laboratories
+
 seized so far during operation spring were 1050 kg of cocaine and 130 kg of cocaine base , as well as large quantities of ether , acetone , potassium permanganate , and hydrochloric acid , all of which were destroyed . 
-(ROOT (S (S (VP (VBN seized) (ADVP (RB so) (RB far)) (PP (IN during) (NP (NN operation) (NN spring))))) (VP (VBD were) (NP (NP (NP (CD 1050) (NN kg)) (PP (IN of) (NP (NN cocaine)))) (CC and) (NP (NP (NP (CD 130) (NN kg)) (PP (IN of) (NP (NN cocaine) (NN base)))) (, ,) (CONJP (RB as) (RB well) (IN as)) (NP (NP (JJ large) (NNS quantities)) (PP (IN of) (NP (NN ether) (, ,) (NN acetone) (, ,) (NN potassium) (NN permanganate))))) (, ,) (CC and) (NP (NP (JJ hydrochloric) (NN acid)) (, ,) (SBAR (WHNP (DT all) (WHPP (IN of) (WHNP (WDT which)))) (S (VP (VBD were) (VP (VBN destroyed)))))))) (. .)))
 [csubj(kg-9, seized-1), advmod(far-3, so-2), advmod(seized-1, far-3), nn(spring-6, operation-5), prep_during(seized-1, spring-6), cop(kg-9, were-7), num(kg-9, 1050-8), root(ROOT-0, kg-9), prep_of(kg-9, cocaine-11), num(kg-14, 130-13), conj_and(kg-9, kg-14), nn(base-17, cocaine-16), prep_of(kg-14, base-17), amod(quantities-23, large-22), conj_and(kg-9, quantities-23), conj_and(kg-14, quantities-23), nn(permanganate-30, ether-25), dep(permanganate-30, acetone-27), dep(permanganate-30, potassium-29), prep_of(quantities-23, permanganate-30), amod(acid-34, hydrochloric-33), conj_and(kg-9, acid-34), pobj(of-37, acid-34), dep(of-37, all-36), nsubjpass(destroyed-40, of-37), auxpass(destroyed-40, were-39), rcmod(acid-34, destroyed-40)]
-PERP ===>> null
-VICTIM ===>> of
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 bogota , 2 feb 89 -- -lrb- summary -rrb- six guerrillas and one soldier were killed and two soldiers were wounded in recent fighting between apopa battalion troops and the so-called army of national liberation . 
-(ROOT (NP (NP (NP (NN bogota)) (, ,) (NP (CD 2) (NNP feb) (CD 89))) (: --) (NP (NP (JJ -lrb-) (NN summary) (NNS -rrb-)) (SBAR (S (S (NP (NP (CD six) (NNS guerrillas)) (CC and) (NP (CD one) (NN soldier))) (VP (VBD were) (VP (VBN killed)))) (CC and) (S (NP (CD two) (NNS soldiers)) (VP (VBD were) (VP (VBN wounded) (PP (IN in) (NP (NP (NP (JJ recent) (NN fighting)) (PP (IN between) (NP (NN apopa) (NN battalion) (NNS troops)))) (CC and) (NP (NP (DT the) (JJ so-called) (NN army)) (PP (IN of) (NP (JJ national) (NN liberation)))))))))))) (. .)))
 [root(ROOT-0, bogota-1), num(feb-4, 2-3), appos(bogota-1, feb-4), num(feb-4, 89-5), amod(-rrb--9, -lrb--7), nn(-rrb--9, summary-8), dep(bogota-1, -rrb--9), num(guerrillas-11, six-10), nsubjpass(killed-16, guerrillas-11), num(soldier-14, one-13), conj_and(guerrillas-11, soldier-14), nsubjpass(killed-16, soldier-14), auxpass(killed-16, were-15), rcmod(-rrb--9, killed-16), num(soldiers-19, two-18), nsubjpass(wounded-21, soldiers-19), auxpass(wounded-21, were-20), rcmod(-rrb--9, wounded-21), conj_and(killed-16, wounded-21), amod(fighting-24, recent-23), prep_in(wounded-21, fighting-24), nn(troops-28, apopa-26), nn(troops-28, battalion-27), prep_between(fighting-24, troops-28), det(army-32, the-30), amod(army-32, so-called-31), prep_in(wounded-21, army-32), conj_and(fighting-24, army-32), amod(liberation-35, national-34), prep_of(army-32, liberation-35)]
-PERP ===>> null
-VICTIM ===>> guerrillas
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
 this antidrug operation is being conducted along the border between antioquia and cordoba departments . 
-(ROOT (S (NP (DT this) (JJ antidrug) (NN operation)) (VP (VBZ is) (VP (VBG being) (VP (VBN conducted) (PP (IN along) (NP (NP (DT the) (NN border)) (PP (IN between) (NP (NN antioquia) (CC and) (NN cordoba) (NNS departments)))))))) (. .)))
 [det(operation-3, this-1), amod(operation-3, antidrug-2), nsubjpass(conducted-6, operation-3), aux(conducted-6, is-4), auxpass(conducted-6, being-5), root(ROOT-0, conducted-6), det(border-9, the-8), prep_along(conducted-6, border-9), nn(departments-14, antioquia-11), conj_and(antioquia-11, cordoba-13), nn(departments-14, cordoba-13), prep_between(border-9, departments-14)]
-PERP ===>> null
-VICTIM ===>> operation
+
+PERP ===>> 
+VICTIM ==>> LABORATORIES /OF /GUERRILLAS /OPERATION /
 
 DEV-MUC3-0069 :
 VERB: ATTACKED
@@ -1317,14 +1285,14 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0070 :
 VERB: ATTACKED
 d'aubuisson harshly attacked president duarte , who is suffering from terminal cancer , and referred to him as `` the crazy and worn out duarte . '' 
-(ROOT (S (NP (NN d'aubuisson)) (ADVP (RB harshly)) (VP (VP (VBD attacked) (NP (NP (NN president) (NN duarte)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG suffering) (PP (IN from) (NP (NN terminal) (NN cancer))))))))) (, ,) (CC and) (VP (VBD referred) (PP (TO to) (NP (PRP him))) (PP (IN as) (`` ``) (NP (DT the) (ADJP (ADJP (JJ crazy)) (CC and) (ADJP (JJ worn) (IN out))) (NN duarte))))) (. .) ('' '')))
 [nsubj(attacked-3, d'aubuisson-1), nsubj(referred-15, d'aubuisson-1), advmod(attacked-3, harshly-2), root(ROOT-0, attacked-3), nn(duarte-5, president-4), dobj(attacked-3, duarte-5), nsubj(suffering-9, duarte-5), aux(suffering-9, is-8), rcmod(duarte-5, suffering-9), nn(cancer-12, terminal-11), prep_from(suffering-9, cancer-12), conj_and(attacked-3, referred-15), prep_to(referred-15, him-17), det(duarte-25, the-20), amod(duarte-25, crazy-21), conj_and(crazy-21, worn-23), amod(duarte-25, worn-23), dep(worn-23, out-24), prep_as(referred-15, duarte-25)]
-PERP ===>> d'aubuisson
-VICTIM ===>> duarte
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
@@ -1335,6 +1303,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> D'AUBUISSON /
+VICTIM ==>> DUARTE /
 
 DEV-MUC3-0071 :
 VERB: ATTACKED
@@ -1348,6 +1318,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0072 :
 VERB: ATTACKED
@@ -1357,23 +1329,21 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 the pdc controlled the attorney general 's office when msgr romero was killed . 
-(ROOT (S (NP (DT the) (NN pdc)) (VP (VBD controlled) (NP (NP (DT the) (NN attorney) (NN general) (POS 's)) (NN office)) (SBAR (WHADVP (WRB when)) (S (NP (NN msgr) (NN romero)) (VP (VBD was) (VP (VBN killed)))))) (. .)))
 [det(pdc-2, the-1), nsubj(controlled-3, pdc-2), root(ROOT-0, controlled-3), det(general-6, the-4), nn(general-6, attorney-5), poss(office-8, general-6), dobj(controlled-3, office-8), advmod(killed-13, when-9), nn(romero-11, msgr-10), nsubjpass(killed-13, romero-11), auxpass(killed-13, was-12), advcl(controlled-3, killed-13)]
-PERP ===>> null
-VICTIM ===>> romero
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> ROMERO /
 
 DEV-MUC3-0073 :
 VERB: ATTACKED
 the fmln reportedly attacked la laguna , concepcion quzaltepeque , la palma , san ignacio , san miguel de mercedes , and el chique , all in chalatenango , and inflicted 55 casualties on the enemy , 45 of which were inflicted on the 4th infantry brigade 's azmitia battalion . 
-(ROOT (S (NP (DT the) (NN fmln)) (ADVP (RB reportedly)) (VP (VP (VBD attacked) (NP (NP (DT la) (NN laguna)) (, ,) (NP (NN concepcion) (NN quzaltepeque)) (, ,) (NP (DT la) (NN palma)) (, ,) (NP (NN san) (NN ignacio)) (, ,) (NP (JJ san) (JJ miguel) (NNP de) (NNS mercedes)) (, ,) (CC and) (NP (NP (NN el) (NN chique)) (, ,) (NP (DT all)))) (PP (IN in) (NP (NN chalatenango)))) (, ,) (CC and) (VP (VBD inflicted) (NP (CD 55) (NNS casualties)) (PP (IN on) (NP (NP (DT the) (NN enemy)) (, ,) (SBAR (WHNP (NP (CD 45)) (WHPP (IN of) (WHNP (WDT which)))) (S (VP (VBD were) (VP (VBN inflicted) (PP (IN on) (NP (NP (DT the) (JJ 4th) (NN infantry) (NN brigade) (POS 's)) (NN azmitia) (NN battalion))))))))))) (. .)))
 [det(fmln-2, the-1), nsubj(attacked-4, fmln-2), nsubj(inflicted-31, fmln-2), advmod(attacked-4, reportedly-3), root(ROOT-0, attacked-4), det(laguna-6, la-5), dobj(attacked-4, laguna-6), nn(quzaltepeque-9, concepcion-8), dobj(attacked-4, quzaltepeque-9), conj_and(laguna-6, quzaltepeque-9), det(palma-12, la-11), dobj(attacked-4, palma-12), conj_and(laguna-6, palma-12), nn(ignacio-15, san-14), dobj(attacked-4, ignacio-15), conj_and(laguna-6, ignacio-15), amod(mercedes-20, san-17), amod(mercedes-20, miguel-18), nn(mercedes-20, de-19), dobj(attacked-4, mercedes-20), conj_and(laguna-6, mercedes-20), nn(chique-24, el-23), dobj(attacked-4, chique-24), conj_and(laguna-6, chique-24), appos(chique-24, all-26), prep_in(attacked-4, chalatenango-28), conj_and(attacked-4, inflicted-31), num(casualties-33, 55-32), dobj(inflicted-31, casualties-33), det(enemy-36, the-35), prep_on(inflicted-31, enemy-36), prep_of(45-38, enemy-36), nsubjpass(inflicted-42, 45-38), auxpass(inflicted-42, were-41), rcmod(enemy-36, inflicted-42), det(brigade-47, the-44), amod(brigade-47, 4th-45), nn(brigade-47, infantry-46), poss(battalion-50, brigade-47), nn(battalion-50, azmitia-49), prep_on(inflicted-42, battalion-50)]
-PERP ===>> fmln
-VICTIM ===>> laguna
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
@@ -1384,6 +1354,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> FMLN /
+VICTIM ==>> LAGUNA /
 
 DEV-MUC3-0074 :
 VERB: ATTACKED
@@ -1397,14 +1369,14 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0075 :
 VERB: ATTACKED
 `` the jacobo carcomo command of the morazanist patriotic front -lrb- fpm -rrb- attacked a u.s. convoy with m-16 rifle-fire , '' the leaflets read . 
-(ROOT (S (`` ``) (S (NP (NP (DT the) (JJ jacobo) (NN carcomo) (NN command)) (PP (IN of) (NP (DT the) (JJ morazanist) (JJ patriotic) (NN front) (NNP -lrb-) (NNP fpm) (NNP -rrb-)))) (VP (VBD attacked) (NP (DT a) (NN u.s.) (NN convoy)) (PP (IN with) (NP (JJ m-16) (NN rifle-fire))))) (, ,) ('' '') (NP (DT the) (NNS leaflets)) (VP (VBD read)) (. .)))
 [det(command-5, the-2), amod(command-5, jacobo-3), nn(command-5, carcomo-4), nsubj(attacked-14, command-5), det(-rrb--13, the-7), amod(-rrb--13, morazanist-8), amod(-rrb--13, patriotic-9), nn(-rrb--13, front-10), nn(-rrb--13, -lrb--11), nn(-rrb--13, fpm-12), prep_of(command-5, -rrb--13), ccomp(read-25, attacked-14), det(convoy-17, a-15), nn(convoy-17, u.s.-16), dobj(attacked-14, convoy-17), amod(rifle-fire-20, m-16-19), prep_with(attacked-14, rifle-fire-20), det(leaflets-24, the-23), nsubj(read-25, leaflets-24), root(ROOT-0, read-25)]
-PERP ===>> command
-VICTIM ===>> convoy
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
@@ -1412,23 +1384,21 @@ VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
 the bomb , made up of dynamite and a fuse , exploded just before dawn in the hondutel -lrb- honduran telecommunications enterprise -rrb- office in san pedro sula , 190 km north of this capital . 
-(ROOT (S (NP (NP (DT the) (NN bomb)) (, ,) (VP (VBN made) (PRT (RP up)) (PP (IN of) (NP (NP (NN dynamite)) (CC and) (NP (DT a) (NN fuse))))) (, ,)) (VP (VBD exploded) (ADVP (RB just) (PP (IN before) (NP (NP (NN dawn)) (PP (IN in) (NP (NP (DT the) (JJ hondutel) (JJ -lrb-) (NN honduran) (NN telecommunications) (NN enterprise) (NN -rrb-) (NN office)) (PP (IN in) (NP (NN san) (NN pedro) (NN sula)))))) (, ,) (ADVP (NP (CD 190) (NN km)) (RB north)))) (PP (IN of) (NP (DT this) (NN capital)))) (. .)))
 [det(bomb-2, the-1), nsubj(exploded-12, bomb-2), partmod(bomb-2, made-4), prt(made-4, up-5), prep_of(made-4, dynamite-7), det(fuse-10, a-9), prep_of(made-4, fuse-10), conj_and(dynamite-7, fuse-10), root(ROOT-0, exploded-12), advmod(exploded-12, just-13), prep_before(just-13, dawn-15), det(office-24, the-17), amod(office-24, hondutel-18), amod(office-24, -lrb--19), nn(office-24, honduran-20), nn(office-24, telecommunications-21), nn(office-24, enterprise-22), nn(office-24, -rrb--23), prep_in(dawn-15, office-24), nn(sula-28, san-26), nn(sula-28, pedro-27), prep_in(office-24, sula-28), num(km-31, 190-30), npadvmod(north-32, km-31), advmod(just-13, north-32), det(capital-35, this-34), prep_of(exploded-12, capital-35)]
-PERP ===>> bomb
-VICTIM ===>> null
+
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> COMMAND /BOMB /
+VICTIM ==>> CONVOY /
 
 DEV-MUC3-0076 :
 VERB: ATTACKED
 VERB: DESTROYED
 the bomb caused no casualties but destroyed at least six telephone booths , office equipment and material , walls , windows , and blinds in one of the administration offices of the honduran telecommunications enterprise , -lrb- hondutel -rrb- . 
-(ROOT (S (NP (DT the) (NN bomb)) (VP (VP (VBD caused) (NP (DT no) (NNS casualties))) (CC but) (VP (VBD destroyed) (NP (ADVP (IN at) (JJS least)) (NP (NP (CD six) (NN telephone) (NNS booths)) (, ,) (NP (NN office) (NN equipment) (CC and) (NN material)) (, ,) (NP (NNS walls)) (, ,) (NP (NNS windows)) (, ,) (CC and) (NP (NNS blinds))) (PP (IN in) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (NN administration) (NNS offices)) (PP (IN of) (NP (NP (DT the) (JJ honduran) (NN telecommunications) (NN enterprise)) (, ,) (NP (JJ -lrb-) (JJ hondutel) (NNS -rrb-))))))))))) (. .)))
 [det(bomb-2, the-1), nsubj(caused-3, bomb-2), nsubj(destroyed-7, bomb-2), root(ROOT-0, caused-3), det(casualties-5, no-4), dobj(caused-3, casualties-5), conj_but(caused-3, destroyed-7), advmod(booths-12, at-8), pobj(at-8, least-9), num(booths-12, six-10), nn(booths-12, telephone-11), dobj(destroyed-7, booths-12), nn(equipment-15, office-14), dobj(destroyed-7, equipment-15), conj_and(booths-12, equipment-15), conj_and(booths-12, material-17), conj_and(equipment-15, material-17), dobj(destroyed-7, walls-19), conj_and(booths-12, walls-19), dobj(destroyed-7, windows-21), conj_and(booths-12, windows-21), dobj(destroyed-7, blinds-24), conj_and(booths-12, blinds-24), prep_in(booths-12, one-26), det(offices-30, the-28), nn(offices-30, administration-29), prep_of(one-26, offices-30), det(enterprise-35, the-32), amod(enterprise-35, honduran-33), nn(enterprise-35, telecommunications-34), prep_of(offices-30, enterprise-35), amod(-rrb--39, -lrb--37), amod(-rrb--39, hondutel-38), appos(enterprise-35, -rrb--39)]
-PERP ===>> bomb
-VICTIM ===>> booths
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
@@ -1438,48 +1408,42 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> BOMB /
+VICTIM ==>> BOOTHS /
 
 DEV-MUC3-0077 :
 VERB: ATTACKED
 VERB: DESTROYED
 VERB: KIDNAPPED
 colombian industrialist normal echevarria and u.s. businessman michael reyff , kidnapped 11 days ago in medellin , were rescued today . 
-(ROOT (S (NP (JJ colombian) (NN industrialist) (JJ normal) (NN echevarria) (CC and) (NN u.s.) (NN businessman) (NN michael) (NN reyff)) (, ,) (S (VP (VBN kidnapped) (PP (ADVP (NP (CD 11) (NNS days)) (RB ago)) (IN in) (NP (NN medellin))))) (, ,) (VP (VBD were) (VP (VBN rescued) (NP (NN today)))) (. .)))
 [amod(echevarria-4, colombian-1), nn(echevarria-4, industrialist-2), amod(echevarria-4, normal-3), nsubjpass(rescued-19, echevarria-4), nn(reyff-9, u.s.-6), nn(reyff-9, businessman-7), nn(reyff-9, michael-8), conj_and(echevarria-4, reyff-9), nsubjpass(rescued-19, reyff-9), partmod(rescued-19, kidnapped-11), num(days-13, 11-12), npadvmod(ago-14, days-13), advmod(kidnapped-11, ago-14), prep_in(kidnapped-11, medellin-16), auxpass(rescued-19, were-18), root(ROOT-0, rescued-19), tmod(rescued-19, today-20)]
-PERP ===>> null
-VICTIM ===>> null
+
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 two of the kidnappers were killed , but the others managed to escape . 
-(ROOT (S (S (NP (NP (CD two)) (PP (IN of) (NP (DT the) (NNS kidnappers)))) (VP (VBD were) (VP (VBN killed)))) (, ,) (CC but) (S (NP (DT the) (NNS others)) (VP (VBD managed) (S (VP (TO to) (VP (VB escape)))))) (. .)))
 [nsubjpass(killed-6, two-1), det(kidnappers-4, the-3), prep_of(two-1, kidnappers-4), auxpass(killed-6, were-5), root(ROOT-0, killed-6), det(others-10, the-9), nsubj(managed-11, others-10), xsubj(escape-13, others-10), conj_but(killed-6, managed-11), aux(escape-13, to-12), xcomp(managed-11, escape-13)]
-PERP ===>> null
-VICTIM ===>> two
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> TWO /
 
 DEV-MUC3-0078 :
 VERB: ATTACKED
 VERB: DESTROYED
 two vehicles were destroyed and an unidentified office of the agriculture and livestock ministry was heavily damaged following the explosion of two bombs yesterday afternoon . 
-(ROOT (S (S (NP (CD two) (NNS vehicles)) (VP (VBD were) (VP (VBN destroyed)))) (CC and) (S (NP (NP (DT an) (JJ unidentified) (NN office)) (PP (IN of) (NP (DT the) (NN agriculture) (CC and) (NN livestock) (NN ministry)))) (VP (VBD was) (ADVP (RB heavily)) (VP (VBN damaged) (PP (VBG following) (NP (NP (DT the) (NN explosion)) (PP (IN of) (NP (CD two) (NNS bombs) (NN yesterday) (NN afternoon)))))))) (. .)))
 [num(vehicles-2, two-1), nsubjpass(destroyed-4, vehicles-2), auxpass(destroyed-4, were-3), root(ROOT-0, destroyed-4), det(office-8, an-6), amod(office-8, unidentified-7), nsubjpass(damaged-17, office-8), det(ministry-14, the-10), nn(ministry-14, agriculture-11), conj_and(agriculture-11, livestock-13), nn(ministry-14, livestock-13), prep_of(office-8, ministry-14), auxpass(damaged-17, was-15), advmod(damaged-17, heavily-16), conj_and(destroyed-4, damaged-17), det(explosion-20, the-19), prep_following(damaged-17, explosion-20), num(afternoon-25, two-22), nn(afternoon-25, bombs-23), nn(afternoon-25, yesterday-24), prep_of(explosion-20, afternoon-25)]
-PERP ===>> null
-VICTIM ===>> vehicles
+
 the national fire department reported that following the explosions at 1830 , a fire erupted that partially destroyed an unidentified office in the agriculture and livestock ministry building . 
-(ROOT (S (NP (DT the) (JJ national) (NN fire) (NN department)) (VP (VBD reported) (SBAR (IN that) (S (PP (VBG following) (NP (NP (DT the) (NNS explosions)) (PP (IN at) (NP (CD 1830))))) (, ,) (NP (DT a) (NN fire)) (VP (VBD erupted) (SBAR (IN that) (S (ADVP (RB partially)) (VP (VBD destroyed) (NP (DT an) (JJ unidentified) (NN office)) (PP (IN in) (NP (DT the) (NN agriculture) (CC and) (NN livestock) (NN ministry) (NN building)))))))))) (. .)))
 [det(department-4, the-1), amod(department-4, national-2), nn(department-4, fire-3), nsubj(reported-5, department-4), root(ROOT-0, reported-5), complm(erupted-15, that-6), det(explosions-9, the-8), prep_following(erupted-15, explosions-9), prep_at(explosions-9, 1830-11), det(fire-14, a-13), nsubj(erupted-15, fire-14), ccomp(reported-5, erupted-15), complm(destroyed-18, that-16), advmod(destroyed-18, partially-17), ccomp(erupted-15, destroyed-18), det(office-21, an-19), amod(office-21, unidentified-20), dobj(destroyed-18, office-21), det(agriculture-24, the-23), prep_in(destroyed-18, agriculture-24), nn(building-28, livestock-26), nn(building-28, ministry-27), prep_in(destroyed-18, building-28), conj_and(agriculture-24, building-28)]
-PERP ===>> null
-VICTIM ===>> office
+
 it was reported that two vehicles in the area where the bombs were detonated were destroyed and several houses in the area were damaged . 
-(ROOT (S (S (NP (PRP it)) (VP (VBD was) (VP (VBN reported) (SBAR (IN that) (S (NP (NP (CD two) (NNS vehicles)) (PP (IN in) (NP (NP (DT the) (NN area)) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NNS bombs)) (VP (VBD were) (VP (VBN detonated)))))))) (VP (VBD were) (VP (VBN destroyed)))))))) (CC and) (S (NP (NP (JJ several) (NNS houses)) (PP (IN in) (NP (DT the) (NN area)))) (VP (VBD were) (VP (VBN damaged)))) (. .)))
 [nsubjpass(reported-3, it-1), auxpass(reported-3, was-2), root(ROOT-0, reported-3), complm(destroyed-16, that-4), num(vehicles-6, two-5), nsubjpass(destroyed-16, vehicles-6), det(area-9, the-8), prep_in(vehicles-6, area-9), advmod(detonated-14, where-10), det(bombs-12, the-11), nsubjpass(detonated-14, bombs-12), auxpass(detonated-14, were-13), rcmod(area-9, detonated-14), auxpass(destroyed-16, were-15), ccomp(reported-3, destroyed-16), amod(houses-19, several-18), nsubjpass(damaged-24, houses-19), det(area-22, the-21), prep_in(houses-19, area-22), auxpass(damaged-24, were-23), conj_and(reported-3, damaged-24)]
-PERP ===>> null
-VICTIM ===>> vehicles
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
@@ -1489,6 +1453,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> VEHICLES /OFFICE /VEHICLES /
 
 DEV-MUC3-0079 :
 VERB: ATTACKED
@@ -1502,14 +1468,14 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0080 :
 VERB: ATTACKED
 the army general staff has denied reports that a military unit in la tablada or villa martelli was attacked this morning , although he admitted that troops of the 601st battallion in villa martelli heard two shots , but that no strange movement has been observed . 
-(ROOT (S (NP (DT the) (NN army) (JJ general) (NN staff)) (VP (VBZ has) (VP (VBN denied) (NP (NNS reports)) (SBAR (IN that) (S (NP (NP (DT a) (JJ military) (NN unit)) (PP (IN in) (NP (DT la) (NN tablada) (CC or) (NN villa) (NNS martelli)))) (VP (VBD was) (VP (VBN attacked) (NP (DT this) (NN morning)) (, ,) (SBAR (IN although) (S (NP (PRP he)) (VP (VBD admitted) (SBAR (SBAR (IN that) (S (NP (NP (NNS troops)) (PP (IN of) (NP (NP (DT the) (JJ 601st) (NN battallion)) (PP (IN in) (NP (NN villa) (NNS martelli)))))) (VP (VBD heard) (NP (CD two) (NNS shots))))) (, ,) (CC but) (SBAR (IN that) (S (NP (DT no) (JJ strange) (NN movement)) (VP (VBZ has) (VP (VBN been) (VP (VBN observed)))))))))))))))) (. .)))
 [det(staff-4, the-1), nn(staff-4, army-2), amod(staff-4, general-3), nsubj(denied-6, staff-4), aux(denied-6, has-5), root(ROOT-0, denied-6), dobj(denied-6, reports-7), complm(attacked-19, that-8), det(unit-11, a-9), amod(unit-11, military-10), nsubjpass(attacked-19, unit-11), det(martelli-17, la-13), nn(martelli-17, tablada-14), conj_or(tablada-14, villa-16), nn(martelli-17, villa-16), prep_in(unit-11, martelli-17), auxpass(attacked-19, was-18), ccomp(denied-6, attacked-19), det(morning-21, this-20), tmod(attacked-19, morning-21), mark(admitted-25, although-23), nsubj(admitted-25, he-24), advcl(attacked-19, admitted-25), complm(heard-35, that-26), nsubj(heard-35, troops-27), det(battallion-31, the-29), amod(battallion-31, 601st-30), prep_of(troops-27, battallion-31), nn(martelli-34, villa-33), prep_in(battallion-31, martelli-34), ccomp(admitted-25, heard-35), num(shots-37, two-36), dobj(heard-35, shots-37), complm(observed-46, that-40), det(movement-43, no-41), amod(movement-43, strange-42), nsubjpass(observed-46, movement-43), aux(observed-46, has-44), auxpass(observed-46, been-45), ccomp(admitted-25, observed-46), conj_but(heard-35, observed-46)]
-PERP ===>> null
-VICTIM ===>> unit
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
@@ -1520,6 +1486,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> UNIT /
 
 DEV-MUC3-0081 :
 VERB: ATTACKED
@@ -1527,22 +1495,20 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 he was murdered by four unidentified people on a soccer field at carampangue and alborada streets , in the santiago neighborhood of quilcura . 
-(ROOT (S (NP (PRP he)) (VP (VBD was) (VP (VBN murdered) (PP (IN by) (NP (NP (CD four) (JJ unidentified) (NNS people)) (PP (IN on) (NP (DT a) (NN soccer) (NN field))))) (PP (IN at) (NP (NN carampangue) (CC and) (NN alborada) (NNS streets))) (, ,) (PP (IN in) (NP (NP (DT the) (JJ santiago) (NN neighborhood)) (PP (IN of) (NP (NN quilcura))))))) (. .)))
 [nsubjpass(murdered-3, he-1), auxpass(murdered-3, was-2), root(ROOT-0, murdered-3), num(people-7, four-5), amod(people-7, unidentified-6), agent(murdered-3, people-7), det(field-11, a-9), nn(field-11, soccer-10), prep_on(people-7, field-11), nn(streets-16, carampangue-13), conj_and(carampangue-13, alborada-15), nn(streets-16, alborada-15), prep_at(murdered-3, streets-16), det(neighborhood-21, the-19), amod(neighborhood-21, santiago-20), prep_in(murdered-3, neighborhood-21), prep_of(neighborhood-21, quilcura-23)]
-PERP ===>> people
-VICTIM ===>> he
+
 VERB: ABDUCTED
 VERB: KILLED
 he will investigate this attack , in which a 2d corporal of the carabineros was also killed . 
-(ROOT (S (NP (PRP he)) (VP (MD will) (VP (VB investigate) (NP (NP (DT this) (NN attack)) (, ,) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (NP (DT a) (JJ 2d) (NN corporal)) (PP (IN of) (NP (DT the) (NNS carabineros)))) (VP (VBD was) (VP (ADVP (RB also)) (VBN killed)))))))) (. .)))
 [nsubj(investigate-3, he-1), aux(investigate-3, will-2), root(ROOT-0, investigate-3), det(attack-5, this-4), dobj(investigate-3, attack-5), rel(killed-17, which-8), det(corporal-11, a-9), amod(corporal-11, 2d-10), nsubjpass(killed-17, corporal-11), det(carabineros-14, the-13), prep_of(corporal-11, carabineros-14), auxpass(killed-17, was-15), advmod(killed-17, also-16), rcmod(attack-5, killed-17)]
-PERP ===>> null
-VICTIM ===>> corporal
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> PEOPLE /
+VICTIM ==>> HE /CORPORAL /
 
 DEV-MUC3-0082 :
 VERB: ATTACKED
@@ -1556,6 +1522,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0083 :
 VERB: ATTACKED
@@ -1569,6 +1537,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0084 :
 VERB: ATTACKED
@@ -1578,25 +1548,21 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 maoist shining path guerrillas have killed the mayor of the small town of hostigal , as well as two peasants , the local press reported today . 
-(ROOT (S (S (NP (JJ maoist) (JJ shining) (NN path) (NNS guerrillas)) (VP (VBP have) (VP (VBN killed) (NP (NP (DT the) (NN mayor)) (PP (IN of) (NP (NP (NP (DT the) (JJ small) (NN town)) (PP (IN of) (NP (NN hostigal)))) (, ,) (CONJP (RB as) (RB well) (IN as)) (NP (CD two) (NNS peasants)))))))) (, ,) (NP (DT the) (JJ local) (NN press)) (VP (VBD reported) (NP (NN today))) (. .)))
 [amod(guerrillas-4, maoist-1), amod(guerrillas-4, shining-2), nn(guerrillas-4, path-3), nsubj(killed-6, guerrillas-4), aux(killed-6, have-5), ccomp(reported-25, killed-6), det(mayor-8, the-7), dobj(killed-6, mayor-8), det(town-12, the-10), amod(town-12, small-11), prep_of(mayor-8, town-12), prep_of(town-12, hostigal-14), num(peasants-20, two-19), prep_of(mayor-8, peasants-20), conj_and(town-12, peasants-20), det(press-24, the-22), amod(press-24, local-23), nsubj(reported-25, press-24), root(ROOT-0, reported-25), tmod(reported-25, today-26)]
-PERP ===>> guerrillas
-VICTIM ===>> mayor
+
 mayor armansio quispe and the two peasants were brought before a `` kangaroo court '' by the shining path , and then killed by a firing squad . 
-(ROOT (S (NP (NP (NN mayor) (NN armansio) (NN quispe)) (CC and) (NP (DT the) (CD two) (NNS peasants))) (VP (VBD were) (VP (VP (VBN brought) (PP (IN before) (NP (NP (DT a) (`` ``) (NN kangaroo) (NN court) ('' '')) (PP (IN by) (NP (DT the) (VBG shining) (NN path)))))) (, ,) (CC and) (ADVP (RB then)) (VP (VBN killed) (PP (IN by) (NP (DT a) (NN firing) (NN squad)))))) (. .)))
 [nn(quispe-3, mayor-1), nn(quispe-3, armansio-2), nsubjpass(brought-9, quispe-3), nsubjpass(killed-23, quispe-3), det(peasants-7, the-5), num(peasants-7, two-6), conj_and(quispe-3, peasants-7), nsubjpass(brought-9, peasants-7), auxpass(brought-9, were-8), root(ROOT-0, brought-9), det(court-14, a-11), nn(court-14, kangaroo-13), prep_before(brought-9, court-14), det(path-19, the-17), amod(path-19, shining-18), prep_by(court-14, path-19), advmod(brought-9, then-22), conj_and(brought-9, then-22), conj_and(brought-9, killed-23), det(squad-27, a-25), nn(squad-27, firing-26), prep_by(killed-23, squad-27)]
-PERP ===>> null
-VICTIM ===>> quispe
+
 according to the latest calculations made by the peruvian congress pacification committee , about 13,000 people have been killed in peru since 1980 as a result of political violence . 
-(ROOT (S (PP (VBG according) (PP (TO to) (NP (NP (DT the) (JJS latest) (NNS calculations)) (VP (VBN made) (PP (IN by) (NP (DT the) (JJ peruvian) (NN congress) (NN pacification) (NN committee))))))) (, ,) (NP (QP (RB about) (CD 13,000)) (NNS people)) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN in) (NP (NNP peru))) (PP (IN since) (NP (CD 1980))) (PP (IN as) (NP (NP (DT a) (NN result)) (PP (IN of) (NP (JJ political) (NN violence)))))))) (. .)))
 [prepc_according_to(killed-19, to-2), det(calculations-5, the-3), amod(calculations-5, latest-4), pobj(killed-19, calculations-5), partmod(calculations-5, made-6), det(committee-12, the-8), amod(committee-12, peruvian-9), nn(committee-12, congress-10), nn(committee-12, pacification-11), agent(made-6, committee-12), quantmod(13,000-15, about-14), num(people-16, 13,000-15), nsubjpass(killed-19, people-16), aux(killed-19, have-17), auxpass(killed-19, been-18), root(ROOT-0, killed-19), prep_in(killed-19, peru-21), prep_since(killed-19, 1980-23), det(result-26, a-25), prep_as(killed-19, result-26), amod(violence-29, political-28), prep_of(result-26, violence-29)]
-PERP ===>> null
-VICTIM ===>> people
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> GUERRILLAS /
+VICTIM ==>> MAYOR /QUISPE /PEOPLE /
 
 DEV-MUC3-0085 :
 VERB: ATTACKED
@@ -1606,20 +1572,18 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 as a result of the clash , two drug traffickers were killed and four were injured and transported to the central hospital in tingo maria . 
-(ROOT (S (PP (IN as) (NP (NP (DT a) (NN result)) (PP (IN of) (NP (DT the) (NN clash))))) (, ,) (S (NP (CD two) (NN drug) (NNS traffickers)) (VP (VBD were) (VP (VBN killed)))) (CC and) (S (NP (CD four)) (VP (VBD were) (VP (VBN injured) (CC and) (VBN transported) (PP (TO to) (NP (NP (DT the) (JJ central) (NN hospital)) (PP (IN in) (NP (NN tingo) (NN maria)))))))) (. .)))
 [det(result-3, a-2), prep_as(killed-12, result-3), det(clash-6, the-5), prep_of(result-3, clash-6), num(traffickers-10, two-8), nn(traffickers-10, drug-9), nsubjpass(killed-12, traffickers-10), auxpass(killed-12, were-11), root(ROOT-0, killed-12), nsubjpass(injured-16, four-14), nsubjpass(transported-18, four-14), auxpass(injured-16, were-15), conj_and(killed-12, injured-16), conj_and(killed-12, transported-18), conj_and(injured-16, transported-18), det(hospital-22, the-20), amod(hospital-22, central-21), prep_to(injured-16, hospital-22), nn(maria-25, tingo-24), prep_in(hospital-22, maria-25)]
-PERP ===>> null
-VICTIM ===>> traffickers
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
 a spectacular operation was conducted yesterday noon when a 39-man police patrol of the santa lucia detachment , reinforced by anti-narcotics police , surrounded the uchiza airport and waited for the arrival of two colombian light airplanes that were supposedly carrying drugs . 
-(ROOT (S (NP (DT a) (JJ spectacular) (NN operation)) (VP (VBD was) (VP (VP (VBN conducted) (NP (NN yesterday) (NN noon)) (SBAR (WHADVP (WRB when)) (S (NP (NP (DT a) (JJ 39-man) (NN police) (NN patrol)) (PP (IN of) (NP (DT the) (NN santa) (NN lucia) (NN detachment)))) (, ,) (VP (VBD reinforced) (PP (IN by) (NP (JJ anti-narcotics) (NNS police))))))) (, ,) (VP (VBN surrounded) (NP (DT the) (NN uchiza) (NN airport))) (CC and) (VP (VBN waited) (PP (IN for) (NP (NP (DT the) (NN arrival)) (PP (IN of) (NP (NP (CD two) (JJ colombian) (NN light) (NNS airplanes)) (SBAR (WHNP (WDT that)) (S (VP (VBD were) (ADVP (RB supposedly)) (VP (VBG carrying) (NP (NNS drugs))))))))))))) (. .)))
 [det(operation-3, a-1), amod(operation-3, spectacular-2), nsubjpass(conducted-5, operation-3), nsubjpass(surrounded-24, operation-3), nsubjpass(waited-29, operation-3), auxpass(conducted-5, was-4), root(ROOT-0, conducted-5), nn(noon-7, yesterday-6), tmod(conducted-5, noon-7), advmod(reinforced-19, when-8), det(patrol-12, a-9), amod(patrol-12, 39-man-10), nn(patrol-12, police-11), nsubj(reinforced-19, patrol-12), det(detachment-17, the-14), nn(detachment-17, santa-15), nn(detachment-17, lucia-16), prep_of(patrol-12, detachment-17), advcl(conducted-5, reinforced-19), amod(police-22, anti-narcotics-21), prep_by(reinforced-19, police-22), conj_and(conducted-5, surrounded-24), det(airport-27, the-25), nn(airport-27, uchiza-26), dobj(surrounded-24, airport-27), conj_and(conducted-5, waited-29), det(arrival-32, the-31), prep_for(waited-29, arrival-32), num(airplanes-37, two-34), amod(airplanes-37, colombian-35), nn(airplanes-37, light-36), prep_of(arrival-32, airplanes-37), nsubj(carrying-41, airplanes-37), aux(carrying-41, were-39), advmod(carrying-41, supposedly-40), rcmod(airplanes-37, carrying-41), dobj(carrying-41, drugs-42)]
-PERP ===>> null
-VICTIM ===>> operation
+
+PERP ===>> 
+VICTIM ==>> TRAFFICKERS /OPERATION /
 
 DEV-MUC3-0086 :
 VERB: ATTACKED
@@ -1633,42 +1597,38 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0087 :
 VERB: ATTACKED
 salvadoran colonel ciro lopez , commander of the `` el paraiso '' garrison , which was attacked by the guerrillas on 13 september , denied today that three u.s. military advisers had participated in the clash with the rebels , contrary to what the u.s. media and president have stated . 
-(ROOT (S (NP (NP (JJ salvadoran) (NN colonel) (NN ciro) (NN lopez)) (, ,) (NP (NP (NN commander)) (PP (IN of) (NP (NP (DT the) (`` ``) (NN el) (NN paraiso) ('' '') (NN garrison)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD was) (VP (VBN attacked) (PP (IN by) (NP (NP (DT the) (NNS guerrillas)) (PP (IN on) (NP (CD 13) (NN september)))))))))))) (, ,)) (VP (VBD denied) (NP (NN today)) (SBAR (IN that) (S (NP (CD three) (NNP u.s.) (JJ military) (NNS advisers)) (VP (VBD had) (VP (VBN participated) (PP (IN in) (NP (NP (DT the) (NN clash)) (PP (IN with) (NP (DT the) (NNS rebels))))) (, ,) (ADVP (JJ contrary) (PP (TO to) (SBAR (WHNP (WP what)) (S (NP (DT the) (NNP u.s.) (NNS media) (CC and) (NN president)) (VP (VBP have) (VP (VBN stated)))))))))))) (. .)))
 [amod(lopez-4, salvadoran-1), nn(lopez-4, colonel-2), nn(lopez-4, ciro-3), nsubj(denied-25, lopez-4), appos(lopez-4, commander-6), det(garrison-13, the-8), nn(garrison-13, el-10), nn(garrison-13, paraiso-11), prep_of(commander-6, garrison-13), nsubjpass(attacked-17, garrison-13), auxpass(attacked-17, was-16), rcmod(garrison-13, attacked-17), det(guerrillas-20, the-19), agent(attacked-17, guerrillas-20), num(september-23, 13-22), prep_on(guerrillas-20, september-23), root(ROOT-0, denied-25), tmod(denied-25, today-26), complm(participated-33, that-27), num(advisers-31, three-28), nn(advisers-31, u.s.-29), amod(advisers-31, military-30), nsubj(participated-33, advisers-31), aux(participated-33, had-32), ccomp(denied-25, participated-33), det(clash-36, the-35), prep_in(participated-33, clash-36), det(rebels-39, the-38), prep_with(clash-36, rebels-39), dobj(stated-50, what-43), det(media-46, the-44), nn(media-46, u.s.-45), nsubj(stated-50, media-46), conj_and(media-46, president-48), nsubj(stated-50, president-48), aux(stated-50, have-49), prepc_contrary_to(participated-33, stated-50)]
-PERP ===>> guerrillas
-VICTIM ===>> garrison
+
 in his statements , ronald reagan supported the action of the military advisers and added that `` i have never sent my men to face any danger without giving them the chance to defend themselves if they are attacked . '' 
-(ROOT (S (PP (IN in) (NP (PRP$ his) (NNS statements))) (, ,) (NP (JJ ronald) (NN reagan)) (VP (VP (VBD supported) (NP (NP (DT the) (NN action)) (PP (IN of) (NP (DT the) (JJ military) (NNS advisers))))) (CC and) (VP (VBD added) (SBAR (IN that) (`` ``) (S (NP (FW i)) (VP (VBP have) (ADVP (RB never)) (VP (VBN sent) (NP (PRP$ my) (NNS men)) (S (VP (TO to) (VP (VB face) (NP (DT any) (NN danger)) (PP (IN without) (S (VP (VBG giving) (NP (PRP them)) (NP (DT the) (NN chance) (S (VP (TO to) (VP (VB defend) (NP (PRP themselves)) (SBAR (IN if) (S (NP (PRP they)) (VP (VBP are) (VP (VBN attacked))))))))))))))))))))) (. .) ('' '')))
 [poss(statements-3, his-2), prep_in(supported-7, statements-3), amod(reagan-6, ronald-5), nsubj(supported-7, reagan-6), nsubj(added-15, reagan-6), root(ROOT-0, supported-7), det(action-9, the-8), dobj(supported-7, action-9), det(advisers-13, the-11), amod(advisers-13, military-12), prep_of(action-9, advisers-13), conj_and(supported-7, added-15), complm(sent-21, that-16), nsubj(sent-21, i-18), aux(sent-21, have-19), neg(sent-21, never-20), ccomp(added-15, sent-21), poss(men-23, my-22), dobj(sent-21, men-23), aux(face-25, to-24), xcomp(sent-21, face-25), det(danger-27, any-26), dobj(face-25, danger-27), prepc_without(face-25, giving-29), iobj(giving-29, them-30), det(chance-32, the-31), dobj(giving-29, chance-32), aux(defend-34, to-33), infmod(chance-32, defend-34), dobj(defend-34, themselves-35), mark(attacked-39, if-36), nsubjpass(attacked-39, they-37), auxpass(attacked-39, are-38), advcl(defend-34, attacked-39)]
-PERP ===>> null
-VICTIM ===>> they
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 in march 1987 , during another attack on the garrison , u.s. sergeant gregory fronius , a military adviser , was killed . 
-(ROOT (S (PP (IN in) (NP (NN march) (CD 1987))) (, ,) (PP (IN during) (NP (NP (DT another) (NN attack)) (PP (IN on) (NP (DT the) (NN garrison))))) (, ,) (NP (NP (NN u.s.) (NN sergeant) (NN gregory) (NNS fronius)) (, ,) (NP (DT a) (JJ military) (NN adviser)) (, ,)) (VP (VBD was) (VP (VBN killed))) (. .)))
 [prep_in(killed-22, march-2), num(march-2, 1987-3), det(attack-7, another-6), prep_during(killed-22, attack-7), det(garrison-10, the-9), prep_on(attack-7, garrison-10), nn(fronius-15, u.s.-12), nn(fronius-15, sergeant-13), nn(fronius-15, gregory-14), nsubjpass(killed-22, fronius-15), det(adviser-19, a-17), amod(adviser-19, military-18), appos(fronius-15, adviser-19), auxpass(killed-22, was-21), root(ROOT-0, killed-22)]
-PERP ===>> null
-VICTIM ===>> fronius
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> GUERRILLAS /
+VICTIM ==>> GARRISON /THEY /FRONIUS /
 
 DEV-MUC3-0088 :
 VERB: ATTACKED
 the station announcer goes on to report that on 27 march fmln units with rifles , rifle grenades , and homemade artillery attacked army positions at the 5 november dam . 
-(ROOT (S (S (NP (DT the) (NN station) (NN announcer)) (VP (VBZ goes) (PRT (RP on)) (S (VP (TO to) (VP (VB report) (NP (NP (DT that)) (PP (IN on) (NP (CD 27) (NN march) (NN fmln) (NNS units)))) (PP (IN with) (NP (NP (NNS rifles)) (, ,) (NP (NN rifle) (NNS grenades))))))))) (, ,) (CC and) (S (NP (JJ homemade) (NN artillery)) (VP (VBD attacked) (NP (NN army) (NNS positions)) (PP (IN at) (NP (DT the) (CD 5) (NN november) (NN dam))))) (. .)))
 [det(announcer-3, the-1), nn(announcer-3, station-2), nsubj(goes-4, announcer-3), xsubj(report-7, announcer-3), root(ROOT-0, goes-4), prt(goes-4, on-5), aux(report-7, to-6), xcomp(goes-4, report-7), dobj(report-7, that-8), num(units-13, 27-10), nn(units-13, march-11), nn(units-13, fmln-12), prep_on(that-8, units-13), prep_with(report-7, rifles-15), nn(grenades-18, rifle-17), appos(rifles-15, grenades-18), amod(artillery-22, homemade-21), nsubj(attacked-23, artillery-22), conj_and(goes-4, attacked-23), nn(positions-25, army-24), dobj(attacked-23, positions-25), det(dam-30, the-27), num(dam-30, 5-28), nn(dam-30, november-29), prep_at(attacked-23, dam-30)]
-PERP ===>> artillery
-VICTIM ===>> positions
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
@@ -1676,33 +1636,27 @@ VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
 the ambush took place in casitas , texistepeque jurisdiction , when two powerful feliciano ama mines exploded , inflicting eight casualties on the army and totally destroying a military vehicle . 
-(ROOT (S (NP (DT the) (NN ambush)) (VP (VBD took) (NP (NN place)) (PP (IN in) (NP (NP (NNS casitas)) (, ,) (NP (JJ texistepeque) (NN jurisdiction)) (, ,))) (SBAR (WHADVP (WRB when)) (S (NP (CD two) (JJ powerful) (NN feliciano) (NN ama) (NNS mines)) (VP (VBD exploded) (, ,) (S (VP (VP (VBG inflicting) (NP (NP (CD eight) (NNS casualties)) (PP (IN on) (NP (DT the) (NN army))))) (CC and) (VP (ADVP (RB totally)) (VBG destroying) (NP (DT a) (JJ military) (NN vehicle))))))))) (. .)))
 [det(ambush-2, the-1), nsubj(took-3, ambush-2), root(ROOT-0, took-3), dobj(took-3, place-4), prep_in(took-3, casitas-6), amod(jurisdiction-9, texistepeque-8), appos(casitas-6, jurisdiction-9), advmod(exploded-17, when-11), num(mines-16, two-12), amod(mines-16, powerful-13), nn(mines-16, feliciano-14), nn(mines-16, ama-15), nsubj(exploded-17, mines-16), advcl(took-3, exploded-17), ccomp(exploded-17, inflicting-19), num(casualties-21, eight-20), dobj(inflicting-19, casualties-21), det(army-24, the-23), prep_on(casualties-21, army-24), advmod(destroying-27, totally-26), ccomp(exploded-17, destroying-27), conj_and(inflicting-19, destroying-27), det(vehicle-30, a-28), amod(vehicle-30, military-29), dobj(destroying-27, vehicle-30)]
-PERP ===>> mines
-VICTIM ===>> null
+
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> ARTILLERY /MINES /
+VICTIM ==>> POSITIONS /
 
 DEV-MUC3-0089 :
 VERB: ATTACKED
 the brothels reportedly have been attacked because it is believed that women are exploited there . 
-(ROOT (S (NP (DT the) (NNS brothels)) (ADVP (RB reportedly)) (VP (VBP have) (VP (VBN been) (VP (VBN attacked) (SBAR (IN because) (S (NP (PRP it)) (VP (VBZ is) (VP (VBN believed) (SBAR (IN that) (S (NP (NNS women)) (VP (VBP are) (VP (VBN exploited) (ADVP (RB there))))))))))))) (. .)))
 [det(brothels-2, the-1), nsubjpass(attacked-6, brothels-2), advmod(attacked-6, reportedly-3), aux(attacked-6, have-4), auxpass(attacked-6, been-5), root(ROOT-0, attacked-6), mark(believed-10, because-7), nsubjpass(believed-10, it-8), auxpass(believed-10, is-9), advcl(attacked-6, believed-10), complm(exploited-14, that-11), nsubjpass(exploited-14, women-12), auxpass(exploited-14, are-13), ccomp(believed-10, exploited-14), advmod(exploited-14, there-15)]
-PERP ===>> null
-VICTIM ===>> brothels
+
 VERB: DESTROYED
 orlando quiteno , spokesman for the lempa river hydroelectric executive commission , has reported that in the past few hours the salvadoran guerrillas have destroyed at least 10 power transmission towers , damaging seven high voltage lines in the northern and central parts of the country . 
-(ROOT (S (NP (NP (NN orlando) (NN quiteno)) (, ,) (NP (NP (NN spokesman)) (PP (IN for) (NP (DT the) (NN lempa) (NN river) (JJ hydroelectric) (NN executive) (NN commission)))) (, ,)) (VP (VBZ has) (VP (VBN reported) (SBAR (IN that) (S (PP (IN in) (NP (DT the) (JJ past) (JJ few) (NNS hours))) (NP (DT the) (NN salvadoran) (NNS guerrillas)) (VP (VBP have) (VP (VBN destroyed) (NP (QP (IN at) (JJS least) (CD 10)) (NN power) (NN transmission) (NNS towers)) (, ,) (S (VP (VBG damaging) (NP (CD seven) (JJ high) (NN voltage) (NNS lines)) (PP (IN in) (NP (NP (DT the) (JJ northern) (CC and) (JJ central) (NNS parts)) (PP (IN of) (NP (DT the) (NN country))))))))))))) (. .)))
 [nn(quiteno-2, orlando-1), nsubj(reported-14, quiteno-2), appos(quiteno-2, spokesman-4), det(commission-11, the-6), nn(commission-11, lempa-7), nn(commission-11, river-8), amod(commission-11, hydroelectric-9), nn(commission-11, executive-10), prep_for(spokesman-4, commission-11), aux(reported-14, has-13), root(ROOT-0, reported-14), complm(destroyed-25, that-15), det(hours-20, the-17), amod(hours-20, past-18), amod(hours-20, few-19), prep_in(destroyed-25, hours-20), det(guerrillas-23, the-21), nn(guerrillas-23, salvadoran-22), nsubj(destroyed-25, guerrillas-23), aux(destroyed-25, have-24), ccomp(reported-14, destroyed-25), quantmod(10-28, at-26), mwe(at-26, least-27), pobj(at-26, least-27), num(towers-31, 10-28), nn(towers-31, power-29), nn(towers-31, transmission-30), dobj(destroyed-25, towers-31), partmod(destroyed-25, damaging-33), xcomp(destroyed-25, damaging-33), num(lines-37, seven-34), amod(lines-37, high-35), nn(lines-37, voltage-36), dobj(damaging-33, lines-37), det(parts-43, the-39), amod(parts-43, northern-40), conj_and(northern-40, central-42), amod(parts-43, central-42), prep_in(damaging-33, parts-43), det(country-46, the-45), prep_of(parts-43, country-46)]
-PERP ===>> guerrillas
-VICTIM ===>> towers
+
 the resumption of the sabotage against the energy system is accompanied by the resumption of rebel attacks against brothels , two of which were destroyed in the last 24 hours , although no casualties have been reported . 
-(ROOT (S (NP (NP (DT the) (NN resumption)) (PP (IN of) (NP (NP (DT the) (NN sabotage)) (PP (IN against) (NP (DT the) (NN energy) (NN system)))))) (VP (VBZ is) (VP (VBN accompanied) (PP (IN by) (NP (NP (DT the) (NN resumption)) (PP (IN of) (NP (JJ rebel) (NNS attacks))))) (PP (IN against) (NP (NP (NNS brothels)) (, ,) (SBAR (WHNP (CD two) (WHPP (IN of) (WHNP (WDT which)))) (S (VP (VBD were) (VP (VBN destroyed) (PP (IN in) (NP (DT the) (JJ last) (CD 24) (NNS hours))) (, ,) (SBAR (IN although) (S (NP (DT no) (NNS casualties)) (VP (VBP have) (VP (VBN been) (VP (VBN reported)))))))))))))) (. .)))
 [det(resumption-2, the-1), nsubjpass(accompanied-11, resumption-2), det(sabotage-5, the-4), prep_of(resumption-2, sabotage-5), det(system-9, the-7), nn(system-9, energy-8), prep_against(sabotage-5, system-9), auxpass(accompanied-11, is-10), root(ROOT-0, accompanied-11), det(resumption-14, the-13), agent(accompanied-11, resumption-14), amod(attacks-17, rebel-16), prep_of(resumption-14, attacks-17), prep_against(accompanied-11, brothels-19), prep_of(two-21, brothels-19), nsubjpass(destroyed-25, two-21), auxpass(destroyed-25, were-24), rcmod(brothels-19, destroyed-25), det(hours-30, the-27), amod(hours-30, last-28), num(hours-30, 24-29), prep_in(destroyed-25, hours-30), mark(reported-37, although-32), det(casualties-34, no-33), nsubjpass(reported-37, casualties-34), aux(reported-37, have-35), auxpass(reported-37, been-36), advcl(destroyed-25, reported-37)]
-PERP ===>> null
-VICTIM ===>> two
+
 VERB: KIDNAPPED
 VERB: MURDERED
 VERB: ABDUCTED
@@ -1712,6 +1666,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> GUERRILLAS /
+VICTIM ==>> BROTHELS /TOWERS /TWO /
 
 DEV-MUC3-0090 :
 VERB: ATTACKED
@@ -1725,6 +1681,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0091 :
 VERB: ATTACKED
@@ -1739,10 +1697,10 @@ VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
 costas badani pointed out that the shining path guerrillas have conducted their terrorist operations exclusively in peruvian territory and that bolivia has no connection whatsoever with this guerrilla organization . 
-(ROOT (S (NP (NNS costas) (NNS badani)) (VP (VBD pointed) (PRT (RP out)) (SBAR (SBAR (IN that) (S (NP (DT the) (VBG shining) (NN path) (NNS guerrillas)) (VP (VBP have) (VP (VBN conducted) (NP (PRP$ their) (JJ terrorist) (NNS operations)) (PP (RB exclusively) (IN in) (NP (NN peruvian) (NN territory))))))) (CC and) (SBAR (IN that) (S (NP (NN bolivia)) (VP (VBZ has) (NP (NP (DT no) (NN connection) (RB whatsoever)) (PP (IN with) (NP (DT this) (NN guerrilla) (NN organization))))))))) (. .)))
 [nn(badani-2, costas-1), nsubj(pointed-3, badani-2), root(ROOT-0, pointed-3), prt(pointed-3, out-4), complm(conducted-11, that-5), det(guerrillas-9, the-6), amod(guerrillas-9, shining-7), nn(guerrillas-9, path-8), nsubj(conducted-11, guerrillas-9), aux(conducted-11, have-10), ccomp(pointed-3, conducted-11), poss(operations-14, their-12), amod(operations-14, terrorist-13), dobj(conducted-11, operations-14), advmod(conducted-11, exclusively-15), nn(territory-18, peruvian-17), prep_in(conducted-11, territory-18), complm(has-22, that-20), nsubj(has-22, bolivia-21), ccomp(pointed-3, has-22), conj_and(conducted-11, has-22), det(connection-24, no-23), dobj(has-22, connection-24), advmod(connection-24, whatsoever-25), det(organization-29, this-27), nn(organization-29, guerrilla-28), prep_with(connection-24, organization-29)]
-PERP ===>> guerrillas
-VICTIM ===>> operations
+
+PERP ===>> GUERRILLAS /
+VICTIM ==>> OPERATIONS /
 
 DEV-MUC3-0092 :
 VERB: ATTACKED
@@ -1756,54 +1714,44 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0093 :
 VERB: ATTACKED
 girardo battalion officers , who asked us not to reveal their names , stated that the rebels , who were members of the farc 28th front , attacked two trucks filled with soldiers . 
-(ROOT (S (NP (NP (JJ girardo) (NN battalion) (NNS officers)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD asked) (S (NP (PRP us)) (RB not) (VP (TO to) (VP (VB reveal) (NP (PRP$ their) (NNS names)))))))) (, ,)) (VP (VBD stated) (SBAR (IN that) (S (NP (NP (DT the) (NNS rebels)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD were) (NP (NP (NNS members)) (PP (IN of) (NP (DT the) (JJ farc) (JJ 28th) (NN front))))))) (, ,)) (VP (VBD attacked) (NP (NP (CD two) (NNS trucks)) (VP (VBN filled) (PP (IN with) (NP (NNS soldiers))))))))) (. .)))
 [amod(officers-3, girardo-1), nn(officers-3, battalion-2), nsubj(asked-6, officers-3), nsubj(stated-14, officers-3), rcmod(officers-3, asked-6), nsubj(reveal-10, us-7), neg(reveal-10, not-8), aux(reveal-10, to-9), xcomp(asked-6, reveal-10), poss(names-12, their-11), dobj(reveal-10, names-12), root(ROOT-0, stated-14), complm(attacked-28, that-15), det(rebels-17, the-16), nsubj(members-21, rebels-17), nsubj(attacked-28, rebels-17), cop(members-21, were-20), rcmod(rebels-17, members-21), det(front-26, the-23), amod(front-26, farc-24), amod(front-26, 28th-25), prep_of(members-21, front-26), ccomp(stated-14, attacked-28), num(trucks-30, two-29), dobj(attacked-28, trucks-30), partmod(trucks-30, filled-31), prep_with(filled-31, soldiers-33)]
-PERP ===>> rebels
-VICTIM ===>> trucks
+
 VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 we know seven peasants were murdered by farc 12th front members . '' 
-(ROOT (S (NP (PRP we)) (VP (VBP know) (SBAR (S (NP (CD seven) (NNS peasants)) (VP (VBD were) (VP (VBN murdered) (PP (IN by) (NP (JJ farc) (JJ 12th) (NN front) (NNS members)))))))) (. .) ('' '')))
 [nsubj(know-2, we-1), root(ROOT-0, know-2), num(peasants-4, seven-3), nsubjpass(murdered-6, peasants-4), auxpass(murdered-6, were-5), ccomp(know-2, murdered-6), amod(members-11, farc-8), amod(members-11, 12th-9), nn(members-11, front-10), agent(murdered-6, members-11)]
-PERP ===>> members
-VICTIM ===>> peasants
+
 VERB: ABDUCTED
 VERB: KILLED
 one army lieutenant , four soldiers , and three civilians were killed during the attacks . 
-(ROOT (S (NP (NP (CD one) (NN army) (NN lieutenant)) (, ,) (NP (CD four) (NNS soldiers)) (, ,) (CC and) (NP (CD three) (NNS civilians))) (VP (VBD were) (VP (VBN killed) (PP (IN during) (NP (DT the) (NNS attacks))))) (. .)))
 [num(lieutenant-3, one-1), nn(lieutenant-3, army-2), nsubjpass(killed-12, lieutenant-3), num(soldiers-6, four-5), conj_and(lieutenant-3, soldiers-6), nsubjpass(killed-12, soldiers-6), num(civilians-10, three-9), conj_and(lieutenant-3, civilians-10), nsubjpass(killed-12, civilians-10), auxpass(killed-12, were-11), root(ROOT-0, killed-12), det(attacks-15, the-14), prep_during(killed-12, attacks-15)]
-PERP ===>> null
-VICTIM ===>> lieutenant
+
 lieutenant jaime quintero cardona and soldiers nelson sanchez molina , maximiliano serrato cuellar , and dairo suarez suarez were killed in this action . 
-(ROOT (S (NP (NP (JJ lieutenant) (JJ jaime) (NN quintero) (NN cardona) (CC and) (NNS soldiers) (NN nelson) (NNP sanchez) (NNP molina)) (, ,) (NP (NN maximiliano) (NN serrato) (NN cuellar)) (, ,) (CC and) (NP (NN dairo) (NN suarez) (NN suarez))) (VP (VBD were) (VP (VBN killed) (PP (IN in) (NP (DT this) (NN action))))) (. .)))
 [amod(cardona-4, lieutenant-1), amod(cardona-4, jaime-2), nn(cardona-4, quintero-3), nsubjpass(killed-20, cardona-4), nn(molina-9, soldiers-6), nn(molina-9, nelson-7), nn(molina-9, sanchez-8), conj_and(cardona-4, molina-9), nsubjpass(killed-20, molina-9), nn(cuellar-13, maximiliano-11), nn(cuellar-13, serrato-12), conj_and(cardona-4, cuellar-13), nsubjpass(killed-20, cuellar-13), nn(suarez-18, dairo-16), nn(suarez-18, suarez-17), conj_and(cardona-4, suarez-18), nsubjpass(killed-20, suarez-18), auxpass(killed-20, were-19), root(ROOT-0, killed-20), det(action-23, this-22), prep_in(killed-20, action-23)]
-PERP ===>> null
-VICTIM ===>> cardona
+
 according to police commander colonel jose william bermudez zapata , who commands antiguerrilla operations with the support of 7th brigade troops , the rebels killed three people and took the fourth passenger of the jeep with them . 
-(ROOT (S (PP (VBG according) (PP (TO to) (NP (NP (NN police) (NN commander) (NN colonel) (NN jose) (NN william) (NN bermudez) (NN zapata)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ commands) (NP (NN antiguerrilla) (NNS operations)) (PP (IN with) (NP (NP (DT the) (NN support)) (PP (IN of) (NP (JJ 7th) (NN brigade) (NNS troops))))))))))) (, ,) (NP (DT the) (NNS rebels)) (VP (VP (VBD killed) (NP (CD three) (NNS people))) (CC and) (VP (VBD took) (NP (NP (DT the) (JJ fourth) (NN passenger)) (PP (IN of) (NP (DT the) (NN jeep)))) (PP (IN with) (NP (PRP them))))) (. .)))
 [prepc_according_to(killed-25, to-2), nn(zapata-9, police-3), nn(zapata-9, commander-4), nn(zapata-9, colonel-5), nn(zapata-9, jose-6), nn(zapata-9, william-7), nn(zapata-9, bermudez-8), nsubj(commands-12, zapata-9), pobj(killed-25, zapata-9), rcmod(zapata-9, commands-12), nn(operations-14, antiguerrilla-13), dobj(commands-12, operations-14), det(support-17, the-16), prep_with(commands-12, support-17), amod(troops-21, 7th-19), nn(troops-21, brigade-20), prep_of(support-17, troops-21), det(rebels-24, the-23), nsubj(killed-25, rebels-24), nsubj(took-29, rebels-24), root(ROOT-0, killed-25), num(people-27, three-26), dobj(killed-25, people-27), conj_and(killed-25, took-29), det(passenger-32, the-30), amod(passenger-32, fourth-31), dobj(took-29, passenger-32), det(jeep-35, the-34), prep_of(passenger-32, jeep-35), prep_with(took-29, them-37)]
-PERP ===>> rebels
-VICTIM ===>> people
+
 col ferrero explained that `` in principle , we have reports saying many people were killed , but we do not know exactly how many . 
-(ROOT (S (S (NP (NN col) (NN ferrero)) (VP (VBD explained) (SBAR (IN that) (`` ``) (S (PP (IN in) (NP (NN principle))) (, ,) (NP (PRP we)) (VP (VBP have) (VP (VBZ reports) (S (VP (VBG saying) (SBAR (S (NP (JJ many) (NNS people)) (VP (VBD were) (VP (VBN killed))))))))))))) (, ,) (CC but) (S (NP (PRP we)) (VP (VBP do) (RB not) (VP (VB know) (FRAG (WHADJP (RB exactly) (WRB how) (JJ many)))))) (. .)))
 [nn(ferrero-2, col-1), nsubj(explained-3, ferrero-2), root(ROOT-0, explained-3), complm(reports-11, that-4), prep_in(reports-11, principle-7), nsubj(reports-11, we-9), aux(reports-11, have-10), ccomp(explained-3, reports-11), xcomp(reports-11, saying-12), amod(people-14, many-13), nsubjpass(killed-16, people-14), auxpass(killed-16, were-15), ccomp(saying-12, killed-16), nsubj(know-22, we-19), aux(know-22, do-20), neg(know-22, not-21), conj_but(explained-3, know-22), advmod(many-25, exactly-23), advmod(many-25, how-24), dep(know-22, many-25)]
-PERP ===>> null
-VICTIM ===>> people
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
 meanwhile , we have been unable to obtain information about the results of the operations conducted by 5th brigade troops commanded by general alfonso vaca perilla in the areas of el carmen and san vicente de chucurri , santander department . 
-(ROOT (S (ADVP (RB meanwhile)) (, ,) (NP (PRP we)) (VP (VBP have) (VP (VBN been) (ADJP (JJ unable) (S (VP (TO to) (VP (VB obtain) (NP (NN information)) (PP (IN about) (NP (NP (DT the) (NNS results)) (PP (IN of) (NP (NP (DT the) (NNS operations)) (VP (VBN conducted) (PP (IN by) (NP (NP (JJ 5th) (NN brigade) (NNS troops)) (VP (VBN commanded) (PP (IN by) (NP (NP (JJ general) (NN alfonso) (NN vaca) (NN perilla)) (PP (IN in) (NP (NP (DT the) (NNS areas)) (PP (IN of) (NP (NP (NN el) (NN carmen) (CC and) (NN san) (NN vicente)) (IN de) (NP (NP (NNS chucurri)) (, ,) (NP (NN santander) (NN department))))))))))))))))))))))) (. .)))
 [advmod(unable-6, meanwhile-1), nsubj(unable-6, we-3), aux(unable-6, have-4), cop(unable-6, been-5), root(ROOT-0, unable-6), aux(obtain-8, to-7), xcomp(unable-6, obtain-8), dobj(obtain-8, information-9), det(results-12, the-11), prep_about(obtain-8, results-12), det(operations-15, the-14), prep_of(results-12, operations-15), partmod(operations-15, conducted-16), amod(troops-20, 5th-18), nn(troops-20, brigade-19), agent(conducted-16, troops-20), partmod(troops-20, commanded-21), amod(perilla-26, general-23), nn(perilla-26, alfonso-24), nn(perilla-26, vaca-25), agent(commanded-21, perilla-26), det(areas-29, the-28), prep_in(perilla-26, areas-29), nn(carmen-32, el-31), prep_of(areas-29, carmen-32), nn(vicente-35, san-34), prep_of(areas-29, vicente-35), conj_and(carmen-32, vicente-35), amod(carmen-32, de-36), dep(carmen-32, chucurri-37), nn(department-40, santander-39), appos(chucurri-37, department-40)]
-PERP ===>> troops
-VICTIM ===>> null
+
+PERP ===>> REBELS /MEMBERS /REBELS /TROOPS /
+VICTIM ==>> TRUCKS /PEASANTS /LIEUTENANT /CARDONA /PEOPLE /PEOPLE /
 
 DEV-MUC3-0094 :
 VERB: ATTACKED
@@ -1814,14 +1762,14 @@ VERB: ABDUCTED
 VERB: KILLED
 VERB: EXPLODED
 a bomb exploded today in a lima restaurant , and a second device that had been placed in the same establishment was deactivated by the peruvian national police . 
-(ROOT (S (S (NP (DT a) (NN bomb)) (VP (VBD exploded) (NP (NN today)) (PP (IN in) (NP (DT a) (NN lima) (NN restaurant))))) (, ,) (CC and) (S (NP (NP (DT a) (JJ second) (NN device)) (SBAR (WHNP (WDT that)) (S (VP (VBD had) (VP (VBN been) (VP (VBN placed) (PP (IN in) (NP (DT the) (JJ same) (NN establishment))))))))) (VP (VBD was) (VP (VBN deactivated) (PP (IN by) (NP (DT the) (JJ peruvian) (JJ national) (NN police)))))) (. .)))
 [det(bomb-2, a-1), nsubj(exploded-3, bomb-2), root(ROOT-0, exploded-3), tmod(exploded-3, today-4), det(restaurant-8, a-6), nn(restaurant-8, lima-7), prep_in(exploded-3, restaurant-8), det(device-13, a-11), amod(device-13, second-12), nsubjpass(placed-17, device-13), nsubjpass(deactivated-23, device-13), aux(placed-17, had-15), auxpass(placed-17, been-16), rcmod(device-13, placed-17), det(establishment-21, the-19), amod(establishment-21, same-20), prep_in(placed-17, establishment-21), auxpass(deactivated-23, was-22), conj_and(exploded-3, deactivated-23), det(police-28, the-25), amod(police-28, peruvian-26), amod(police-28, national-27), agent(deactivated-23, police-28)]
-PERP ===>> bomb
-VICTIM ===>> null
+
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> BOMB /
+VICTIM ==>> 
 
 DEV-MUC3-0095 :
 VERB: ATTACKED
@@ -1835,6 +1783,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0096 :
 VERB: ATTACKED
@@ -1844,20 +1794,18 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 this report confirms that the pilot was killed and one crew member was injured as a result of the emergency landing . 
-(ROOT (S (S (NP (DT this) (NN report)) (VP (VBZ confirms) (SBAR (IN that) (S (NP (DT the) (NN pilot)) (VP (VBD was) (VP (VBN killed))))))) (CC and) (S (NP (CD one) (NN crew) (NN member)) (VP (VBD was) (VP (VBN injured) (PP (IN as) (NP (NP (DT a) (NN result)) (PP (IN of) (NP (DT the) (NN emergency) (NN landing)))))))) (. .)))
 [det(report-2, this-1), nsubj(confirms-3, report-2), root(ROOT-0, confirms-3), complm(killed-8, that-4), det(pilot-6, the-5), nsubjpass(killed-8, pilot-6), auxpass(killed-8, was-7), ccomp(confirms-3, killed-8), num(member-12, one-10), nn(member-12, crew-11), nsubjpass(injured-14, member-12), auxpass(injured-14, was-13), conj_and(confirms-3, injured-14), det(result-17, a-16), prep_as(injured-14, result-17), det(landing-21, the-19), nn(landing-21, emergency-20), prep_of(result-17, landing-21)]
-PERP ===>> null
-VICTIM ===>> pilot
+
 we repeat : the pilot was killed and one crew member was injured as a result of the emergency landing . 
-(ROOT (S (S (NP (PRP we)) (VP (VB repeat))) (: :) (S (S (NP (DT the) (NN pilot)) (VP (VBD was) (VP (VBN killed)))) (CC and) (S (NP (CD one) (NN crew) (NN member)) (VP (VBD was) (VP (VBN injured) (PP (IN as) (NP (NP (DT a) (NN result)) (PP (IN of) (NP (DT the) (NN emergency) (NN landing))))))))) (. .)))
 [nsubj(repeat-2, we-1), root(ROOT-0, repeat-2), det(pilot-5, the-4), nsubjpass(killed-7, pilot-5), auxpass(killed-7, was-6), parataxis(repeat-2, killed-7), num(member-11, one-9), nn(member-11, crew-10), nsubjpass(injured-13, member-11), auxpass(injured-13, was-12), parataxis(repeat-2, injured-13), conj_and(killed-7, injured-13), det(result-16, a-15), prep_as(injured-13, result-16), det(landing-20, the-18), nn(landing-20, emergency-19), prep_of(result-16, landing-20)]
-PERP ===>> null
-VICTIM ===>> pilot
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> PILOT /PILOT /
 
 DEV-MUC3-0097 :
 VERB: ATTACKED
@@ -1867,15 +1815,15 @@ VERB: MURDERED
 VERB: ABDUCTED
 VERB: KILLED
 one person was killed and three others injured tonight as the result of a bomb explosion in downtown san salvador . 
-(ROOT (S (S (NP (CD one) (NN person)) (VP (VBD was) (VP (VBN killed)))) (CC and) (S (NP (CD three) (NNS others)) (VP (VBD injured) (NP (RB tonight)) (PP (IN as) (NP (NP (DT the) (NN result)) (PP (IN of) (NP (DT a) (NN bomb) (NN explosion))))) (PP (IN in) (NP (JJ downtown) (NN san) (NN salvador))))) (. .)))
 [num(person-2, one-1), nsubjpass(killed-4, person-2), auxpass(killed-4, was-3), root(ROOT-0, killed-4), num(others-7, three-6), nsubj(injured-8, others-7), conj_and(killed-4, injured-8), dobj(injured-8, tonight-9), det(result-12, the-11), prep_as(injured-8, result-12), det(explosion-16, a-14), nn(explosion-16, bomb-15), prep_of(result-12, explosion-16), amod(salvador-20, downtown-18), nn(salvador-20, san-19), prep_in(injured-8, salvador-20)]
-PERP ===>> null
-VICTIM ===>> person
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> PERSON /
 
 DEV-MUC3-0098 :
 VERB: ATTACKED
@@ -1883,27 +1831,23 @@ VERB: DESTROYED
 VERB: KIDNAPPED
 VERB: MURDERED
 since the up was founded , nearly 1,000 of its members and leaders have been murdered . 
-(ROOT (S (SBAR (IN since) (S (NP (DT the) (RB up)) (VP (VBD was) (VP (VBN founded))))) (, ,) (NP (NP (QP (RB nearly) (CD 1,000))) (PP (IN of) (NP (PRP$ its) (NNS members) (CC and) (NNS leaders)))) (VP (VBP have) (VP (VBN been) (VP (VBN murdered)))) (. .)))
 [mark(founded-5, since-1), det(up-3, the-2), nsubjpass(founded-5, up-3), auxpass(founded-5, was-4), advcl(murdered-16, founded-5), quantmod(1,000-8, nearly-7), nsubjpass(murdered-16, 1,000-8), poss(members-11, its-10), prep_of(1,000-8, members-11), prep_of(1,000-8, leaders-13), conj_and(members-11, leaders-13), aux(murdered-16, have-14), auxpass(murdered-16, been-15), root(ROOT-0, murdered-16)]
-PERP ===>> null
-VICTIM ===>> 1,000
+
 VERB: ABDUCTED
 VERB: KILLED
 in addition , nearly 1,500 people were killed in clashes between the armed forces and guerrillas in 1988 . 
-(ROOT (S (PP (IN in) (NP (NN addition))) (, ,) (NP (QP (RB nearly) (CD 1,500)) (NNS people)) (VP (VBD were) (VP (VBN killed) (PP (IN in) (NP (NP (NNS clashes)) (PP (IN between) (NP (NP (DT the) (JJ armed) (NNS forces) (CC and) (NNS guerrillas)) (PP (IN in) (NP (CD 1988))))))))) (. .)))
 [prep_in(killed-8, addition-2), quantmod(1,500-5, nearly-4), num(people-6, 1,500-5), nsubjpass(killed-8, people-6), auxpass(killed-8, were-7), root(ROOT-0, killed-8), prep_in(killed-8, clashes-10), det(forces-14, the-12), amod(forces-14, armed-13), prep_between(clashes-10, forces-14), prep_between(clashes-10, guerrillas-16), conj_and(forces-14, guerrillas-16), prep_in(forces-14, 1988-18)]
-PERP ===>> null
-VICTIM ===>> people
+
 so far this year , about 100 people have been killed in clashes . 
-(ROOT (S (ADVP (RB so) (RB far)) (NP (DT this) (NN year)) (, ,) (NP (QP (RB about) (CD 100)) (NNS people)) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN in) (NP (NNS clashes)))))) (. .)))
 [advmod(far-2, so-1), advmod(killed-11, far-2), det(year-4, this-3), tmod(killed-11, year-4), quantmod(100-7, about-6), num(people-8, 100-7), nsubjpass(killed-11, people-8), aux(killed-11, have-9), auxpass(killed-11, been-10), root(ROOT-0, killed-11), prep_in(killed-11, clashes-13)]
-PERP ===>> null
-VICTIM ===>> people
+
 VERB: EXPLODED
 VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 1,000 /PEOPLE /PEOPLE /
 
 DEV-MUC3-0099 :
 VERB: ATTACKED
@@ -1917,6 +1861,8 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
 DEV-MUC3-0100 :
 VERB: ATTACKED
@@ -1930,5 +1876,7 @@ VERB: ROBBED
 VERB: SHOT
 VERB: RIDDLED
 VERB: CONDUCTED
+PERP ===>> 
+VICTIM ==>> 
 
  File written successfully.
