@@ -27,7 +27,8 @@ public class Parser {
 	/* options we need to pass to parser */
 	private String options;
 	
-	private final String grammarFile = "/home/akabdul/workspace/nlp-ie/englishPCFG.ser.gz";
+	//private final String grammarFile = "/home/akabdul/workspace/nlp-ie/englishPCFG.ser.gz";//
+	private final String grammarFile = "C:/Users/Prafulla/SetUps/StanfordParser/stanford-parser-2011-09-14/stanford-parser-2011-09-14/grammar/englishPCFG.ser.gz";//
 	
 	private LexicalizedParser lp = 
 		      new LexicalizedParser(Utility.getFilePath(grammarFile));
@@ -85,7 +86,13 @@ public class Parser {
 			if(typedDependency.gov().value().equalsIgnoreCase(verb)) {
 				if(typedDependency.reln().toString().equalsIgnoreCase("nsubjpass")
 						|| typedDependency.reln().toString().equalsIgnoreCase("dobj")) {
-					return typedDependency.dep().value();
+					
+					
+					String victim =typedDependency.dep().value(); 
+					
+					System.out.println("Victim = "+victim);
+					return victim;
+					
 				}
 			}
 		}
