@@ -64,6 +64,10 @@ public class Infoextract {
 		return p.processEvents(parser, t);
 	}
 	
+	/*private String processTarget(Parser parser, Template t)
+	{
+		return p.processTarget(parser, t);
+	}*/
 	
 
 	public void processDocument(String file,Parser p)
@@ -98,7 +102,7 @@ public class Infoextract {
 			//t1.setPerpetratorPerson(processPerpetrator(p));
 			processEvents(p, t1);
 			//processVictim(p, t1);
-			//processTarget();
+			//processTarget(p, t1);
 			getT().add(t1);
 		}
 	}
@@ -111,7 +115,16 @@ public class Infoextract {
 	{
 		Infoextract ie = new Infoextract();
 		ie.processDocument(args[0], ie.parser);
-		ie.printOutput(args[0]);
+		
+		if(args.length != 1)
+		{
+			System.err.print("\n\t InfoExtract accepts only one argument.");
+		}
+		else
+		{
+			ie.printOutput(args[0]);
+		}
+		
 	}
 	public void printOutput(String path)
 	{
