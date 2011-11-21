@@ -24,6 +24,7 @@ public class Utility {
 	public static ArrayList <String> militaryWords;
 	public static ArrayList <String> weapons;
 
+	static String triggerWord = "-";
 	static
 	{
 		nonConfirmationWords = new ArrayList<String>();
@@ -54,7 +55,7 @@ public class Utility {
 		
 		weapons.add("bomb");weapons.add("dynamite");
 		weapons.add("machinegun");weapons.add("grenade");weapons.add("gun");
-		weapons.add("rifle");weapons.add("machine-gun");weapons.add("bullet");
+		weapons.add("rifle");weapons.add("machine-gun");weapons.add("bullet");weapons.add("explosive");
 		weapons.add("devices");//handle later
 		
 	}
@@ -197,6 +198,7 @@ public class Utility {
 				{
 					if(Utility.isValidWord((String)l.get(j)))
 					{
+						triggerWord = (String)l.get(j);
 						return true;
 					}
 					
@@ -206,6 +208,10 @@ public class Utility {
 		return false;
 	}
 
+	public static String getTriggerWord()
+	{
+		return triggerWord;
+	}
 	//change it to odd number of times
 	public static boolean containsNegation(String Sentence)
 	{
@@ -253,6 +259,24 @@ public class Utility {
 		}
 		return false;
 	}
+	
+	public static String getBombingWord(String sentence)
+	{
+		String [] words =sentence.split(" ");
+		for(int i=0;i<words.length;i++)
+		{ 
+			if(words[i].equalsIgnoreCase("bombs")|| words[i].equalsIgnoreCase("bomb")|| words[i].equalsIgnoreCase("bombed")
+					|| words[i].equalsIgnoreCase("bombing") ||words[i].equalsIgnoreCase("bombardment") ||words[i].equalsIgnoreCase("bombarding")
+					|| words[i].equalsIgnoreCase("dynamite")  || words[i].equalsIgnoreCase("dynamites")
+					|| words[i].equalsIgnoreCase("explosion")
+					)
+			{
+				return words[i];
+			}
+			
+		}
+		return "-";
+	}
 	public static String getWeapon(String sentence)
 	{
 		String [] words = sentence.split(" ");
@@ -263,7 +287,7 @@ public class Utility {
 			for(int j=0;j<weapons.size();j++)
 			{
 				
-				if(words[i].equalsIgnoreCase(weapons.get(j)) ||words[i].equalsIgnoreCase(weapons.get(j)+"s"))
+				if(words[i].equalsIgnoreCase(weapons.get(j)) || words[i].equalsIgnoreCase(weapons.get(j)+"s"))
 				{
 					return words[i];
 				}
@@ -333,6 +357,7 @@ public class Utility {
 		return sentence;
 		
 	}
+	
 	public static boolean isValidWord(String word)
 	{
 		if(word.matches("[a-zA-Z]*"))

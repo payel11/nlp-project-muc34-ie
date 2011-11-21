@@ -1,31 +1,14 @@
-
-
-
-
-import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Queue;
-import java.util.concurrent.ArrayBlockingQueue;
-
-import javax.swing.text.SimpleAttributeSet;
-
-import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.HasWord;
-import edu.stanford.nlp.objectbank.TokenizerFactory;
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
-import edu.stanford.nlp.process.DocumentPreprocessor;
-import edu.stanford.nlp.process.PTBTokenizer;
-import edu.stanford.nlp.trees.GrammaticalStructure;
-import edu.stanford.nlp.trees.SimpleTree;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TypedDependency;
 
 public class Parser {
 	
 	/* options we need to pass to parser */
-	private String options;
 	
 	//private final String grammarFile = "/home/akabdul/workspace/nlp-ie/englishPCFG.ser.gz";//
 	private final String grammarFile = "C:/Users/Prafulla/SetUps/StanfordParser/stanford-parser-2011-09-14/stanford-parser-2011-09-14/grammar/englishPCFG.ser.gz";//
@@ -89,8 +72,7 @@ public class Parser {
 					
 					
 					String victim =typedDependency.dep().value(); 
-					
-					System.out.println("Victim = "+victim);
+					System.out.println("Victim:"+victim	);
 					return victim;
 					
 				}
@@ -100,6 +82,26 @@ public class Parser {
 		return null;
 	}
 	
+	public String processTarget(List<TypedDependency> tdl, String word) {
+		for (Iterator iterator = tdl.iterator(); iterator.hasNext();)
+		{
+			TypedDependency typedDependency = (TypedDependency) iterator.next();
+			
+			if(typedDependency.gov().value().equalsIgnoreCase(word))
+			{
+				System.out.println("\n out:"+typedDependency.reln().toString());
+				if(typedDependency.reln().toString().equalsIgnoreCase("rcmod")||
+						typedDependency.reln().toString().equalsIgnoreCase("partmod"))
+				{
+					System.out.println("\n\t  location:"+ typedDependency.dep().value());
+					
+					return typedDependency.dep().value();
+				}
+			}
+		}
+		
+		return null;
+	}
 	
 	public Tree findVPTree(Tree root, String verb) {
 		
