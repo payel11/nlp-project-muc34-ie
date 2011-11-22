@@ -1,0 +1,867 @@
+Loading classifier from /home/akabdul/workspace/nlp-ie/classifiers/all.3class.distsim.crf.ser ... done [2.0 sec].
+Loading parser from serialized file /home/akabdul/workspace/nlp-ie/englishPCFG.ser.gz ... done [2.3 sec].
+Number of stories:100
+
+DEV-MUC3-0001 :
+san salvador , 3 jan 90 -- -LRB- report -RRB- -LRB- armed forces press committee , coprefa -RRB- -LRB- text -RRB- the arce battalion command has reported that about 50 peasants of various ages have been kidnapped by terrorists of the farabundo marti national liberation front -LRB- fmln -RRB- in san miguel department . 
+
+PERSONS = []
+ORGS    = []
+
+meanwhile , three subversives were killed and seven others were wounded during clashes yesterday in usulutan and morazan departments . 
+
+PERSONS = []
+ORGS    = []
+
+the atonal battalion reported that one extremist was killed and five others were wounded during a clash yesterday afternoon near la esperanza farm , santa elena jurisdiction , usulutan department . 
+
+PERSONS = []
+ORGS    = []
+
+in the country 's eastern region , military detachment no. 4 reported that a terrorist was killed and two others were wounded during a clash in la ranera stream , san carlos , morazan department . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0002 :
+
+DEV-MUC3-0003 :
+
+DEV-MUC3-0004 :
+one would have to ask bustillo if the air force , of which he represented its most encouraging pillar , was soft when it murdered 70,000 salvadorans , monsignor arnulfo romero and the jesuit priests included , and even when it murdered patriot officers of that same army . 
+
+arnulfo romero
+PERSONS = [arnulfo romero]
+ORGS    = []
+
+
+DEV-MUC3-0005 :
+a war bulletin indicates that on 6 january at 1625 , fmln -LRB- farabundo marti national liberation front -RRB- troops clashed with the cavalry company in finca santa elena , santa tecla , near san salvador , killing three and wounding four enemy troops , including the patrol leader who was among those killed . 
+
+santa elena santa
+PERSONS = [santa elena santa]
+ORGS    = []
+
+
+DEV-MUC3-0006 :
+
+DEV-MUC3-0007 :
+
+DEV-MUC3-0008 :
+ricardo alfonso castellar , mayor of achi , in the northern department of bolivar , who was kidnapped on 5 january , apparently by army of national liberation -LRB- eln -RRB- guerrillas , was found dead today , according to authorities . 
+
+PERSONS = []
+ORGS    = []
+
+castellar was kidnapped on 5 january on the outskirts of achi , about 850 km north of bogota , by a group of armed men , who forced him to accompany them to an undisclosed location . 
+
+PERSONS = []
+ORGS    = []
+
+castellar was kidnapped by eln guerrillas while he was traveling in a boat down the cauca river to the tenche area , a region within his jurisdiction . 
+
+PERSONS = []
+ORGS    = []
+
+castellar is the second mayor that has been murdered in colombia in the last 3 days . 
+
+PERSONS = []
+ORGS    = []
+
+on 5 january , carlos julio torrado , mayor of abrego in the northeastern department of santander , was killed apparently by another guerilla column , also belonging to the eln . 
+
+PERSONS = []
+ORGS    = []
+
+torrado 's son , william ; gustavo jacome quintero , the departmental government secretary ; and bodyguard jairo ortega , were also killed . 
+
+torrado
+william gustavo jacome quintero
+jairo ortega
+PERSONS = [torrado, william gustavo jacome quintero, jairo ortega]
+ORGS    = []
+
+
+DEV-MUC3-0009 :
+spokesmen for the 5th brigade reported 5 soldiers killed , several wounded , and at least 12 rebel casualties . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0010 :
+at least one of them had been allegedly linked with the death of a panamanian minister , a mr spadafora , who was murdered . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0011 :
+he was shot eight times in the chest . 
+
+PERSONS = []
+ORGS    = []
+
+lopez albujar , former army commander general and defense minister until may 1989 , was riddled with bullets by three young individuals as he was getting out of his car in an open parking lot in a commercial center in the residential neighborhood of san isidro . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0012 :
+at 0945 this morning , a group of subversives conducted an armed terrorist attack against former defense minister divison general enrique lopez albujar , retired . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0013 :
+the catholic church has expressed satisfaction with the investigations in the case of the murdered jesuits and is encouraging the government to continue to search for the perpetrators of this crime . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0014 :
+he added that two different groups acted , one that murdered the clergymen and another that murdered two maids , according to preliminary results issued by the crime commission in charge of solving the case . 
+
+PERSONS = []
+ORGS    = []
+
+`` there was no torture or mistreatment , but words were exchanged '' between the murderers and victims , the spokesman said , adding that five of the murdered jesuits had received `` finishing shots , '' according to autopsies carried out by salvadoran forensic doctors . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0015 :
+attention , your attention : the military vehicle was destroyed during the ambush and five national guard soldiers were killed , including a sergeant who was in charge of the national guard troops . 
+
+PERSONS = []
+ORGS    = []
+
+two g3-a3 rifles and a prc-77 military communications radio were destroyed at the site of the ambush . 
+
+PERSONS = []
+ORGS    = []
+
+attention , your attention : the military vehicle was destroyed during the ambush and five national guard soldiers were killed , including a sergeant who was in charge of the national guard troops . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0016 :
+a ucr -LRB- radical civic union -RRB- buenos aires province committee spokesman today reported that a ucr district headquarters in buenos aires province was `` completely destroyed by a bomb explosion . '' 
+
+PERSONS = []
+ORGS    = []
+
+the destroyed ucr headquarters is in the moreno district of buenos aires . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0017 :
+it should be recalled that a group of armed individuals wearing ski masks robbed a businessman on a rural road near molina on 7 january . 
+
+PERSONS = []
+ORGS    = []
+
+the businessman , enrique ormazabal ormazabal , tried to resist ; the men shot him and left him seriously wounded . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0018 :
+official sources have reported that several guerrilla attacks and heavy fighting took place the evening of 9 january and this morning throughout the country , and as a result , three soldiers were killed and three others injured . 
+
+PERSONS = []
+ORGS    = []
+
+meanwhile , the armed forces press committee -LRB- coprefa -RRB- reported today that three army soldiers were killed recently in clashes against members of the farabundo marti national liberation front -LRB- fmln -RRB- in different parts of the central and eastern regions of the country . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0019 :
+official sources have reported that kent jr was unexpectedly attacked by three other pavon prison inmates wielding knives . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0020 :
+
+DEV-MUC3-0021 :
+
+DEV-MUC3-0022 :
+
+DEV-MUC3-0023 :
+-LRB- diaz salvador -RRB- these operations seek to clear up both a crime that has shocked the nation and also the killing of two patrolmen who were murdered in cold blood the day before the general was murdered . 
+
+PERSONS = []
+ORGS    = []
+
+first , the dragnet operation , in which people with the characteristics established by witnesses are arrested , and second , there is a more specific operation being conducted by the specialized units . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0024 :
+
+DEV-MUC3-0025 :
+according to reports , oqueli and his companion gilda flores , a member of the social democratic party of guatemala , were abducted by heavily armed men between 0630 and 0700 as they were heading to la aurora airport to board their flight . 
+
+democratic party
+PERSONS = []
+ORGS    = [democratic party]
+
+
+DEV-MUC3-0026 :
+an mnr spolesman reported that oqueli colindres was `` kidnapped '' as he was heading to the airport in guatemala city to take a flight to nicaragua , where he would join a socialist international delegation that is currently in that country to observe the electoral campaign . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0027 :
+
+DEV-MUC3-0028 :
+on 7 january , cristiani officially acknowledged that military personnel killed the jesuits , their cook , and the cook 's 15-year-old daughter . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0029 :
+alfredo cristiani himself -- who , together with armed forces officers , said hours after the jesuits and their maids had been murdered that there were suspicions that the fmln could be involved in the massacre -- has just accepted , especially for the benefit of the u.s. congress , that armed forces personnel were the ones who murdered the top brains , the best intellectuals of el salvador . 
+
+alfredo cristiani
+PERSONS = [alfredo cristiani]
+ORGS    = []
+
+if it is true that the army -- which murdered monsigno oscar romero , 1,000 peasants in el mozote , 70 indians in las hojas , hundreds of salvadorans in zunpu , and unionists at the fenastras -LRB- salvadoran workers national union federation -RRB- offices , along with the rest of the armed forces ' well-known crimes -- is going to be purged at last , if this is really true , then we would have to say that a true negotiation will start . 
+
+PERSONS = []
+ORGS    = []
+
+the most important u.s. newspapers and newscasts have noted the irrefutable fact that 10 years of u.s. advice and an investment of more than $ 3 billion -- very close to $ 4 billion -- to create a huge buildup in their armaments have not served to change the mentality of an army that murdered monsignor romero and thousands of civilians , including nuns and u.s. advisers . 
+
+romero
+PERSONS = [romero]
+ORGS    = []
+
+
+DEV-MUC3-0030 :
+the soldiers found cardenas guerra with several workers of the farm , which , according to the investigations , was owned by gonzalo rodriguez gacha , who was killed during a police operation on 15 december . 
+
+gonzalo rodriguez gacha
+PERSONS = [gonzalo rodriguez gacha]
+ORGS    = []
+
+
+DEV-MUC3-0031 :
+mario solorzano martinez , leader of guatemala 's democratic socialist party , reported today that the salvadoran political leader hector oqueli , who was kidnapped in guatemala , was found dead . 
+
+mario solorzano martinez
+hector oqueli
+democratic socialist party
+PERSONS = [mario solorzano martinez, hector oqueli]
+ORGS    = [democratic socialist party]
+
+
+DEV-MUC3-0032 :
+
+DEV-MUC3-0033 :
+oqueli , 45 , and gilda flores , a member of the democratic socialist party -LRB- psd -RRB- of guatemala , were kidnapped while they were on their way to la aurora airport in guatemala city . 
+
+gilda flores
+PERSONS = [gilda flores]
+ORGS    = []
+
+
+DEV-MUC3-0034 :
+let us remember that between the night of 15 november and early morning of 16 november , several offices of labor unions and houses of opposition members were attacked . 
+
+PERSONS = []
+ORGS    = []
+
+let us remember that after the masssacre of the jesuits , the officers shouted over loudspeakers that they had killed ellacuria and that they were going to continue killing communists . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0035 :
+
+DEV-MUC3-0036 :
+both bodies were found today in an area near guatemala and el salvador border after the victims were kidnapped in guatemala city yesterday . 
+
+PERSONS = []
+ORGS    = []
+
+on friday morning , while on his way to la aurora airport to catch a plane to nicaragua , he was kidnapped by `` heavily armed men , '' according to the mnr . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0037 :
+government minister carlos morales said today that a `` foreign commando '' killed hector oqueli , leader of the salvadoran leftist party national revolutionary movement -LRB- mnr -RRB- , and guatemalan social democratic leader gilda flores in guatemala . 
+
+carlos morales
+gilda flores
+PERSONS = [carlos morales, gilda flores]
+ORGS    = []
+
+morales said that the group has killed several people and has carried out various bomb attacks in guatemala . 
+
+morales
+PERSONS = [morales]
+ORGS    = []
+
+
+DEV-MUC3-0038 :
+
+DEV-MUC3-0039 :
+
+DEV-MUC3-0040 :
+in an action that is unprecedented in colombia 's history of violence , unidentified persons kidnapped 31 people in the strife-torn banana-growing region of uraba , the antiouqia governor 's office reported today . 
+
+PERSONS = []
+ORGS    = []
+
+the incident took place in puerto bello , a village in turbo municipality , 460 km northwest of bogota , where a group of heavily armed men forced the kidnapped villagers to climb into trucks and then took off for an unknown destination . 
+
+PERSONS = []
+ORGS    = []
+
+regional authorities who escaped being kidnapped took a census of the population and determined that a total of 31 people were kidnapped . 
+
+PERSONS = []
+ORGS    = []
+
+before the news of the mass kidnapping became known , the total persons kidnapped in colombia over the last 6 weeks was 85 , according to statistics of the colombian secret police . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0041 :
+a car bomb exploded in front of the u.s. embassy residence in the peruvian capital 3 years later , and after that , explosives were hurled at the door of a house in the san borja neighborhood , where u.s. marines resided . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0042 :
+
+DEV-MUC3-0043 :
+
+DEV-MUC3-0044 :
+
+DEV-MUC3-0045  :
+
+DEV-MUC3-0046 :
+
+DEV-MUC3-0047 :
+the shining path guerrillas , who burned murdered peasants ' houses , charged them with collaborating with the army . 
+
+PERSONS = []
+ORGS    = []
+
+according to military sources and people who arrived today in ayacucho from the la mar area , 44 peasants have been killed in two townships of la mar province , ayacucho department . 
+
+PERSONS = []
+ORGS    = []
+
+yesterday a column of shining path terrorists arrived in the village of chinchipe , in the jungle province of la mar , and shot 16 peasants who were members of the peasant patrols that oppose the terrorists . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0048 :
+he replaces major horacio fernandez cutiello who was killed during the attack on the 3d regiment on 23 january . 
+
+horacio fernandez
+PERSONS = [horacio fernandez]
+ORGS    = []
+
+
+DEV-MUC3-0049 :
+drug trafficking with regard to the battle against the drug traffic , he cited the work performed by the special forces to battle drug trafficking which , according to his account , destroyed hundred of cocaine factories and processing pits , in addition to confiscating drugs and arresting persons linked with their production or illicit trafficking . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0050 :
+
+DEV-MUC3-0051 :
+it also destroyed a public telephone booth and water pipes . 
+
+PERSONS = []
+ORGS    = []
+
+a bomb exploded in a pilmaiquen alley destroying windows and water pipes . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0052 :
+since the up was founded in 1985 , approximately 900 of its members have been murdered . 
+
+PERSONS = []
+ORGS    = []
+
+it has been officially confirmed that two leaders of the leftist patriotic union -LRB- up -RRB- were killed by unknown persons near rio blanco municipality , tolima department . 
+
+PERSONS = []
+ORGS    = []
+
+so far this year , 12 members of the up , the largest leftist political force in colombia , have been killed by rightist paramilitary groups . 
+
+PERSONS = []
+ORGS    = []
+
+it was learned that cristobal perez and ruben dario ramirez were shot to death by a group of heavily armed men . 
+
+ruben dario ramirez
+PERSONS = [ruben dario ramirez]
+ORGS    = []
+
+
+DEV-MUC3-0053 :
+
+DEV-MUC3-0054 :
+colleagues of the 12 who were murdered carefully sifted through the soil , looking for more evidence . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0055 :
+
+DEV-MUC3-0056 :
+
+DEV-MUC3-0057 :
+
+DEV-MUC3-0058 :
+thus , it can be deduced that they were killed after being mercilessly tortured . '' 
+
+PERSONS = []
+ORGS    = []
+
+later , the soldiers rounded up peasants from the cayara area `` and , after forcing the men and women to lie prone in separate rows , killed the men one by one . '' 
+
+PERSONS = []
+ORGS    = []
+
+the three women supplied a list of 57 people who were killed in the massacre and 18 who are missing , including a 20-year-old nurse . 
+
+PERSONS = []
+ORGS    = []
+
+cayara is 80 km from accomarca , where an army patrol reportedly killed 69 peasants , including men , women , and children , and burned their homes in 1985 . 
+
+PERSONS = []
+ORGS    = []
+
+six shining path terrorists were also killed . 
+
+PERSONS = []
+ORGS    = []
+
+el nacional has published a list of 47 people killed and 50 people missing . 
+
+PERSONS = []
+ORGS    = []
+
+the newspaper claims that at least 100 soldiers `` separated the men and women and killed the men inside the church . '' 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0059 :
+according to the official report the presumed members of the shining path group attacked the community meeting , throwing grenades and firing their guns at the people in the gathering . 
+
+PERSONS = []
+ORGS    = []
+
+lima , 22 jan 89 -LRB- efe -RRB- -- -LRB- excerpt -RRB- three people have been killed , and five people , including a mayor , were seriously wounded as a result of a shining path attack today against a community in junin department , central peruvian mountain region . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0060 :
+before leaving the city , the terrorists blocked and destroyed several segments of the road linking andahua with arequipa and other adjacent towns in order to prevent local residents from following them . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0061 :
+
+DEV-MUC3-0062 :
+dr samayoa said to clarify the case , the commission has conducted 238 meetings , over 100 inquiries , and 21 depositions . 
+
+samayoa
+PERSONS = [samayoa]
+ORGS    = []
+
+
+DEV-MUC3-0063 :
+the following sunday the residence of the nicaraguan ambassador in this capital was attacked . 
+
+PERSONS = []
+ORGS    = []
+
+alvarez martinez was killed near his residence in tegucigalpa 's florencia del este neighborhood . 
+
+alvarez martinez
+PERSONS = [alvarez martinez]
+ORGS    = []
+
+nicaraguan contra commander manuel adan rugama , alias aureliano , was shot to death in northern tegucigalpa on 7 january , and attorney carlos lorenzana , who defended juan ramon matta in honduras , was shot to death near his residence in the modelo neighborhood by unidentified assailants . 
+
+juan ramon matta
+PERSONS = [juan ramon matta]
+ORGS    = []
+
+
+DEV-MUC3-0064 :
+
+DEV-MUC3-0065 :
+
+DEV-MUC3-0066 :
+seven soldiers were killed and several were wounded by a bomb when a group of national liberation army -LRB- eln -RRB- rebels ambushed a military convoy in saravena , arauca department . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0067 :
+during the operation , the narcotics police arrested 8 drug traffickers and destroyed 1,200 kg of pure cocaine , 52 clandestine airstrips , 8 laboratories , thousands of gallons of chemicals , and other equipment used in processing cocaine . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0068 :
+meanwhile , the police announced they will continue `` operation spring '' , which has so far resulted in the arrest of 8 persons and the discovery of 14 cocaine laboratories , which were destroyed . 
+
+PERSONS = []
+ORGS    = []
+
+seized so far during operation spring were 1050 kg of cocaine and 130 kg of cocaine base , as well as large quantities of ether , acetone , potassium permanganate , and hydrochloric acid , all of which were destroyed . 
+
+PERSONS = []
+ORGS    = []
+
+bogota , 2 feb 89 -- -LRB- summary -RRB- six guerrillas and one soldier were killed and two soldiers were wounded in recent fighting between apopa battalion troops and the so-called army of national liberation . 
+
+PERSONS = []
+ORGS    = []
+
+this antidrug operation is being conducted along the border between antioquia and cordoba departments . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0069 :
+
+DEV-MUC3-0070 :
+d'aubuisson harshly attacked president duarte , who is suffering from terminal cancer , and referred to him as `` the crazy and worn out duarte . '' 
+
+d'aubuisson
+duarte
+PERSONS = [d'aubuisson, duarte]
+ORGS    = []
+
+
+DEV-MUC3-0071 :
+
+DEV-MUC3-0072 :
+the pdc controlled the attorney general 's office when msgr romero was killed . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0073 :
+the fmln reportedly attacked la laguna , concepcion quzaltepeque , la palma , san ignacio , san miguel de mercedes , and el chique , all in chalatenango , and inflicted 55 casualties on the enemy , 45 of which were inflicted on the 4th infantry brigade 's azmitia battalion . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0074 :
+
+DEV-MUC3-0075 :
+`` the jacobo carcomo command of the morazanist patriotic front -LRB- fpm -RRB- attacked a u.s. convoy with m-16 rifle-fire , '' the leaflets read . 
+
+PERSONS = []
+ORGS    = []
+
+the bomb , made up of dynamite and a fuse , exploded just before dawn in the hondutel -LRB- honduran telecommunications enterprise -RRB- office in san pedro sula , 190 km north of this capital . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0076 :
+the bomb caused no casualties but destroyed at least six telephone booths , office equipment and material , walls , windows , and blinds in one of the administration offices of the honduran telecommunications enterprise , -LRB- hondutel -RRB- . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0077 :
+colombian industrialist normal echevarria and u.s. businessman michael reyff , kidnapped 11 days ago in medellin , were rescued today . 
+
+michael reyff
+PERSONS = [michael reyff]
+ORGS    = []
+
+two of the kidnappers were killed , but the others managed to escape . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0078 :
+two vehicles were destroyed and an unidentified office of the agriculture and livestock ministry was heavily damaged following the explosion of two bombs yesterday afternoon . 
+
+PERSONS = []
+ORGS    = []
+
+the national fire department reported that following the explosions at 1830 , a fire erupted that partially destroyed an unidentified office in the agriculture and livestock ministry building . 
+
+PERSONS = []
+ORGS    = []
+
+it was reported that two vehicles in the area where the bombs were detonated were destroyed and several houses in the area were damaged . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0079 :
+
+DEV-MUC3-0080 :
+the army general staff has denied reports that a military unit in la tablada or villa martelli was attacked this morning , although he admitted that troops of the 601st battallion in villa martelli heard two shots , but that no strange movement has been observed . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0081 :
+he was murdered by four unidentified people on a soccer field at carampangue and alborada streets , in the santiago neighborhood of quilcura . 
+
+PERSONS = []
+ORGS    = []
+
+he will investigate this attack , in which a 2d corporal of the carabineros was also killed . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0082 :
+
+DEV-MUC3-0083 :
+
+DEV-MUC3-0084 :
+maoist shining path guerrillas have killed the mayor of the small town of hostigal , as well as two peasants , the local press reported today . 
+
+PERSONS = []
+ORGS    = []
+
+mayor armansio quispe and the two peasants were brought before a `` kangaroo court '' by the shining path , and then killed by a firing squad . 
+
+armansio quispe
+PERSONS = [armansio quispe]
+ORGS    = []
+
+according to the latest calculations made by the peruvian congress pacification committee , about 13,000 people have been killed in peru since 1980 as a result of political violence . 
+
+congress pacification committee
+PERSONS = []
+ORGS    = [congress pacification committee]
+
+
+DEV-MUC3-0085 :
+as a result of the clash , two drug traffickers were killed and four were injured and transported to the central hospital in tingo maria . 
+
+PERSONS = []
+ORGS    = []
+
+a spectacular operation was conducted yesterday noon when a 39-man police patrol of the santa lucia detachment , reinforced by anti-narcotics police , surrounded the uchiza airport and waited for the arrival of two colombian light airplanes that were supposedly carrying drugs . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0086 :
+
+DEV-MUC3-0087 :
+salvadoran colonel ciro lopez , commander of the `` el paraiso '' garrison , which was attacked by the guerrillas on 13 september , denied today that three u.s. military advisers had participated in the clash with the rebels , contrary to what the u.s. media and president have stated . 
+
+ciro lopez
+PERSONS = [ciro lopez]
+ORGS    = []
+
+in his statements , ronald reagan supported the action of the military advisers and added that `` i have never sent my men to face any danger without giving them the chance to defend themselves if they are attacked . '' 
+
+PERSONS = []
+ORGS    = []
+
+in march 1987 , during another attack on the garrison , u.s. sergeant gregory fronius , a military adviser , was killed . 
+
+gregory
+PERSONS = [gregory]
+ORGS    = []
+
+
+DEV-MUC3-0088 :
+the station announcer goes on to report that on 27 march fmln units with rifles , rifle grenades , and homemade artillery attacked army positions at the 5 november dam . 
+
+PERSONS = []
+ORGS    = []
+
+the ambush took place in casitas , texistepeque jurisdiction , when two powerful feliciano ama mines exploded , inflicting eight casualties on the army and totally destroying a military vehicle . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0089 :
+the brothels reportedly have been attacked because it is believed that women are exploited there . 
+
+PERSONS = []
+ORGS    = []
+
+orlando quiteno , spokesman for the lempa river hydroelectric executive commission , has reported that in the past few hours the salvadoran guerrillas have destroyed at least 10 power transmission towers , damaging seven high voltage lines in the northern and central parts of the country . 
+
+PERSONS = []
+ORGS    = []
+
+the resumption of the sabotage against the energy system is accompanied by the resumption of rebel attacks against brothels , two of which were destroyed in the last 24 hours , although no casualties have been reported . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0090 :
+
+DEV-MUC3-0091 :
+costas badani pointed out that the shining path guerrillas have conducted their terrorist operations exclusively in peruvian territory and that bolivia has no connection whatsoever with this guerrilla organization . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0092 :
+
+DEV-MUC3-0093 :
+girardo battalion officers , who asked us not to reveal their names , stated that the rebels , who were members of the farc 28th front , attacked two trucks filled with soldiers . 
+
+PERSONS = []
+ORGS    = []
+
+we know seven peasants were murdered by farc 12th front members . '' 
+
+PERSONS = []
+ORGS    = []
+
+one army lieutenant , four soldiers , and three civilians were killed during the attacks . 
+
+PERSONS = []
+ORGS    = []
+
+lieutenant jaime quintero cardona and soldiers nelson sanchez molina , maximiliano serrato cuellar , and dairo suarez suarez were killed in this action . 
+
+jaime quintero cardona
+nelson sanchez molina maximiliano serrato cuellar
+dairo suarez suarez
+PERSONS = [jaime quintero cardona, nelson sanchez molina maximiliano serrato cuellar, dairo suarez suarez]
+ORGS    = []
+
+according to police commander colonel jose william bermudez zapata , who commands antiguerrilla operations with the support of 7th brigade troops , the rebels killed three people and took the fourth passenger of the jeep with them . 
+
+jose william bermudez zapata
+PERSONS = [jose william bermudez zapata]
+ORGS    = []
+
+col ferrero explained that `` in principle , we have reports saying many people were killed , but we do not know exactly how many . 
+
+PERSONS = []
+ORGS    = []
+
+meanwhile , we have been unable to obtain information about the results of the operations conducted by 5th brigade troops commanded by general alfonso vaca perilla in the areas of el carmen and san vicente de chucurri , santander department . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0094 :
+a bomb exploded today in a lima restaurant , and a second device that had been placed in the same establishment was deactivated by the peruvian national police . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0095 :
+
+DEV-MUC3-0096 :
+this report confirms that the pilot was killed and one crew member was injured as a result of the emergency landing . 
+
+PERSONS = []
+ORGS    = []
+
+we repeat : the pilot was killed and one crew member was injured as a result of the emergency landing . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0097 :
+one person was killed and three others injured tonight as the result of a bomb explosion in downtown san salvador . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0098 :
+since the up was founded , nearly 1,000 of its members and leaders have been murdered . 
+
+PERSONS = []
+ORGS    = []
+
+in addition , nearly 1,500 people were killed in clashes between the armed forces and guerrillas in 1988 . 
+
+PERSONS = []
+ORGS    = []
+
+so far this year , about 100 people have been killed in clashes . 
+
+PERSONS = []
+ORGS    = []
+
+
+DEV-MUC3-0099 :
+
+DEV-MUC3-0100 :
+
+ File written successfully.

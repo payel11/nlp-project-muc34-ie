@@ -1,5 +1,5 @@
-Loading classifier from /home/akabdul/workspace/nlp-ie/classifiers/all.3class.distsim.crf.ser ... done [2.2 sec].
-Loading parser from serialized file /home/akabdul/workspace/nlp-ie/englishPCFG.ser.gz ... done [2.4 sec].
+Loading classifier from /home/akabdul/workspace/nlp-ie/classifiers/all.3class.distsim.crf.ser ... done [2.6 sec].
+Loading parser from serialized file /home/akabdul/workspace/nlp-ie/englishPCFG.ser.gz ... done [1.9 sec].
 Number of stories:100
 
 DEV-MUC3-0001 :
@@ -8,10 +8,6 @@ DESTROYED:
 KIDNAPPED: 
 san salvador , 3 jan 90 -- -LRB- report -RRB- -LRB- armed forces press committee , coprefa -RRB- -LRB- text -RRB- the arce battalion command has reported that about 50 peasants of various ages have been kidnapped by terrorists of the farabundo marti national liberation front -LRB- fmln -RRB- in san miguel department . 
 
-CLASSIFIER => san/O salvador/O  3/O jan/O 90/O --/O -LRB-/O report/O -RRB-/O -LRB-/O armed/O forces/O press/O committee/O  coprefa/O -RRB-/O -LRB-/O text/O -RRB-/O the/O arce/O battalion/O command/O has/O reported/O that/O about/O 50/O peasants/O of/O various/O ages/O have/O been/O kidnapped/O by/O terrorists/O of/O the/O farabundo/O marti/O national/O liberation/O front/O -LRB-/O fmln/O -RRB-/O in/O san/O miguel/O department/O  
-CLASSIFIER => san/O salvador/O  3/O jan/O 90/O --/O -LRB-/O report/O -RRB-/O -LRB-/O armed/O forces/O press/O committee/O  coprefa/O -RRB-/O -LRB-/O text/O -RRB-/O the/O arce/O battalion/O command/O has/O reported/O that/O about/O 50/O peasants/O of/O various/O ages/O have/O been/O kidnapped/O by/O terrorists/O of/O the/O farabundo/O marti/O national/O liberation/O front/O -LRB-/O fmln/O -RRB-/O in/O san/O miguel/O department/O  
-PERSONS = []
-ORGS    = []
 (ROOT [449.911]
   (S [449.760]
     (NP [223.797]
@@ -63,16 +59,14 @@ ORGS    = []
                     (NP [38.878] (JJ san) (JJ miguel) (NN department))))))))))
     (. .)))
 
-Victim:peasants
+ORG ==> FARABUNDO MARTI NATIONAL LIBERATION FRONT 
+PERP: TERRORISTS 
+VICTIM: ABOUT 50 PEASANTS 
 MURDERED: 
 ABDUCTED: 
 KILLED: 
 meanwhile , three subversives were killed and seven others were wounded during clashes yesterday in usulutan and morazan departments . 
 
-CLASSIFIER => meanwhile/O  three/O subversives/O were/O killed/O and/O seven/O others/O were/O wounded/O during/O clashes/O yesterday/O in/O usulutan/LOCATION and/O morazan/O departments/O  
-CLASSIFIER => meanwhile/O  three/O subversives/O were/O killed/O and/O seven/O others/O were/O wounded/O during/O clashes/O yesterday/O in/O usulutan/LOCATION and/O morazan/O departments/O  
-PERSONS = []
-ORGS    = []
 (ROOT [154.599]
   (S [154.449]
     (ADVP [5.905] (RB meanwhile))
@@ -95,13 +89,9 @@ ORGS    = []
               (NN morazan) (NNS departments))))))
     (. .)))
 
-Victim:subversives
+VICTIM: THREE SUBVERSIVES 
 the atonal battalion reported that one extremist was killed and five others were wounded during a clash yesterday afternoon near la esperanza farm , santa elena jurisdiction , usulutan department . 
 
-CLASSIFIER => the/O atonal/O battalion/O reported/O that/O one/O extremist/O was/O killed/O and/O five/O others/O were/O wounded/O during/O a/O clash/O yesterday/O afternoon/O near/O la/O esperanza/O farm/O  santa/O elena/O jurisdiction/O  usulutan/O department/O  
-CLASSIFIER => the/O atonal/O battalion/O reported/O that/O one/O extremist/O was/O killed/O and/O five/O others/O were/O wounded/O during/O a/O clash/O yesterday/O afternoon/O near/O la/O esperanza/O farm/O  santa/O elena/O jurisdiction/O  usulutan/O department/O  
-PERSONS = []
-ORGS    = []
 (ROOT [269.703]
   (S [269.553]
     (NP [29.159] (DT the)
@@ -132,13 +122,9 @@ ORGS    = []
                           (NP [23.565] (NN usulutan) (NN department)))))))))))))
     (. .)))
 
-Victim:extremist
+VICTIM: ONE EXTREMIST 
 in the country 's eastern region , military detachment no. 4 reported that a terrorist was killed and two others were wounded during a clash in la ranera stream , san carlos , morazan department . 
 
-CLASSIFIER => in/O the/O country/O 's/O eastern/O region/O  military/O detachment/O no/O 4/O reported/O that/O a/O terrorist/O was/O killed/O and/O two/O others/O were/O wounded/O during/O a/O clash/O in/O la/O ranera/O stream/O  san/O carlos/O  morazan/O department/O  
-CLASSIFIER => in/O the/O country/O 's/O eastern/O region/O  military/O detachment/O no/O 4/O reported/O that/O a/O terrorist/O was/O killed/O and/O two/O others/O were/O wounded/O during/O a/O clash/O in/O la/O ranera/O stream/O  san/O carlos/O  morazan/O department/O  
-PERSONS = []
-ORGS    = []
 (ROOT [282.645]
   (S [282.495]
     (PP [33.955] (IN in)
@@ -175,14 +161,14 @@ ORGS    = []
                           (NP [23.565] (NN morazan) (NN department)))))))))))))
     (. .)))
 
-Victim:terrorist
+VICTIM: TERRORIST 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [TERRORISTS]
-VICTIM ==>> [PEASANTS, SUBVERSIVES, EXTREMIST, TERRORIST]
+PERP ===>> [TERRORISTS ]
+VICTIM ==>> [ABOUT 50 PEASANTS , THREE SUBVERSIVES , ONE EXTREMIST , TERRORIST ]
 
 DEV-MUC3-0002 :
 ATTACKED: 
@@ -221,11 +207,6 @@ KIDNAPPED:
 MURDERED: 
 one would have to ask bustillo if the air force , of which he represented its most encouraging pillar , was soft when it murdered 70,000 salvadorans , monsignor arnulfo romero and the jesuit priests included , and even when it murdered patriot officers of that same army . 
 
-CLASSIFIER => one/O would/O have/O to/O ask/O bustillo/O if/O the/O air/O force/O  of/O which/O he/O represented/O its/O most/O encouraging/O pillar/O  was/O soft/O when/O it/O murdered/O 70000/O salvadorans/O  monsignor/O arnulfo/PERSON romero/PERSON and/O the/O jesuit/O priests/O included/O  and/O even/O when/O it/O murdered/O patriot/O officers/O of/O that/O same/O army/O  
-arnulfo romero
-CLASSIFIER => one/O would/O have/O to/O ask/O bustillo/O if/O the/O air/O force/O  of/O which/O he/O represented/O its/O most/O encouraging/O pillar/O  was/O soft/O when/O it/O murdered/O 70000/O salvadorans/O  monsignor/O arnulfo/PERSON romero/PERSON and/O the/O jesuit/O priests/O included/O  and/O even/O when/O it/O murdered/O patriot/O officers/O of/O that/O same/O army/O  
-PERSONS = [arnulfo romero]
-ORGS    = []
 (ROOT [360.814]
   (S [360.664]
     (NP [7.309] (PRP one))
@@ -280,7 +261,8 @@ ORGS    = []
                                       (NP [21.930] (DT that) (JJ same) (NN army)))))))))))))))))))
     (. .)))
 
-Victim:officers
+PERP: IT 
+VICTIM: PATRIOT OFFICERS 
 ABDUCTED: 
 KILLED: 
 EXPLODED: 
@@ -288,8 +270,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [IT]
-VICTIM ==>> [OFFICERS]
+PERP ===>> [IT ]
+VICTIM ==>> [PATRIOT OFFICERS ]
 
 DEV-MUC3-0005 :
 ATTACKED: 
@@ -300,11 +282,6 @@ ABDUCTED:
 KILLED: 
 a war bulletin indicates that on 6 january at 1625 , fmln -LRB- farabundo marti national liberation front -RRB- troops clashed with the cavalry company in finca santa elena , santa tecla , near san salvador , killing three and wounding four enemy troops , including the patrol leader who was among those killed . 
 
-CLASSIFIER => a/O war/O bulletin/O indicates/O that/O on/O 6/O January/O at/O 1625/O  fmln/O -LRB-/O farabundo/O marti/O national/O liberation/O front/O -RRB-/O troops/O clashed/O with/O the/O cavalry/O company/O in/O finca/O santa/PERSON elena/PERSON  santa/PERSON tecla/O  near/O san/O salvador/O  killing/O three/O and/O wounding/O four/O enemy/O troops/O  including/O the/O patrol/O leader/O who/O was/O among/O those/O killed/O  
-santa elena santa
-CLASSIFIER => a/O war/O bulletin/O indicates/O that/O on/O 6/O January/O at/O 1625/O  fmln/O -LRB-/O farabundo/O marti/O national/O liberation/O front/O -RRB-/O troops/O clashed/O with/O the/O cavalry/O company/O in/O finca/O santa/PERSON elena/PERSON  santa/PERSON tecla/O  near/O san/O salvador/O  killing/O three/O and/O wounding/O four/O enemy/O troops/O  including/O the/O patrol/O leader/O who/O was/O among/O those/O killed/O  
-PERSONS = [santa elena santa]
-ORGS    = []
 (ROOT [480.547]
   (S [480.397]
     (NP [23.673] (DT a) (NN war) (NN bulletin))
@@ -401,10 +378,6 @@ DESTROYED:
 KIDNAPPED: 
 ricardo alfonso castellar , mayor of achi , in the northern department of bolivar , who was kidnapped on 5 january , apparently by army of national liberation -LRB- eln -RRB- guerrillas , was found dead today , according to authorities . 
 
-CLASSIFIER => ricardo/O alfonso/O castellar/O  mayor/O of/O achi/O  in/O the/O northern/O department/O of/O bolivar/O  who/O was/O kidnapped/O on/O 5/O January/O  apparently/O by/O army/O of/O national/O liberation/O -LRB-/O eln/O -RRB-/O guerrillas/O  was/O found/O dead/O today/O  according/O to/O authorities/O  
-CLASSIFIER => ricardo/O alfonso/O castellar/O  mayor/O of/O achi/O  in/O the/O northern/O department/O of/O bolivar/O  who/O was/O kidnapped/O on/O 5/O January/O  apparently/O by/O army/O of/O national/O liberation/O -LRB-/O eln/O -RRB-/O guerrillas/O  was/O found/O dead/O today/O  according/O to/O authorities/O  
-PERSONS = []
-ORGS    = []
 (ROOT [303.407]
   (S [303.256]
     (NP [251.840]
@@ -448,13 +421,11 @@ ORGS    = []
             (NP [10.174] (NNS authorities))))))
     (. .)))
 
-Victim:bolivar
+ORG ==> NATIONAL LIBERATION -LRB- ELN -RRB- GUERRILLAS 
+PERP: ARMY 
+VICTIM: BOLIVAR 
 castellar was kidnapped on 5 january on the outskirts of achi , about 850 km north of bogota , by a group of armed men , who forced him to accompany them to an undisclosed location . 
 
-CLASSIFIER => castellar/O was/O kidnapped/O on/O 5/O January/O on/O the/O outskirts/O of/O achi/O  about/O 850/O km/O north/O of/O bogota/LOCATION  by/O a/O group/O of/O armed/O men/O  who/O forced/O him/O to/O accompany/O them/O to/O an/O undisclosed/O location/O  
-CLASSIFIER => castellar/O was/O kidnapped/O on/O 5/O January/O on/O the/O outskirts/O of/O achi/O  about/O 850/O km/O north/O of/O bogota/LOCATION  by/O a/O group/O of/O armed/O men/O  who/O forced/O him/O to/O accompany/O them/O to/O an/O undisclosed/O location/O  
-PERSONS = []
-ORGS    = []
 (ROOT [262.394]
   (S [262.244]
     (NP [15.849] (NN castellar))
@@ -497,13 +468,11 @@ ORGS    = []
                               (NP [22.988] (DT an) (JJ undisclosed) (NN location)))))))))))))))
     (. .)))
 
-Victim:castellar
+ORG ==> ARMED MEN 
+PERP: GROUP 
+VICTIM: CASTELLAR 
 castellar was kidnapped by eln guerrillas while he was traveling in a boat down the cauca river to the tenche area , a region within his jurisdiction . 
 
-CLASSIFIER => castellar/O was/O kidnapped/O by/O eln/O guerrillas/O while/O he/O was/O traveling/O in/O a/O boat/O down/O the/O cauca/LOCATION river/LOCATION to/O the/O tenche/O area/O  a/O region/O within/O his/O jurisdiction/O  
-CLASSIFIER => castellar/O was/O kidnapped/O by/O eln/O guerrillas/O while/O he/O was/O traveling/O in/O a/O boat/O down/O the/O cauca/LOCATION river/LOCATION to/O the/O tenche/O area/O  a/O region/O within/O his/O jurisdiction/O  
-PERSONS = []
-ORGS    = []
 (ROOT [203.549]
   (S [203.399]
     (NP [15.849] (NN castellar))
@@ -531,14 +500,11 @@ ORGS    = []
                         (NP [15.522] (PRP$ his) (NN jurisdiction))))))))))))
     (. .)))
 
-Victim:castellar
+PERP: ELN GUERRILLAS 
+VICTIM: CASTELLAR 
 MURDERED: 
 castellar is the second mayor that has been murdered in colombia in the last 3 days . 
 
-CLASSIFIER => castellar/O is/O the/O second/O mayor/O that/O has/O been/O murdered/O in/O colombia/LOCATION in/O the/O last/O 3/O days/O  
-CLASSIFIER => castellar/O is/O the/O second/O mayor/O that/O has/O been/O murdered/O in/O colombia/LOCATION in/O the/O last/O 3/O days/O  
-PERSONS = []
-ORGS    = []
 (ROOT [100.979]
   (S [100.829]
     (NP [15.849] (NN castellar))
@@ -558,15 +524,11 @@ ORGS    = []
                         (NP [20.265] (DT the) (JJ last) (CD 3) (NNS days))))))))))))
     (. .)))
 
-Victim:mayor
+VICTIM: SECOND MAYOR 
 ABDUCTED: 
 KILLED: 
 on 5 january , carlos julio torrado , mayor of abrego in the northeastern department of santander , was killed apparently by another guerilla column , also belonging to the eln . 
 
-CLASSIFIER => on/O 5/O January/O  carlos/O julio/O torrado/O  mayor/O of/O abrego/O in/O the/O northeastern/O department/O of/O santander/O  was/O killed/O apparently/O by/O another/O guerilla/O column/O  also/O belonging/O to/O the/O eln/O  
-CLASSIFIER => on/O 5/O January/O  carlos/O julio/O torrado/O  mayor/O of/O abrego/O in/O the/O northeastern/O department/O of/O santander/O  was/O killed/O apparently/O by/O another/O guerilla/O column/O  also/O belonging/O to/O the/O eln/O  
-PERSONS = []
-ORGS    = []
 (ROOT [245.893]
   (S [245.743]
     (PP [27.773] (IN on)
@@ -600,16 +562,10 @@ ORGS    = []
               (NP [15.190] (DT the) (NN eln)))))))
     (. .)))
 
-Victim:torrado
+PERP: ANOTHER GUERILLA COLUMN 
+VICTIM: CARLOS JULIO TORRADO 
 torrado 's son , william ; gustavo jacome quintero , the departmental government secretary ; and bodyguard jairo ortega , were also killed . 
 
-CLASSIFIER => torrado/PERSON 's/O son/O  william/PERSON  gustavo/PERSON jacome/PERSON quintero/PERSON  the/O departmental/O government/O secretary/O  and/O bodyguard/O jairo/PERSON ortega/PERSON  were/O also/O killed/O  
-torrado
-william gustavo jacome quintero
-jairo ortega
-CLASSIFIER => torrado/PERSON 's/O son/O  william/PERSON  gustavo/PERSON jacome/PERSON quintero/PERSON  the/O departmental/O government/O secretary/O  and/O bodyguard/O jairo/PERSON ortega/PERSON  were/O also/O killed/O  
-PERSONS = [torrado, william gustavo jacome quintero, jairo ortega]
-ORGS    = []
 (ROOT [207.541]
   (S [207.391]
     (NP [185.486]
@@ -635,14 +591,14 @@ ORGS    = []
         (VBN killed)))
     (. .)))
 
-Victim:son
+VICTIM: TORRADO 'S SON 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [ARMY, GROUP, GUERRILLAS, COLUMN]
-VICTIM ==>> [BOLIVAR, CASTELLAR, CASTELLAR, MAYOR, TORRADO, SON]
+PERP ===>> [ARMY , GROUP , ELN GUERRILLAS , ANOTHER GUERILLA COLUMN ]
+VICTIM ==>> [BOLIVAR , CASTELLAR , CASTELLAR , SECOND MAYOR , CARLOS JULIO TORRADO , TORRADO 'S SON ]
 
 DEV-MUC3-0009 :
 ATTACKED: 
@@ -653,10 +609,6 @@ ABDUCTED:
 KILLED: 
 spokesmen for the 5th brigade reported 5 soldiers killed , several wounded , and at least 12 rebel casualties . 
 
-CLASSIFIER => spokesmen/O for/O the/O 5th/O brigade/O reported/O 5/O soldiers/O killed/O  several/O wounded/O  and/O at/O least/O 12/O rebel/O casualties/O  
-CLASSIFIER => spokesmen/O for/O the/O 5th/O brigade/O reported/O 5/O soldiers/O killed/O  several/O wounded/O  and/O at/O least/O 12/O rebel/O casualties/O  
-PERSONS = []
-ORGS    = []
 (ROOT [151.809]
   (S [151.658]
     (NP [39.231]
@@ -692,10 +644,6 @@ KIDNAPPED:
 MURDERED: 
 at least one of them had been allegedly linked with the death of a panamanian minister , a mr spadafora , who was murdered . 
 
-CLASSIFIER => at/O least/O one/O of/O them/O had/O been/O allegedly/O linked/O with/O the/O death/O of/O a/O panamanian/O minister/O  a/O mr/O spadafora/O  who/O was/O murdered/O  
-CLASSIFIER => at/O least/O one/O of/O them/O had/O been/O allegedly/O linked/O with/O the/O death/O of/O a/O panamanian/O minister/O  a/O mr/O spadafora/O  who/O was/O murdered/O  
-PERSONS = []
-ORGS    = []
 (ROOT [150.614]
   (S [150.464]
     (NP [24.795]
@@ -724,7 +672,7 @@ ORGS    = []
                         (VP [10.340] (VBN murdered))))))))))))
     (. .)))
 
-Victim:spadafora
+VICTIM: MR SPADAFORA 
 ABDUCTED: 
 KILLED: 
 EXPLODED: 
@@ -733,7 +681,7 @@ SHOT:
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [SPADAFORA]
+VICTIM ==>> [MR SPADAFORA ]
 
 DEV-MUC3-0011 :
 ATTACKED: 
@@ -747,10 +695,6 @@ ROBBED:
 SHOT: 
 he was shot eight times in the chest . 
 
-CLASSIFIER => he/O was/O shot/O eight/O times/O in/O the/O chest/O  
-CLASSIFIER => he/O was/O shot/O eight/O times/O in/O the/O chest/O  
-PERSONS = []
-ORGS    = []
 (ROOT [49.643]
   (S [49.493]
     (NP [3.137] (PRP he))
@@ -761,14 +705,10 @@ ORGS    = []
           (NP [13.066] (DT the) (NN chest)))))
     (. .)))
 
-Victim:he
+VICTIM: HE 
 RIDDLED: 
 lopez albujar , former army commander general and defense minister until may 1989 , was riddled with bullets by three young individuals as he was getting out of his car in an open parking lot in a commercial center in the residential neighborhood of san isidro . 
 
-CLASSIFIER => lopez/O albujar/O  former/O army/O commander/O general/O and/O defense/O minister/O until/O may/O 1989/O  was/O riddled/O with/O bullets/O by/O three/O young/O individuals/O as/O he/O was/O getting/O out/O of/O his/O car/O in/O an/O open/O parking/O lot/O in/O a/O commercial/O center/O in/O the/O residential/O neighborhood/O of/O san/O isidro/O  
-CLASSIFIER => lopez/O albujar/O  former/O army/O commander/O general/O and/O defense/O minister/O until/O may/O 1989/O  was/O riddled/O with/O bullets/O by/O three/O young/O individuals/O as/O he/O was/O getting/O out/O of/O his/O car/O in/O an/O open/O parking/O lot/O in/O a/O commercial/O center/O in/O the/O residential/O neighborhood/O of/O san/O isidro/O  
-PERSONS = []
-ORGS    = []
 (ROOT [345.325]
   (S [345.175]
     (NP [127.938]
@@ -809,9 +749,10 @@ ORGS    = []
                       (NP [28.862] (NN san) (NN isidro)))))))))))
     (. .)))
 
+PERP: LOPEZ ALBUJAR 
 CONDUCTED: 
-PERP ===>> [ALBUJAR]
-VICTIM ==>> [HE]
+PERP ===>> [LOPEZ ALBUJAR ]
+VICTIM ==>> [HE ]
 
 DEV-MUC3-0012 :
 ATTACKED: 
@@ -827,10 +768,6 @@ RIDDLED:
 CONDUCTED: 
 at 0945 this morning , a group of subversives conducted an armed terrorist attack against former defense minister divison general enrique lopez albujar , retired . 
 
-CLASSIFIER => at/O 0945/O this/O morning/O  a/O group/O of/O subversives/O conducted/O an/O armed/O terrorist/O attack/O against/O former/O defense/O minister/O divison/O general/O enrique/O lopez/O albujar/O  retired/O  
-CLASSIFIER => at/O 0945/O this/O morning/O  a/O group/O of/O subversives/O conducted/O an/O armed/O terrorist/O attack/O against/O former/O defense/O minister/O divison/O general/O enrique/O lopez/O albujar/O  retired/O  
-PERSONS = []
-ORGS    = []
 (ROOT [228.238]
   (S [228.088]
     (PP [18.204] (IN at)
@@ -850,9 +787,11 @@ ORGS    = []
           (VP [11.014] (VBN retired)))))
     (. .)))
 
-Victim:attack
-PERP ===>> [GROUP]
-VICTIM ==>> [ATTACK]
+ORG ==> SUBVERSIVES 
+PERP: GROUP 
+VICTIM: AN ARMED TERRORIST ATTACK 
+PERP ===>> [GROUP ]
+VICTIM ==>> [AN ARMED TERRORIST ATTACK ]
 
 DEV-MUC3-0013 :
 ATTACKED: 
@@ -861,10 +800,6 @@ KIDNAPPED:
 MURDERED: 
 the catholic church has expressed satisfaction with the investigations in the case of the murdered jesuits and is encouraging the government to continue to search for the perpetrators of this crime . 
 
-CLASSIFIER => the/O catholic/O church/O has/O expressed/O satisfaction/O with/O the/O investigations/O in/O the/O case/O of/O the/O murdered/O jesuits/O and/O is/O encouraging/O the/O government/O to/O continue/O to/O search/O for/O the/O perpetrators/O of/O this/O crime/O  
-CLASSIFIER => the/O catholic/O church/O has/O expressed/O satisfaction/O with/O the/O investigations/O in/O the/O case/O of/O the/O murdered/O jesuits/O and/O is/O encouraging/O the/O government/O to/O continue/O to/O search/O for/O the/O perpetrators/O of/O this/O crime/O  
-PERSONS = []
-ORGS    = []
 (ROOT [196.045]
   (S [195.895]
     (NP [24.738] (DT the) (JJ catholic) (NN church))
@@ -914,10 +849,6 @@ KIDNAPPED:
 MURDERED: 
 he added that two different groups acted , one that murdered the clergymen and another that murdered two maids , according to preliminary results issued by the crime commission in charge of solving the case . 
 
-CLASSIFIER => he/O added/O that/O two/O different/O groups/O acted/O  one/O that/O murdered/O the/O clergymen/O and/O another/O that/O murdered/O two/O maids/O  according/O to/O preliminary/O results/O issued/O by/O the/O crime/O commission/O in/O charge/O of/O solving/O the/O case/O  
-CLASSIFIER => he/O added/O that/O two/O different/O groups/O acted/O  one/O that/O murdered/O the/O clergymen/O and/O another/O that/O murdered/O two/O maids/O  according/O to/O preliminary/O results/O issued/O by/O the/O crime/O commission/O in/O charge/O of/O solving/O the/O case/O  
-PERSONS = []
-ORGS    = []
 (ROOT [246.389]
   (S [246.239]
     (NP [3.137] (PRP he))
@@ -961,13 +892,10 @@ ORGS    = []
                                                 (NP [8.671] (DT the) (NN case))))))))))))))))))))))))
     (. .)))
 
-Victim:clergymen
+PERP: ONE 
+VICTIM: CLERGYMEN 
 `` there was no torture or mistreatment , but words were exchanged '' between the murderers and victims , the spokesman said , adding that five of the murdered jesuits had received `` finishing shots , '' according to autopsies carried out by salvadoran forensic doctors . 
 
-CLASSIFIER => ``/O there/O was/O no/O torture/O or/O mistreatment/O  but/O words/O were/O exchanged/O ''/O between/O the/O murderers/O and/O victims/O  the/O spokesman/O said/O  adding/O that/O five/O of/O the/O murdered/O jesuits/O had/O received/O ``/O finishing/O shots/O  ''/O according/O to/O autopsies/O carried/O out/O by/O salvadoran/O forensic/O doctors/O  
-CLASSIFIER => ``/O there/O was/O no/O torture/O or/O mistreatment/O  but/O words/O were/O exchanged/O ''/O between/O the/O murderers/O and/O victims/O  the/O spokesman/O said/O  adding/O that/O five/O of/O the/O murdered/O jesuits/O had/O received/O ``/O finishing/O shots/O  ''/O according/O to/O autopsies/O carried/O out/O by/O salvadoran/O forensic/O doctors/O  
-PERSONS = []
-ORGS    = []
 (ROOT [322.342]
   (S [322.192] (`` ``)
     (S [120.752]
@@ -1020,18 +948,14 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [ONE]
-VICTIM ==>> [CLERGYMEN]
+PERP ===>> [ONE ]
+VICTIM ==>> [CLERGYMEN ]
 
 DEV-MUC3-0015 :
 ATTACKED: 
 DESTROYED: 
 attention , your attention : the military vehicle was destroyed during the ambush and five national guard soldiers were killed , including a sergeant who was in charge of the national guard troops . 
 
-CLASSIFIER => attention/O  your/O attention/O  the/O military/O vehicle/O was/O destroyed/O during/O the/O ambush/O and/O five/O national/O guard/O soldiers/O were/O killed/O  including/O a/O sergeant/O who/O was/O in/O charge/O of/O the/O national/O guard/O troops/O  
-CLASSIFIER => attention/O  your/O attention/O  the/O military/O vehicle/O was/O destroyed/O during/O the/O ambush/O and/O five/O national/O guard/O soldiers/O were/O killed/O  including/O a/O sergeant/O who/O was/O in/O charge/O of/O the/O national/O guard/O troops/O  
-PERSONS = []
-ORGS    = []
 (ROOT [231.727]
   (S [231.577]
     (NP [132.354]
@@ -1065,13 +989,9 @@ ORGS    = []
                         (NP [30.506] (DT the) (JJ national) (NN guard) (NNS troops))))))))))))
     (. .)))
 
-Victim:vehicle
+VICTIM: MILITARY VEHICLE 
 two g3-a3 rifles and a prc-77 military communications radio were destroyed at the site of the ambush . 
 
-CLASSIFIER => two/O g3-a3/O rifles/O and/O a/O prc-77/O military/O communications/O radio/O were/O destroyed/O at/O the/O site/O of/O the/O ambush/O  
-CLASSIFIER => two/O g3-a3/O rifles/O and/O a/O prc-77/O military/O communications/O radio/O were/O destroyed/O at/O the/O site/O of/O the/O ambush/O  
-PERSONS = []
-ORGS    = []
 (ROOT [126.170]
   (S [126.020]
     (NP [77.585]
@@ -1087,17 +1007,13 @@ ORGS    = []
               (NP [15.332] (DT the) (NN ambush)))))))
     (. .)))
 
-Victim:rifles
+VICTIM: TWO G3-A3 RIFLES 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
 KILLED: 
 attention , your attention : the military vehicle was destroyed during the ambush and five national guard soldiers were killed , including a sergeant who was in charge of the national guard troops . 
 
-CLASSIFIER => attention/O  your/O attention/O  the/O military/O vehicle/O was/O destroyed/O during/O the/O ambush/O and/O five/O national/O guard/O soldiers/O were/O killed/O  including/O a/O sergeant/O who/O was/O in/O charge/O of/O the/O national/O guard/O troops/O  
-CLASSIFIER => attention/O  your/O attention/O  the/O military/O vehicle/O was/O destroyed/O during/O the/O ambush/O and/O five/O national/O guard/O soldiers/O were/O killed/O  including/O a/O sergeant/O who/O was/O in/O charge/O of/O the/O national/O guard/O troops/O  
-PERSONS = []
-ORGS    = []
 (ROOT [231.727]
   (S [231.577]
     (NP [132.354]
@@ -1131,24 +1047,20 @@ ORGS    = []
                         (NP [30.506] (DT the) (JJ national) (NN guard) (NNS troops))))))))))))
     (. .)))
 
-Victim:attention
+VICTIM: ATTENTION 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [VEHICLE, RIFLES, ATTENTION]
+VICTIM ==>> [MILITARY VEHICLE , TWO G3-A3 RIFLES , ATTENTION ]
 
 DEV-MUC3-0016 :
 ATTACKED: 
 DESTROYED: 
 a ucr -LRB- radical civic union -RRB- buenos aires province committee spokesman today reported that a ucr district headquarters in buenos aires province was `` completely destroyed by a bomb explosion . '' 
 
-CLASSIFIER => a/O ucr/O -LRB-/O radical/O civic/O union/O -RRB-/O buenos/O aires/O province/O committee/O spokesman/O today/O reported/O that/O a/O ucr/O district/O headquarters/O in/O buenos/O aires/O province/O was/O ``/O completely/O destroyed/O by/O a/O bomb/O explosion/O  ''/O 
-CLASSIFIER => a/O ucr/O -LRB-/O radical/O civic/O union/O -RRB-/O buenos/O aires/O province/O committee/O spokesman/O today/O reported/O that/O a/O ucr/O district/O headquarters/O in/O buenos/O aires/O province/O was/O ``/O completely/O destroyed/O by/O a/O bomb/O explosion/O  ''/O 
-PERSONS = []
-ORGS    = []
 (ROOT [280.088]
   (S [279.938]
     (NP [124.343] (DT a)
@@ -1177,13 +1089,10 @@ ORGS    = []
                       (NP [24.371] (DT a) (NN bomb) (NN explosion)))))))))))
     (. .) ('' '')))
 
-Victim:province
+PERP: BOMB EXPLOSION 
+VICTIM: PROVINCE 
 the destroyed ucr headquarters is in the moreno district of buenos aires . 
 
-CLASSIFIER => the/O destroyed/O ucr/O headquarters/O is/O in/O the/O moreno/O district/O of/O buenos/O aires/O  
-CLASSIFIER => the/O destroyed/O ucr/O headquarters/O is/O in/O the/O moreno/O district/O of/O buenos/O aires/O  
-PERSONS = []
-ORGS    = []
 (ROOT [106.073]
   (S [105.923]
     (NP [40.802] (DT the) (JJ destroyed) (NN ucr) (NN headquarters))
@@ -1204,8 +1113,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [EXPLOSION]
-VICTIM ==>> [PROVINCE]
+PERP ===>> [BOMB EXPLOSION ]
+VICTIM ==>> [PROVINCE ]
 
 DEV-MUC3-0017 :
 ATTACKED: 
@@ -1218,10 +1127,6 @@ EXPLODED:
 ROBBED: 
 it should be recalled that a group of armed individuals wearing ski masks robbed a businessman on a rural road near molina on 7 january . 
 
-CLASSIFIER => it/O should/O be/O recalled/O that/O a/O group/O of/O armed/O individuals/O wearing/O ski/O masks/O robbed/O a/O businessman/O on/O a/O rural/O road/O near/O molina/O on/O 7/O January/O  
-CLASSIFIER => it/O should/O be/O recalled/O that/O a/O group/O of/O armed/O individuals/O wearing/O ski/O masks/O robbed/O a/O businessman/O on/O a/O rural/O road/O near/O molina/O on/O 7/O January/O  
-PERSONS = []
-ORGS    = []
 (ROOT [198.746]
   (S [198.596]
     (NP [2.575] (PRP it))
@@ -1249,14 +1154,12 @@ ORGS    = []
                 (ADVP [11.589] (RB january))))))))
     (. .)))
 
-Victim:businessman
+ORG ==> ARMED INDIVIDUALS 
+PERP: GROUP 
+VICTIM: BUSINESSMAN 
 SHOT: 
 the businessman , enrique ormazabal ormazabal , tried to resist ; the men shot him and left him seriously wounded . 
 
-CLASSIFIER => the/O businessman/O  enrique/O ormazabal/O ormazabal/O  tried/O to/O resist/O  the/O men/O shot/O him/O and/O left/O him/O seriously/O wounded/O  
-CLASSIFIER => the/O businessman/O  enrique/O ormazabal/O ormazabal/O  tried/O to/O resist/O  the/O men/O shot/O him/O and/O left/O him/O seriously/O wounded/O  
-PERSONS = []
-ORGS    = []
 (ROOT [161.001]
   (S [160.851]
     (S [81.819]
@@ -1284,11 +1187,12 @@ ORGS    = []
               (VBN wounded))))))
     (. .)))
 
-Victim:him
+PERP: MEN 
+VICTIM: HIM 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [GROUP, MEN]
-VICTIM ==>> [BUSINESSMAN, HIM]
+PERP ===>> [GROUP , MEN ]
+VICTIM ==>> [BUSINESSMAN , HIM ]
 
 DEV-MUC3-0018 :
 ATTACKED: 
@@ -1299,10 +1203,6 @@ ABDUCTED:
 KILLED: 
 official sources have reported that several guerrilla attacks and heavy fighting took place the evening of 9 january and this morning throughout the country , and as a result , three soldiers were killed and three others injured . 
 
-CLASSIFIER => official/O sources/O have/O reported/O that/O several/O guerrilla/O attacks/O and/O heavy/O fighting/O took/O place/O the/O evening/O of/O 9/O January/O and/O this/O morning/O throughout/O the/O country/O  and/O as/O a/O result/O  three/O soldiers/O were/O killed/O and/O three/O others/O injured/O  
-CLASSIFIER => official/O sources/O have/O reported/O that/O several/O guerrilla/O attacks/O and/O heavy/O fighting/O took/O place/O the/O evening/O of/O 9/O January/O and/O this/O morning/O throughout/O the/O country/O  and/O as/O a/O result/O  three/O soldiers/O were/O killed/O and/O three/O others/O injured/O  
-PERSONS = []
-ORGS    = []
 (ROOT [269.951]
   (S [269.801]
     (S [179.557]
@@ -1341,13 +1241,9 @@ ORGS    = []
         (VP [13.034] (VBD injured))))
     (. .)))
 
-Victim:soldiers
+VICTIM: THREE SOLDIERS 
 meanwhile , the armed forces press committee -LRB- coprefa -RRB- reported today that three army soldiers were killed recently in clashes against members of the farabundo marti national liberation front -LRB- fmln -RRB- in different parts of the central and eastern regions of the country . 
 
-CLASSIFIER => meanwhile/O  the/O armed/O forces/O press/O committee/O -LRB-/O coprefa/O -RRB-/O reported/O today/O that/O three/O army/O soldiers/O were/O killed/O recently/O in/O clashes/O against/O members/O of/O the/O farabundo/O marti/O national/O liberation/O front/O -LRB-/O fmln/O -RRB-/O in/O different/O parts/O of/O the/O central/O and/O eastern/O regions/O of/O the/O country/O  
-CLASSIFIER => meanwhile/O  the/O armed/O forces/O press/O committee/O -LRB-/O coprefa/O -RRB-/O reported/O today/O that/O three/O army/O soldiers/O were/O killed/O recently/O in/O clashes/O against/O members/O of/O the/O farabundo/O marti/O national/O liberation/O front/O -LRB-/O fmln/O -RRB-/O in/O different/O parts/O of/O the/O central/O and/O eastern/O regions/O of/O the/O country/O  
-PERSONS = []
-ORGS    = []
 (ROOT [329.702]
   (S [329.552]
     (ADVP [5.905] (RB meanwhile))
@@ -1389,23 +1285,19 @@ ORGS    = []
                         (NP [8.956] (DT the) (NN country))))))))))))
     (. .)))
 
-Victim:soldiers
+VICTIM: THREE ARMY SOLDIERS 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [SOLDIERS, SOLDIERS]
+VICTIM ==>> [THREE SOLDIERS , THREE ARMY SOLDIERS ]
 
 DEV-MUC3-0019 :
 ATTACKED: 
 official sources have reported that kent jr was unexpectedly attacked by three other pavon prison inmates wielding knives . 
 
-CLASSIFIER => official/O sources/O have/O reported/O that/O kent/O jr/O was/O unexpectedly/O attacked/O by/O three/O other/O pavon/O prison/O inmates/O wielding/O knives/O  
-CLASSIFIER => official/O sources/O have/O reported/O that/O kent/O jr/O was/O unexpectedly/O attacked/O by/O three/O other/O pavon/O prison/O inmates/O wielding/O knives/O  
-PERSONS = []
-ORGS    = []
 (ROOT [167.681]
   (S [167.531]
     (NP [17.175] (JJ official) (NNS sources))
@@ -1424,7 +1316,8 @@ ORGS    = []
                       (NP [14.016] (NNS knives)))))))))))
     (. .)))
 
-Victim:jr
+PERP: THREE OTHER PAVON PRISON INMATES 
+VICTIM: KENT JR 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -1435,8 +1328,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [INMATES]
-VICTIM ==>> [JR]
+PERP ===>> [THREE OTHER PAVON PRISON INMATES ]
+VICTIM ==>> [KENT JR ]
 
 DEV-MUC3-0020 :
 ATTACKED: 
@@ -1490,10 +1383,6 @@ KIDNAPPED:
 MURDERED: 
 -LRB- diaz salvador -RRB- these operations seek to clear up both a crime that has shocked the nation and also the killing of two patrolmen who were murdered in cold blood the day before the general was murdered . 
 
-CLASSIFIER => -LRB-/O diaz/O salvador/O -RRB-/O these/O operations/O seek/O to/O clear/O up/O both/O a/O crime/O that/O has/O shocked/O the/O nation/O and/O also/O the/O killing/O of/O two/O patrolmen/O who/O were/O murdered/O in/O cold/O blood/O the/O day/O before/O the/O general/O was/O murdered/O  
-CLASSIFIER => -LRB-/O diaz/O salvador/O -RRB-/O these/O operations/O seek/O to/O clear/O up/O both/O a/O crime/O that/O has/O shocked/O the/O nation/O and/O also/O the/O killing/O of/O two/O patrolmen/O who/O were/O murdered/O in/O cold/O blood/O the/O day/O before/O the/O general/O was/O murdered/O  
-PERSONS = []
-ORGS    = []
 (ROOT [269.057]
   (S [268.907]
     (SBAR [247.980]
@@ -1538,7 +1427,7 @@ ORGS    = []
       (VP [10.340] (VBN murdered)))
     (. .)))
 
-Victim:patrolmen
+VICTIM: TWO PATROLMEN 
 ABDUCTED: 
 KILLED: 
 EXPLODED: 
@@ -1548,10 +1437,6 @@ RIDDLED:
 CONDUCTED: 
 first , the dragnet operation , in which people with the characteristics established by witnesses are arrested , and second , there is a more specific operation being conducted by the specialized units . 
 
-CLASSIFIER => first/O  the/O dragnet/O operation/O  in/O which/O people/O with/O the/O characteristics/O established/O by/O witnesses/O are/O arrested/O  and/O second/O  there/O is/O a/O more/O specific/O operation/O being/O conducted/O by/O the/O specialized/O units/O  
-CLASSIFIER => first/O  the/O dragnet/O operation/O  in/O which/O people/O with/O the/O characteristics/O established/O by/O witnesses/O are/O arrested/O  and/O second/O  there/O is/O a/O more/O specific/O operation/O being/O conducted/O by/O the/O specialized/O units/O  
-PERSONS = []
-ORGS    = []
 (ROOT [206.652]
   (S [206.502]
     (ADVP [5.219] (RB first))
@@ -1590,8 +1475,9 @@ ORGS    = []
                 (NP [16.236] (DT the) (VBN specialized) (NNS units))))))))
     (. .)))
 
-PERP ===>> [UNITS]
-VICTIM ==>> [PATROLMEN]
+PERP: SPECIALIZED UNITS 
+PERP ===>> [SPECIALIZED UNITS ]
+VICTIM ==>> [TWO PATROLMEN ]
 
 DEV-MUC3-0024 :
 ATTACKED: 
@@ -1616,11 +1502,6 @@ MURDERED:
 ABDUCTED: 
 according to reports , oqueli and his companion gilda flores , a member of the social democratic party of guatemala , were abducted by heavily armed men between 0630 and 0700 as they were heading to la aurora airport to board their flight . 
 
-CLASSIFIER => according/O to/O reports/O  oqueli/O and/O his/O companion/O gilda/O flores/O  a/O member/O of/O the/O social/O democratic/ORGANIZATION party/ORGANIZATION of/O guatemala/LOCATION  were/O abducted/O by/O heavily/O armed/O men/O between/O 0630/O and/O 0700/O as/O they/O were/O heading/O to/O la/O aurora/O airport/O to/O board/O their/O flight/O  
-CLASSIFIER => according/O to/O reports/O  oqueli/O and/O his/O companion/O gilda/O flores/O  a/O member/O of/O the/O social/O democratic/ORGANIZATION party/ORGANIZATION of/O guatemala/LOCATION  were/O abducted/O by/O heavily/O armed/O men/O between/O 0630/O and/O 0700/O as/O they/O were/O heading/O to/O la/O aurora/O airport/O to/O board/O their/O flight/O  
-democratic party
-PERSONS = []
-ORGS    = [democratic party]
 (ROOT [320.721]
   (S [320.571]
     (PP [14.279] (VBG according)
@@ -1665,15 +1546,16 @@ ORGS    = [democratic party]
                       (NP [13.077] (PRP$ their) (NN flight)))))))))))
     (. .)))
 
-Victim:oqueli
+PERP: HEAVILY ARMED MEN 
+VICTIM: OQUELI 
 KILLED: 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [MEN]
-VICTIM ==>> [OQUELI]
+PERP ===>> [HEAVILY ARMED MEN ]
+VICTIM ==>> [OQUELI ]
 
 DEV-MUC3-0026 :
 ATTACKED: 
@@ -1681,10 +1563,6 @@ DESTROYED:
 KIDNAPPED: 
 an mnr spolesman reported that oqueli colindres was `` kidnapped '' as he was heading to the airport in guatemala city to take a flight to nicaragua , where he would join a socialist international delegation that is currently in that country to observe the electoral campaign . 
 
-CLASSIFIER => an/O mnr/O spolesman/O reported/O that/O oqueli/O colindres/O was/O ``/O kidnapped/O ''/O as/O he/O was/O heading/O to/O the/O airport/O in/O guatemala/LOCATION city/O to/O take/O a/O flight/O to/O nicaragua/LOCATION  where/O he/O would/O join/O a/O socialist/O international/O delegation/O that/O is/O currently/O in/O that/O country/O to/O observe/O the/O electoral/O campaign/O  
-CLASSIFIER => an/O mnr/O spolesman/O reported/O that/O oqueli/O colindres/O was/O ``/O kidnapped/O ''/O as/O he/O was/O heading/O to/O the/O airport/O in/O guatemala/LOCATION city/O to/O take/O a/O flight/O to/O nicaragua/LOCATION  where/O he/O would/O join/O a/O socialist/O international/O delegation/O that/O is/O currently/O in/O that/O country/O to/O observe/O the/O electoral/O campaign/O  
-PERSONS = []
-ORGS    = []
 (ROOT [320.740]
   (S [320.590]
     (NP [32.028] (DT an) (NN mnr) (NN spolesman))
@@ -1734,6 +1612,7 @@ ORGS    = []
                                                         (NP [19.161] (DT the) (JJ electoral) (NN campaign))))))))))))))))))))))))))))
     (. .)))
 
+PERP: OQUELI COLINDRES 
 MURDERED: 
 ABDUCTED: 
 KILLED: 
@@ -1742,7 +1621,7 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [COLINDRES]
+PERP ===>> [OQUELI COLINDRES ]
 VICTIM ==>> []
 
 DEV-MUC3-0027 :
@@ -1769,10 +1648,6 @@ ABDUCTED:
 KILLED: 
 on 7 january , cristiani officially acknowledged that military personnel killed the jesuits , their cook , and the cook 's 15-year-old daughter . 
 
-CLASSIFIER => on/O 7/O January/O  cristiani/O officially/O acknowledged/O that/O military/O personnel/O killed/O the/O jesuits/O  their/O cook/O  and/O the/O cook/O 's/O 15-year-old/O daughter/O  
-CLASSIFIER => on/O 7/O January/O  cristiani/O officially/O acknowledged/O that/O military/O personnel/O killed/O the/O jesuits/O  their/O cook/O  and/O the/O cook/O 's/O 15-year-old/O daughter/O  
-PERSONS = []
-ORGS    = []
 (ROOT [176.959]
   (S [176.808]
     (PP [28.081] (IN on)
@@ -1796,14 +1671,15 @@ ORGS    = []
                 (JJ 15-year-old) (NN daughter)))))))
     (. .)))
 
-Victim:jesuits
+PERP: MILITARY PERSONNEL 
+VICTIM: JESUITS 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [PERSONNEL]
-VICTIM ==>> [JESUITS]
+PERP ===>> [MILITARY PERSONNEL ]
+VICTIM ==>> [JESUITS ]
 
 DEV-MUC3-0029 :
 ATTACKED: 
@@ -1812,11 +1688,6 @@ KIDNAPPED:
 MURDERED: 
 alfredo cristiani himself -- who , together with armed forces officers , said hours after the jesuits and their maids had been murdered that there were suspicions that the fmln could be involved in the massacre -- has just accepted , especially for the benefit of the u.s. congress , that armed forces personnel were the ones who murdered the top brains , the best intellectuals of el salvador . 
 
-CLASSIFIER => alfredo/PERSON cristiani/PERSON himself/O --/O who/O  together/O with/O armed/O forces/O officers/O  said/O hours/O after/O the/O jesuits/O and/O their/O maids/O had/O been/O murdered/O that/O there/O were/O suspicions/O that/O the/O fmln/O could/O be/O involved/O in/O the/O massacre/O --/O has/O just/O accepted/O  especially/O for/O the/O benefit/O of/O the/O us/O congress/O  that/O armed/O forces/O personnel/O were/O the/O ones/O who/O murdered/O the/O top/O brains/O  the/O best/O intellectuals/O of/O el/O salvador/O  
-alfredo cristiani
-CLASSIFIER => alfredo/PERSON cristiani/PERSON himself/O --/O who/O  together/O with/O armed/O forces/O officers/O  said/O hours/O after/O the/O jesuits/O and/O their/O maids/O had/O been/O murdered/O that/O there/O were/O suspicions/O that/O the/O fmln/O could/O be/O involved/O in/O the/O massacre/O --/O has/O just/O accepted/O  especially/O for/O the/O benefit/O of/O the/O us/O congress/O  that/O armed/O forces/O personnel/O were/O the/O ones/O who/O murdered/O the/O top/O brains/O  the/O best/O intellectuals/O of/O el/O salvador/O  
-PERSONS = [alfredo cristiani]
-ORGS    = []
 (ROOT [486.986]
   (SINV [483.834]
     (ADVP [18.350] (RB alfredo))
@@ -1884,13 +1755,10 @@ ORGS    = []
           (NP [28.723] (NN el) (NN salvador)))))
     (. .)))
 
-Victim:jesuits
+PERP: ONES 
+VICTIM: JESUITS 
 if it is true that the army -- which murdered monsigno oscar romero , 1,000 peasants in el mozote , 70 indians in las hojas , hundreds of salvadorans in zunpu , and unionists at the fenastras -LRB- salvadoran workers national union federation -RRB- offices , along with the rest of the armed forces ' well-known crimes -- is going to be purged at last , if this is really true , then we would have to say that a true negotiation will start . 
 
-CLASSIFIER => if/O it/O is/O true/O that/O the/O army/O --/O which/O murdered/O monsigno/O oscar/O romero/O  1000/O peasants/O in/O el/O mozote/O  70/O indians/O in/O las/O hojas/O  hundreds/O of/O salvadorans/O in/O zunpu/O  and/O unionists/O at/O the/O fenastras/O -LRB-/O salvadoran/O workers/O national/O union/O federation/O -RRB-/O offices/O  along/O with/O the/O rest/O of/O the/O armed/O forces/O '/O well-known/O crimes/O --/O is/O going/O to/O be/O purged/O at/O last/O  if/O this/O is/O really/O true/O  then/O we/O would/O have/O to/O say/O that/O a/O true/O negotiation/O will/O start/O  
-CLASSIFIER => if/O it/O is/O true/O that/O the/O army/O --/O which/O murdered/O monsigno/O oscar/O romero/O  1000/O peasants/O in/O el/O mozote/O  70/O indians/O in/O las/O hojas/O  hundreds/O of/O salvadorans/O in/O zunpu/O  and/O unionists/O at/O the/O fenastras/O -LRB-/O salvadoran/O workers/O national/O union/O federation/O -RRB-/O offices/O  along/O with/O the/O rest/O of/O the/O armed/O forces/O '/O well-known/O crimes/O --/O is/O going/O to/O be/O purged/O at/O last/O  if/O this/O is/O really/O true/O  then/O we/O would/O have/O to/O say/O that/O a/O true/O negotiation/O will/O start/O  
-PERSONS = []
-ORGS    = []
 (ROOT [596.579]
   (S [596.429]
     (SBAR [491.325] (IN if)
@@ -1978,14 +1846,10 @@ ORGS    = []
                     (VP [8.704] (VB start))))))))))
     (. .)))
 
-Victim:romero
+PERP: WHICH 
+VICTIM: MONSIGNO OSCAR ROMERO 
 the most important u.s. newspapers and newscasts have noted the irrefutable fact that 10 years of u.s. advice and an investment of more than $ 3 billion -- very close to $ 4 billion -- to create a huge buildup in their armaments have not served to change the mentality of an army that murdered monsignor romero and thousands of civilians , including nuns and u.s. advisers . 
 
-CLASSIFIER => the/O most/O important/O us/O newspapers/O and/O newscasts/O have/O noted/O the/O irrefutable/O fact/O that/O 10/O years/O of/O us/O advice/O and/O an/O investment/O of/O more/O than/O $/O 3/O billion/O --/O very/O close/O to/O $/O 4/O billion/O --/O to/O create/O a/O huge/O buildup/O in/O their/O armaments/O have/O not/O served/O to/O change/O the/O mentality/O of/O an/O army/O that/O murdered/O monsignor/O romero/PERSON and/O thousands/O of/O civilians/O  including/O nuns/O and/O us/O advisers/O  
-romero
-CLASSIFIER => the/O most/O important/O us/O newspapers/O and/O newscasts/O have/O noted/O the/O irrefutable/O fact/O that/O 10/O years/O of/O us/O advice/O and/O an/O investment/O of/O more/O than/O $/O 3/O billion/O --/O very/O close/O to/O $/O 4/O billion/O --/O to/O create/O a/O huge/O buildup/O in/O their/O armaments/O have/O not/O served/O to/O change/O the/O mentality/O of/O an/O army/O that/O murdered/O monsignor/O romero/PERSON and/O thousands/O of/O civilians/O  including/O nuns/O and/O us/O advisers/O  
-PERSONS = [romero]
-ORGS    = []
 (ROOT [443.058]
   (S [442.907]
     (NP [52.571] (DT the) (JJS most) (JJ important) (NN u.s.) (NNS newspapers)
@@ -2048,7 +1912,8 @@ ORGS    = []
                                       (NP [23.741] (NN u.s.) (NNS advisers)))))))))))))))))))
     (. .)))
 
-Victim:romero
+PERP: AN ARMY 
+VICTIM: MONSIGNOR ROMERO AND THOUSANDS 
 ABDUCTED: 
 KILLED: 
 EXPLODED: 
@@ -2056,8 +1921,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [ONES, WHICH, ARMY]
-VICTIM ==>> [JESUITS, ROMERO, ROMERO]
+PERP ===>> [ONES , WHICH , AN ARMY ]
+VICTIM ==>> [JESUITS , MONSIGNO OSCAR ROMERO , MONSIGNOR ROMERO AND THOUSANDS ]
 
 DEV-MUC3-0030 :
 ATTACKED: 
@@ -2068,11 +1933,6 @@ ABDUCTED:
 KILLED: 
 the soldiers found cardenas guerra with several workers of the farm , which , according to the investigations , was owned by gonzalo rodriguez gacha , who was killed during a police operation on 15 december . 
 
-CLASSIFIER => the/O soldiers/O found/O cardenas/O guerra/O with/O several/O workers/O of/O the/O farm/O  which/O  according/O to/O the/O investigations/O  was/O owned/O by/O gonzalo/PERSON rodriguez/PERSON gacha/PERSON  who/O was/O killed/O during/O a/O police/O operation/O on/O 15/O December/O  
-gonzalo rodriguez gacha
-CLASSIFIER => the/O soldiers/O found/O cardenas/O guerra/O with/O several/O workers/O of/O the/O farm/O  which/O  according/O to/O the/O investigations/O  was/O owned/O by/O gonzalo/PERSON rodriguez/PERSON gacha/PERSON  who/O was/O killed/O during/O a/O police/O operation/O on/O 15/O December/O  
-PERSONS = [gonzalo rodriguez gacha]
-ORGS    = []
 (ROOT [246.755]
   (S [246.605]
     (NP [12.623] (DT the) (NNS soldiers))
@@ -2110,14 +1970,14 @@ ORGS    = []
                                         (NP [22.191] (CD 15) (NN december))))))))))))))))))))
     (. .)))
 
-Victim:gacha
+VICTIM: GONZALO RODRIGUEZ GACHA 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [GACHA]
+VICTIM ==>> [GONZALO RODRIGUEZ GACHA ]
 
 DEV-MUC3-0031 :
 ATTACKED: 
@@ -2125,13 +1985,6 @@ DESTROYED:
 KIDNAPPED: 
 mario solorzano martinez , leader of guatemala 's democratic socialist party , reported today that the salvadoran political leader hector oqueli , who was kidnapped in guatemala , was found dead . 
 
-CLASSIFIER => mario/PERSON solorzano/PERSON martinez/PERSON  leader/O of/O guatemala/LOCATION 's/O democratic/ORGANIZATION socialist/ORGANIZATION party/ORGANIZATION  reported/O today/O that/O the/O salvadoran/O political/O leader/O hector/PERSON oqueli/PERSON  who/O was/O kidnapped/O in/O guatemala/LOCATION  was/O found/O dead/O  
-mario solorzano martinez
-hector oqueli
-CLASSIFIER => mario/PERSON solorzano/PERSON martinez/PERSON  leader/O of/O guatemala/LOCATION 's/O democratic/ORGANIZATION socialist/ORGANIZATION party/ORGANIZATION  reported/O today/O that/O the/O salvadoran/O political/O leader/O hector/PERSON oqueli/PERSON  who/O was/O kidnapped/O in/O guatemala/LOCATION  was/O found/O dead/O  
-democratic socialist party
-PERSONS = [mario solorzano martinez, hector oqueli]
-ORGS    = [democratic socialist party]
 (ROOT [243.939]
   (S [243.789]
     (NP [102.594]
@@ -2165,7 +2018,7 @@ ORGS    = [democratic socialist party]
                 (ADJP [7.157] (JJ dead))))))))
     (. .)))
 
-Victim:oqueli
+VICTIM: SALVADORAN POLITICAL LEADER HECTOR OQUELI 
 MURDERED: 
 ABDUCTED: 
 KILLED: 
@@ -2175,7 +2028,7 @@ SHOT:
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [OQUELI]
+VICTIM ==>> [SALVADORAN POLITICAL LEADER HECTOR OQUELI ]
 
 DEV-MUC3-0032 :
 ATTACKED: 
@@ -2198,11 +2051,6 @@ DESTROYED:
 KIDNAPPED: 
 oqueli , 45 , and gilda flores , a member of the democratic socialist party -LRB- psd -RRB- of guatemala , were kidnapped while they were on their way to la aurora airport in guatemala city . 
 
-CLASSIFIER => oqueli/O  45/O  and/O gilda/PERSON flores/PERSON  a/O member/O of/O the/O democratic/O socialist/O party/O -LRB-/O psd/O -RRB-/O of/O guatemala/LOCATION  were/O kidnapped/O while/O they/O were/O on/O their/O way/O to/O la/O aurora/O airport/O in/O guatemala/LOCATION city/O  
-gilda flores
-CLASSIFIER => oqueli/O  45/O  and/O gilda/PERSON flores/PERSON  a/O member/O of/O the/O democratic/O socialist/O party/O -LRB-/O psd/O -RRB-/O of/O guatemala/LOCATION  were/O kidnapped/O while/O they/O were/O on/O their/O way/O to/O la/O aurora/O airport/O in/O guatemala/LOCATION city/O  
-PERSONS = [gilda flores]
-ORGS    = []
 (ROOT [264.018]
   (S [263.867]
     (NP [147.200]
@@ -2241,7 +2089,7 @@ ORGS    = []
                     (NP [22.812] (NN guatemala) (NN city))))))))))
     (. .)))
 
-Victim:oqueli
+VICTIM: OQUELI 
 MURDERED: 
 ABDUCTED: 
 KILLED: 
@@ -2251,16 +2099,12 @@ SHOT:
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [OQUELI]
+VICTIM ==>> [OQUELI ]
 
 DEV-MUC3-0034 :
 ATTACKED: 
 let us remember that between the night of 15 november and early morning of 16 november , several offices of labor unions and houses of opposition members were attacked . 
 
-CLASSIFIER => let/O us/O remember/O that/O between/O the/O night/O of/O 15/O November/O and/O early/O morning/O of/O 16/O November/O  several/O offices/O of/O labor/O unions/O and/O houses/O of/O opposition/O members/O were/O attacked/O  
-CLASSIFIER => let/O us/O remember/O that/O between/O the/O night/O of/O 15/O November/O and/O early/O morning/O of/O 16/O November/O  several/O offices/O of/O labor/O unions/O and/O houses/O of/O opposition/O members/O were/O attacked/O  
-PERSONS = []
-ORGS    = []
 (ROOT [213.975]
   (S [213.825]
     (S [124.576]
@@ -2295,7 +2139,7 @@ ORGS    = []
       (VP [9.820] (VBN attacked)))
     (. .)))
 
-Victim:offices
+VICTIM: SEVERAL OFFICES 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -2303,10 +2147,6 @@ ABDUCTED:
 KILLED: 
 let us remember that after the masssacre of the jesuits , the officers shouted over loudspeakers that they had killed ellacuria and that they were going to continue killing communists . 
 
-CLASSIFIER => let/O us/O remember/O that/O after/O the/O masssacre/O of/O the/O jesuits/O  the/O officers/O shouted/O over/O loudspeakers/O that/O they/O had/O killed/O ellacuria/O and/O that/O they/O were/O going/O to/O continue/O killing/O communists/O  
-CLASSIFIER => let/O us/O remember/O that/O after/O the/O masssacre/O of/O the/O jesuits/O  the/O officers/O shouted/O over/O loudspeakers/O that/O they/O had/O killed/O ellacuria/O and/O that/O they/O were/O going/O to/O continue/O killing/O communists/O  
-PERSONS = []
-ORGS    = []
 (ROOT [210.142]
   (S [205.069]
     (VP [204.255] (VB let)
@@ -2344,14 +2184,15 @@ ORGS    = []
                                 (NP [18.235] (VBG killing) (NNS communists))))))))))))))))
     (. .)))
 
-Victim:ellacuria
+PERP: THEY 
+VICTIM: ELLACURIA 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [THEY]
-VICTIM ==>> [OFFICES, ELLACURIA]
+PERP ===>> [THEY ]
+VICTIM ==>> [SEVERAL OFFICES , ELLACURIA ]
 
 DEV-MUC3-0035 :
 ATTACKED: 
@@ -2374,10 +2215,6 @@ DESTROYED:
 KIDNAPPED: 
 both bodies were found today in an area near guatemala and el salvador border after the victims were kidnapped in guatemala city yesterday . 
 
-CLASSIFIER => both/O bodies/O were/O found/O today/O in/O an/O area/O near/O guatemala/LOCATION and/O el/O salvador/O border/O after/O the/O victims/O were/O kidnapped/O in/O guatemala/LOCATION city/O yesterday/O  
-CLASSIFIER => both/O bodies/O were/O found/O today/O in/O an/O area/O near/O guatemala/LOCATION and/O el/O salvador/O border/O after/O the/O victims/O were/O kidnapped/O in/O guatemala/LOCATION city/O yesterday/O  
-PERSONS = []
-ORGS    = []
 (ROOT [184.644]
   (S [184.494]
     (NP [18.387] (DT both) (NNS bodies))
@@ -2401,13 +2238,9 @@ ORGS    = []
                 (NP [3.246] (NN yesterday))))))))
     (. .)))
 
-Victim:victims
+VICTIM: VICTIMS 
 on friday morning , while on his way to la aurora airport to catch a plane to nicaragua , he was kidnapped by `` heavily armed men , '' according to the mnr . 
 
-CLASSIFIER => on/O Friday/O morning/O  while/O on/O his/O way/O to/O la/O aurora/O airport/O to/O catch/O a/O plane/O to/O nicaragua/LOCATION  he/O was/O kidnapped/O by/O ``/O heavily/O armed/O men/O  ''/O according/O to/O the/O mnr/O  
-CLASSIFIER => on/O Friday/O morning/O  while/O on/O his/O way/O to/O la/O aurora/O airport/O to/O catch/O a/O plane/O to/O nicaragua/LOCATION  he/O was/O kidnapped/O by/O ``/O heavily/O armed/O men/O  ''/O according/O to/O the/O mnr/O  
-PERSONS = []
-ORGS    = []
 (ROOT [232.052]
   (S [231.901]
     (PP [28.231] (IN on)
@@ -2439,7 +2272,8 @@ ORGS    = []
             (NP [15.190] (DT the) (NN mnr))))))
     (. .)))
 
-Victim:he
+PERP: HEAVILY ARMED MEN 
+VICTIM: HE 
 MURDERED: 
 ABDUCTED: 
 KILLED: 
@@ -2448,8 +2282,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [MEN]
-VICTIM ==>> [VICTIMS, HE]
+PERP ===>> [HEAVILY ARMED MEN ]
+VICTIM ==>> [VICTIMS , HE ]
 
 DEV-MUC3-0037 :
 ATTACKED: 
@@ -2460,12 +2294,6 @@ ABDUCTED:
 KILLED: 
 government minister carlos morales said today that a `` foreign commando '' killed hector oqueli , leader of the salvadoran leftist party national revolutionary movement -LRB- mnr -RRB- , and guatemalan social democratic leader gilda flores in guatemala . 
 
-CLASSIFIER => government/O minister/O carlos/PERSON morales/PERSON said/O today/O that/O a/O ``/O foreign/O commando/O ''/O killed/O hector/O oqueli/O  leader/O of/O the/O salvadoran/O leftist/O party/O national/O revolutionary/O movement/O -LRB-/O mnr/O -RRB-/O  and/O guatemalan/O social/O democratic/O leader/O gilda/PERSON flores/PERSON in/O guatemala/LOCATION  
-carlos morales
-gilda flores
-CLASSIFIER => government/O minister/O carlos/PERSON morales/PERSON said/O today/O that/O a/O ``/O foreign/O commando/O ''/O killed/O hector/O oqueli/O  leader/O of/O the/O salvadoran/O leftist/O party/O national/O revolutionary/O movement/O -LRB-/O mnr/O -RRB-/O  and/O guatemalan/O social/O democratic/O leader/O gilda/PERSON flores/PERSON in/O guatemala/LOCATION  
-PERSONS = [carlos morales, gilda flores]
-ORGS    = []
 (ROOT [331.994]
   (SINV [328.842]
     (S [47.023]
@@ -2497,14 +2325,10 @@ ORGS    = []
           (NP [14.496] (NN guatemala)))))
     (. .)))
 
-Victim:oqueli
+PERP: `` FOREIGN COMMANDO '' 
+VICTIM: HECTOR OQUELI 
 morales said that the group has killed several people and has carried out various bomb attacks in guatemala . 
 
-CLASSIFIER => morales/PERSON said/O that/O the/O group/O has/O killed/O several/O people/O and/O has/O carried/O out/O various/O bomb/O attacks/O in/O guatemala/LOCATION  
-morales
-CLASSIFIER => morales/PERSON said/O that/O the/O group/O has/O killed/O several/O people/O and/O has/O carried/O out/O various/O bomb/O attacks/O in/O guatemala/LOCATION  
-PERSONS = [morales]
-ORGS    = []
 (ROOT [127.402]
   (S [127.251]
     (NP [14.233] (NNS morales))
@@ -2525,14 +2349,15 @@ ORGS    = []
             (NP [14.496] (NN guatemala))))))
     (. .)))
 
-Victim:people
+PERP: GROUP 
+VICTIM: SEVERAL PEOPLE 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [COMMANDO, GROUP]
-VICTIM ==>> [OQUELI, PEOPLE]
+PERP ===>> [`` FOREIGN COMMANDO '' , GROUP ]
+VICTIM ==>> [HECTOR OQUELI , SEVERAL PEOPLE ]
 
 DEV-MUC3-0038 :
 ATTACKED: 
@@ -2570,10 +2395,6 @@ DESTROYED:
 KIDNAPPED: 
 in an action that is unprecedented in colombia 's history of violence , unidentified persons kidnapped 31 people in the strife-torn banana-growing region of uraba , the antiouqia governor 's office reported today . 
 
-CLASSIFIER => in/O an/O action/O that/O is/O unprecedented/O in/O colombia/LOCATION 's/O history/O of/O violence/O  unidentified/O persons/O kidnapped/O 31/O people/O in/O the/O strife-torn/O banana-growing/O region/O of/O uraba/LOCATION  the/O antiouqia/O governor/O 's/O office/O reported/O today/O  
-CLASSIFIER => in/O an/O action/O that/O is/O unprecedented/O in/O colombia/LOCATION 's/O history/O of/O violence/O  unidentified/O persons/O kidnapped/O 31/O people/O in/O the/O strife-torn/O banana-growing/O region/O of/O uraba/LOCATION  the/O antiouqia/O governor/O 's/O office/O reported/O today/O  
-PERSONS = []
-ORGS    = []
 (ROOT [243.061]
   (S [242.910]
     (PP [187.386] (IN in)
@@ -2611,13 +2432,9 @@ ORGS    = []
       (NP [4.227] (NN today)))
     (. .)))
 
-Victim:people
+VICTIM: 31 PEOPLE 
 the incident took place in puerto bello , a village in turbo municipality , 460 km northwest of bogota , where a group of heavily armed men forced the kidnapped villagers to climb into trucks and then took off for an unknown destination . 
 
-CLASSIFIER => the/O incident/O took/O place/O in/O puerto/O bello/O  a/O village/O in/O turbo/O municipality/O  460/O km/O northwest/O of/O bogota/LOCATION  where/O a/O group/O of/O heavily/O armed/O men/O forced/O the/O kidnapped/O villagers/O to/O climb/O into/O trucks/O and/O then/O took/O off/O for/O an/O unknown/O destination/O  
-CLASSIFIER => the/O incident/O took/O place/O in/O puerto/O bello/O  a/O village/O in/O turbo/O municipality/O  460/O km/O northwest/O of/O bogota/LOCATION  where/O a/O group/O of/O heavily/O armed/O men/O forced/O the/O kidnapped/O villagers/O to/O climb/O into/O trucks/O and/O then/O took/O off/O for/O an/O unknown/O destination/O  
-PERSONS = []
-ORGS    = []
 (ROOT [346.003]
   (S [345.852]
     (NP [11.798] (DT the) (NN incident))
@@ -2667,10 +2484,6 @@ ORGS    = []
 
 regional authorities who escaped being kidnapped took a census of the population and determined that a total of 31 people were kidnapped . 
 
-CLASSIFIER => regional/O authorities/O who/O escaped/O being/O kidnapped/O took/O a/O census/O of/O the/O population/O and/O determined/O that/O a/O total/O of/O 31/O people/O were/O kidnapped/O  
-CLASSIFIER => regional/O authorities/O who/O escaped/O being/O kidnapped/O took/O a/O census/O of/O the/O population/O and/O determined/O that/O a/O total/O of/O 31/O people/O were/O kidnapped/O  
-PERSONS = []
-ORGS    = []
 (ROOT [150.779]
   (S [150.629]
     (NP [51.386]
@@ -2700,13 +2513,9 @@ ORGS    = []
               (VP [10.759] (VBN kidnapped)))))))
     (. .)))
 
-Victim:total
+VICTIM: TOTAL 
 before the news of the mass kidnapping became known , the total persons kidnapped in colombia over the last 6 weeks was 85 , according to statistics of the colombian secret police . 
 
-CLASSIFIER => before/O the/O news/O of/O the/O mass/O kidnapping/O became/O known/O  the/O total/O persons/O kidnapped/O in/O colombia/LOCATION over/O the/O last/O 6/O weeks/O was/O 85/O  according/O to/O statistics/O of/O the/O colombian/O secret/O police/O  
-CLASSIFIER => before/O the/O news/O of/O the/O mass/O kidnapping/O became/O known/O  the/O total/O persons/O kidnapped/O in/O colombia/LOCATION over/O the/O last/O 6/O weeks/O was/O 85/O  according/O to/O statistics/O of/O the/O colombian/O secret/O police/O  
-PERSONS = []
-ORGS    = []
 (ROOT [221.624]
   (S [221.474]
     (SBAR [60.707] (IN before)
@@ -2746,7 +2555,7 @@ SHOT:
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [PEOPLE, TOTAL]
+VICTIM ==>> [31 PEOPLE , TOTAL ]
 
 DEV-MUC3-0041 :
 ATTACKED: 
@@ -2758,10 +2567,6 @@ KILLED:
 EXPLODED: 
 a car bomb exploded in front of the u.s. embassy residence in the peruvian capital 3 years later , and after that , explosives were hurled at the door of a house in the san borja neighborhood , where u.s. marines resided . 
 
-CLASSIFIER => a/O car/O bomb/O exploded/O in/O front/O of/O the/O us/O embassy/O residence/O in/O the/O peruvian/O capital/O 3/O years/O later/O  and/O after/O that/O  explosives/O were/O hurled/O at/O the/O door/O of/O a/O house/O in/O the/O san/O borja/O neighborhood/O  where/O us/O marines/O resided/O  
-CLASSIFIER => a/O car/O bomb/O exploded/O in/O front/O of/O the/O us/O embassy/O residence/O in/O the/O peruvian/O capital/O 3/O years/O later/O  and/O after/O that/O  explosives/O were/O hurled/O at/O the/O door/O of/O a/O house/O in/O the/O san/O borja/O neighborhood/O  where/O us/O marines/O resided/O  
-PERSONS = []
-ORGS    = []
 (ROOT [314.895]
   (S [314.745]
     (S [139.234]
@@ -2802,11 +2607,12 @@ ORGS    = []
                   (VP [11.869] (VBN resided)))))))))
     (. .)))
 
+PERP: CAR BOMB 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [BOMB]
+PERP ===>> [CAR BOMB ]
 VICTIM ==>> []
 
 DEV-MUC3-0042 :
@@ -2891,10 +2697,6 @@ KIDNAPPED:
 MURDERED: 
 the shining path guerrillas , who burned murdered peasants ' houses , charged them with collaborating with the army . 
 
-CLASSIFIER => the/O shining/O path/O guerrillas/O  who/O burned/O murdered/O peasants/O '/O houses/O  charged/O them/O with/O collaborating/O with/O the/O army/O  
-CLASSIFIER => the/O shining/O path/O guerrillas/O  who/O burned/O murdered/O peasants/O '/O houses/O  charged/O them/O with/O collaborating/O with/O the/O army/O  
-PERSONS = []
-ORGS    = []
 (ROOT [146.592]
   (S [146.442]
     (NP [93.294]
@@ -2921,10 +2723,6 @@ ABDUCTED:
 KILLED: 
 according to military sources and people who arrived today in ayacucho from the la mar area , 44 peasants have been killed in two townships of la mar province , ayacucho department . 
 
-CLASSIFIER => according/O to/O military/O sources/O and/O people/O who/O arrived/O today/O in/O ayacucho/LOCATION from/O the/O la/O mar/O area/O  44/O peasants/O have/O been/O killed/O in/O two/O townships/O of/O la/O mar/O province/O  ayacucho/O department/O  
-CLASSIFIER => according/O to/O military/O sources/O and/O people/O who/O arrived/O today/O in/O ayacucho/LOCATION from/O the/O la/O mar/O area/O  44/O peasants/O have/O been/O killed/O in/O two/O townships/O of/O la/O mar/O province/O  ayacucho/O department/O  
-PERSONS = []
-ORGS    = []
 (ROOT [239.986]
   (S [239.836]
     (PP [114.969] (VBG according)
@@ -2958,16 +2756,12 @@ ORGS    = []
                   (NP [23.656] (NN ayacucho) (NN department)))))))))
     (. .)))
 
-Victim:peasants
+VICTIM: 44 PEASANTS 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 yesterday a column of shining path terrorists arrived in the village of chinchipe , in the jungle province of la mar , and shot 16 peasants who were members of the peasant patrols that oppose the terrorists . 
 
-CLASSIFIER => yesterday/O a/O column/O of/O shining/O path/O terrorists/O arrived/O in/O the/O village/O of/O chinchipe/O  in/O the/O jungle/O province/O of/O la/O mar/O  and/O shot/O 16/O peasants/O who/O were/O members/O of/O the/O peasant/O patrols/O that/O oppose/O the/O terrorists/O  
-CLASSIFIER => yesterday/O a/O column/O of/O shining/O path/O terrorists/O arrived/O in/O the/O village/O of/O chinchipe/O  in/O the/O jungle/O province/O of/O la/O mar/O  and/O shot/O 16/O peasants/O who/O were/O members/O of/O the/O peasant/O patrols/O that/O oppose/O the/O terrorists/O  
-PERSONS = []
-ORGS    = []
 (ROOT [276.146]
   (S [275.996]
     (NP [3.003] (NN yesterday))
@@ -3008,11 +2802,13 @@ ORGS    = []
                         (NP [14.264] (DT the) (NNS terrorists))))))))))))
     (. .)))
 
-Victim:peasants
+ORG ==> SHINING PATH TERRORISTS 
+PERP: COLUMN 
+VICTIM: 16 PEASANTS 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [COLUMN]
-VICTIM ==>> [PEASANTS, PEASANTS]
+PERP ===>> [COLUMN ]
+VICTIM ==>> [44 PEASANTS , 16 PEASANTS ]
 
 DEV-MUC3-0048 :
 ATTACKED: 
@@ -3023,11 +2819,6 @@ ABDUCTED:
 KILLED: 
 he replaces major horacio fernandez cutiello who was killed during the attack on the 3d regiment on 23 january . 
 
-CLASSIFIER => he/O replaces/O major/O horacio/PERSON fernandez/PERSON cutiello/O who/O was/O killed/O during/O the/O attack/O on/O the/O 3d/O regiment/O on/O 23/O January/O  
-horacio fernandez
-CLASSIFIER => he/O replaces/O major/O horacio/PERSON fernandez/PERSON cutiello/O who/O was/O killed/O during/O the/O attack/O on/O the/O 3d/O regiment/O on/O 23/O January/O  
-PERSONS = [horacio fernandez]
-ORGS    = []
 (ROOT [162.164]
   (S [162.013]
     (NP [3.137] (PRP he))
@@ -3049,24 +2840,20 @@ ORGS    = []
                           (NP [24.368] (CD 23) (NN january)))))))))))))
     (. .)))
 
-Victim:cutiello
+VICTIM: MAJOR HORACIO FERNANDEZ CUTIELLO 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [CUTIELLO]
+VICTIM ==>> [MAJOR HORACIO FERNANDEZ CUTIELLO ]
 
 DEV-MUC3-0049 :
 ATTACKED: 
 DESTROYED: 
 drug trafficking with regard to the battle against the drug traffic , he cited the work performed by the special forces to battle drug trafficking which , according to his account , destroyed hundred of cocaine factories and processing pits , in addition to confiscating drugs and arresting persons linked with their production or illicit trafficking . 
 
-CLASSIFIER => drug/O trafficking/O with/O regard/O to/O the/O battle/O against/O the/O drug/O traffic/O  he/O cited/O the/O work/O performed/O by/O the/O special/O forces/O to/O battle/O drug/O trafficking/O which/O  according/O to/O his/O account/O  destroyed/O hundred/O of/O cocaine/O factories/O and/O processing/O pits/O  in/O addition/O to/O confiscating/O drugs/O and/O arresting/O persons/O linked/O with/O their/O production/O or/O illicit/O trafficking/O  
-CLASSIFIER => drug/O trafficking/O with/O regard/O to/O the/O battle/O against/O the/O drug/O traffic/O  he/O cited/O the/O work/O performed/O by/O the/O special/O forces/O to/O battle/O drug/O trafficking/O which/O  according/O to/O his/O account/O  destroyed/O hundred/O of/O cocaine/O factories/O and/O processing/O pits/O  in/O addition/O to/O confiscating/O drugs/O and/O arresting/O persons/O linked/O with/O their/O production/O or/O illicit/O trafficking/O  
-PERSONS = []
-ORGS    = []
 (ROOT [410.634]
   (S [410.484]
     (S [81.490]
@@ -3127,7 +2914,8 @@ ORGS    = []
                                           (NP [25.114] (JJ illicit) (NN trafficking)))))))))))))))))))))
     (. .)))
 
-Victim:hundred
+PERP: BATTLE DRUG TRAFFICKING 
+VICTIM: HUNDRED 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
@@ -3137,8 +2925,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [TRAFFICKING]
-VICTIM ==>> [HUNDRED]
+PERP ===>> [BATTLE DRUG TRAFFICKING ]
+VICTIM ==>> [HUNDRED ]
 
 DEV-MUC3-0050 :
 ATTACKED: 
@@ -3160,10 +2948,6 @@ ATTACKED:
 DESTROYED: 
 it also destroyed a public telephone booth and water pipes . 
 
-CLASSIFIER => it/O also/O destroyed/O a/O public/O telephone/O booth/O and/O water/O pipes/O  
-CLASSIFIER => it/O also/O destroyed/O a/O public/O telephone/O booth/O and/O water/O pipes/O  
-PERSONS = []
-ORGS    = []
 (ROOT [75.196]
   (S [75.046]
     (NP [2.575] (PRP it))
@@ -3175,7 +2959,8 @@ ORGS    = []
         (NP [20.139] (NN water) (NNS pipes))))
     (. .)))
 
-Victim:booth
+PERP: IT 
+VICTIM: PUBLIC TELEPHONE BOOTH 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
@@ -3183,10 +2968,6 @@ KILLED:
 EXPLODED: 
 a bomb exploded in a pilmaiquen alley destroying windows and water pipes . 
 
-CLASSIFIER => a/O bomb/O exploded/O in/O a/O pilmaiquen/O alley/O destroying/O windows/O and/O water/O pipes/O  
-CLASSIFIER => a/O bomb/O exploded/O in/O a/O pilmaiquen/O alley/O destroying/O windows/O and/O water/O pipes/O  
-PERSONS = []
-ORGS    = []
 (ROOT [103.883]
   (S [103.733]
     (NP [13.233] (DT a) (NN bomb))
@@ -3200,12 +2981,13 @@ ORGS    = []
             (NN water) (NNS pipes)))))
     (. .)))
 
+PERP: BOMB 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [IT, BOMB]
-VICTIM ==>> [BOOTH]
+PERP ===>> [IT , BOMB ]
+VICTIM ==>> [PUBLIC TELEPHONE BOOTH ]
 
 DEV-MUC3-0052 :
 ATTACKED: 
@@ -3214,10 +2996,6 @@ KIDNAPPED:
 MURDERED: 
 since the up was founded in 1985 , approximately 900 of its members have been murdered . 
 
-CLASSIFIER => since/O the/O up/O was/O founded/O in/O 1985/O  approximately/O 900/O of/O its/O members/O have/O been/O murdered/O  
-CLASSIFIER => since/O the/O up/O was/O founded/O in/O 1985/O  approximately/O 900/O of/O its/O members/O have/O been/O murdered/O  
-PERSONS = []
-ORGS    = []
 (ROOT [101.370]
   (S [101.220]
     (SBAR [46.390] (IN since)
@@ -3238,15 +3016,11 @@ ORGS    = []
         (VP [10.340] (VBN murdered))))
     (. .)))
 
-Victim:900
+VICTIM: APPROXIMATELY 900 
 ABDUCTED: 
 KILLED: 
 it has been officially confirmed that two leaders of the leftist patriotic union -LRB- up -RRB- were killed by unknown persons near rio blanco municipality , tolima department . 
 
-CLASSIFIER => it/O has/O been/O officially/O confirmed/O that/O two/O leaders/O of/O the/O leftist/O patriotic/O union/O -LRB-/O up/O -RRB-/O were/O killed/O by/O unknown/O persons/O near/O rio/O blanco/O municipality/O  tolima/O department/O  
-CLASSIFIER => it/O has/O been/O officially/O confirmed/O that/O two/O leaders/O of/O the/O leftist/O patriotic/O union/O -LRB-/O up/O -RRB-/O were/O killed/O by/O unknown/O persons/O near/O rio/O blanco/O municipality/O  tolima/O department/O  
-PERSONS = []
-ORGS    = []
 (ROOT [217.305]
   (S [217.155]
     (NP [2.575] (PRP it))
@@ -3277,13 +3051,10 @@ ORGS    = []
                           (NP [23.552] (NN tolima) (NN department)))))))))))))
     (. .)))
 
-Victim:leaders
+PERP: UNKNOWN PERSONS 
+VICTIM: TWO LEADERS 
 so far this year , 12 members of the up , the largest leftist political force in colombia , have been killed by rightist paramilitary groups . 
 
-CLASSIFIER => so/O far/O this/O year/O  12/O members/O of/O the/O up/O  the/O largest/O leftist/O political/O force/O in/O colombia/LOCATION  have/O been/O killed/O by/O rightist/O paramilitary/O groups/O  
-CLASSIFIER => so/O far/O this/O year/O  12/O members/O of/O the/O up/O  the/O largest/O leftist/O political/O force/O in/O colombia/LOCATION  have/O been/O killed/O by/O rightist/O paramilitary/O groups/O  
-PERSONS = []
-ORGS    = []
 (ROOT [173.809]
   (S [173.659]
     (ADVP [10.041] (RB so) (RB far))
@@ -3307,17 +3078,13 @@ ORGS    = []
             (NP [35.370] (JJ rightist) (JJ paramilitary) (NNS groups))))))
     (. .)))
 
-Victim:members
+PERP: RIGHTIST PARAMILITARY GROUPS 
+VICTIM: 12 MEMBERS 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 it was learned that cristobal perez and ruben dario ramirez were shot to death by a group of heavily armed men . 
 
-CLASSIFIER => it/O was/O learned/O that/O cristobal/O perez/O and/O ruben/PERSON dario/PERSON ramirez/PERSON were/O shot/O to/O death/O by/O a/O group/O of/O heavily/O armed/O men/O  
-ruben dario ramirez
-CLASSIFIER => it/O was/O learned/O that/O cristobal/O perez/O and/O ruben/PERSON dario/PERSON ramirez/PERSON were/O shot/O to/O death/O by/O a/O group/O of/O heavily/O armed/O men/O  
-PERSONS = [ruben dario ramirez]
-ORGS    = []
 (ROOT [166.929]
   (S [166.779]
     (NP [2.575] (PRP it))
@@ -3341,11 +3108,13 @@ ORGS    = []
                         (NNS men)))))))))))
     (. .)))
 
-Victim:perez
+ORG ==> HEAVILY ARMED MEN 
+PERP: GROUP 
+VICTIM: CRISTOBAL PEREZ 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [PERSONS, GROUPS, GROUP]
-VICTIM ==>> [900, LEADERS, MEMBERS, PEREZ]
+PERP ===>> [UNKNOWN PERSONS , RIGHTIST PARAMILITARY GROUPS , GROUP ]
+VICTIM ==>> [APPROXIMATELY 900 , TWO LEADERS , 12 MEMBERS , CRISTOBAL PEREZ ]
 
 DEV-MUC3-0053 :
 ATTACKED: 
@@ -3369,10 +3138,6 @@ KIDNAPPED:
 MURDERED: 
 colleagues of the 12 who were murdered carefully sifted through the soil , looking for more evidence . 
 
-CLASSIFIER => colleagues/O of/O the/O 12/O who/O were/O murdered/O carefully/O sifted/O through/O the/O soil/O  looking/O for/O more/O evidence/O  
-CLASSIFIER => colleagues/O of/O the/O 12/O who/O were/O murdered/O carefully/O sifted/O through/O the/O soil/O  looking/O for/O more/O evidence/O  
-PERSONS = []
-ORGS    = []
 (ROOT [124.829]
   (S [124.679]
     (NP [45.378]
@@ -3395,7 +3160,7 @@ ORGS    = []
               (NP [16.434] (JJR more) (NN evidence)))))))
     (. .)))
 
-Victim:colleagues
+VICTIM: COLLEAGUES 
 ABDUCTED: 
 KILLED: 
 EXPLODED: 
@@ -3404,7 +3169,7 @@ SHOT:
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [COLLEAGUES]
+VICTIM ==>> [COLLEAGUES ]
 
 DEV-MUC3-0055 :
 ATTACKED: 
@@ -3460,10 +3225,6 @@ ABDUCTED:
 KILLED: 
 thus , it can be deduced that they were killed after being mercilessly tortured . '' 
 
-CLASSIFIER => thus/O  it/O can/O be/O deduced/O that/O they/O were/O killed/O after/O being/O mercilessly/O tortured/O  ''/O 
-CLASSIFIER => thus/O  it/O can/O be/O deduced/O that/O they/O were/O killed/O after/O being/O mercilessly/O tortured/O  ''/O 
-PERSONS = []
-ORGS    = []
 (ROOT [95.701]
   (S [95.551]
     (ADVP [5.969] (RB thus))
@@ -3485,13 +3246,9 @@ ORGS    = []
                           (JJ tortured))))))))))))
     (. .) ('' '')))
 
-Victim:they
+VICTIM: THEY 
 later , the soldiers rounded up peasants from the cayara area `` and , after forcing the men and women to lie prone in separate rows , killed the men one by one . '' 
 
-CLASSIFIER => later/O  the/O soldiers/O rounded/O up/O peasants/O from/O the/O cayara/O area/O ``/O and/O  after/O forcing/O the/O men/O and/O women/O to/O lie/O prone/O in/O separate/O rows/O  killed/O the/O men/O one/O by/O one/O  ''/O 
-CLASSIFIER => later/O  the/O soldiers/O rounded/O up/O peasants/O from/O the/O cayara/O area/O ``/O and/O  after/O forcing/O the/O men/O and/O women/O to/O lie/O prone/O in/O separate/O rows/O  killed/O the/O men/O one/O by/O one/O  ''/O 
-PERSONS = []
-ORGS    = []
 (ROOT [239.873]
   (S [239.723]
     (ADVP [5.482] (RB later))
@@ -3526,13 +3283,10 @@ ORGS    = []
               (NP [6.126] (CD one)))))))
     (. .) ('' '')))
 
-Victim:one
+PERP: AND 
+VICTIM: MEN ONE 
 the three women supplied a list of 57 people who were killed in the massacre and 18 who are missing , including a 20-year-old nurse . 
 
-CLASSIFIER => the/O three/O women/O supplied/O a/O list/O of/O 57/O people/O who/O were/O killed/O in/O the/O massacre/O and/O 18/O who/O are/O missing/O  including/O a/O 20-year-old/O nurse/O  
-CLASSIFIER => the/O three/O women/O supplied/O a/O list/O of/O 57/O people/O who/O were/O killed/O in/O the/O massacre/O and/O 18/O who/O are/O missing/O  including/O a/O 20-year-old/O nurse/O  
-PERSONS = []
-ORGS    = []
 (ROOT [160.930]
   (S [160.780]
     (NP [16.930] (DT the) (CD three) (NNS women))
@@ -3563,13 +3317,9 @@ ORGS    = []
               (NP [25.482] (DT a) (JJ 20-year-old) (NN nurse)))))))
     (. .)))
 
-Victim:people
+VICTIM: 57 PEOPLE 
 cayara is 80 km from accomarca , where an army patrol reportedly killed 69 peasants , including men , women , and children , and burned their homes in 1985 . 
 
-CLASSIFIER => cayara/O is/O 80/O km/O from/O accomarca/O  where/O an/O army/O patrol/O reportedly/O killed/O 69/O peasants/O  including/O men/O  women/O  and/O children/O  and/O burned/O their/O homes/O in/O 1985/O  
-CLASSIFIER => cayara/O is/O 80/O km/O from/O accomarca/O  where/O an/O army/O patrol/O reportedly/O killed/O 69/O peasants/O  including/O men/O  women/O  and/O children/O  and/O burned/O their/O homes/O in/O 1985/O  
-PERSONS = []
-ORGS    = []
 (ROOT [227.404]
   (S [227.254]
     (NP [15.883] (NN cayara))
@@ -3603,13 +3353,10 @@ ORGS    = []
                       (NP [8.659] (CD 1985)))))))))))
     (. .)))
 
-Victim:peasants
+PERP: AN ARMY PATROL 
+VICTIM: 69 PEASANTS 
 six shining path terrorists were also killed . 
 
-CLASSIFIER => six/O shining/O path/O terrorists/O were/O also/O killed/O  
-CLASSIFIER => six/O shining/O path/O terrorists/O were/O also/O killed/O  
-PERSONS = []
-ORGS    = []
 (ROOT [62.043]
   (S [61.893]
     (NP [36.989] (CD six) (VBG shining) (NN path) (NNS terrorists))
@@ -3619,13 +3366,9 @@ ORGS    = []
         (VBN killed)))
     (. .)))
 
-Victim:terrorists
+VICTIM: SIX SHINING PATH TERRORISTS 
 el nacional has published a list of 47 people killed and 50 people missing . 
 
-CLASSIFIER => el/O nacional/O has/O published/O a/O list/O of/O 47/O people/O killed/O and/O 50/O people/O missing/O  
-CLASSIFIER => el/O nacional/O has/O published/O a/O list/O of/O 47/O people/O killed/O and/O 50/O people/O missing/O  
-PERSONS = []
-ORGS    = []
 (ROOT [116.569]
   (S [116.419]
     (NP [30.454] (NN el) (NN nacional))
@@ -3645,10 +3388,6 @@ ORGS    = []
 
 the newspaper claims that at least 100 soldiers `` separated the men and women and killed the men inside the church . '' 
 
-CLASSIFIER => the/O newspaper/O claims/O that/O at/O least/O 100/O soldiers/O ``/O separated/O the/O men/O and/O women/O and/O killed/O the/O men/O inside/O the/O church/O  ''/O 
-CLASSIFIER => the/O newspaper/O claims/O that/O at/O least/O 100/O soldiers/O ``/O separated/O the/O men/O and/O women/O and/O killed/O the/O men/O inside/O the/O church/O  ''/O 
-PERSONS = []
-ORGS    = []
 (ROOT [143.704]
   (S [143.554]
     (NP [10.038] (DT the) (NN newspaper))
@@ -3671,23 +3410,20 @@ ORGS    = []
                 (NP [11.606] (DT the) (NN church))))))))
     (. .) ('' '')))
 
-Victim:men
+PERP: AT LEAST 100 SOLDIERS 
+VICTIM: MEN 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [AND, PATROL, SOLDIERS]
-VICTIM ==>> [THEY, ONE, PEOPLE, PEASANTS, TERRORISTS, MEN]
+PERP ===>> [AND , AN ARMY PATROL , AT LEAST 100 SOLDIERS ]
+VICTIM ==>> [THEY , MEN ONE , 57 PEOPLE , 69 PEASANTS , SIX SHINING PATH TERRORISTS , MEN ]
 
 DEV-MUC3-0059 :
 ATTACKED: 
 according to the official report the presumed members of the shining path group attacked the community meeting , throwing grenades and firing their guns at the people in the gathering . 
 
-CLASSIFIER => according/O to/O the/O official/O report/O the/O presumed/O members/O of/O the/O shining/O path/O group/O attacked/O the/O community/O meeting/O  throwing/O grenades/O and/O firing/O their/O guns/O at/O the/O people/O in/O the/O gathering/O  
-CLASSIFIER => according/O to/O the/O official/O report/O the/O presumed/O members/O of/O the/O shining/O path/O group/O attacked/O the/O community/O meeting/O  throwing/O grenades/O and/O firing/O their/O guns/O at/O the/O people/O in/O the/O gathering/O  
-PERSONS = []
-ORGS    = []
 (ROOT [206.988]
   (S [206.838]
     (PP [21.536] (VBG according)
@@ -3714,7 +3450,9 @@ ORGS    = []
                   (NP [12.453] (DT the) (NN gathering)))))))))
     (. .)))
 
-Victim:meeting
+ORG ==> SHINING PATH GROUP 
+PERP: PRESUMED MEMBERS 
+VICTIM: COMMUNITY MEETING 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -3722,10 +3460,6 @@ ABDUCTED:
 KILLED: 
 lima , 22 jan 89 -LRB- efe -RRB- -- -LRB- excerpt -RRB- three people have been killed , and five people , including a mayor , were seriously wounded as a result of a shining path attack today against a community in junin department , central peruvian mountain region . 
 
-CLASSIFIER => lima/O  22/O jan/O 89/O -LRB-/O efe/O -RRB-/O --/O -LRB-/O excerpt/O -RRB-/O three/O people/O have/O been/O killed/O  and/O five/O people/O  including/O a/O mayor/O  were/O seriously/O wounded/O as/O a/O result/O of/O a/O shining/O path/O attack/O today/O against/O a/O community/O in/O junin/LOCATION department/O  central/O peruvian/O mountain/O region/O  
-CLASSIFIER => lima/O  22/O jan/O 89/O -LRB-/O efe/O -RRB-/O --/O -LRB-/O excerpt/O -RRB-/O three/O people/O have/O been/O killed/O  and/O five/O people/O  including/O a/O mayor/O  were/O seriously/O wounded/O as/O a/O result/O of/O a/O shining/O path/O attack/O today/O against/O a/O community/O in/O junin/LOCATION department/O  central/O peruvian/O mountain/O region/O  
-PERSONS = []
-ORGS    = []
 (ROOT [367.785]
   (S [367.635]
     (S [145.078]
@@ -3772,24 +3506,20 @@ ORGS    = []
                           (NP [43.585] (JJ central) (NN peruvian) (NN mountain) (NN region)))))))))))))
     (. .)))
 
-Victim:lima
+VICTIM: LIMA 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [MEMBERS]
-VICTIM ==>> [MEETING, LIMA]
+PERP ===>> [PRESUMED MEMBERS ]
+VICTIM ==>> [COMMUNITY MEETING , LIMA ]
 
 DEV-MUC3-0060 :
 ATTACKED: 
 DESTROYED: 
 before leaving the city , the terrorists blocked and destroyed several segments of the road linking andahua with arequipa and other adjacent towns in order to prevent local residents from following them . 
 
-CLASSIFIER => before/O leaving/O the/O city/O  the/O terrorists/O blocked/O and/O destroyed/O several/O segments/O of/O the/O road/O linking/O andahua/O with/O arequipa/O and/O other/O adjacent/O towns/O in/O order/O to/O prevent/O local/O residents/O from/O following/O them/O  
-CLASSIFIER => before/O leaving/O the/O city/O  the/O terrorists/O blocked/O and/O destroyed/O several/O segments/O of/O the/O road/O linking/O andahua/O with/O arequipa/O and/O other/O adjacent/O towns/O in/O order/O to/O prevent/O local/O residents/O from/O following/O them/O  
-PERSONS = []
-ORGS    = []
 (ROOT [236.184]
   (S [236.034]
     (PP [24.032] (IN before)
@@ -3825,6 +3555,7 @@ ORGS    = []
                           (NP [5.889] (PRP them)))))))))))))
     (. .)))
 
+PERP: TERRORISTS 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
@@ -3834,7 +3565,7 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [TERRORISTS]
+PERP ===>> [TERRORISTS ]
 VICTIM ==>> []
 
 DEV-MUC3-0061 :
@@ -3866,11 +3597,6 @@ RIDDLED:
 CONDUCTED: 
 dr samayoa said to clarify the case , the commission has conducted 238 meetings , over 100 inquiries , and 21 depositions . 
 
-CLASSIFIER => dr/O samayoa/PERSON said/O to/O clarify/O the/O case/O  the/O commission/O has/O conducted/O 238/O meetings/O  over/O 100/O inquiries/O  and/O 21/O depositions/O  
-samayoa
-CLASSIFIER => dr/O samayoa/PERSON said/O to/O clarify/O the/O case/O  the/O commission/O has/O conducted/O 238/O meetings/O  over/O 100/O inquiries/O  and/O 21/O depositions/O  
-PERSONS = [samayoa]
-ORGS    = []
 (ROOT [157.794]
   (S [157.644]
     (S [55.775]
@@ -3895,18 +3621,15 @@ ORGS    = []
           (NP [19.362] (CD 21) (NNS depositions)))))
     (. .)))
 
-Victim:meetings
-PERP ===>> [COMMISSION]
-VICTIM ==>> [MEETINGS]
+PERP: COMMISSION 
+VICTIM: 238 MEETINGS 
+PERP ===>> [COMMISSION ]
+VICTIM ==>> [238 MEETINGS ]
 
 DEV-MUC3-0063 :
 ATTACKED: 
 the following sunday the residence of the nicaraguan ambassador in this capital was attacked . 
 
-CLASSIFIER => the/O following/O Sunday/O the/O residence/O of/O the/O nicaraguan/O ambassador/O in/O this/O capital/O was/O attacked/O  
-CLASSIFIER => the/O following/O Sunday/O the/O residence/O of/O the/O nicaraguan/O ambassador/O in/O this/O capital/O was/O attacked/O  
-PERSONS = []
-ORGS    = []
 (ROOT [104.414]
   (S [104.264]
     (NP [12.058] (DT the) (NN following))
@@ -3922,7 +3645,7 @@ ORGS    = []
       (VP [9.820] (VBN attacked)))
     (. .)))
 
-Victim:following
+VICTIM: FOLLOWING 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -3930,11 +3653,6 @@ ABDUCTED:
 KILLED: 
 alvarez martinez was killed near his residence in tegucigalpa 's florencia del este neighborhood . 
 
-CLASSIFIER => alvarez/PERSON martinez/PERSON was/O killed/O near/O his/O residence/O in/O tegucigalpa/LOCATION 's/O florencia/O del/O este/O neighborhood/O  
-alvarez martinez
-CLASSIFIER => alvarez/PERSON martinez/PERSON was/O killed/O near/O his/O residence/O in/O tegucigalpa/LOCATION 's/O florencia/O del/O este/O neighborhood/O  
-PERSONS = [alvarez martinez]
-ORGS    = []
 (ROOT [141.273]
   (S [141.123]
     (NP [29.488] (NN alvarez) (NN martinez))
@@ -3949,17 +3667,12 @@ ORGS    = []
                 (JJ florencia) (NNP del) (NN este) (NN neighborhood)))))))
     (. .)))
 
-Victim:martinez
+VICTIM: ALVAREZ MARTINEZ 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 nicaraguan contra commander manuel adan rugama , alias aureliano , was shot to death in northern tegucigalpa on 7 january , and attorney carlos lorenzana , who defended juan ramon matta in honduras , was shot to death near his residence in the modelo neighborhood by unidentified assailants . 
 
-CLASSIFIER => nicaraguan/O contra/O commander/O manuel/O adan/O rugama/O  alias/O aureliano/O  was/O shot/O to/O death/O in/O northern/O tegucigalpa/O on/O 7/O January/O  and/O attorney/O carlos/O lorenzana/O  who/O defended/O juan/PERSON ramon/PERSON matta/PERSON in/O honduras/LOCATION  was/O shot/O to/O death/O near/O his/O residence/O in/O the/O modelo/O neighborhood/O by/O unidentified/O assailants/O  
-juan ramon matta
-CLASSIFIER => nicaraguan/O contra/O commander/O manuel/O adan/O rugama/O  alias/O aureliano/O  was/O shot/O to/O death/O in/O northern/O tegucigalpa/O on/O 7/O January/O  and/O attorney/O carlos/O lorenzana/O  who/O defended/O juan/PERSON ramon/PERSON matta/PERSON in/O honduras/LOCATION  was/O shot/O to/O death/O near/O his/O residence/O in/O the/O modelo/O neighborhood/O by/O unidentified/O assailants/O  
-PERSONS = [juan ramon matta]
-ORGS    = []
 (ROOT [437.407]
   (S [437.257]
     (S [205.064]
@@ -4005,11 +3718,12 @@ ORGS    = []
             (NP [23.183] (JJ unidentified) (NNS assailants))))))
     (. .)))
 
-Victim:rugama
+PERP: UNIDENTIFIED ASSAILANTS 
+VICTIM: NICARAGUAN CONTRA COMMANDER MANUEL ADAN RUGAMA 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [ASSAILANTS]
-VICTIM ==>> [FOLLOWING, MARTINEZ, RUGAMA]
+PERP ===>> [UNIDENTIFIED ASSAILANTS ]
+VICTIM ==>> [FOLLOWING , ALVAREZ MARTINEZ , NICARAGUAN CONTRA COMMANDER MANUEL ADAN RUGAMA ]
 
 DEV-MUC3-0064 :
 ATTACKED: 
@@ -4050,10 +3764,6 @@ ABDUCTED:
 KILLED: 
 seven soldiers were killed and several were wounded by a bomb when a group of national liberation army -LRB- eln -RRB- rebels ambushed a military convoy in saravena , arauca department . 
 
-CLASSIFIER => seven/O soldiers/O were/O killed/O and/O several/O were/O wounded/O by/O a/O bomb/O when/O a/O group/O of/O national/O liberation/O army/O -LRB-/O eln/O -RRB-/O rebels/O ambushed/O a/O military/O convoy/O in/O saravena/LOCATION  arauca/LOCATION department/O  
-CLASSIFIER => seven/O soldiers/O were/O killed/O and/O several/O were/O wounded/O by/O a/O bomb/O when/O a/O group/O of/O national/O liberation/O army/O -LRB-/O eln/O -RRB-/O rebels/O ambushed/O a/O military/O convoy/O in/O saravena/LOCATION  arauca/LOCATION department/O  
-PERSONS = []
-ORGS    = []
 (ROOT [251.615]
   (S [251.465]
     (S [34.543]
@@ -4084,24 +3794,20 @@ ORGS    = []
                         (NP [23.552] (NN arauca) (NN department))))))))))))
     (. .)))
 
-Victim:soldiers
+VICTIM: SEVEN SOLDIERS 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [SOLDIERS]
+VICTIM ==>> [SEVEN SOLDIERS ]
 
 DEV-MUC3-0067 :
 ATTACKED: 
 DESTROYED: 
 during the operation , the narcotics police arrested 8 drug traffickers and destroyed 1,200 kg of pure cocaine , 52 clandestine airstrips , 8 laboratories , thousands of gallons of chemicals , and other equipment used in processing cocaine . 
 
-CLASSIFIER => during/O the/O operation/O  the/O narcotics/O police/O arrested/O 8/O drug/O traffickers/O and/O destroyed/O 1200/O kg/O of/O pure/O cocaine/O  52/O clandestine/O airstrips/O  8/O laboratories/O  thousands/O of/O gallons/O of/O chemicals/O  and/O other/O equipment/O used/O in/O processing/O cocaine/O  
-CLASSIFIER => during/O the/O operation/O  the/O narcotics/O police/O arrested/O 8/O drug/O traffickers/O and/O destroyed/O 1200/O kg/O of/O pure/O cocaine/O  52/O clandestine/O airstrips/O  8/O laboratories/O  thousands/O of/O gallons/O of/O chemicals/O  and/O other/O equipment/O used/O in/O processing/O cocaine/O  
-PERSONS = []
-ORGS    = []
 (ROOT [304.759]
   (S [304.609]
     (PP [16.341] (IN during)
@@ -4139,7 +3845,8 @@ ORGS    = []
                     (NP [22.741] (NN processing) (NN cocaine))))))))))
     (. .)))
 
-Victim:kg
+PERP: NARCOTICS POLICE 
+VICTIM: 1,200 KG 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
@@ -4149,18 +3856,14 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [POLICE]
-VICTIM ==>> [KG]
+PERP ===>> [NARCOTICS POLICE ]
+VICTIM ==>> [1,200 KG ]
 
 DEV-MUC3-0068 :
 ATTACKED: 
 DESTROYED: 
 meanwhile , the police announced they will continue `` operation spring '' , which has so far resulted in the arrest of 8 persons and the discovery of 14 cocaine laboratories , which were destroyed . 
 
-CLASSIFIER => meanwhile/O  the/O police/O announced/O they/O will/O continue/O ``/O operation/O spring/O ''/O  which/O has/O so/O far/O resulted/O in/O the/O arrest/O of/O 8/O persons/O and/O the/O discovery/O of/O 14/O cocaine/O laboratories/O  which/O were/O destroyed/O  
-CLASSIFIER => meanwhile/O  the/O police/O announced/O they/O will/O continue/O ``/O operation/O spring/O ''/O  which/O has/O so/O far/O resulted/O in/O the/O arrest/O of/O 8/O persons/O and/O the/O discovery/O of/O 14/O cocaine/O laboratories/O  which/O were/O destroyed/O  
-PERSONS = []
-ORGS    = []
 (ROOT [205.542]
   (S [205.392]
     (ADVP [5.905] (RB meanwhile))
@@ -4201,13 +3904,9 @@ ORGS    = []
                                         (VP [10.043] (VBN destroyed))))))))))))))))))))
     (. .)))
 
-Victim:laboratories
+VICTIM: 14 COCAINE LABORATORIES 
 seized so far during operation spring were 1050 kg of cocaine and 130 kg of cocaine base , as well as large quantities of ether , acetone , potassium permanganate , and hydrochloric acid , all of which were destroyed . 
 
-CLASSIFIER => seized/O so/O far/O during/O operation/O spring/O were/O 1050/O kg/O of/O cocaine/O and/O 130/O kg/O of/O cocaine/O base/O  as/O well/O as/O large/O quantities/O of/O ether/O  acetone/O  potassium/O permanganate/O  and/O hydrochloric/O acid/O  all/O of/O which/O were/O destroyed/O  
-CLASSIFIER => seized/O so/O far/O during/O operation/O spring/O were/O 1050/O kg/O of/O cocaine/O and/O 130/O kg/O of/O cocaine/O base/O  as/O well/O as/O large/O quantities/O of/O ether/O  acetone/O  potassium/O permanganate/O  and/O hydrochloric/O acid/O  all/O of/O which/O were/O destroyed/O  
-PERSONS = []
-ORGS    = []
 (ROOT [313.094]
   (S [312.944]
     (S [49.049]
@@ -4247,17 +3946,13 @@ ORGS    = []
                 (VP [10.043] (VBN destroyed))))))))
     (. .)))
 
-Victim:of
+VICTIM: OF WHICH 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
 KILLED: 
 bogota , 2 feb 89 -- -LRB- summary -RRB- six guerrillas and one soldier were killed and two soldiers were wounded in recent fighting between apopa battalion troops and the so-called army of national liberation . 
 
-CLASSIFIER => bogota/LOCATION  2/O feb/O 89/O --/O -LRB-/O summary/O -RRB-/O six/O guerrillas/O and/O one/O soldier/O were/O killed/O and/O two/O soldiers/O were/O wounded/O in/O recent/O fighting/O between/O apopa/O battalion/O troops/O and/O the/O so-called/O army/O of/O national/O liberation/O  
-CLASSIFIER => bogota/LOCATION  2/O feb/O 89/O --/O -LRB-/O summary/O -RRB-/O six/O guerrillas/O and/O one/O soldier/O were/O killed/O and/O two/O soldiers/O were/O wounded/O in/O recent/O fighting/O between/O apopa/O battalion/O troops/O and/O the/O so-called/O army/O of/O national/O liberation/O  
-PERSONS = []
-ORGS    = []
 (ROOT [298.456]
   (NP [293.719]
     (NP [56.328]
@@ -4294,7 +3989,7 @@ ORGS    = []
                         (NP [20.372] (JJ national) (NN liberation))))))))))))
     (. .)))
 
-Victim:guerrillas
+VICTIM: SIX GUERRILLAS 
 EXPLODED: 
 ROBBED: 
 SHOT: 
@@ -4302,10 +3997,6 @@ RIDDLED:
 CONDUCTED: 
 this antidrug operation is being conducted along the border between antioquia and cordoba departments . 
 
-CLASSIFIER => this/O antidrug/O operation/O is/O being/O conducted/O along/O the/O border/O between/O antioquia/LOCATION and/O cordoba/LOCATION departments/O  
-CLASSIFIER => this/O antidrug/O operation/O is/O being/O conducted/O along/O the/O border/O between/O antioquia/LOCATION and/O cordoba/LOCATION departments/O  
-PERSONS = []
-ORGS    = []
 (ROOT [110.957]
   (S [110.807]
     (NP [28.878] (DT this) (JJ antidrug) (NN operation))
@@ -4321,9 +4012,9 @@ ORGS    = []
                   (NN cordoba) (NNS departments))))))))
     (. .)))
 
-Victim:operation
+VICTIM: THIS ANTIDRUG OPERATION 
 PERP ===>> []
-VICTIM ==>> [LABORATORIES, OF, GUERRILLAS, OPERATION]
+VICTIM ==>> [14 COCAINE LABORATORIES , OF WHICH , SIX GUERRILLAS , THIS ANTIDRUG OPERATION ]
 
 DEV-MUC3-0069 :
 ATTACKED: 
@@ -4344,12 +4035,6 @@ DEV-MUC3-0070 :
 ATTACKED: 
 d'aubuisson harshly attacked president duarte , who is suffering from terminal cancer , and referred to him as `` the crazy and worn out duarte . '' 
 
-CLASSIFIER => d'aubuisson/PERSON harshly/O attacked/O president/O duarte/PERSON  who/O is/O suffering/O from/O terminal/O cancer/O  and/O referred/O to/O him/O as/O ``/O the/O crazy/O and/O worn/O out/O duarte/O  ''/O 
-d'aubuisson
-duarte
-CLASSIFIER => d'aubuisson/PERSON harshly/O attacked/O president/O duarte/PERSON  who/O is/O suffering/O from/O terminal/O cancer/O  and/O referred/O to/O him/O as/O ``/O the/O crazy/O and/O worn/O out/O duarte/O  ''/O 
-PERSONS = [d'aubuisson, duarte]
-ORGS    = []
 (ROOT [199.685]
   (S [199.535]
     (NP [15.896] (NN d'aubuisson))
@@ -4380,7 +4065,8 @@ ORGS    = []
             (NN duarte)))))
     (. .) ('' '')))
 
-Victim:duarte
+PERP: D'AUBUISSON 
+VICTIM: PRESIDENT DUARTE 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -4391,8 +4077,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [D'AUBUISSON]
-VICTIM ==>> [DUARTE]
+PERP ===>> [D'AUBUISSON ]
+VICTIM ==>> [PRESIDENT DUARTE ]
 
 DEV-MUC3-0071 :
 ATTACKED: 
@@ -4418,10 +4104,6 @@ ABDUCTED:
 KILLED: 
 the pdc controlled the attorney general 's office when msgr romero was killed . 
 
-CLASSIFIER => the/O pdc/O controlled/O the/O attorney/O general/O 's/O office/O when/O msgr/O romero/O was/O killed/O  
-CLASSIFIER => the/O pdc/O controlled/O the/O attorney/O general/O 's/O office/O when/O msgr/O romero/O was/O killed/O  
-PERSONS = []
-ORGS    = []
 (ROOT [107.642]
   (S [107.492]
     (NP [15.170] (DT the) (NN pdc))
@@ -4437,23 +4119,19 @@ ORGS    = []
             (VP [8.933] (VBN killed))))))
     (. .)))
 
-Victim:romero
+VICTIM: MSGR ROMERO 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [ROMERO]
+VICTIM ==>> [MSGR ROMERO ]
 
 DEV-MUC3-0073 :
 ATTACKED: 
 the fmln reportedly attacked la laguna , concepcion quzaltepeque , la palma , san ignacio , san miguel de mercedes , and el chique , all in chalatenango , and inflicted 55 casualties on the enemy , 45 of which were inflicted on the 4th infantry brigade 's azmitia battalion . 
 
-CLASSIFIER => the/O fmln/O reportedly/O attacked/O la/O laguna/O  concepcion/O quzaltepeque/O  la/O palma/O  san/O ignacio/O  san/O miguel/O de/O mercedes/O  and/O el/O chique/O  all/O in/O chalatenango/LOCATION  and/O inflicted/O 55/O casualties/O on/O the/O enemy/O  45/O of/O which/O were/O inflicted/O on/O the/O 4th/O infantry/O brigade/O 's/O azmitia/O battalion/O  
-CLASSIFIER => the/O fmln/O reportedly/O attacked/O la/O laguna/O  concepcion/O quzaltepeque/O  la/O palma/O  san/O ignacio/O  san/O miguel/O de/O mercedes/O  and/O el/O chique/O  all/O in/O chalatenango/LOCATION  and/O inflicted/O 55/O casualties/O on/O the/O enemy/O  45/O of/O which/O were/O inflicted/O on/O the/O 4th/O infantry/O brigade/O 's/O azmitia/O battalion/O  
-PERSONS = []
-ORGS    = []
 (ROOT [438.186]
   (S [438.036]
     (NP [14.967] (DT the) (NN fmln))
@@ -4500,7 +4178,8 @@ ORGS    = []
                         (NN azmitia) (NN battalion)))))))))))
     (. .)))
 
-Victim:laguna
+PERP: FMLN 
+VICTIM: LA LAGUNA 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -4511,8 +4190,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [FMLN]
-VICTIM ==>> [LAGUNA]
+PERP ===>> [FMLN ]
+VICTIM ==>> [LA LAGUNA ]
 
 DEV-MUC3-0074 :
 ATTACKED: 
@@ -4533,10 +4212,6 @@ DEV-MUC3-0075 :
 ATTACKED: 
 `` the jacobo carcomo command of the morazanist patriotic front -LRB- fpm -RRB- attacked a u.s. convoy with m-16 rifle-fire , '' the leaflets read . 
 
-CLASSIFIER => ``/O the/O jacobo/O carcomo/O command/O of/O the/O morazanist/O patriotic/O front/O -LRB-/O fpm/O -RRB-/O attacked/O a/O us/O convoy/O with/O m-16/O rifle-fire/O  ''/O the/O leaflets/O read/O  
-CLASSIFIER => ``/O the/O jacobo/O carcomo/O command/O of/O the/O morazanist/O patriotic/O front/O -LRB-/O fpm/O -RRB-/O attacked/O a/O us/O convoy/O with/O m-16/O rifle-fire/O  ''/O the/O leaflets/O read/O  
-PERSONS = []
-ORGS    = []
 (ROOT [208.028]
   (S [207.878] (`` ``)
     (S [177.311]
@@ -4559,7 +4234,9 @@ ORGS    = []
     (VP [11.157] (VBD read))
     (. .)))
 
-Victim:convoy
+ORG ==> MORAZANIST PATRIOTIC FRONT 
+PERP: JACOBO CARCOMO COMMAND 
+VICTIM: U.S. CONVOY 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -4568,10 +4245,6 @@ KILLED:
 EXPLODED: 
 the bomb , made up of dynamite and a fuse , exploded just before dawn in the hondutel -LRB- honduran telecommunications enterprise -RRB- office in san pedro sula , 190 km north of this capital . 
 
-CLASSIFIER => the/O bomb/O  made/O up/O of/O dynamite/O and/O a/O fuse/O  exploded/O just/O before/O dawn/O in/O the/O hondutel/O -LRB-/O honduran/O telecommunications/O enterprise/O -RRB-/O office/O in/O san/O pedro/O sula/O  190/O km/O north/O of/O this/O capital/O  
-CLASSIFIER => the/O bomb/O  made/O up/O of/O dynamite/O and/O a/O fuse/O  exploded/O just/O before/O dawn/O in/O the/O hondutel/O -LRB-/O honduran/O telecommunications/O enterprise/O -RRB-/O office/O in/O san/O pedro/O sula/O  190/O km/O north/O of/O this/O capital/O  
-PERSONS = []
-ORGS    = []
 (ROOT [282.091]
   (S [281.941]
     (NP [62.686]
@@ -4606,22 +4279,19 @@ ORGS    = []
               (NP [12.184] (DT this) (NN capital)))))))
     (. .)))
 
+PERP: BOMB 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [COMMAND, BOMB]
-VICTIM ==>> [CONVOY]
+PERP ===>> [JACOBO CARCOMO COMMAND , BOMB ]
+VICTIM ==>> [U.S. CONVOY ]
 
 DEV-MUC3-0076 :
 ATTACKED: 
 DESTROYED: 
 the bomb caused no casualties but destroyed at least six telephone booths , office equipment and material , walls , windows , and blinds in one of the administration offices of the honduran telecommunications enterprise , -LRB- hondutel -RRB- . 
 
-CLASSIFIER => the/O bomb/O caused/O no/O casualties/O but/O destroyed/O at/O least/O six/O telephone/O booths/O  office/O equipment/O and/O material/O  walls/O  windows/O  and/O blinds/O in/O one/O of/O the/O administration/O offices/O of/O the/O honduran/O telecommunications/O enterprise/O  -LRB-/O hondutel/O -RRB-/O  
-CLASSIFIER => the/O bomb/O caused/O no/O casualties/O but/O destroyed/O at/O least/O six/O telephone/O booths/O  office/O equipment/O and/O material/O  walls/O  windows/O  and/O blinds/O in/O one/O of/O the/O administration/O offices/O of/O the/O honduran/O telecommunications/O enterprise/O  -LRB-/O hondutel/O -RRB-/O  
-PERSONS = []
-ORGS    = []
 (ROOT [277.978]
   (S [277.828]
     (NP [12.438] (DT the) (NN bomb))
@@ -4662,7 +4332,8 @@ ORGS    = []
             (-RRB- -RRB-)))))
     (. .)))
 
-Victim:booths
+PERP: BOMB 
+VICTIM: AT LEAST SIX TELEPHONE BOOTHS 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
@@ -4672,8 +4343,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [BOMB]
-VICTIM ==>> [BOOTHS]
+PERP ===>> [BOMB ]
+VICTIM ==>> [AT LEAST SIX TELEPHONE BOOTHS ]
 
 DEV-MUC3-0077 :
 ATTACKED: 
@@ -4681,11 +4352,6 @@ DESTROYED:
 KIDNAPPED: 
 colombian industrialist normal echevarria and u.s. businessman michael reyff , kidnapped 11 days ago in medellin , were rescued today . 
 
-CLASSIFIER => colombian/O industrialist/O normal/O echevarria/O and/O us/O businessman/O michael/PERSON reyff/PERSON  kidnapped/O 11/O days/O ago/O in/O medellin/LOCATION  were/O rescued/O today/O  
-michael reyff
-CLASSIFIER => colombian/O industrialist/O normal/O echevarria/O and/O us/O businessman/O michael/PERSON reyff/PERSON  kidnapped/O 11/O days/O ago/O in/O medellin/LOCATION  were/O rescued/O today/O  
-PERSONS = [michael reyff]
-ORGS    = []
 (ROOT [196.814]
   (S [196.664]
     (NP [112.469] (JJ colombian) (NN industrialist) (JJ normal) (NN echevarria)
@@ -4711,10 +4377,6 @@ ABDUCTED:
 KILLED: 
 two of the kidnappers were killed , but the others managed to escape . 
 
-CLASSIFIER => two/O of/O the/O kidnappers/O were/O killed/O  but/O the/O others/O managed/O to/O escape/O  
-CLASSIFIER => two/O of/O the/O kidnappers/O were/O killed/O  but/O the/O others/O managed/O to/O escape/O  
-PERSONS = []
-ORGS    = []
 (ROOT [78.155]
   (S [78.005]
     (S [39.809]
@@ -4734,24 +4396,20 @@ ORGS    = []
             (VP [10.878] (VB escape))))))
     (. .)))
 
-Victim:two
+VICTIM: TWO 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [TWO]
+VICTIM ==>> [TWO ]
 
 DEV-MUC3-0078 :
 ATTACKED: 
 DESTROYED: 
 two vehicles were destroyed and an unidentified office of the agriculture and livestock ministry was heavily damaged following the explosion of two bombs yesterday afternoon . 
 
-CLASSIFIER => two/O vehicles/O were/O destroyed/O and/O an/O unidentified/O office/O of/O the/O agriculture/O and/O livestock/O ministry/O was/O heavily/O damaged/O following/O the/O explosion/O of/O two/O bombs/O yesterday/O afternoon/O  
-CLASSIFIER => two/O vehicles/O were/O destroyed/O and/O an/O unidentified/O office/O of/O the/O agriculture/O and/O livestock/O ministry/O was/O heavily/O damaged/O following/O the/O explosion/O of/O two/O bombs/O yesterday/O afternoon/O  
-PERSONS = []
-ORGS    = []
 (ROOT [180.739]
   (S [180.589]
     (S [31.586]
@@ -4776,13 +4434,9 @@ ORGS    = []
                 (NP [38.889] (CD two) (NNS bombs) (NN yesterday) (NN afternoon))))))))
     (. .)))
 
-Victim:vehicles
+VICTIM: TWO VEHICLES 
 the national fire department reported that following the explosions at 1830 , a fire erupted that partially destroyed an unidentified office in the agriculture and livestock ministry building . 
 
-CLASSIFIER => the/O national/O fire/O department/O reported/O that/O following/O the/O explosions/O at/O 1830/O  a/O fire/O erupted/O that/O partially/O destroyed/O an/O unidentified/O office/O in/O the/O agriculture/O and/O livestock/O ministry/O building/O  
-CLASSIFIER => the/O national/O fire/O department/O reported/O that/O following/O the/O explosions/O at/O 1830/O  a/O fire/O erupted/O that/O partially/O destroyed/O an/O unidentified/O office/O in/O the/O agriculture/O and/O livestock/O ministry/O building/O  
-PERSONS = []
-ORGS    = []
 (ROOT [204.198]
   (S [204.048]
     (NP [26.645] (DT the) (JJ national) (NN fire) (NN department))
@@ -4808,13 +4462,9 @@ ORGS    = []
                       (NN livestock) (NN ministry) (NN building))))))))))
     (. .)))
 
-Victim:office
+VICTIM: AN UNIDENTIFIED OFFICE 
 it was reported that two vehicles in the area where the bombs were detonated were destroyed and several houses in the area were damaged . 
 
-CLASSIFIER => it/O was/O reported/O that/O two/O vehicles/O in/O the/O area/O where/O the/O bombs/O were/O detonated/O were/O destroyed/O and/O several/O houses/O in/O the/O area/O were/O damaged/O  
-CLASSIFIER => it/O was/O reported/O that/O two/O vehicles/O in/O the/O area/O where/O the/O bombs/O were/O detonated/O were/O destroyed/O and/O several/O houses/O in/O the/O area/O were/O damaged/O  
-PERSONS = []
-ORGS    = []
 (ROOT [149.596]
   (S [149.446]
     (S [101.076]
@@ -4846,7 +4496,7 @@ ORGS    = []
         (VP [8.778] (VBN damaged))))
     (. .)))
 
-Victim:vehicles
+VICTIM: TWO VEHICLES 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
@@ -4857,7 +4507,7 @@ SHOT:
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [VEHICLES, OFFICE, VEHICLES]
+VICTIM ==>> [TWO VEHICLES , AN UNIDENTIFIED OFFICE , TWO VEHICLES ]
 
 DEV-MUC3-0079 :
 ATTACKED: 
@@ -4878,10 +4528,6 @@ DEV-MUC3-0080 :
 ATTACKED: 
 the army general staff has denied reports that a military unit in la tablada or villa martelli was attacked this morning , although he admitted that troops of the 601st battallion in villa martelli heard two shots , but that no strange movement has been observed . 
 
-CLASSIFIER => the/O army/O general/O staff/O has/O denied/O reports/O that/O a/O military/O unit/O in/O la/O tablada/O or/O villa/O martelli/O was/O attacked/O this/O morning/O  although/O he/O admitted/O that/O troops/O of/O the/O 601st/O battallion/O in/O villa/O martelli/O heard/O two/O shots/O  but/O that/O no/O strange/O movement/O has/O been/O observed/O  
-CLASSIFIER => the/O army/O general/O staff/O has/O denied/O reports/O that/O a/O military/O unit/O in/O la/O tablada/O or/O villa/O martelli/O was/O attacked/O this/O morning/O  although/O he/O admitted/O that/O troops/O of/O the/O 601st/O battallion/O in/O villa/O martelli/O heard/O two/O shots/O  but/O that/O no/O strange/O movement/O has/O been/O observed/O  
-PERSONS = []
-ORGS    = []
 (ROOT [342.151]
   (S [342.000]
     (NP [30.527] (DT the) (NN army) (JJ general) (NN staff))
@@ -4926,7 +4572,7 @@ ORGS    = []
                                 (VP [11.425] (VBN observed))))))))))))))))
     (. .)))
 
-Victim:unit
+VICTIM: MILITARY UNIT 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -4938,7 +4584,7 @@ SHOT:
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [UNIT]
+VICTIM ==>> [MILITARY UNIT ]
 
 DEV-MUC3-0081 :
 ATTACKED: 
@@ -4947,10 +4593,6 @@ KIDNAPPED:
 MURDERED: 
 he was murdered by four unidentified people on a soccer field at carampangue and alborada streets , in the santiago neighborhood of quilcura . 
 
-CLASSIFIER => he/O was/O murdered/O by/O four/O unidentified/O people/O on/O a/O soccer/O field/O at/O carampangue/O and/O alborada/O streets/O  in/O the/O santiago/LOCATION neighborhood/O of/O quilcura/O  
-CLASSIFIER => he/O was/O murdered/O by/O four/O unidentified/O people/O on/O a/O soccer/O field/O at/O carampangue/O and/O alborada/O streets/O  in/O the/O santiago/LOCATION neighborhood/O of/O quilcura/O  
-PERSONS = []
-ORGS    = []
 (ROOT [167.040]
   (S [166.890]
     (NP [3.137] (PRP he))
@@ -4973,15 +4615,12 @@ ORGS    = []
               (NP [14.496] (NN quilcura)))))))
     (. .)))
 
-Victim:he
+PERP: FOUR UNIDENTIFIED PEOPLE 
+VICTIM: HE 
 ABDUCTED: 
 KILLED: 
 he will investigate this attack , in which a 2d corporal of the carabineros was also killed . 
 
-CLASSIFIER => he/O will/O investigate/O this/O attack/O  in/O which/O a/O 2d/O corporal/O of/O the/O carabineros/O was/O also/O killed/O  
-CLASSIFIER => he/O will/O investigate/O this/O attack/O  in/O which/O a/O 2d/O corporal/O of/O the/O carabineros/O was/O also/O killed/O  
-PERSONS = []
-ORGS    = []
 (ROOT [108.727]
   (S [108.577]
     (NP [3.137] (PRP he))
@@ -5004,14 +4643,14 @@ ORGS    = []
                   (VBN killed))))))))
     (. .)))
 
-Victim:corporal
+VICTIM: 2D CORPORAL 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [PEOPLE]
-VICTIM ==>> [HE, CORPORAL]
+PERP ===>> [FOUR UNIDENTIFIED PEOPLE ]
+VICTIM ==>> [HE , 2D CORPORAL ]
 
 DEV-MUC3-0082 :
 ATTACKED: 
@@ -5052,10 +4691,6 @@ ABDUCTED:
 KILLED: 
 maoist shining path guerrillas have killed the mayor of the small town of hostigal , as well as two peasants , the local press reported today . 
 
-CLASSIFIER => maoist/O shining/O path/O guerrillas/O have/O killed/O the/O mayor/O of/O the/O small/O town/O of/O hostigal/O  as/O well/O as/O two/O peasants/O  the/O local/O press/O reported/O today/O  
-CLASSIFIER => maoist/O shining/O path/O guerrillas/O have/O killed/O the/O mayor/O of/O the/O small/O town/O of/O hostigal/O  as/O well/O as/O two/O peasants/O  the/O local/O press/O reported/O today/O  
-PERSONS = []
-ORGS    = []
 (ROOT [182.913]
   (S [182.762]
     (S [145.869]
@@ -5079,14 +4714,10 @@ ORGS    = []
       (NP [4.227] (NN today)))
     (. .)))
 
-Victim:mayor
+PERP: MAOIST SHINING PATH GUERRILLAS 
+VICTIM: MAYOR 
 mayor armansio quispe and the two peasants were brought before a `` kangaroo court '' by the shining path , and then killed by a firing squad . 
 
-CLASSIFIER => mayor/O armansio/PERSON quispe/PERSON and/O the/O two/O peasants/O were/O brought/O before/O a/O ``/O kangaroo/O court/O ''/O by/O the/O shining/O path/O  and/O then/O killed/O by/O a/O firing/O squad/O  
-armansio quispe
-CLASSIFIER => mayor/O armansio/PERSON quispe/PERSON and/O the/O two/O peasants/O were/O brought/O before/O a/O ``/O kangaroo/O court/O ''/O by/O the/O shining/O path/O  and/O then/O killed/O by/O a/O firing/O squad/O  
-PERSONS = [armansio quispe]
-ORGS    = []
 (ROOT [194.185]
   (S [194.035]
     (NP [62.908]
@@ -5109,14 +4740,9 @@ ORGS    = []
             (NP [27.182] (DT a) (NN firing) (NN squad))))))
     (. .)))
 
-Victim:quispe
+VICTIM: MAYOR ARMANSIO QUISPE 
 according to the latest calculations made by the peruvian congress pacification committee , about 13,000 people have been killed in peru since 1980 as a result of political violence . 
 
-CLASSIFIER => according/O to/O the/O latest/O calculations/O made/O by/O the/O peruvian/O congress/ORGANIZATION pacification/ORGANIZATION committee/ORGANIZATION  about/O 13000/O people/O have/O been/O killed/O in/O peru/LOCATION since/O 1980/O as/O a/O result/O of/O political/O violence/O  
-CLASSIFIER => according/O to/O the/O latest/O calculations/O made/O by/O the/O peruvian/O congress/ORGANIZATION pacification/ORGANIZATION committee/ORGANIZATION  about/O 13000/O people/O have/O been/O killed/O in/O peru/LOCATION since/O 1980/O as/O a/O result/O of/O political/O violence/O  
-congress pacification committee
-PERSONS = []
-ORGS    = [congress pacification committee]
 (ROOT [200.486]
   (S [200.336]
     (PP [86.564] (VBG according)
@@ -5144,14 +4770,14 @@ ORGS    = [congress pacification committee]
                 (NP [17.981] (JJ political) (NN violence))))))))
     (. .)))
 
-Victim:people
+VICTIM: ABOUT 13,000 PEOPLE 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [GUERRILLAS]
-VICTIM ==>> [MAYOR, QUISPE, PEOPLE]
+PERP ===>> [MAOIST SHINING PATH GUERRILLAS ]
+VICTIM ==>> [MAYOR , MAYOR ARMANSIO QUISPE , ABOUT 13,000 PEOPLE ]
 
 DEV-MUC3-0085 :
 ATTACKED: 
@@ -5162,10 +4788,6 @@ ABDUCTED:
 KILLED: 
 as a result of the clash , two drug traffickers were killed and four were injured and transported to the central hospital in tingo maria . 
 
-CLASSIFIER => as/O a/O result/O of/O the/O clash/O  two/O drug/O traffickers/O were/O killed/O and/O four/O were/O injured/O and/O transported/O to/O the/O central/O hospital/O in/O tingo/LOCATION maria/LOCATION  
-CLASSIFIER => as/O a/O result/O of/O the/O clash/O  two/O drug/O traffickers/O were/O killed/O and/O four/O were/O injured/O and/O transported/O to/O the/O central/O hospital/O in/O tingo/LOCATION maria/LOCATION  
-PERSONS = []
-ORGS    = []
 (ROOT [173.547]
   (S [173.397]
     (PP [30.174] (IN as)
@@ -5192,7 +4814,7 @@ ORGS    = []
                 (NP [28.646] (NN tingo) (NN maria))))))))
     (. .)))
 
-Victim:traffickers
+VICTIM: TWO DRUG TRAFFICKERS 
 EXPLODED: 
 ROBBED: 
 SHOT: 
@@ -5200,10 +4822,6 @@ RIDDLED:
 CONDUCTED: 
 a spectacular operation was conducted yesterday noon when a 39-man police patrol of the santa lucia detachment , reinforced by anti-narcotics police , surrounded the uchiza airport and waited for the arrival of two colombian light airplanes that were supposedly carrying drugs . 
 
-CLASSIFIER => a/O spectacular/O operation/O was/O conducted/O yesterday/O noon/O when/O a/O 39-man/O police/O patrol/O of/O the/O santa/O lucia/O detachment/O  reinforced/O by/O anti-narcotics/O police/O  surrounded/O the/O uchiza/O airport/O and/O waited/O for/O the/O arrival/O of/O two/O colombian/O light/O airplanes/O that/O were/O supposedly/O carrying/O drugs/O  
-CLASSIFIER => a/O spectacular/O operation/O was/O conducted/O yesterday/O noon/O when/O a/O 39-man/O police/O patrol/O of/O the/O santa/O lucia/O detachment/O  reinforced/O by/O anti-narcotics/O police/O  surrounded/O the/O uchiza/O airport/O and/O waited/O for/O the/O arrival/O of/O two/O colombian/O light/O airplanes/O that/O were/O supposedly/O carrying/O drugs/O  
-PERSONS = []
-ORGS    = []
 (ROOT [348.362]
   (S [348.212]
     (NP [21.340] (DT a) (JJ spectacular) (NN operation))
@@ -5242,9 +4860,9 @@ ORGS    = []
                           (NP [9.371] (NNS drugs)))))))))))))
     (. .)))
 
-Victim:operation
+VICTIM: SPECTACULAR OPERATION 
 PERP ===>> []
-VICTIM ==>> [TRAFFICKERS, OPERATION]
+VICTIM ==>> [TWO DRUG TRAFFICKERS , SPECTACULAR OPERATION ]
 
 DEV-MUC3-0086 :
 ATTACKED: 
@@ -5265,11 +4883,6 @@ DEV-MUC3-0087 :
 ATTACKED: 
 salvadoran colonel ciro lopez , commander of the `` el paraiso '' garrison , which was attacked by the guerrillas on 13 september , denied today that three u.s. military advisers had participated in the clash with the rebels , contrary to what the u.s. media and president have stated . 
 
-CLASSIFIER => salvadoran/O colonel/O ciro/PERSON lopez/PERSON  commander/O of/O the/O ``/O el/O paraiso/O ''/O garrison/O  which/O was/O attacked/O by/O the/O guerrillas/O on/O 13/O September/O  denied/O today/O that/O three/O us/O military/O advisers/O had/O participated/O in/O the/O clash/O with/O the/O rebels/O  contrary/O to/O what/O the/O us/O media/O and/O president/O have/O stated/O  
-ciro lopez
-CLASSIFIER => salvadoran/O colonel/O ciro/PERSON lopez/PERSON  commander/O of/O the/O ``/O el/O paraiso/O ''/O garrison/O  which/O was/O attacked/O by/O the/O guerrillas/O on/O 13/O September/O  denied/O today/O that/O three/O us/O military/O advisers/O had/O participated/O in/O the/O clash/O with/O the/O rebels/O  contrary/O to/O what/O the/O us/O media/O and/O president/O have/O stated/O  
-PERSONS = [ciro lopez]
-ORGS    = []
 (ROOT [374.855]
   (S [374.704]
     (NP [186.355]
@@ -5317,13 +4930,10 @@ ORGS    = []
                         (VP [9.716] (VBN stated))))))))))))
     (. .)))
 
-Victim:garrison
+PERP: GUERRILLAS 
+VICTIM: `` EL PARAISO '' GARRISON 
 in his statements , ronald reagan supported the action of the military advisers and added that `` i have never sent my men to face any danger without giving them the chance to defend themselves if they are attacked . '' 
 
-CLASSIFIER => in/O his/O statements/O  ronald/O reagan/O supported/O the/O action/O of/O the/O military/O advisers/O and/O added/O that/O ``/O i/O have/O never/O sent/O my/O men/O to/O face/O any/O danger/O without/O giving/O them/O the/O chance/O to/O defend/O themselves/O if/O they/O are/O attacked/O  ''/O 
-CLASSIFIER => in/O his/O statements/O  ronald/O reagan/O supported/O the/O action/O of/O the/O military/O advisers/O and/O added/O that/O ``/O i/O have/O never/O sent/O my/O men/O to/O face/O any/O danger/O without/O giving/O them/O the/O chance/O to/O defend/O themselves/O if/O they/O are/O attacked/O  ''/O 
-PERSONS = []
-ORGS    = []
 (ROOT [262.084]
   (S [261.934]
     (PP [16.295] (IN in)
@@ -5365,7 +4975,7 @@ ORGS    = []
                                           (VP [9.820] (VBN attacked)))))))))))))))))))))
     (. .) ('' '')))
 
-Victim:they
+VICTIM: THEY 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -5373,11 +4983,6 @@ ABDUCTED:
 KILLED: 
 in march 1987 , during another attack on the garrison , u.s. sergeant gregory fronius , a military adviser , was killed . 
 
-CLASSIFIER => in/O march/O 1987/O  during/O another/O attack/O on/O the/O garrison/O  us/O sergeant/O gregory/PERSON fronius/O  a/O military/O adviser/O  was/O killed/O  
-gregory
-CLASSIFIER => in/O march/O 1987/O  during/O another/O attack/O on/O the/O garrison/O  us/O sergeant/O gregory/PERSON fronius/O  a/O military/O adviser/O  was/O killed/O  
-PERSONS = [gregory]
-ORGS    = []
 (ROOT [165.494]
   (S [165.344]
     (PP [23.295] (IN in)
@@ -5398,23 +5003,19 @@ ORGS    = []
       (VP [8.933] (VBN killed)))
     (. .)))
 
-Victim:fronius
+VICTIM: U.S. SERGEANT GREGORY FRONIUS 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [GUERRILLAS]
-VICTIM ==>> [GARRISON, THEY, FRONIUS]
+PERP ===>> [GUERRILLAS ]
+VICTIM ==>> [`` EL PARAISO '' GARRISON , THEY , U.S. SERGEANT GREGORY FRONIUS ]
 
 DEV-MUC3-0088 :
 ATTACKED: 
 the station announcer goes on to report that on 27 march fmln units with rifles , rifle grenades , and homemade artillery attacked army positions at the 5 november dam . 
 
-CLASSIFIER => the/O station/O announcer/O goes/O on/O to/O report/O that/O on/O 27/O march/O fmln/O units/O with/O rifles/O  rifle/O grenades/O  and/O homemade/O artillery/O attacked/O army/O positions/O at/O the/O 5/O November/O dam/O  
-CLASSIFIER => the/O station/O announcer/O goes/O on/O to/O report/O that/O on/O 27/O march/O fmln/O units/O with/O rifles/O  rifle/O grenades/O  and/O homemade/O artillery/O attacked/O army/O positions/O at/O the/O 5/O November/O dam/O  
-PERSONS = []
-ORGS    = []
 (ROOT [257.916]
   (S [257.766]
     (S [152.944]
@@ -5443,7 +5044,8 @@ ORGS    = []
           (NP [36.045] (DT the) (CD 5) (NN november) (NN dam)))))
     (. .)))
 
-Victim:positions
+PERP: HOMEMADE ARTILLERY 
+VICTIM: ARMY POSITIONS 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
@@ -5452,10 +5054,6 @@ KILLED:
 EXPLODED: 
 the ambush took place in casitas , texistepeque jurisdiction , when two powerful feliciano ama mines exploded , inflicting eight casualties on the army and totally destroying a military vehicle . 
 
-CLASSIFIER => the/O ambush/O took/O place/O in/O casitas/O  texistepeque/O jurisdiction/O  when/O two/O powerful/O feliciano/O ama/O mines/O exploded/O  inflicting/O eight/O casualties/O on/O the/O army/O and/O totally/O destroying/O a/O military/O vehicle/O  
-CLASSIFIER => the/O ambush/O took/O place/O in/O casitas/O  texistepeque/O jurisdiction/O  when/O two/O powerful/O feliciano/O ama/O mines/O exploded/O  inflicting/O eight/O casualties/O on/O the/O army/O and/O totally/O destroying/O a/O military/O vehicle/O  
-PERSONS = []
-ORGS    = []
 (ROOT [250.990]
   (S [250.840]
     (NP [15.311] (DT the) (NN ambush))
@@ -5486,21 +5084,18 @@ ORGS    = []
                   (NP [18.461] (DT a) (JJ military) (NN vehicle)))))))))
     (. .)))
 
+PERP: TWO POWERFUL FELICIANO AMA MINES 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [ARTILLERY, MINES]
-VICTIM ==>> [POSITIONS]
+PERP ===>> [HOMEMADE ARTILLERY , TWO POWERFUL FELICIANO AMA MINES ]
+VICTIM ==>> [ARMY POSITIONS ]
 
 DEV-MUC3-0089 :
 ATTACKED: 
 the brothels reportedly have been attacked because it is believed that women are exploited there . 
 
-CLASSIFIER => the/O brothels/O reportedly/O have/O been/O attacked/O because/O it/O is/O believed/O that/O women/O are/O exploited/O there/O  
-CLASSIFIER => the/O brothels/O reportedly/O have/O been/O attacked/O because/O it/O is/O believed/O that/O women/O are/O exploited/O there/O  
-PERSONS = []
-ORGS    = []
 (ROOT [99.837]
   (S [99.687]
     (NP [15.467] (DT the) (NNS brothels))
@@ -5521,14 +5116,10 @@ ORGS    = []
                           (ADVP [5.409] (RB there)))))))))))))
     (. .)))
 
-Victim:brothels
+VICTIM: BROTHELS 
 DESTROYED: 
 orlando quiteno , spokesman for the lempa river hydroelectric executive commission , has reported that in the past few hours the salvadoran guerrillas have destroyed at least 10 power transmission towers , damaging seven high voltage lines in the northern and central parts of the country . 
 
-CLASSIFIER => orlando/LOCATION quiteno/O  spokesman/O for/O the/O lempa/O river/O hydroelectric/O executive/O commission/O  has/O reported/O that/O in/O the/O past/O few/O hours/O the/O salvadoran/O guerrillas/O have/O destroyed/O at/O least/O 10/O power/O transmission/O towers/O  damaging/O seven/O high/O voltage/O lines/O in/O the/O northern/O and/O central/O parts/O of/O the/O country/O  
-CLASSIFIER => orlando/LOCATION quiteno/O  spokesman/O for/O the/O lempa/O river/O hydroelectric/O executive/O commission/O  has/O reported/O that/O in/O the/O past/O few/O hours/O the/O salvadoran/O guerrillas/O have/O destroyed/O at/O least/O 10/O power/O transmission/O towers/O  damaging/O seven/O high/O voltage/O lines/O in/O the/O northern/O and/O central/O parts/O of/O the/O country/O  
-PERSONS = []
-ORGS    = []
 (ROOT [341.263]
   (S [341.112]
     (NP [102.569]
@@ -5564,13 +5155,10 @@ ORGS    = []
                           (NP [8.956] (DT the) (NN country)))))))))))))
     (. .)))
 
-Victim:towers
+PERP: SALVADORAN GUERRILLAS 
+VICTIM: AT LEAST 10 POWER TRANSMISSION TOWERS 
 the resumption of the sabotage against the energy system is accompanied by the resumption of rebel attacks against brothels , two of which were destroyed in the last 24 hours , although no casualties have been reported . 
 
-CLASSIFIER => the/O resumption/O of/O the/O sabotage/O against/O the/O energy/O system/O is/O accompanied/O by/O the/O resumption/O of/O rebel/O attacks/O against/O brothels/O  two/O of/O which/O were/O destroyed/O in/O the/O last/O 24/O hours/O  although/O no/O casualties/O have/O been/O reported/O  
-CLASSIFIER => the/O resumption/O of/O the/O sabotage/O against/O the/O energy/O system/O is/O accompanied/O by/O the/O resumption/O of/O rebel/O attacks/O against/O brothels/O  two/O of/O which/O were/O destroyed/O in/O the/O last/O 24/O hours/O  although/O no/O casualties/O have/O been/O reported/O  
-PERSONS = []
-ORGS    = []
 (ROOT [229.332]
   (S [229.182]
     (NP [53.223]
@@ -5609,7 +5197,7 @@ ORGS    = []
                             (VP [7.585] (VBN reported))))))))))))))
     (. .)))
 
-Victim:two
+VICTIM: TWO OF WHICH 
 KIDNAPPED: 
 MURDERED: 
 ABDUCTED: 
@@ -5619,8 +5207,8 @@ ROBBED:
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [GUERRILLAS]
-VICTIM ==>> [BROTHELS, TOWERS, TWO]
+PERP ===>> [SALVADORAN GUERRILLAS ]
+VICTIM ==>> [BROTHELS , AT LEAST 10 POWER TRANSMISSION TOWERS , TWO OF WHICH ]
 
 DEV-MUC3-0090 :
 ATTACKED: 
@@ -5651,10 +5239,6 @@ RIDDLED:
 CONDUCTED: 
 costas badani pointed out that the shining path guerrillas have conducted their terrorist operations exclusively in peruvian territory and that bolivia has no connection whatsoever with this guerrilla organization . 
 
-CLASSIFIER => costas/O badani/O pointed/O out/O that/O the/O shining/O path/O guerrillas/O have/O conducted/O their/O terrorist/O operations/O exclusively/O in/O peruvian/O territory/O and/O that/O bolivia/LOCATION has/O no/O connection/O whatsoever/O with/O this/O guerrilla/O organization/O  
-CLASSIFIER => costas/O badani/O pointed/O out/O that/O the/O shining/O path/O guerrillas/O have/O conducted/O their/O terrorist/O operations/O exclusively/O in/O peruvian/O territory/O and/O that/O bolivia/LOCATION has/O no/O connection/O whatsoever/O with/O this/O guerrilla/O organization/O  
-PERSONS = []
-ORGS    = []
 (ROOT [249.456]
   (S [249.306]
     (NP [30.041] (NNS costas) (NNS badani))
@@ -5680,9 +5264,10 @@ ORGS    = []
                   (NP [25.258] (DT this) (NN guerrilla) (NN organization)))))))))
     (. .)))
 
-Victim:operations
-PERP ===>> [GUERRILLAS]
-VICTIM ==>> [OPERATIONS]
+PERP: SHINING PATH GUERRILLAS 
+VICTIM: THEIR TERRORIST OPERATIONS 
+PERP ===>> [SHINING PATH GUERRILLAS ]
+VICTIM ==>> [THEIR TERRORIST OPERATIONS ]
 
 DEV-MUC3-0092 :
 ATTACKED: 
@@ -5703,10 +5288,6 @@ DEV-MUC3-0093 :
 ATTACKED: 
 girardo battalion officers , who asked us not to reveal their names , stated that the rebels , who were members of the farc 28th front , attacked two trucks filled with soldiers . 
 
-CLASSIFIER => girardo/O battalion/O officers/O  who/O asked/O us/O not/O to/O reveal/O their/O names/O  stated/O that/O the/O rebels/O  who/O were/O members/O of/O the/O farc/O 28th/O front/O  attacked/O two/O trucks/O filled/O with/O soldiers/O  
-CLASSIFIER => girardo/O battalion/O officers/O  who/O asked/O us/O not/O to/O reveal/O their/O names/O  stated/O that/O the/O rebels/O  who/O were/O members/O of/O the/O farc/O 28th/O front/O  attacked/O two/O trucks/O filled/O with/O soldiers/O  
-PERSONS = []
-ORGS    = []
 (ROOT [231.714]
   (S [231.563]
     (NP [87.789]
@@ -5746,16 +5327,13 @@ ORGS    = []
                   (NP [11.589] (NNS soldiers)))))))))
     (. .)))
 
-Victim:trucks
+PERP: REBELS 
+VICTIM: TWO TRUCKS 
 DESTROYED: 
 KIDNAPPED: 
 MURDERED: 
 we know seven peasants were murdered by farc 12th front members . '' 
 
-CLASSIFIER => we/O know/O seven/O peasants/O were/O murdered/O by/O farc/O 12th/O front/O members/O  ''/O 
-CLASSIFIER => we/O know/O seven/O peasants/O were/O murdered/O by/O farc/O 12th/O front/O members/O  ''/O 
-PERSONS = []
-ORGS    = []
 (ROOT [101.202]
   (S [101.052]
     (NP [4.367] (PRP we))
@@ -5769,15 +5347,12 @@ ORGS    = []
                 (NP [43.936] (JJ farc) (JJ 12th) (NN front) (NNS members))))))))
     (. .) ('' '')))
 
-Victim:peasants
+PERP: FARC 12TH FRONT MEMBERS 
+VICTIM: SEVEN PEASANTS 
 ABDUCTED: 
 KILLED: 
 one army lieutenant , four soldiers , and three civilians were killed during the attacks . 
 
-CLASSIFIER => one/O army/O lieutenant/O  four/O soldiers/O  and/O three/O civilians/O were/O killed/O during/O the/O attacks/O  
-CLASSIFIER => one/O army/O lieutenant/O  four/O soldiers/O  and/O three/O civilians/O were/O killed/O during/O the/O attacks/O  
-PERSONS = []
-ORGS    = []
 (ROOT [107.483]
   (S [107.333]
     (NP [73.636]
@@ -5793,16 +5368,9 @@ ORGS    = []
           (NP [12.578] (DT the) (NNS attacks)))))
     (. .)))
 
-Victim:lieutenant
+VICTIM: ONE ARMY LIEUTENANT 
 lieutenant jaime quintero cardona and soldiers nelson sanchez molina , maximiliano serrato cuellar , and dairo suarez suarez were killed in this action . 
 
-CLASSIFIER => lieutenant/O jaime/PERSON quintero/PERSON cardona/PERSON and/O soldiers/O nelson/PERSON sanchez/PERSON molina/PERSON  maximiliano/PERSON serrato/PERSON cuellar/PERSON  and/O dairo/PERSON suarez/PERSON suarez/PERSON were/O killed/O in/O this/O action/O  
-jaime quintero cardona
-nelson sanchez molina maximiliano serrato cuellar
-dairo suarez suarez
-CLASSIFIER => lieutenant/O jaime/PERSON quintero/PERSON cardona/PERSON and/O soldiers/O nelson/PERSON sanchez/PERSON molina/PERSON  maximiliano/PERSON serrato/PERSON cuellar/PERSON  and/O dairo/PERSON suarez/PERSON suarez/PERSON were/O killed/O in/O this/O action/O  
-PERSONS = [jaime quintero cardona, nelson sanchez molina maximiliano serrato cuellar, dairo suarez suarez]
-ORGS    = []
 (ROOT [244.949]
   (S [244.798]
     (NP [214.203]
@@ -5820,14 +5388,9 @@ ORGS    = []
           (NP [12.770] (DT this) (NN action)))))
     (. .)))
 
-Victim:cardona
+VICTIM: LIEUTENANT JAIME QUINTERO CARDONA 
 according to police commander colonel jose william bermudez zapata , who commands antiguerrilla operations with the support of 7th brigade troops , the rebels killed three people and took the fourth passenger of the jeep with them . 
 
-CLASSIFIER => according/O to/O police/O commander/O colonel/O jose/PERSON william/PERSON bermudez/PERSON zapata/PERSON  who/O commands/O antiguerrilla/O operations/O with/O the/O support/O of/O 7th/O brigade/O troops/O  the/O rebels/O killed/O three/O people/O and/O took/O the/O fourth/O passenger/O of/O the/O jeep/O with/O them/O  
-jose william bermudez zapata
-CLASSIFIER => according/O to/O police/O commander/O colonel/O jose/PERSON william/PERSON bermudez/PERSON zapata/PERSON  who/O commands/O antiguerrilla/O operations/O with/O the/O support/O of/O 7th/O brigade/O troops/O  the/O rebels/O killed/O three/O people/O and/O took/O the/O fourth/O passenger/O of/O the/O jeep/O with/O them/O  
-PERSONS = [jose william bermudez zapata]
-ORGS    = []
 (ROOT [296.493]
   (S [296.343]
     (PP [197.175] (VBG according)
@@ -5860,13 +5423,10 @@ ORGS    = []
           (NP [7.541] (PRP them)))))
     (. .)))
 
-Victim:people
+PERP: REBELS 
+VICTIM: THREE PEOPLE 
 col ferrero explained that `` in principle , we have reports saying many people were killed , but we do not know exactly how many . 
 
-CLASSIFIER => col/O ferrero/O explained/O that/O ``/O in/O principle/O  we/O have/O reports/O saying/O many/O people/O were/O killed/O  but/O we/O do/O not/O know/O exactly/O how/O many/O  
-CLASSIFIER => col/O ferrero/O explained/O that/O ``/O in/O principle/O  we/O have/O reports/O saying/O many/O people/O were/O killed/O  but/O we/O do/O not/O know/O exactly/O how/O many/O  
-PERSONS = []
-ORGS    = []
 (ROOT [171.587]
   (S [171.437]
     (S [125.516]
@@ -5897,7 +5457,7 @@ ORGS    = []
             (WHADJP [8.249] (RB exactly) (WRB how) (JJ many))))))
     (. .)))
 
-Victim:people
+VICTIM: MANY PEOPLE 
 EXPLODED: 
 ROBBED: 
 SHOT: 
@@ -5905,10 +5465,6 @@ RIDDLED:
 CONDUCTED: 
 meanwhile , we have been unable to obtain information about the results of the operations conducted by 5th brigade troops commanded by general alfonso vaca perilla in the areas of el carmen and san vicente de chucurri , santander department . 
 
-CLASSIFIER => meanwhile/O  we/O have/O been/O unable/O to/O obtain/O information/O about/O the/O results/O of/O the/O operations/O conducted/O by/O 5th/O brigade/O troops/O commanded/O by/O general/O alfonso/O vaca/O perilla/O in/O the/O areas/O of/O el/O carmen/O and/O san/O vicente/O de/O chucurri/O  santander/O department/O  
-CLASSIFIER => meanwhile/O  we/O have/O been/O unable/O to/O obtain/O information/O about/O the/O results/O of/O the/O operations/O conducted/O by/O 5th/O brigade/O troops/O commanded/O by/O general/O alfonso/O vaca/O perilla/O in/O the/O areas/O of/O el/O carmen/O and/O san/O vicente/O de/O chucurri/O  santander/O department/O  
-PERSONS = []
-ORGS    = []
 (ROOT [326.460]
   (S [326.309]
     (ADVP [5.905] (RB meanwhile))
@@ -5950,8 +5506,9 @@ ORGS    = []
                                               (NP [23.518] (NN santander) (NN department)))))))))))))))))))))))
     (. .)))
 
-PERP ===>> [REBELS, MEMBERS, REBELS, TROOPS]
-VICTIM ==>> [TRUCKS, PEASANTS, LIEUTENANT, CARDONA, PEOPLE, PEOPLE]
+PERP: 5TH BRIGADE TROOPS 
+PERP ===>> [REBELS , FARC 12TH FRONT MEMBERS , REBELS , 5TH BRIGADE TROOPS ]
+VICTIM ==>> [TWO TRUCKS , SEVEN PEASANTS , ONE ARMY LIEUTENANT , LIEUTENANT JAIME QUINTERO CARDONA , THREE PEOPLE , MANY PEOPLE ]
 
 DEV-MUC3-0094 :
 ATTACKED: 
@@ -5963,10 +5520,6 @@ KILLED:
 EXPLODED: 
 a bomb exploded today in a lima restaurant , and a second device that had been placed in the same establishment was deactivated by the peruvian national police . 
 
-CLASSIFIER => a/O bomb/O exploded/O today/O in/O a/O lima/LOCATION restaurant/O  and/O a/O second/O device/O that/O had/O been/O placed/O in/O the/O same/O establishment/O was/O deactivated/O by/O the/O peruvian/O national/O police/O  
-CLASSIFIER => a/O bomb/O exploded/O today/O in/O a/O lima/LOCATION restaurant/O  and/O a/O second/O device/O that/O had/O been/O placed/O in/O the/O same/O establishment/O was/O deactivated/O by/O the/O peruvian/O national/O police/O  
-PERSONS = []
-ORGS    = []
 (ROOT [179.996]
   (S [179.845]
     (S [61.459]
@@ -5994,11 +5547,12 @@ ORGS    = []
             (NP [33.261] (DT the) (JJ peruvian) (JJ national) (NN police))))))
     (. .)))
 
+PERP: BOMB 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
-PERP ===>> [BOMB]
+PERP ===>> [BOMB ]
 VICTIM ==>> []
 
 DEV-MUC3-0095 :
@@ -6025,10 +5579,6 @@ ABDUCTED:
 KILLED: 
 this report confirms that the pilot was killed and one crew member was injured as a result of the emergency landing . 
 
-CLASSIFIER => this/O report/O confirms/O that/O the/O pilot/O was/O killed/O and/O one/O crew/O member/O was/O injured/O as/O a/O result/O of/O the/O emergency/O landing/O  
-CLASSIFIER => this/O report/O confirms/O that/O the/O pilot/O was/O killed/O and/O one/O crew/O member/O was/O injured/O as/O a/O result/O of/O the/O emergency/O landing/O  
-PERSONS = []
-ORGS    = []
 (ROOT [133.517]
   (S [133.367]
     (S [50.228]
@@ -6051,13 +5601,9 @@ ORGS    = []
                 (NP [20.906] (DT the) (NN emergency) (NN landing))))))))
     (. .)))
 
-Victim:pilot
+VICTIM: PILOT 
 we repeat : the pilot was killed and one crew member was injured as a result of the emergency landing . 
 
-CLASSIFIER => we/O repeat/O  the/O pilot/O was/O killed/O and/O one/O crew/O member/O was/O injured/O as/O a/O result/O of/O the/O emergency/O landing/O  
-CLASSIFIER => we/O repeat/O  the/O pilot/O was/O killed/O and/O one/O crew/O member/O was/O injured/O as/O a/O result/O of/O the/O emergency/O landing/O  
-PERSONS = []
-ORGS    = []
 (ROOT [134.611]
   (S [134.461]
     (S [21.431]
@@ -6081,14 +5627,14 @@ ORGS    = []
                   (NP [20.906] (DT the) (NN emergency) (NN landing)))))))))
     (. .)))
 
-Victim:pilot
+VICTIM: PILOT 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [PILOT, PILOT]
+VICTIM ==>> [PILOT , PILOT ]
 
 DEV-MUC3-0097 :
 ATTACKED: 
@@ -6099,10 +5645,6 @@ ABDUCTED:
 KILLED: 
 one person was killed and three others injured tonight as the result of a bomb explosion in downtown san salvador . 
 
-CLASSIFIER => one/O person/O was/O killed/O and/O three/O others/O injured/O tonight/O as/O the/O result/O of/O a/O bomb/O explosion/O in/O downtown/O san/O salvador/O  
-CLASSIFIER => one/O person/O was/O killed/O and/O three/O others/O injured/O tonight/O as/O the/O result/O of/O a/O bomb/O explosion/O in/O downtown/O san/O salvador/O  
-PERSONS = []
-ORGS    = []
 (ROOT [160.159]
   (S [160.009]
     (S [30.100]
@@ -6123,14 +5665,14 @@ ORGS    = []
           (NP [40.094] (JJ downtown) (NN san) (NN salvador)))))
     (. .)))
 
-Victim:person
+VICTIM: ONE PERSON 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [PERSON]
+VICTIM ==>> [ONE PERSON ]
 
 DEV-MUC3-0098 :
 ATTACKED: 
@@ -6139,10 +5681,6 @@ KIDNAPPED:
 MURDERED: 
 since the up was founded , nearly 1,000 of its members and leaders have been murdered . 
 
-CLASSIFIER => since/O the/O up/O was/O founded/O  nearly/O 1000/O of/O its/O members/O and/O leaders/O have/O been/O murdered/O  
-CLASSIFIER => since/O the/O up/O was/O founded/O  nearly/O 1000/O of/O its/O members/O and/O leaders/O have/O been/O murdered/O  
-PERSONS = []
-ORGS    = []
 (ROOT [99.554]
   (S [99.404]
     (SBAR [36.375] (IN since)
@@ -6163,15 +5701,11 @@ ORGS    = []
         (VP [10.340] (VBN murdered))))
     (. .)))
 
-Victim:1,000
+VICTIM: NEARLY 1,000 
 ABDUCTED: 
 KILLED: 
 in addition , nearly 1,500 people were killed in clashes between the armed forces and guerrillas in 1988 . 
 
-CLASSIFIER => in/O addition/O  nearly/O 1500/O people/O were/O killed/O in/O clashes/O between/O the/O armed/O forces/O and/O guerrillas/O in/O 1988/O  
-CLASSIFIER => in/O addition/O  nearly/O 1500/O people/O were/O killed/O in/O clashes/O between/O the/O armed/O forces/O and/O guerrillas/O in/O 1988/O  
-PERSONS = []
-ORGS    = []
 (ROOT [120.051]
   (S [119.901]
     (PP [11.306] (IN in)
@@ -6194,13 +5728,9 @@ ORGS    = []
                   (NP [7.166] (CD 1988)))))))))
     (. .)))
 
-Victim:people
+VICTIM: NEARLY 1,500 PEOPLE 
 so far this year , about 100 people have been killed in clashes . 
 
-CLASSIFIER => so/O far/O this/O year/O  about/O 100/O people/O have/O been/O killed/O in/O clashes/O  
-CLASSIFIER => so/O far/O this/O year/O  about/O 100/O people/O have/O been/O killed/O in/O clashes/O  
-PERSONS = []
-ORGS    = []
 (ROOT [76.627]
   (S [76.477]
     (ADVP [10.041] (RB so) (RB far))
@@ -6216,14 +5746,14 @@ ORGS    = []
             (NP [14.226] (NNS clashes))))))
     (. .)))
 
-Victim:people
+VICTIM: ABOUT 100 PEOPLE 
 EXPLODED: 
 ROBBED: 
 SHOT: 
 RIDDLED: 
 CONDUCTED: 
 PERP ===>> []
-VICTIM ==>> [1,000, PEOPLE, PEOPLE]
+VICTIM ==>> [NEARLY 1,000 , NEARLY 1,500 PEOPLE , ABOUT 100 PEOPLE ]
 
 DEV-MUC3-0099 :
 ATTACKED: 
