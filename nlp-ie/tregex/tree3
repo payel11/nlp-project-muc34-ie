@@ -1,0 +1,48 @@
+(ROOT [320.740]
+  (S [320.590]
+    (NP [32.028] (DT an) (NN mnr) (NN spolesman))
+    (VP [287.420] (VBD reported)
+      (SBAR [278.968] (IN that)
+        (S [277.990]
+          (NP [28.383] (JJ oqueli) (NNS colindres))
+          (VP [249.277] (VBD was) (`` ``)
+            (ADJP [15.343] (JJ kidnapped))
+            ('' '')
+            (SBAR [222.230] (IN as)
+              (S [219.543]
+                (NP [3.137] (PRP he))
+                (VP [216.075] (VBD was)
+                  (VP [210.635] (VBG heading)
+                    (PP [40.133] (TO to)
+                      (NP [36.555]
+                        (NP [10.958] (DT the) (NN airport))
+                        (PP [25.055] (IN in)
+                          (NP [22.812] (NN guatemala) (NN city)))))
+                    (S [158.695]
+                      (VP [158.431] (TO to)
+                        (VP [158.402] (VB take)
+                          (NP [11.309] (DT a) (NN flight))
+                          (PP [138.922] (TO to)
+                            (NP [136.091]
+                              (NP [14.814] (NN nicaragua))
+                              (, ,)
+                              (SBAR [118.736]
+                                (WHADVP [2.076] (WRB where))
+                                (S [113.994]
+                                  (NP [3.137] (PRP he))
+                                  (VP [110.527] (MD would)
+                                    (VP [106.824] (VB join)
+                                      (NP [97.526]
+                                        (NP [29.784] (DT a) (JJ socialist) (JJ international) (NN delegation))
+                                        (SBAR [65.447]
+                                          (WHNP [1.528] (WDT that))
+                                          (S [63.470]
+                                            (VP [63.194] (VBZ is)
+                                              (ADVP [4.780] (RB currently))
+                                              (PP [49.129] (IN in)
+                                                (NP [46.753] (DT that) (NN country)
+                                                  (S [31.470]
+                                                    (VP [31.374] (TO to)
+                                                      (VP [31.345] (VB observe)
+                                                        (NP [19.161] (DT the) (JJ electoral) (NN campaign))))))))))))))))))))))))))))
+    (. .)))
