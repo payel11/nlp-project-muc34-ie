@@ -346,6 +346,8 @@ public class Processor {
 					GrammaticalStructure gs = gsf.newGrammaticalStructure(parseTree);
 					List<TypedDependency> tdl = gs. typedDependenciesCCprocessed(true);
 
+					System.out.println(tdl);
+					System.out.println();
 
 					String PERP = lp.processPerpetrator(tdl, verb); 
 
