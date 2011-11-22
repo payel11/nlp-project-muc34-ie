@@ -23,7 +23,8 @@ public class Utility {
 	public static ArrayList <String> negationWords;
 	public static ArrayList <String> militaryWords;
 	public static ArrayList <String> weapons;
-
+	public static ArrayList <String> determiners;
+	
 	static String triggerWord = "-";
 	static
 	{
@@ -31,6 +32,8 @@ public class Utility {
 		negationWords = new ArrayList<String>();
 		militaryWords =  new ArrayList<String>();
 		weapons = new ArrayList <String>();
+		determiners = new ArrayList <String>();
+		
 		
 		nonConfirmationWords.add("DOUBT");
 		nonConfirmationWords.add("could not");
@@ -57,6 +60,9 @@ public class Utility {
 		weapons.add("machinegun");weapons.add("grenade");weapons.add("gun");
 		weapons.add("rifle");weapons.add("machine-gun");weapons.add("bullet");weapons.add("explosive");
 		weapons.add("devices");//handle later
+		
+		determiners.add("a");
+		determiners.add("the");
 		
 	}
 
@@ -366,9 +372,32 @@ public class Utility {
 		}
 		return false;
 	}
+	
+	
+	public static boolean containsDeterminer(String phrase) {
+		return determiners.contains(phrase);
+		
+	}
+	
+	public static int indexOfDeterminer(String phrase) {
+		String[] wordsInPhrase = phrase.split("\\s+");
+		
+		for (int i = 0; i < wordsInPhrase.length; i++) {
+			if(determiners.contains(wordsInPhrase[i]))
+				return i;
+			
+		}
+			
+		return -1;
+	}
 
-	
-	
+//	
+//	public static String removeDeterminer(String phrase) {
+//		int i = indexOfDeterminer(phrase);
+//		if(i >= 0) {
+//			StringBuilder sb = new StringBuilder(phrase);
+//		}
+//	}
 	
 	
 	public static void main(String... args)

@@ -1,6 +1,7 @@
 
 
 
+
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -31,6 +32,8 @@ public class Processor {
 
 	private TokenizerFactory<CoreLabel> tokenizerFactory = 
 		PTBTokenizer.factory(new MyCoreLabelTokenFactory(), "invertible=true");
+	
+	NER ner = new NER();
 
 
 	public String getTextsOnly() {
@@ -311,17 +314,32 @@ public class Processor {
 				continue;
 
 			String verb = word.getSpForm();
+			System.out.println(verb + ": ");
+			
 
-
+			// get matching sentences for verb
 			List<List<HasWord>> matched_sents =  lp.match(sentences, verb);
+			
+			
 			for (List<HasWord> list : matched_sents) {
 
+				String sent = "";
 				for (HasWord hasWord : list) {
+				
+					sent+= hasWord.word() + " ";
 				}
-
-
+				System.out.println(sent+"\n");
+				
+				//ArrayList<String> PERPIND = ner.getPersons(sent);
+				//ArrayList<String> PERPORG = ner.getOrgs(sent);
+				
+				//System.out.println("PERSONS = " + PERPIND);
+				//System.out.println("ORGS    = " + PERPORG);
+				
 				if(!list.isEmpty()) {
 					Tree parseTree = lp.parseSentence(list);
+					parseTree.pennPrint();
+					System.out.println();
 
 					TreebankLanguagePack tlp = new PennTreebankLanguagePack();
 					GrammaticalStructureFactory gsf = tlp.grammaticalStructureFactory();
@@ -331,54 +349,74 @@ public class Processor {
 
 					String PERP = lp.processPerpetrator(tdl, verb); 
 
-					if(PERP != null) 
-					{
-						answers_PERP.add(PERP.toUpperCase());
-						//t.setPerpetratorPerson(PERP);
-
-					}
+//					if(PERP != null) 
+//					{
+//						
+//						for (String person: PERPIND) {
+//							if(person.contains(PERP)) {
+//								if(t.getPerpetratorPerson().equals("-"))
+//									t.setPerpetratorPerson(person.toUpperCase());
+//							}
+//								
+//						}
+//						
+//						for (String org: PERPORG) {
+//							if(org.contains(PERP)) {
+//								if(t.getPerpetratorOrg().equals("-"))
+//									t.setPerpetratorOrg(org.toUpperCase());
+//							}
+//								
+//						}
+//			
+//						answers_PERP.add(PERP.toUpperCase());
+//					}
 
 					String VICTIM = lp.processVictim(tdl, verb); 
-					System.out.println("VICTIM:"+VICTIM);
+					
+					if(PERP != null) {
+						if(t.getPerpetratorPerson().equals("-"))
+							t.setPerpetratorPerson(PERP.toUpperCase());
+						
+						System.out.println("PERP: " + PERP.toUpperCase());
+						answers_PERP.add(PERP.toUpperCase());
+					}
 
 					if(VICTIM != null) 
 					{
-						answers_VICTIM .add(VICTIM.toUpperCase());
-						t.setVictim(VICTIM);
+						if(t.getVictim().equals("-"))
+							t.setVictim(VICTIM.toUpperCase());
 
+						System.out.println("VICTIM: " + VICTIM.toUpperCase());
+						answers_VICTIM .add(VICTIM.toUpperCase());
 					}
 				}
 
 			}
 
 		}
-		String PERP = "", VICTIM= "";
-		for (String perp : answers_PERP) {
-
-
-			//PERP += perp + " /";
-
-		}
-
-		for (String victim : answers_VICTIM) {
-
-			//VICTIM += victim + " /";
-		}
-
-		t.setPerpetratorPerson(PERP);
-		t.setVictim(VICTIM);
+//		String PERP = "", VICTIM= "";
+//		for (String perp : answers_PERP) {
+//			PERP += perp + " /";
+//		}
+//
+//		for (String victim : answers_VICTIM) {
+//			VICTIM += victim + " /";
+//		}
+//
+//		t.setPerpetratorPerson(PERP);
+//		t.setVictim(VICTIM);
 
 		//TODO: rm print stmt
-		System.out.println("PERP ===>> " +  PERP);
-		System.out.println("VICTIM ==>> " + VICTIM);
+		System.out.println("PERP ===>> " +  answers_PERP);
+		System.out.println("VICTIM ==>> " + answers_VICTIM);
 
 		return "-";
 	}
 
 
-
-	}//class ends
-
+	
+	
+}//class ends
 
 
 
