@@ -12,11 +12,13 @@ public class NER {
 		String serializedClassifier = curDir+ "/classifiers/all.3class.distsim.crf.ser";
 		classifier= CRFClassifier.getClassifierNoExceptions(serializedClassifier);
 	}
-	ArrayList <String> orgs = new ArrayList<String>();
+	//ArrayList <String> orgs = new ArrayList<String>();
 
 	public static void main(String[] args) throws IOException 
 	{
 		String s1 = "Brack Obama and Bill Clinton the minister [CM] go to school at Stanford University which is located in California.";
+		String soln = classifier.classifyToString(s1);
+		System.out.println(soln);
 		NER n = new NER();
 		n.getPersons(s1);
 		System.out.println("\n");
@@ -27,18 +29,19 @@ public class NER {
 
 
 
-	public void getPersons(String sent)
+	public ArrayList<String> getPersons(String sent)
 	{
 		sent = removeSymbols(sent);
 		String soln = classifier.classifyToString(sent);
 		
 		
 		ArrayList<String> persons = new ArrayList <String>();
-		String [] words = soln.split(" ");
+		String [] words = soln.split("\\s+");
 
 		for(int i=0;i<words.length;i++)
 		{
 			String word = words[i];
+			
 			String w[] = word.split("/");
 			String person =new String("-");
 			if(w[1].equalsIgnoreCase("person"))
@@ -71,17 +74,22 @@ public class NER {
 		for(int i=0;i<size;i++)
 		{
 			System.out.println(persons.get(i));
+			
 		}
+		
+		return persons;
 	}//end method
 
 
-	public void getOrgs(String sent)
+	public ArrayList<String> getOrgs(String sent)
 	{
 		sent = removeSymbols(sent);
 		String soln = classifier.classifyToString(sent);
 		ArrayList<String> orgs = new ArrayList <String>();
-		String [] words = soln.split(" ");
+		String [] words = soln.split("\\s+");
+		
 
+		
 		for(int i=0;i<words.length;i++)
 		{
 			String word = words[i];
@@ -118,6 +126,8 @@ public class NER {
 		{
 			System.out.println(orgs.get(i));
 		}
+		
+		return orgs;
 	}//end method
 
 
