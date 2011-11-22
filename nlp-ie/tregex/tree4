@@ -1,0 +1,25 @@
+(ROOT [228.238]
+  (S [228.088]
+    (PP [18.204] (IN at)
+      (NP [13.979] (CD 0945)))
+    (NP [10.336] (DT this) (NN morning))
+    (, ,)
+    (NP [24.133]
+      (NP [8.479] (DT a) (NN group))
+      (PP [15.288] (IN of)
+        (NP [14.226] (NNS subversives))))
+    (VP [166.372] (VBD conducted)
+      (NP [34.613] (DT an) (JJ armed) (JJ terrorist) (NN attack))
+      (PP [117.641] (IN against)
+        (NP [111.829]
+          (NP [95.926] (JJ former) (NN defense) (NN minister) (NN divison) (JJ general) (JJ enrique) (NN lopez) (NNS albujar))
+          (, ,)
+          (VP [11.014] (VBN retired)))))
+    (. .)))
+
+
+NP $++ (VP < (VBD < conducted) < (PP < (IN < against)))
+
+NP > (PP < (IN < against) > (VP < (VBD < conducted)))
+
+/^NP|NP < NP < PP/=perp $++ (VP < (VBD < conducted) < (PP < (IN < against) < NP=victim))

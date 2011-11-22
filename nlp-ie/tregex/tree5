@@ -1,0 +1,42 @@
+(ROOT [260.585]
+  (S [260.435]
+    (NP [14.632] (NNS cristiani))
+    (VP [241.571] (VBD announced)
+      (PP [18.397] (IN on)
+        (NP [15.200] (NN sunday)))
+      (SBAR [211.816]
+        (SBAR [66.651] (IN that)
+          (S [65.551] (`` ``)
+            (NP [30.434]
+              (NP [8.192] (NNS members))
+              (PP [20.960] (IN of)
+                (NP [17.668] (DT the) (VBN armed) (NNS forces))))
+            ('' '')
+            (VP [25.116] (VBD participated)
+              (PP [12.854] (IN in)
+                (NP [10.638] (DT the) (NN crime))))))
+        (, ,)
+        (CC and)
+        (SBAR [139.389] (IN that)
+          (S [138.289]
+            (NP [11.340] (PRP$ his) (NN government))
+            (VP [126.619] (MD will)
+              (VP [123.244] (VB bring)
+                (NP [16.051] (DT those) (NNS individuals))
+                (PP [47.186] (TO to)
+                  (NP [43.608]
+                    (NP [12.100] (NN justice))
+                    (PP [30.966] (IN in)
+                      (NP [28.723] (NN el) (NN salvador)))))
+                (, ,)
+                (ADVP [43.738] (`` ``)
+                  (ADVP [14.637] (RB regardless) (RB of))
+                  (SBAR [23.490]
+                    (WHNP [5.317] (WP whom))
+                    (S [14.921]
+                      (NP [3.447] (PRP they))
+                      (VP [11.144] (MD may)
+                        (VP [6.470] (VB be))))))))))))
+    (. .) ('' '')))
+
+NP $++ (VP < (VBD < participated) < (PP < (IN < in) < (NP < (NN < crime))))

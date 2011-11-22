@@ -1,0 +1,30 @@
+(S [264.597]
+  (NP [40.341] (DT the) (JJ arce) (NN battalion) (NN command))
+  (VP [223.114] (VBZ has)
+    (VP [219.566] (VBN reported)
+      (SBAR [210.389] (IN that)
+        (S [209.412]
+          (NP [43.283]
+            (NP [20.952]
+              (QP [7.836] (RB about) (CD 50))
+              (NNS peasants))
+            (PP [19.590] (IN of)
+              (NP [18.528] (JJ various) (NNS ages))))
+          (VP [163.510] (VBP have)
+            (VP [159.438] (VBN been)
+              (VP [156.140] (VBN kidnapped)
+                (PP [103.003] (IN by)
+                  (NP [99.033]
+                    (NP [12.532] (NNS terrorists))
+                    (PP [85.959] (IN of)
+                      (NP [82.754]
+                        (NP [62.140] (DT the) (JJ farabundo) (JJ marti) (JJ national) (NN liberation) (NN front))
+                        (PRN [16.435] (-LRB- -LRB-)
+                          (NP [15.061] (NN fmln))
+                          (-RRB- -RRB-))))))
+                (PP [41.094] (IN in)
+                  (NP [38.878] (JJ san) (JJ miguel) (NN department))))))))))
+  (. .))
+
+
+NP $++ (VP << has|have << been << kidnapped) 
