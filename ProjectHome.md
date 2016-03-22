@@ -1,0 +1,1 @@
+This is a project for class CS5430 at the U for extracting events of terrorism in Latin America from MUC-3 and MUC-4 published dataset.
